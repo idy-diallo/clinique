@@ -1,0 +1,14 @@
+table { margin-bottom:100vh; width:100vw; margin:auto; } 
+thead,
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+table thead{  margin-top:20vh; z-index:-1; }
+table tbody { max-height:20vh; overflow-y:scroll;}
+
+/*table tbody, table thead {width:67vw;}
+
+
+table td, table th { width:25vw; text-align:center;}
+table tbody, table tfoot{border-top:solid 1px;}*/

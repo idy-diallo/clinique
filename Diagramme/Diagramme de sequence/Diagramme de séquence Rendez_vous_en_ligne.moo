@@ -1,0 +1,23573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{2C19CCF5-ADCF-4BC2-9B32-3BC6C2D1E790}" Label="" LastModificationDate="1642453044" Name="Diagramme de séquence UML_1" Objects="1149" Symbols="29" Target="Java" TargetLink="Local" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>2C19CCF5-ADCF-4BC2-9B32-3BC6C2D1E790</a:ObjectID>
+<a:Name>Diagramme de séquence UML_1</a:Name>
+<a:Code>Diagramme_de_sequence_UML_1</a:Code>
+<a:CreationDate>1641496321</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642092041</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Class Diagram Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Cld]
+CaseSensitive=Yes
+DisplayName=Yes
+EnableTrans=Yes
+EnableRequirements=No
+ShowClss=No
+DeftAttr=int
+DeftMthd=int
+DeftParm=int
+DeftCont=java.util.Collection
+DomnDttp=Yes
+DomnChck=No
+DomnRule=No
+SupportDelay=No
+PreviewEditable=Yes
+AutoRealize=No
+DttpFullName=Yes
+DeftClssAttrVisi=private
+VBNetPreprocessingSymbols=
+CSharpPreprocessingSymbols=
+
+[ModelOptions\Cld\NamingOptionsTemplates]
+
+[ModelOptions\Cld\ClssNamingOptions]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPCKG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDDOMN\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDCLASS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDINTF\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDACTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDUCAS\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\SQDOBJT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG]
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\SQDMSSG\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP]
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,FirstUpperChar)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CPDCOMP\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDATTR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDMETHOD\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDPARM\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPORT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMPART\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,,,firstLowerWord)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\CLDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\UCDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\GNRLLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\RQLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\RLZSLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK]
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DEPDLINK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMACTV\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST]
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\ACDOBST\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\STAT]
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\STAT\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDNODE\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDCMPI\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC]
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DPDASSC\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR]
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\OOMVAR\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FILO]
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Cld\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=M
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=&quot; &#39;(.)+=*/&quot;
+AllValid=Yes
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Cdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+Notation=2
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+
+[ModelOptions\Generate\Xsm]
+CheckModel=Yes
+SaveLinks=Yes
+ORMapping=No
+NameToCode=No</a:ModelOptionsText>
+<c:PictureFiles>
+<o:PictureFile Id="o3">
+<a:ObjectID>6FC315D5-F182-472B-A02B-375A028471F6</a:ObjectID>
+<a:Name>Utilisateur</a:Name>
+<a:CreationDate>1642453044</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642453044</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:PictureID>EE61282E-F13A-4757-8352-FBAD85C62A8C</a:PictureID>
+<a:PictureType>3</a:PictureType>
+<a:Path>piclib://Architecture d&#39;entreprise.piclib#Gens\Utilisateur.png</a:Path>
+<a:Content>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A8
+6600000006624B4744000000000000F943BB7F000000097048597300000B1200
+000B1201D2DD7EFC0000000976704167000001000000010000B267DC8A000076
+264944415478DAEDBD799C25595926FC9C7362B95BEE999559596BD7D6D52BDD
+55DD74D3D0C80E36340ACE8088227E6A953A8A0E332EDF389F3A32E33832E3E8
+884A9532E00ECA00CA80886C4243774357D3FB525DD5B52F9995EBDD6339E77C
+7FC4724FC48DB8F76655666555653CF58BCAB8B19C883811EFFE9EF710292532
+64C8B0364157FB063264C8B07AC81840860C6B181903C890610D2363001932AC
+61640C204386358C8C0164C8B0869131800C19D63032069021C31A46C6003264
+58C3C81840860C6B181903C890610D2363001932AC61640C204386358C8C0164
+C8B0869131800C19D63032069021C31A46C600326458C3C81840860C6B181903
+C890610D2363001932AC61640C204386358C8C0164C8B0869131800C19D630B4
+D5BE810C2B87DFF8C91F321E78EAE890D3AC8D1C3B7BCE181D5D6F42F23ED7B1
+0C4DD71D57D06A6561BAB175E3A6BA46B50BFFFCED47E657FB9E335C5E906C62
+90AB1B7FF1AB3F9FFBEF9FF8ECC4F9D9B90D5C8AED84902D9C8B6DAEEB4E3A82
+4FB82E1F93409173C108218C784C9F0110001C48C929630E2564D1D0F5D3BAC6
+8E6A8C3D49401E5F3F36F4C263875F3CBEDACF9861E5903180AB0CB7EED8BAA1
+DEB46F2BD79BB755EBB59B1DC7DD2EA5D8CA25C6220712025DD3A0290B210420
+049012524A0821C03907E71C8EE380738EE07BA08440D7D805C6D8A303A5BE2F
+EDDEB2E9AFBEF2C8A3E756FBF9332C2F32067085E3CEDD3B76BC786EEA26CEC5
+5D42C87BAB8DC6AD12E80FF69BB91C0AF93C0AC5224AC5228AC5224CD384AEEB
+A0947A440F4008112EAEEB8684EFBA6EF8DB711CD8B60DDBB651AFD76159165C
+D7052104A6AECD94F2F9BF18EE2BFDC9F3A7CE3CBBDAFD9261799031802B0CDF
+7BCF5DC5A3A7CFEC59ACD5EE5F2857EE725C7EA304460180691A06FAFB313636
+86C1C141944A25140A051886014A699B3457893B6909F60921207DAD20F81E82
+FD9665A1D16CA2D96840080143D31607FB4A7FFCAFDEF0BADFFAC38FFF5D65B5
+FB2BC3A52163005700DEFDC6D7ADFBF223875E5E6F345FE7B8FCF54DC7D90900
+9AA661646404232323989898C0D0D01072B91C28A59052C2711CB8AE1BFE0DA4
+7B5CD2C7A5BECA008263039340FD1D7C1B524AB8AE8B66B38966B30940A298CF
+3FB669FDF8FE678E1CFBF66AF75F868B47C60056093B364EEEAA35AC1F58ACD5
+5EDBB4AC5D12D80400C562119B366DC2860D1B30343484FEFE7E30C6E0BA2E6C
+DB0EA57BB004C4A9DAF301D1AB523E4D0350093E684F5DE20C21D0305CD785A9
+EBF5A1FEBE5F66847E8E30C2C787061AFFF1BDEF5EFCFE5FFE0D7BB5FB37436F
+C818C065C49B5F7ED7FA479E7DFEADF546F3FE5AD37ABD040C00181B1BC3868D
+1BB169E3468C8D8DC134CD506A3B8E1312BD4AE40161C6B7C79941127350CD83
+3881C7093F600AEA31AAC600008C10574AD9D034B640093DC634F6FC40A9F8D5
+3BAEDFFE4F7FFF8D87E756BBDF33A42363002B0FBA7962DD2B6A8DE64F94ABD5
+37B8428E03C0D0D010B66DDB86AD5BB762646404B95C2EB4B91DC789A8E3DD88
+3E4DCD574D82605FFC779CB0D3CC01753DC0C8C80876EEDC09CE391A8D061616
+16303B3B8B46A30100D0283D3B34D0FFE9B1A1FE3F7DFAE889C756FB45646847
+C6005608EF78C36B061F78F4B11F9C2F57DFD9749C570140A150C08E9D3BB17D
+DB364C4E4EC2308C36D53E50B3E3841E670671353F49CA2799002AE1ABED7663
+0071DC78E38DB8EDB6DB30343414DEB36559A856AB989D9DC5D9B36771EAD429
+D4EB75304ADC8162F123B75FBFFD37BFF49DC7CEAEF6BBC9D042C6009619B7EE
+DA7EC3D9E9991F2A576BEF7538DF0800931B36E0D65B6EC1962D5B502A9520A5
+44B3D96C93F449C49E46D8DDD4FF34899FD48E4AF471753F8ED1D151DC73CF3D
+D8B46953E88854CF09C03947B55AC5C99327F1DC73CFA15AAD226F1AC7364D8C
+FFCCF3C74F7E61B5DF53060F1903581E90DD5B37BDF2FC85B91F2DD7EBFF4A02
+7D854201BB77EFC6AE5DBBB071E346104222EA7D9214BE1406108FEDABDBD322
+00AA7D0F2055DA07D8B3670FF6ECD903D334C3E708A47FD2F31042402945B3D9
+C473CF3D87E79F7F1E8CD2E6BA91E15F383B7DE1C06ABFB40C1903B8646C9D9C
+78CBDC42F9DF561A8DD700C0C4C4046EBFFD76ECD8B103C562114208589605DB
+B623D977DD08BE93CADF49CD8FDBFD7107625C334893F42A4AA512EEBDF75EEC
+D8B1236C0F40E23D27DD3BA51494529C3871024F3CF1048410181F1EFAE0B999
+D95F5AEDF7B7D69131808BC4CECD9BBE776A6EEE972AB5FAAB0060C3860DB8F3
+CE3BB173E74EE8BA8E66B319B1B7E3449E2639D5F05E5AF8AED31227F0F836F5
+D85E30363686D7BFFEF5181A1A826DB7A27B49F7DC8D91E9BA8EA9A9293CFEF8
+E3E09C63C3BAB15F3D757EEAB756FB5DAE65640C608978D9AD376D7BEEF8C9FF
+B250A9FE20006CDEB20577DF7517B66FDF0EC658A26D1F670249DEFD4EC49496
+D0D389C0D573D4DC814E8EBD3846464670DF7DF761606000966585DB3B117B37
+ED46D3344C4F4FE3C9279F0481C4D6C90DFFEAC8A953FF67B5DFEB5A45C6007A
+C41FFCCACF9BFFF54FFFF2676716CBBFE2B8EEE8F8C4045EE9ABC59AA6A1D168
+44E2EABD3AF7D2FE76F3F427117B37479F7A8D6E989898C01BDFF846148B45D8
+B61D8E29582AC12799049AA6E1DCB973387CF830F2B9DCD4ED37EC7ED9371FFD
+EEB1D57EC76B111903E801376EDB72F7A9F317FE47B5D1B8C7344DDC73CF3D78
+D9CB5E06C33050AFD7239EF078F24C271539C9A6EF35A34F4D014E8AFFAB8EBD
+A4A513868686F0D6B7BE15A5522954FB7B799E6E0E4DF53CC6188E1E3D8AE9E9
+690C0F0CFCFDECC2C2F7AFF67B5E8BC8184007FCBF3FF6A3B98FFCFDDFFFF6EC
+62F9A78490E6EEDDBBF1DAD7BE16131313A8D7EB11C75E27957FA9123FCD8BAF
+E60C0444542A953034348452A9040068369B611CBE5C2E03403850A817F5BF50
+28E0FEFBEFC7E8E86847E20F529093F216D4F5B4918780A74D1C397204AEE360
+626CF4C74E9F9FFAD86ABFF3B5868C01A4E06DAFFE9EC1AF1D7AF42F172AD537
+E7F379BCE94D6FC2EDB7DF0ED775D1F047C6C5897F29893C71425789C4B6ED90
+5802104290CFE7C31180C56211854201B95C0E8C3100889C5FAD5671FEFC791C
+3D7A1453535321D17792FE9452BCE94D6FC2B66DDB429B5F7D9E4ECF12DF1767
+5C491A0DA514E5721967CE9C415FB1F8C887FEF307EE79CF2FFC5B67B5DFFD5A
+42C6005230D457FADF0BD5DA8FEDD8B1036F7EF39B313636864AA5124ABD2455
+3F4D03E8342087F3D6E01A4208745D87699A304D3324F652A9847C3E0FD334C1
+180BA56F706EA015A8B17D42489870F4ECB3CFE2C9279F8C309424DC7EFBED78
+C52B5EE18FF8F3A032A94E841FDC93BAC4231DC1F583FB0A4290E7CE9D83D56C
+62DBA64D6F7BE1C489CFACF6BB5F4BC86A02A64012CC00C0F6EDDB71FDF5D7C3
+344DE4F379542A9590E800A466DA25D9DC8410689A065DD7C32597CB219FCF23
+97CB85523DD8A74AF6E09A0171514A433320600C81F40F9680086FBAE9260C0C
+0CE0A1871E8A10B78AB1B131DC71C71D701C4F00774AF0497ABE24899F16DD08
+8634379B4D1042D0D7D78746A381E9B9B99F07F099D57EF76B099906908297DF
+7EDBED0F3DFEF84366BE60DC7EDB6DB8FBEEBBB167CF1E8C8F8FC3711C341A0D
+54AB55349BCD90D8D48F1DF0083EC886330C039AA6C1300CE4F379188601C618
+28F50A33AB436D2DCB42AD5643A55241B95C46B95C46B55A45A55241B55A0D13
+8B38E791F6F3F97C681EE8BA0E29252CCB826559D0340D535353F8E637BF1912
+79004208DEFCE63763EBD6ADB02CABCD8CE9E6D3089EBF17A726E71C85420194
+52CCCDCD85DAC3CCEC2C24E7CE4D3BB6DFFBD873CF3FBCDAEF7FAD206300E920
+A542FE3BB5A6B577CBE6CDA094A2BFBF1F37DC70036EBDF5566CD9B205C3C3C3
+C8E7F3A1348E67D5050C405D38E768369BA8D56AA8D56A2897CB989B9BC3DCDC
+5CE8BCBB70E102E6E7E751ABD5D06C36615956CF893B9AA62197CB61686808EB
+D7AFC7C4C4048AC5229ACD2628A5387EFC380E1D3A143967E7CE9D78C31BDE10
+3A35BB497EF56FC0887A91FCC131A669A2BFBF1FE572190B0B0B008046A3814A
+A58291C1810FCFCC2FFCF46ABFFCB5828C0174C0D60D933F7DE2ECB93F2A954A
+58BF7E3D1A8D46283D878787B179F3664C4C4C60646404FDFDFD28140A304D13
+9AE6595681DA1E7CDCD56A15F3F3F3989E9EC6C2C202E6E7E7313737177AEB57
+0AEB376DC18DBBAFC7607F1F04E7F8F677BE833367CE00001863F8BEEFFB3EAC
+5FBF1ECD66B3A7F05E20F5D504A3B80690E62B08B496919111104270FEFCF9D0
+2C999F9F87A9EBF377DE74C30D5F7FF4B1A9D57EFF6B01990FA0036EDFBDFBE3
+33F30BFFB65AADEEAC542A304D3374FA4D4F4FE3D4A9531042842A7852114ED5
+2E5F09663B3ED487BE8289C1421E1BC60630365842C1D401008BB5268E9F9BC5
+C9E9393CF2E0373138B111B7DC703D76EEDC89A9A929B8AE8B6DDBB661626222
+42FCDD9880EA74EC3658299ED61CB4E1380EF2F93CFAFBFB51AFD701008661C0
+B2ACA17333B3AF07F097ABFDFED7023206D0019FFEF257E6B76DDCF85B27CE9D
+FBE8CCEC2C464746C28F991002C33042EF77A0A6AB52B29781364BC540298797
+5EBF19DF73EB0EBCECA6ADD836318CA1521E037D05209F03A857F61B80B76E39
+A82CD6F0D4F1B3F8E4D7BE8B2F3EF52C0627B7607C6202674E9FC68D37DED853
+724FF0571DD894545CA497F0676006E5F379148B45E47239542A95D01F32B3B0
+F066640CE0B22033017AC0F040FF17E6CB9537E67239944AA5B6013D6A4E407C
+3CFD72F4EFAE0D63B8F7966D78DD1DD7E395375F87F5A3832005D3ABF1EFB800
+17801080901EF1FB5A08006F5D6380E169054F3C75147FF485C7F1C5274F6161
+F602DEFEB6EFEFD9E60F1C8AF1449FA5A606078EC0F5EBD703006AB51A8E1F3F
+0E0068349BC8E9FAD1F7FFE80FEDFD2F073FBAB8DAEFFE5A47C6007AC0ABEFBA
+73FBC38F3FF9F586654DE6F379689AD6C604D471F597DAA794126C5F3F8237DC
+B11BF7BD7437EEBAF13A8C4C0C019C034DCB2374EFC828B1437A8C40FAC93E94
+014499FE911020A7835B367EFB13DFC4FF7D760EBB776C85E387343BC5FA0367
+649A9DDFC95F10CF420C46066EDCB8118C31082170E2C40994CB65B8AE0B5D63
+7CE3F8BA571D3D75E681D57EF7D73A3206D0236EB9FEFA7B8E1C3FFEF9A66D0F
+E8BA274D5589BF1CB86DC706BC61CF2EBCE18EEB71EF4D5B6194F200A39E9497
+0C30F2FE52000C13D04C8FC87DD5198203AE0D580DA05905EA8B8055F39800A5
+00082001981A5CDBC5FFFACA8B78729643580DD4AAAD12FF71C26D341A61E24E
+AF231893C61FC4CB8E6DDEBC19B95C0E8410CCCCCCE0E4C9939000A4101819E8
+FFA50BF30B1F5CEDF77EAD2363004BC0AE2D9BEF3F797EEA93966D1B41E8EF52
+303650C28D5BC6F1C63B77E3D5B76EC7CD5BC7511AED0724050405CC22501C02
+0A03DEBAA6039A0110D692FCC1FB931280F4889D10803B80DD042A33C085E340
+75DE63028146A051584D1B9F7E72164F560B601078F1E80B989F5F08439681DA
+5FAFD7234ECD6EC41F2F7C92546998738ECD9B37A3BFBF3F740A1E3E7C388C08
+8C0E0EFCED85F98577AEF63BBFD69131802562DBA60DEF383B75E12F2DC7D197
+7AEEFA917EDCB0791CB76C5D8F7B6EDC8C97DDB0059B2647004DF324B99E07F2
+83407104280E027A0E0001083CB55E4AEF3735BC7DCCF0085A021036E0D401B7
+E91D4B68CB04E0B6C704CEBD003836C07CDFAF4601D7C5C7BE790C4F5BC3D875
+DD661C3F7E0C870F1FC6C282C708AAD56A9851A80E77EEE4E94F9B64443DCE75
+5D6CD8B001A3A3A3E09C87A303E7E6BC2AE2A57CFE8537BFEA95377FFCF35FC8
+E6185841640CE022B06962E22766E6E73FD4B46D1300468B267EE8953761F3C6
+099C9DA9A0E972688CA160EA181FEEC396F1216C9B18C6C4501F464A26B4BE02
+60E6019AF7885ECB01A511A0D0E7A9F52080705B525D02603AA0F9C752BD25E9
+415A7F01EF3CBB02586540F2D6714C072A1780638F018D4A8B09300AC9397EEB
+53DFC1F3CD3EBCEED5F7A2D9A8E3D0A147F1C4134F8429CF4B71F4C555FEA48A
+C3AEEB626C6C0C939393614AF3D4D4144E9E3C0900D0186BBE64D7CE5B1F79E6
+D91756FB7D5FCBC818C04562F7968D2F3B726EF66DEFDAB3FEE7DF79DB06E32D
+EFFD0960C36660E6946783078E38E9FF477C099FEB07F40290EF030A43809FEF
+0FE97BF0A56A5604E7153CE20FD4770240FA9A0188BF9D78613FF83E016E01F5
+594F2B08D57EC3F30B1CF9769409E81AAAF5067EE5CF1FC0341DC29B5EFB3DA0
+94E2C1071FC4430F3D14A92DD06DCC7F5A442489010C0E0E62EBD6AD90528252
+8A7ABD8E679F7D36F82DAFDFBCE9FE678E1DFFDC6ABFEB6B19591EC045E2B913
+A71F7CEC43BF5A6F9C78E47DFDC343909B6F02290E03E618C05D4F120B0E8F30
+99476C4CF32431651EA173EE1D9B04293C696F9400A201108074113AF240BCED
+D468390121BDEBBAD2BB56690268CC01CD054F0B706D8FF15CB70738F2B0F79B
+50C07651EA2FE257BF6F0F7EFC4FFF05DF7AF8DBB863CFED78C94B5E024208BE
+FEF5AF87B90FBD3AFBD2E6195099829A1C25A584699A28140AA8D56A200059AC
+D576ACF67BBED6412FBD89B58B53471EFBF972B56A0E6EBF09A43404388E4778
+46DE23B4E29067CBE74B9ECD4E9917A6736D8FF025F7E3F7EAC23D226679C0E8
+43680E04717E217C93C0F016EAABFE8478A68196F388DAB5BDB672438039E031
+1B213C1F406918D87083F71BD2D3249A36D66F1AC37BEEDE86471E3984E79E7B
+0EAEEBE2861B6EC03DF7DC1366342EB5F458270611F81682A1CBC13806001052
+A2D668640C60859131808BC4AFFD9B9F19856BBFA9583031BAF3665FCD162D35
+3E2466DE8ACD07367D00EE13BBBA7017A0A6C744826D92B716C0F31310E23390
+E03CC773F609EE310610CF0CE00E901BF44287DCF6CE711AC0F0243034D1D240
+240057E02D7BAF433FB1F1AD871E46B55A45AD56C3EEDDBB71CB2DB784E9C249
+049FA4EEA72546054B904E1C20287A02F83312FB13AB645839640CE02271033B
+7F972EACF583131B614E6E05BA14DB6803E780701426E19B03CCF06CFEC08410
+8A9620A567424819DBEE2F82FB8CC005A8E6FFB6BDC51CF23404D7F116EE02E3
+DB3CBF40E007725C94C686F08EBB77E0F889533871E20428A5A856ABB8FDF6DB
+B171E346341A8D8E750F92B6254D2E0AB4F20D02046680F27B64B5DFF3B58E8C
+015C240CB8F769E018D9BC03C8F57904BD14083B2AD985EB990846D1FBCD15C2
+0E8EA11A3C1F006FED837A9CAFD20BC7DB0EE211BF6B7B449E1B681DE7D88059
+02FAC7BC6B2B78C7BD3763BCA8E389679E85EBCF4E2CA5C4DEBD7BA1695A6AF5
+E3F8ECC149D38BC7D3A38510E1002A296538A80A0008C8F02FFEF0BF1E58ED77
+7D2D2363001781D7EEFB5F469E345FA51B2686AEDBE579EAD16B3485F8197B7E
+0E3FF79D8112805EF4243AE731FF80EF4C04F11D8C8AE457FD0752D114A41F41
+90C237119ABE8FC0F4B48480E9F4AFF3184B4094968D759BC771FF9DBBF0FCE1
+23387BFE3C28A5A8D56A181919C18E1D3BC294E024E9DF29253849E2AB750EA4
+94D0753D1C4E2DA4287EE7D9C3B9D57EDFD7323206701178BBF9ED3D94BB3B4A
+834330C7362C4DFA13F82AB86FAF4BDF860FC27C11E7A0620280F84EC0C0EE17
+51F301CAEF20C20028E682CF54B47CCBD7E0DA40AE08988568D85248BCED9E1B
+A04B172F1E3B1686ED2CCBC2F6EDDB619A664702EF64FBAB886F935282318620
+D59A123AD4B49CFED57EDFD7323206701198A08B7749E11A43E3EB41FA867D02
+EC11527AD97A014172C793D44C6F496655ED0F7E031EB368DBAFD8FF49DBA544
+682608DFC740F596E39010A010A331CBC19D376CC12D9BC770F4C5E3A1DDDF6C
+36D1DFDF8FF1F1F1442D20C9D1D76D54647C3BA534D4005CEE9AE7A7CF1BABFD
+BEAF65640CE022A04BE7250625E89FDCEC39D182AC3D293A2F909EE4752CDF41
+E74B772DD722E2603B57A4BB54253F6F3910D5E378CC611859172DD302C46302
+E17ED7F361A8A30A85047206DE7AF70D3875F63CE6E6E62271FB898909EFB025
+48FF3404614015810FC0E55CCE942B59A6DA0A2263004B04790B208458671A3A
+8AA3E32DC99BE40390098BEB7BE5A5F088986ADEC25D45C2FBEB42B4B6850CC0
+6D9900112D210819BA2DD32274302A5A8170BDE4A160DD753C26C6F4E833308A
+3B766D00150ECE9DF7AA730573220C0F0F2397CB85B9FD1723F97B01651A2BF5
+0F65DFE80A22CB045C22DEB7F9974A4488CD662E87DCE088EFAD472C85370584
+7A3178EE7AD97B527AEA38F76DF8D6819E4426C2DB4C05005F5D0FF3FEFDD45F
+09BF2D286303043CDE2E5B6ABE54EE816A7E66A0E3FF26DED8845AB99558643B
+D839398AEBD60DE0D49933B86EEB96B6A29ED56A15EAA8C88B2984122401A9BF
+038D8012A29BBA9E3901571019035822EED08F8D6A0EDF91EFEF0729F4B585D0
+3A4208C069B63CF594F9D9817E99EE882AACA4FC4AD78FEA29837F080178F057
+F8444E5AC44E989244445A6D127F4421A8A71910E1A72A1B8868008E8BB10DA3
+D8BD710C5F796E2A4C020AE624081C816A08EF62A47E5CFD8F9E2F09A4C8BED1
+1544D6B94B0481DCA511912F0C0E7BAA3377A35577524FF4C7E8BB96EF138017
+925387F9C6194030D8470A4FA0C747FF25FD0DD7A5772DCE5BED864C222820A2
+DCBBA647AF2F01308A1D1BC6F07F0F1D45B55A85699A705D379CB0A45B8CBF7B
+9790D0DE57D10A15120942B3E1C02B888C012C113AF8360A897CDF804F507E88
+AE6B1E00F3EC7FD76D1D4E991F41F0198004BC325F507EFBDBA44AC8B433F1D3
+20D720A09DA07D1936E76DF61D134278631828F51C80C1751C8E5BB7AF07776D
+542A9570F62195D02FC5DE278484539D05BFD5DC0029846D351B19035841640C
+608960926F2204C895FA94ADB2455C6920C273FE05197A94290CC46F831000BC
+A5CAC7DB0FA5B75F232018061C48F6E03C413D6D23F02B48A2B40FE55E15EF64
+583F500969728E3DDB3740A740A552457F7F7FA43888D7D4A539FBE21A406066
+00002110390D3D3857325C2C3206B04468D2DDA0693ACC62A915FA233D7CFC02
+AD945C40215A11D6F2086DF5605F0055D320C4CF3C44CB9E8F68013E1173D5AF
+205BED87DA856C6900502A08717FC831000889F5C37DE82F9858AC5430AE94FF
+8E33808B01A5343427BC5B2570FCD46300D034CD59373ABEC441161996828C01
+2C111A9C094DD7A119A69F6E2B3B68FFCA0EE97BE403D53E244CA910BB2FA503
+9F00A0FC469469003E23F0899E00A1A9102426C5CF0DAF25DAEF8D107FAC8115
+79829CAE61DD60098BE54A289D83D97D2FB92F35AD4D0308861CFBB7B5D8572C
+5557F895AE696431D62560F2D54F03528E304D03D5F49603AF2D732FBE04F9F8
+2E3CE20B527B6379FC32B62E13F6457E0739014E7448B074BB9FCB79F43A80A7
+01A81012A6A161E3E800CAD52A6CDB861002F57A1D958A5745F852E2FCBAAE83
+521AB641290D4B907990E59BB64ED656FBBD5FCBC818C01270EF0D7F6712C892
+AEEBA09A86507D96316252D3708385FB442A89627A7720F4B67D32E5B792EC13
+640AAAFB44EC7ED44C41354109502A0B059020A68ECD6343A856EB6126E0C2C2
+C2B269007158564B0391C0DCFFFADBBFCF260759416426C0124024CD434A43D3
+34501278CC53B200A16C266A91CF604750FF2FB0E3D172D621F65755E543A79F
+622684C706EDC44D08A0CDA408720F42FF80DA9EB24BD3B061B41FDC6EC2711C
+30C6303333B32CFDA9EB7AE8F90FCA8D351A8D703F05C926085D61640C6009D8
+4AE78A123029F327DA0863F8DD409494E1C0132F94925CAA5FC03F5E92967351
+2A444F68CB6657C387248812A0E5E853C39361DBCC2F12E2B6D17B3B039080C6
+B06EB004C0ABDD6F595638A5771C8C00AFDD398E97EEDA8875931B3135378F4F
+3DF0389E3D9F2CC44DD30C13810821B06D3BD42CBC6423E3C5D57AD76B051903
+580226E99C092E754A592B0D9700DD7300FC71FC522A34E69B0FA1634ECD2508
+C2794024272090EE89525D390ECA3EA96A17F0EEDBB5FC24A018834831088B39
+6F409EE3BA58989F8FD9E9C0585F0E6FBD79037EE49E1B70F38DBB31B26B3700
+0AE7C47378EF4B26F0C7DF780EFFF38B4FB4F5925AFD8710124E3C1ADCCE40A9
+7464B5DEF55A41C6009600E1E5D7CB88FA1E94FDEE08D9B2CD0370E19B0FC1F9
+8AF4572303AA2610EE8392D587F6BF7166A2E601483F1D5906E305825B50CC88
+C8AD4BE475EF33A9D7EB989E9E8EECFEA197EEC0BF7BED8DB871F74E683B6F83
+EC1BC1EC0B4FA176F42948DB425FDEC47FF9BE97A2D67470E0EBCF86E71142A0
+EB7AC489183816FDBBE643A5D223ABFAC2D7003206B0043CC7276B3BC8498B07
+C370437BBB1BE2F5FE01807B093BC1745E10D13C006F252ABDD504A150EDF78F
+539942DB0CC18AA9E0BA9E0690A4EE278E6894C8E70C80109C3D7B0ED5AA1795
+1B2DE5F0EB6FD98B77DFB90DFAE456885D77A0693550FE97CFC19E3B0FAAE920
+4C83CD256A96831F7BF96EFCD98387D174BC109F611861E10FC04BFF2D97CBE1
+EF422EF7CC6B5E7EC713ABFCCAAF79640C6009A80ABD42996C722E20B90B2265
+77E10F78C7F09806200440FCF1F95289DB030AA1CBA8F456A57F647E0025D557
+6D236833388E52AF341877638E45FF2645C2C3088962CE00254079710100F03D
+BB26F13B3F70176E1CEF43637012E6F69780CFCF60F1F16F8237AA60BA09C274
+10DD00610C9C3B18CA1BD8B16E004F9DF1A6FED2751D8661442605A9D7EBE165
+73A6F9D90F7EE4AF96586831C35291318025C011038ED428E7AE0BE1B8604B8A
+81C7936F82F8BBAAFAAB48890224260A05C7A15D8B883302A78164AE2553B7E7
+0D1D3A63B0848BB7DF7E1D7EFF5DAF4051235864450C5C7723787901E5271F82
+68D640351D543740F3A5707C827080BE82894DC3C59001E4F379504AC3C145E5
+72391C046418BA333A34F8E9557BD16B08591EC012F0B7FFFC7E47125A765D17
+C275DA63FD890B94B901D4ED412C5E29E52594E421A1E4170825CF4024ED538B
+8806DB457B0E806B79D58880F4FB8D4348E44C03B6CBF1E65B36E3C33FF23D30
+2841D5E1286CDC0E4889DAE1C7C0EB5550DDF046F81926582E0FAA1B608609A2
+9BC8E91A06F32DA75F2E970BC37F8EE38493820280A1EB0F3FF2D1038FAEF6FB
+5E0BC818C012208F010016B9EB4272B765D77762006ACC3FBE4FC4883632A148
+8CD8C3E302E621FDEDBEEA2E956BA42515D9CA9C85890F98B04F4A58AE8B97EE
+DA80FFF1CE7B400841D371A0F78F401B1842F3EC8B701666FDC4280090107613
+84311033E73103D3840081EDB6DA2F140AA1FA5FABD542F59F518A75C3C37F92
+BFF7F5D920A0CB80CC0458225CA24DBBAE03D7B16108E167CF753105448AAFA0
+2D82A00EEEF19D8224700E06E6823AFC58390E40D46450DBF4A7080F9C7F89A6
+4B507E3C06C7C5B6F52338F8B36FC7A0BD88A6E382510663781CBC5E833D751A
+94B1561621F10714B92EB452C12B2B00898AEDE242D54BF2D1753DA201A89185
+622EFFD87BDEFAD64FACF67B5E2BC818C01221C0E6396FC26D36A30535BA9C15
+4EE2A1DAFA612C3F960814F7F6478A83A41D97720C280017B06B1DA4BFCF3892
+262AE502A343FD1835284E3F3DE799F5B90268A10867E64C28ED55482121B80B
+4D3741003008D42C07538B9E942F168BD0340D8C312C2C2C6071D14B14628C61
+68A0FFF77EFD437F6821C36541C600960807DA3929046CCB2FED4D7B190AAC38
+D8E287CB847D842A841F48798AB0D65FE8EDF7B7034A36A17F9ECA381CC5F39F
+04825685E2C4FB1768349A6124422BF641BA0EDCC53990A02641A43D6F5422D5
+BCC94BA95D47C3723055F6348052A904C61838E73877EE5C980B90378CA7FFE8
+3FFF6626FD2F233206B0440842CF490056B3D19EDC9306D5FEEF0561F51F9590
+834221BC7D7B3C0F402DFEC1AD2EAABF8F60746012932004DC710048104A41CD
+1C446DD193FE94B6D1BFC7770888E13905E134B0D86862A16183108262B108C6
+18A6A7A7C3E41F46292646473F70DFFFF313973ECA2843CFC818C05221E57901
+02BB5E6F39EF48373F407CD85D4FD7F157D4ECBC5EFEAAE30964CBEBDFB16809
+F10607C513881408D7F5F80AD3409806B7320FD256C750795CDD003572108E0D
+D9A8E18117BC713D8661A0542AA1D168E0ECD9B3E129C57CFEE1AFFCE547FFCF
+F2BEAC0CDD9031802542809EE292BA56A3A685C36F5917E92AD5249BA58E9F57
+07FCC057F9D5C4A0D8A0A1701C41501548F67059D1AA2094026EDB5E234C83E4
+1CA25E4F3729A400350B6085129CF327A1394D7CE9D9D3003CF55FD7751C3B76
+2CCCFBD7354D8C8D8C7C60D32B5F9B55FFB9CCC8C2804B4405F9690E326B371A
+5E5A6D47334029B97549A5EDD45980638546E2B50810141FB13B87FCD47B0C67
+0D4A0117E08E0D1002C218A4DD8414E93E054208F481214037A095A7F1D4E919
+3C7EDA1B423C323282B367CF46E2FE03A5D29F1F3971E2732BF6D232A4226300
+4BC4D7F9CE1A073DDD6C3620ED663211261504E965EAB0D425A10D75C24F759D
+2B330FA5E51F44F214FC918A82271334A5E08E0DEEB8A08480FA0C8040868588
+BDC59FD0430AD05C1EC6D806B8F3D330EB0BF8FA91692CD46D98B91C9ACD264E
+9D3A15365FCCE74EECBDE9C6FFB0DAEF75AD2263004BC4DF547FBC4140661CDB
+81D3A8B7926D00446D7D6511680DD29158C6C5372D849F18C4792BE7207E5CA7
+44A548B192180801B76D2FF391313FB1D10909BEB50456898036300C5628C239
+F11C16EA4DFCC3E3C7010082739C3E7D3AF4FA6B9A86F563EBDEFF8507BE796E
+B5DFEB5A45C6009608F9671B25A5A8BAAE8B66B5EAE7E2281979494B980DB892
+4B2F69C9098B909E29D3016EB309290428652081B91086FFD48AC41E3330376C
+8375EE04686516CF4C95F18DC39EB3CF719C30DF9F1282918181DF7FE1C4894F
+ADF63B5DCBC89C80170149E805C771D0AC57D10FF8EA334B3F2118367C090534
+570481B330CD9E275EE152BB5EF769DC3B9EA8A5CC231D2341F325B05C0195C7
+BF85D1621E7FF6AD6F2776C7405FDF97DE73DF1B7F79B5BB60AD23630017010E
+ED398737D0A854FC8ABC04A03C251C485AAA76A422D0E544878B86631A928F91
+9CC36DD44129F3EB0F8854E79F141CFAE008ACB3C761720B47666C7CF1C9936D
+C7958A85475FBE67CF3B7FE7CFFF2ACBF85B65640CE022B048F2474D5295F56A
+95C0B201DDF408293EC57680602EC02B4D0380F466084E0321701B0D70C7F112
+7E2420A5488DFE813148AB01777E1A4379139FFFD6619C5D8856F5CE9BC6D997
+DE72F3BFFEEC57BF3A870CAB8ECC0770119817C5E394D06AA356031CBF3E9E50
+4607AA8814ED582DA439270520959980E2200456B5120EDA694DDD9DBC1042C1
+6B65502951B139FEF4EB4F479A330CA3B175C3C69FF8D2830F67C53EAF10640C
+E022F0B8BBF94549D94CB55A85DDA8B76C7C110B078663F2A51205B84216C04B
+FEE9E0FD87E0701A4D74A0F9B80F109002FD79039FFCF60B78E6EC3C5E7DD316
+8C954C689A56DB3AB9FEDDCF1C3DFA8FABFDFE32B49031808BC0C7FEF837EB0E
+D15E70AC26EA65BFE4B5F447D349C4C6E85FAE28C045440D82FB4D821FFE736D
+0B94522FB7BFC3BF8013684C43A569E3AF1F7E1EBFF9E3F7E3633FF96AFCCEDB
+6EC7AB6EDEFE13CF1F3BFEE9D57E7719A2C818C045C296DAA3524A541717104E
+F0A9CECBA76601C6270459F5057EF24FBA430F00EC6A15C2717A1CF2EC810298
+AD59F899B7BF06FFDFBB5E8DF3D3B3981C1E38FCCF5FFCECDFAFF63BCBD08ECC
+09789170A13DCE053C0620784BC5E70EA0C59D81C198FD55F20324D1B8703B47
+248440B35CF6E611482A5798721DCB71B07E621D76BD6A172A274FA35AADA121
+B44318DBD940862B0E9906709170C19E75C078BD5206ECA6324B57CABC7BAB13
+FFF3EF29B6880E63FF018032B8F53ADC46A36DF6DEF051DA16EFF998AE233F32
+02580ECA8B8BB01D170E310FADDEC367E8848C015C249EE41B4F4A425F6CD61B
+B0ABD556B55EE967D6A94EC080D856DDEE972D5F451AFC51868DC5053FE4477A
+5C000881DCE020B44201705D9417172141F8BC2C3DBEDAEF2B433232067091F8
+6F7FF87BF3A0ECB97ABD81DAC2823245986FF70B17ED6AC06ADBFE323D5C1980
+10F0661356A5D256EA4B3928610188A6213F30E81DC2396AE50A40597941E69F
+59EDF79521191903B804B8447FD4E1028B0B737E451DD2A23537569117C01511
+09E8A4FA030021682E2C400A0EDA41DAC71708815CDF00583E0F48E94DF459AB
+C225DAD1DF74BFFF2C325C91C818C0256046961E2684CACAFC82971014C9F997
+AD09412329C0AB29FD39D23D78F086FE369AB0CA0B5EE65F1A62D42F01D0C0F6
+F7F7D76B35388E0307FAB3950FDFBFDAAF2A430A3206700998137D87C0D85C65
+7101BCD94422D1A95382AD9AE40FAEDDBD404873610E92732FF69FA601206600
+0881DCC020986986A145ABDE8090122EE8E1D57E4F19D29131804BC02F7FE84F
+A62D184FD88D066A0BF3DEC6C4841BDF3C48DC7F1996B49AFF2A28056F366055
+164134A64878247BFC43DD1FA0860133B0FDFDB6AC46039C4B50224F22C3158B
+8C015C226C680FBAAE8B85D90BAD4ABE7104D579562B14D863FE41636E0E928B
+586E5FA7BC3F0F9C6960BA11F12F58CD065C2921404EAFCE4367E8055922D025
+8213FA4D4712CC5FB880CDB6E58D08ECE468EB30F47665D003F1530AA7568553
+AB78B3FC74B9BF2079901282C55A0D7D03830063CAACC302B66D814BE23460CC
+5FC687CDB044641AC025E269BEE9114EB433B54A1976B5D221B556C64285976B
+E906AFE847737ECEBB454213BDFC31AD1F0480CD05CAF53A8A7D7DD16B710EC7
+7600A0D680595DED7794211D1903B8447CE0437F302D083BD46858B09A75BF68
+468A232E9CD0E30A0225B02B15B88D3A080DE2FE09C3FC621C80E93AA6E71751
+2C14A0E97ACBCC2004920B08D78504AD9EE243F5D57EC40CE9C818C032A0460A
+5F775D17D585C568CC3FBE044EB52B059442BA0E1A73B39E6D9F44EF685F744D
+C35CB586858579F4F5F7B5B220832797125C4A3088EA28A9640CE00A46C60096
+01F3B2F01549289F9D9E6A55D809436F4A5E409A937015D1989D85746D1046BB
+8EF907010825B085C0B113A73134D0074DD715CDC17F7429FD22229003685C69
+3A4F0605190358061C72B73CD184F9D4E2DCAC372E20C9FE967E14805C210C80
+52B89532ECCAA247FC003A56FA08720028C39113A7A05182A1C1010829DB9FC9
+670012048BB2B0DA4F9AA1033206B00CF8C81FFF16E744FBBFCD4613F3172E00
+CC2F0E9A5485E74A0021108E83C6DC8C4FDC345DDF57A0691ACE4E5FC0CCDC3C
+2627C6BC8D898F15840B25B952F85D8664640C6099B0408AFFD870E1CE4F4FF9
+D36C051582631EF92B84221AB3D3AD629F3D40D718A6E71670F4F8498C0E0DA2
+582AFA521E6D4C80520A46015712FD393EA1AFF6B3664847C60096097FD3BCFB
+BB60ECF9B99959B8B56A4ACFAE623250004A61CDCFC2A9D63A8CF68B82518A4A
+C3C2E16327A01B06D68D8DC09F9A14EDE68E04A12468BBB44B9B2AAEEE0367E8
+848C012C13BE74F0DFD605351FAF562B580826BE4C0A07AEA606C0189C6A058D
+F9B99E253F250482521C3D79068EE360747810C5421E42085042002121D5C427
+09805230A68142F48D905AE604B882913180654459E6BF0A104C9F3DD3D3C09B
+CB0A42205DD74BF8017A52440800AAE9387AE23416171650C8E7313A3CE4A734
+F82301A5808CFB37188361180048C1809331802B18190358462C4AF3730ED1E6
+E6A6A7D15C5C04284D7004AE4228D0D73A1A17A6C16DAB27E94F08C03486178E
+9FC4B9F353609A86F175A3C817F241880F841208CE3D0D20D06C7C2DC7C8E7A1
+5140873B79791F36C35290318065C4BFF983BF3AE710E333F55A0DB3E7CF7905
+351313822EF38D510A6B7E0E56B5DCB3EAAF310D27CF4DE3DCF90BD01843A958
+F0A47FA8EE7B7E7E2138647CA4A194307379685E7ED08ECBFCB41996808C012C
+3366D1FF094E989C3A7B16D26A229C1B70B5C2818CC1292FA2B93007CA7A257E
+8653E7A771F2F459E8BA375E6C7464084C63FEEDB77204A494E04E6C7A312991
+2FE4C1280121F2BACBFBC01996828C012C33FEA8F9EAAF81994FCCCFCEA2323F
+EF6B010A4202BA0CF09D7EF599697F4397EB4A095DD771EAFC348E9D3A0DC618
+84E028958A181C18F0A6F68E940423A084C28DCF2F28040AA53E504D832EF9CD
+97E761335C0C3206B0CC387470BF5D46EEE39C739C3D79325A264C266408AE14
+18835BAFA13E7D1E9D66F40D4000E886817333F33871FA2C34A6F9CD304C4E4E
+78D23F3850CD0C2404C275A39A8D94C8E573C8E50BE8437D277E7163EEF2BF89
+0CBD2063002B803362E86F1C622C5E3877CE73063286A50FD3BD04100ADE6CA2
+3E7DDEF3D07799D98700D0741D67A6E770E4C5E3613930CE05C6C64631D0D707
+2164AB1C486CA4104F986198508AE1A13E9C94A313AF5EFC77FF7A75DE44866E
+C818C00AE0FD7FF0D1132E35FEBA51AFE1CC899351CD7BA5E99F5248C9D1B830
+05E1B8E8968B4B0901651A5E38711A478E1D036314945270CED1DF5FC2FAC971
+08297DC1DFFEB9781A80E369016A24C0A0F82E1FC10716EE628BFAD8C7EED877
+E0F7F7FCE41F8F5DEE7791A1333206B042789A6FF83D4ECDDACCF9731096E56D
+942BAC01F84EB9FAF414DC665319E4930C8D52B80278EEE8719C3D370543D741
+FC3634A661D3C60DD098A7FAB7CA812B25C10801A1145208B8B61535330C1305
+A78A17BFF427589C7D9132A3F03E4AD8B7F6ECFBF06B56FBDD64682163002B84
+FFF0A183871749E913D5C5054C9D390B682B5C7DCD27BEE6F47938D54A47E227
+20D0750D958685A70F1FC185B93918462B655F0881F593E3E8EB2BF9AA3FC239
+02096D2F1A20A5F418800A97E3A6CDE3285E3882173FF33B387DF49B8099DBA1
+31E3337BF77DF84757E9B564882163002B88B22CFC774BB2E6C9A347E0362D2F
+316825E017E4685C98F262FD6939FE52825106AA519C9D9EC353CFBF807AA301
+436F11BFCB39868686303E31012E6528E57DEAF73501FF2F5A8E40D7B6BC4150
+81166039D8B2711DDEF9DABD8055C3D92F1CC0E16F7C0C4DA7DEA7E9858FEDDD
+77E04FF6EEFBE3BED57E476B1D19035841ECFB83BF7EB6418B1F5D9C9FC799E3
+C7007D05B400422085446DFA3CACF2625B718E008C52E8BA8E9AEDE0E9178EE1
+85178F434A09A6300B21047286814D9B378252D24AF1252DE79FC710947AC184
+8052066E5BE0DC45E8F010029469F8837DF7E1875FE6E502551EFF2A9EFFEC07
+3177FE7930B3F813841A0FECF9C93FBE7BB5DFD35A46C6005618CFCBF5BFE5B2
+DCB9E3CF3F8FF2F485E535052805844463FA3C9C5AF25C7E9410689A86BA65E3
+C533E7F1E433CF617E7E1186A14766FE95BEB4DFB86923F2F91CA410BE03D1B7
+F9A9C204E06B05444D081270AD66F4E28E83C2C8087EE3075E8677DEB1150060
+4F9FC4917FF8204E3DFE3980B25B35CDFCF2DE9FFCF0CFDCBEEF8FAF8C71D26B
+0CEC377EE33756FB1EAE69DC7BDFFDE547FEF1D365DDA9DE5F5958C4C4860DA0
+86D17D8EBE3410E2113E21108E8DC685F3B06BD508F11378D97C8452342C0727
+CF4FE3D88953985F5800632C22F50370CEB179D3264CAC5F0FCE7944BD875F29
+3850EF4387205A8EC100462136FA57D72139C7AE02874D189E3C3D07088EEAC9
+A750AD9C4761629B6EE8853703B8E5E0670F7D7DFFFD776455842F23320DE032
+E087A63FF5114B2B7DB1323F87671F7BDCCBA767CAEC3B49197AF1EA9C940294
+015282379B68CECEA07AE634EC7A1D843110105042A06B1A0082D97215CF9F38
+85279E7D1EE7CE4F01004CD34C0C0BBAAE8B75E3EB3031B91E5CF0D0D1D76202
+0833002921DE57E3FDF0AB09792142D7B1C16D3B1A0DE01CFD4323904CC3CFDD
+BB1DBFF0A69784BB2ACF3F8CB3F34FC12E0254E2ED00BEB677DF81D7AFF6FB5A
+4BC818C06580FC38C477DCEDEFB1B4C2D353A74EE0A9EF7CC7239450054F080B
+0A6F7661C939846DC3A994D19C9946F5EC19D4CE9D86BD38074A00C330BCB8BD
+94A8346D1C3D75064F1C3E8A670F1FC1CCF42CE0338520BC1787EBBA18191DC5
+D6AD5B95FBF0899B062A3E1446E43B012905F5FF06BFA590709A0D44181AE7D0
+8B79E44B25388E83C9817CB46F0C0D737D2ECA450B80B89E48FCE3DE7D073EB8
+77DF81D26ABFB7B50022AFA45A75D7380EFCDCBBAFDF40673F6BF0C6CE919111
+8C8C8CA050C8A390CF81699A6793FB29C3520848E10DB5955C7879F84038B580
+EDB8A8D71B683A0EEA8D2616CB155896E567FE11683D54FB715D17434343D8B1
+633B98AE4172D1A25DE2FDD7226519461B822AE0C44F730E2A034909304D43DF
+C8184082EC47009A86C38F3D8E0BA74FE24B2F2EE2373EFDEDB0D5E177FE14F2
+BB6F83EB5AC8D912035506DDD600421F9544FEBB4307F77F6DB5DFDBB58C8C01
+5C66FCDABFF985B1BDDA91DF3545FDFB89142543D761E64CE40D03A6A141670C
+943110423D759B7884A51939D4EA35388E8B46B38966D38265DB705D2FDB4FF3
+A57CAFE0DCC5E0E010B6EFD80E4DD7BC787F783A09E81FAD2DDEFCA644C29FFC
+24D808840550E139130B83C3D00B0540B418C0B1679EC5B96347F1C9A7A7F13F
+FFF131AF4DC630FAEE9F83B1F57A2F9B90505029D0579328D53510A97149E4EF
+02F8F54307F73756FBDD5D8BC818C02AE1E0FBDEB56723997F2915CE1897D808
+904942302E414635228A00729EE52FAA5438EB366FDE44A7E7AB585C2C83B1E8
+D4DD4B8194129C738C8E8E60EB75D785C40FA813FFB4DA95F08B7FC880191110
+D25EF25C2A0C403773280C8DB40608691A8E3FFB2C8E1F3D8AFFFAC5E7F0C527
+BD098349B10FE3EF793FE8E83824E7000804052421302D8EC12A81616B00E8C3
+92C8FF75E8E0FEBF5EEDF776AD21630057107EF767DF53281227BF95CDEA1BE9
+026EA22F34DF58F9D55F29C0FAA51FDC3C475E336EE3C9A79E05172212C2EB15
+420810028C8F4F60E3A68D9EDDAE4C56DA72F8F93A4028F1D5198D5AA29F8040
+42865A80F4539D09080A83236086E131014DC3A9679EC63F3DF424DEFFC94750
+69D800006DFD168CFDC8FB0023E7F93B0881F4C38A825250C13150E528D51888
+6490049F07F0AB870EEE7F6CB5DFD5B5826C76E02B08EFFFD09FD701D40180FC
+D8B3FDBBB4877F2ECFE8CF4E379BC47DEA39BCE3D65DD8305FC6A9D3A7BDA29C
+3D328140EA9B660E9B366FC2E8E8088494BEDA4F940508293DA0794A5AEA3FE0
+137DCB3B10328110045208D8CD1AF286116ED520F0F08BD321F103001B5E0762
+162084974118103F0010292128C3DC0043B520D05F7550ACB3FB00FAEABDFB0E
+7C10101F3C74F0A7B390E1252263005718F6EE3BB00EC0FF730793BF4024196F
+40A2F1F8C781DC0590D21D189F9C84100267CF9DEBCA04A494BED427181D1BC3
+E4E4240A853CB8EF506CC5F911B5F703AFBF121420813A103A02DA41E0451A08
+63702D0BDCB1C1748F0994EB4D9C5888260A694323204C6BE54404830903E6E2
+1720681A3AAC61867ACEC560D9CD1B0EFB3541D99BF7EE3BF073870EEE7F70B5
+DFD9D58C8C015C21F0097F3F15F2BD448A6D9661E0C28609D8873E0DF2C2C3D0
+5F7A2B4019FA8687E0DA36745DC7E9D3A7613B4EA21F2048F3EDEFEFC7BA75EB
+30383C0402D24EFC68CDE3E3EF68CD601626FE784701C40FFB13C5010844273E
+69F902EC7A0DF90103901C2766CAF8D691A9C83DEAA3EB2119031C8FAFC09B4B
+C86F91845A0195120045A594433DCF315876D05F117B29D8D7F6EE3BF061001F
+387470FFCC6ABFC3AB1119035865ECDD77E036006FA342EE23524ED88686D9A1
+014C4FAE83DD58C0C6E7BF8DA659C0C4701F0009963391EFEF03775D6CDBBE1D
+333333A8D56A9EFD2D2508A5608CA1582C62606000C552119AA641041376D290
+BABD1B0863FCFE0F1273FD07BE0044D765C814446816785B3C9380D02031C802
+D3199E3C3D8F9AA5140E611AD8C8B8124624A1E48FDC47A81500544808AA6166
+584323E76078D1354C8BBC4F12FAE6BDFB0EFC16804F1C3AB8BFB6DAEFF46A42
+C60056097BF71DD803E097A990F711294B96A96366B80F33C37DB04D0DD0340C
+3EF2200AE50BA869266EDC3CEECD39E8BA280E0EC2B56DC88AC4C68D1BE1384E
+9827E015F808EAF2FBF6BF104A1E3F00A8D97D24B4ED5BD29FB4547E42402401
+A1AD598D825A001EE90653A0052682721C01B8DD8463117CF2E12391E7A783A3
+6083A310DC8D107B4BF28757F2B70587485041502B9A68E4740C542C0C96F976
+C6E9470425EFDFBBEFC0AF1F3AB8FFFFACF6FBBD5A903180CB8CBDFB0EBC9248
+B99F4AF9834448DA34344C8FF66376A808D7D0BD5975CC020CD3C0D0E147C099
+810143C35D3B26BC0624004AD03F3A0AEEBA68D61B8939009CF368983014AE2D
+220F415A841D6A03BEFDDDF20BAA5A43CB3118F20011257CE937C220315BAEE2
+F86C39727FFAD01858DF0084EBC053FD11BD4F9FE8BDDB506756F6B67BDA00C3
+EC7011B5828391051BC5BAB809A09FDCBBEFC08725C1AF3F7A60FF34327444C6
+002E03F6EE3BB009C01D00DEC338BF4F486994F306E687FA501E1B823DD00F33
+5F40B1D007BD50001D1E45E1C12F203F7B160BD071F7A641DCB4AE08B8BEB34C
+08104A3138318EF973E761359A1167606B0C3F22EA7BC80B8842C8AA2350F505
+F8DEFFD04F40A2C4EF37DDBA060DA2813E57F0FF308DE16B4F9FC46C399AC743
+6FBD1B325700166620355F5B217189AF9A02D1EDD2BF53CA259A390367C675F4
+552D8C2CB8306DF95382D037F9DAC09FAFF6FBBF9291318015C0DE7D0728803B
+01BC9ABAEECBA9102F93848C484AB13850C2C2A6F5A84D8E830C0EA22F5F826E
+E64035064840F879B6E6435F00B19BD8383682376C1F00776D445CF55282320D
+431313983F3F05ABDE68D5FD272DE20D87F4B6113242E20AC37A41B55F204278
+619B6DE9C10AC2FCE0E018094D6398AB34F16B7FF335B85242D33448CE21351D
+C67DEF8635BE09E4F063D066CF7AE733BDCD0918B4ADFE8E9809848008094908
+16068AA8963886E69B185E74B63241FE6CEFBE03EF00F02B870EEE7F6AB5BF8B
+2B1119035826ECF9A93FD189107743CAFB8990F751EE6E1752E6AC62017CA01F
+CDC97134374EC2191E0129153140886F327B39FFC2713C5FBA61423B7B02B917
+1E43C32CE2EEADC3B879D440C311E88B539E10A09A86A140136836BD346220C1
+998716712A2A3F5188BEC5135AAA7FD056E83388349802E965106A79139FFEDA
+9338726A06B9BCE98D6B705DD0DDB7814E6C0631F21037BE14D6F993D04EBF00
+DAA882683A24A1ED0CA8D5B4621AA80F46C0B800A70C53637DA8962C8CCD3650
+AA89370B4A5FB177DF810F1C3AB8FF7FACF67772A52163009780BDFB0E6820E4
+8D10E24DCCB6EF047097D034D8C5029A1B26E0AC9F803D39013E3408AA1B2052
+4077B9270595413491701AA1308E3F0D7D71060D3D87C19C0622050417C9B30A
+054C60FD04162FCCA059AD426A9AC2048261BD80620F28AABF3AE4D7D720A8FF
+9F4AF4F14421B45C05F12D9200A6A6A35AB3F0879F7B04A00C8C523FD30FD05E
+FA3A90E20044ADECDDD2C416B843EB40CEBE0836750AC4B5BDC22984B522038A
+091077144A554B91802604EAF91C4E6C3431B450C7D89C35A0BBF8EF7BF71D78
+0380FF76E8E0FEAFACF6B773A52063001781BDFB0F8E41881F2242FC18E1FC25
+925258EBC6E08C8DA2BE75139C0DEB8162119231502EC05C17683693095E866B
+8000A424C81F7D1C9AAE81510653670011701D3BFD86022630BE0EB57C0EF5C5
+4548294009537C77FE387EB4CC82281442475C6968F9060825E1209F204B3896
+14E0D526C8E770E01FBE81EFBE781EFD256F08B0746CC8C121B0DB5FE1CF3128
+0101405820BA0E5C7703DCD1F560E74F82CE9D87142EC07445E22376DF2472A3
+2DED80800A0141296646FA502D9A983C5F45A9CEDF20287DDDDE7D07FE8704FE
+D3A359C83063004BC1DE7D07F220E427A9E3FE0238BFCE2DE6D1DCBA05CD5DDB
+E14C4E80170AA04282B80EE03A208ED31A2517FC9F48FC3E21100262D7913F7D
+044CD3A1110D9450502AE1C667DF89C30F0316878660E6F3A8CCCDC36D5A6034
+283C023F9C4742C20D1C85812610890E8425C0A24943112D22782EA9FC960466
+5EC393CF9FC6EFFEC3C3E82BE6A131EA693C960BDCB817D8751B64B3162D83C0
+B9B714FBC177DC0A59DE0872E60848790E0214605A176D40F10FC07328120930
+2E6099268E6FD6313A5FC7E86C9D6A9CFC22A7E4B57BF71D78DFA183FBBFB9DA
+DFD56A222B08D223F6EE3BF00384F36FD166F3F7ADBC79DDE29DB763F69D6F47
+F94DAF83B5E33A485D076D3601ABE97DC86DE5FF3B48FE609D31E8F3176054E6
+4075038C3270BFE8A66559BDDD28E7D00C034313E3280D0F21C8CD0F09578DF3
+2B8824FA1055A98F86FF90701694730D4343DD76F1FE8F7D19D38B35E4FCDA83
+943130CA405EF95640D79592683146E8BA80E340F40D82EFDA03B1F546907C11
+E06E38C5992AE9BDF312429D8A6A4085802414E7C7FA716CD3102A450626C41E
+2AE43FEFDD77E01757E173BA629069005DB067FFC14D44CAFF466DFB5D4ECE44
+E5F65BD1BCF526C89121509783A8F5F063F3E3013D4AFE0084C29C3A01DDF154
+629D13D41C009A0EBB69F55E47D0AFD6911FE88791CFA15E2EC3B51C802964AF
+FA04145F402BDB4F6118CA2991B94D652BF32FD84C0C86DFFDEB07F0C0736730
+3A50F224BF94806D415EB71B7CCFAB80A6D56A40ED8BB08F4418F214631B80C1
+31D00B674066CE7A79038136405A1988F154E2168320E1F005C625EA851C5EDC
+626270B18EF5D3D5BC61CBDFD9BBEFC00E00EF5F8B59849906D0017BF71FBC9F
+B9EE03B0ED7755766CC585777C3F9AAF7905C8D00068D386F43DF79EB4EF9DF8
+DBE706F2CBEB7001F3C22968D205D53418BA869986800306C7B2E0585682144E
+81948010608681BE91111406FB40296D8DFD4750D83326C795F87B9B69108902
+C4A20C04D04B797CFA8167F13F3FFB08060AF9B00029A3148CBB90AF7A1BE4E8
+24E0DA68237EB52FFCFB975242BA0E24A5E0EBB7023B6E051D1803B800A45008
+BC45E8C143A8C4AF1E43FD84A599E17E1CDD32827A5E03E3621F91F8973DFB0F
+DCB3DADFDCE546C60052B077FFC19F268EFBF72E639B675FF30A94DFFA6690B1
+75200D0BB01D4F1D0D21DB5613893F8240FA2BDB85037371061A21604C83A131
+9CAB72CC5A04923BA8D7EA4B9F5C4478D103335F40DFF030F2C582521F50C662
+FF0A638884033B331D2201A360E23BCF9CC6AFFCE5D7A1EB1A72A6D66200C205
+D9B41DFCDEB782588DC833CB445B28D6B54200AE036E1620B6EC02DDB41D4437
+01C15B87298C4B465497960A23496B58B3C6391A79132F6C1BC3CC4801448ABD
+54C82FEFDD77E0FF5DFEAFE9CA45C60012B077FFC17DD4B2FFC8D53532FBE6D7
+C379E9EDA05C00B6154AFB74C91FEC4B50FB65A0EAC6883F385408E876031AA5
+D0340DBAAEA16C0B1C59706030825A79B1770D200E7FA090592CA2383000239F
+F3D3F764683210956854F320969413352300BD90C3D347A6F03307FF19E5A683
+523E074A7DE2D734E85280BFE15D10E39B01D78AF645D80D8AE487D2BFEA31DC
+8590127C643DC87537401B1AF5FA3BF07128038AA46F02B4FE92D8319E36C019
+C3F14D6338B9610882901C15F2B7F6EE3BF0177BF71D5813539A670C2086BDFB
+0F7E2F719C3F740A39CCDEFF46F05DDB406A7644DA5C12E2FA7F4CE85142C098
+37A24F630C84319C691010A6A3B2B808E93817C704FC4C3D6FBC3E8559F02AF5
+1AB91C883F01A87FA0B2D6CAED8F870D035340CF1B38767616EFFBD857717EB1
+8181621ED41F914819836E37206EBA0BD66BFE3560D5DBDA49EA8B4E5D072921
+1D1B5CCF414C6E8336791D58DEAB3F189E1E730246DA08B4017F3B15128C0B4C
+8F0DE0C8B675B04C0AC6C50F03F8CC9EFD070696E7A55FB9C81880823DFB0F6E
+26AEFB51A1EBDAFC5BDE08B17D0B485DB1573B49275F2B08A57F00A9D8FDA156
+205B6D2270064A4842E1E68A61420E2104398DE2745560D6A5E0CD066A95CAC5
+CF31184EDFDD9A0948374D98853C74D304652C14F62DC1AF6806B1EC3C3D6FE0
+F8F905FCFCC7FE052F4C2DA2BF980B895FD334680048AE88FA5B7F02B2D0E787
+4581B017DB7C2371CD2ADAEFADCE0620388410E0FD23601BB743F36B10065DEC
+A9FB711F81F257D10CA49F455829E57178FB24CA7D2618176F24129FDABBEF40
+FF6A7F972B898C0128A042FC9EE47C7CE1E577C1DDB6A945FC3EA2E67C82FA1A
+39AA25EAA3FE80A8C80F08814042520A6B681C823204FE6D8D124C575D1C2E53
+688C60666AAA733E401790D89A94DEB01AA66BD00C03BA618069BA5FEF5F8D0A
+44DBD08A269E3E368D9FFA93AFE0E9D3F3182A155A363F63A08C42779AB05EF9
+FDB06E7D0548BDDA7ADE48BFC91EFB53EDC3605D42080E87E9C0BA8DD0D74DFA
+750E5BF98952B1FFBDB3D47C866898830A01CB3470F4BA09CC0E15A1B9E23500
+FE61CFFE832397F4615DC1C818808FBDFB0EFC1B623B6FABEDDC8EE6ED2F0169
+B868B3DD81F68FD50F45B5D9FD916F3B16EE4BF27E4B011086FAF85608DD8C84
+FC0C0D78E074030D62A25E2EA3323FEFCD2C7431481A230080284C85502FF780
+50A61410698D1D600503879E3F8FF77DEC1B3876A18A81622E42FC9AA641771D
+F04DBB50BEEFBD5E6214E27DA82241AB42A4FBD14EFC6AD450800B400C8E419F
+D808A21B90FE00A14E921F50C387DE0CC84408B89A8617B74EE0FCBA01302EBE
+8748F9E5BDFB0EEC5A9E2FEDCA42C60000ECDD7F709270FE9F9C5201D57BEFF6
+4A50456CFE64E22700DCF2A25FD21AEDC707EB693900B136A970D158B7096EA1
+04225B6D6A14385DB6F1CDF30E4A391DD367CFC1B52E7EBAF1881640E2EB24E1
+38EF1733343043C3A7BE75043FF7B16FE042D56A237EC61828008D1054DEF8C3
+70872762B912B1BE9009FC20DED7095DDAFE43400A015118803EBE11D4347DA6
+9AF0F421F1C7B207832384E7143DB9790C536303D0B87809804FEFD97F70FCA2
+3AFC0A46C6000040CA5F242E1FA9DC760BE4E830E0D811C99F289D088553ABA0
+71EE04A8A6296A79CCE60F05790FA12FEEC22A0DA1BE6E8BF711069702814181
+CF1F2EE3C939015DDA983A7316D2FF50970CD5939F38B22F9A20402901CBEB38
+3955C67FF89B87F09F3FF3281C0194F2661BF1334A61B81616BFE7EDA8DCF906
+B07AA5F5CC6D215199DE1750074B7533AB825D1242B8E06601FABA0DA046CEEB
+A3845C814816612CA5D82B69E0B57D72D318A647FBC1B8B89148F9377BF71D88
+CE6D769563CD33803DFB0F0E53C77947737810CD5B6E0271B9F201AA3AA8EAF0
+0388C6503F7ED853D5A9AF8E2B0E3F2439FC2452DA54C28784607EC71E10EE46
+EE53A30496CBF1974F2DE06C8301CD1AA6CF9EF598CCC5680209A6008919FB94
+10B09C0148E0D3DF3A8AFD1FFB263EFFC469144C1D79530F1D7EAD4583613750
+BFE5E598B97F9FE7D8944221FEB8630F91E76FEB8B24ED2934C7DA194AD822E7
+E0BA09363609A2EBA14F20C91450538B237E81E05E087062D318E6064BD0B878
+35803F5AF18FF23262CD330022E55B20C4A4B57513647F11703CD53BAA9646F5
+4F421978AD82C6E9E3D00747D016DB8BE400A867A6C7FF02FA209C6371DB4BD0
+1C9A0075EDC8D1A64671A1E6E2C38FCEE2540D40B382E93367E0DA766BB6E1A5
+3C7BC21AE0497C6A688046F1DD235378FFC7BF8DDFFEDC93A8582E46FAF2D0FD
+790C196391BFBAD34473DBCD38F3033F0FA999208ED5DE7DF19E48ED92B43E4C
+3EAFCDBF2038A46E820D8D01942A2C25EE044448F489A688F09CB327368FA15A
+30C18478AF5F64E49AC09A66007BF71D2044889F720A05346EB909D4E14020B1
+80C4501F008051344E1F076FD6A1F50DF8D9761D427DA94E4445DAF9FF51C746
+63641233B7BC02D46EB6DD734E2338BD60E1771F9AC2B7CFDB80D3C4E2D45954
+E6E7BD84184A7B670491A41E02A251D0BC0E1082278ECDE1039F7A0CFFFE1387
+F09DE373E82F9A28983A086985F982441F4A294CAB0E6BE30E9CF8C15F86DB3F
+0AD88D56CDC0E0C13B4A7EB4FAA24DBAAB4EBFF64800D443D5633807C997A00D
+8C204C008A84FF62A1C2B47E1302AEA1E1C4A631704A41A4FCAF7BF61F9C5CA9
+EFF272624D330010F26AE2B877D7AFDB0C3E360A388ADA9D128E9284805B4DD4
+4F1E8156288206D35F217EBC7A669A9D8B08F17B1B24A8E3E0DC9DDF8BFAF856
+50A77D14604EA758A8BBF8D083E7F1D1C7E67166D106AF2DA232338D66A50CEE
+3A91413E48FAB8FDA9BEA151104303C9E928D76C7CEDB1B3F8FF3EFD187EE593
+8FE2CBCF4D41D7340C1472D0350D8C692DC20F3CFE8420E7DAA85CBF172FBEE3
+97600DAD07B5EAB1EE506DFE84AE4A25FED6FEC47DB1506AD23B908283960640
+7205F863AE95BE200967A4800BD4FAF3383B3E042AE43622E5EFEFDD77A0A7CF
+EC4AC69A1E0D48387F17D718B1766E53CA5C23352E2D0150A6A17EFA049C8539
+9863EB4128F3ABFBC46CFB0EDEFEC860A104A640B88DC6C8461C7FFD7BB0FB13
+FF0D4470481A0DFB191A8194C03F1D9EC7A13355DCB9A90F2FDB32802D830EFA
+F206F279139AAE83310D8431AFA438A52D5B574A0857A0DC74F0C27419DF7E71
+068F9D98C3D1E92A4080BC4E51CAE9ADBE52184830C28FF91ACBB93DAFC58B6F
+FC310866825AB518EF6C3D7354F2ABBBD3243F52885FA6137F5BBF7BEF46EB1F
+84356B29FBA37E809E2024A6C6073158AEA1AFDAFC579CD1FB007C7EF9BEC8CB
+8F353B39E8DE7D0706A96D3FDE1C1DDE3CFBCEB783FA052B0174F44813A6A1FC
+F8B7517DE1691436EFC0C0ED2F8324D2AB92D3F307DA9D182408B891C3B67FFA
+08367DFDEFE0E6FB5A435D63B0B9802B0083116C18C8E1CECD03B875B20F2553
+434E67D01805215E492ECB9568380227E6EA78ECF4029E3F5FC15CCD82230418
+213035D6133D30D78604C5F197DE8713F7BC0D000175AC04411C7BE6442D48C6
+8E6DAD27F753CCE997D6A6B29D500A6B71016EA31A19F320971A456114030B35
+EC3C7A0E82920701DC7BE8E0FE65CA13BFFC58CB1AC0DD1264B3B5611228E421
+1BCD44E913217E42219A0DD8F33380A6819A397FB20EDEF611B627BD7420FE04
+6D81408039364EBCE687A0571730FED897E19AC5446965300AC357104E2D3470
+7AA1892F3E3F039D5230DA2A072EA4041712AE90B01C01CBE5D01885A151184B
+B006B5660D56DF305E78CD8F606AF7DD607613448854C9DFEACA0E923FA1AF2E
+4DF2C7DA1512CCCCC1B51ABDA9FC6910028BFD052C0C1431B4507D99ABD1EF03
+F0A94B697235B1767D00527EAFA404CDEBB680F84EBC88373F291C45299C8559
+F05A058CE95E1DBBE0B454E257435609A308DBAEDB6A8B0807926A38F2969FC6
+D46DAF85DEA88274199464300A8D12D46D8E85868D999A850B556F99ADD9586C
+38A85B1C12D2D30E68EF1290394D30C7C2CCB6DBF1F80FFC7B4CDDF0326856C3
+27FE74F53DD99D12F307844A408FC48FD8B5D081F82121A400D57450A6C56E66
+A9DF0D004A3035D60F4109A8903FE79781BF2AB1263580BDFB0E3022E5AB9C62
+116274B835E146808840523F4202EBC2794800845110CD40C4D59DFC5D861B64
+FACE7622F1AF4B6D0B5C37F0C2FD3F0DAB7F041B1EFA0750D786D00CA481102F
+132F39C967E9A0DC05752CD44736E0D4DE37E1DCCDAF84601AB446ADEDC99218
+5952E7C894EDF1E74FEDC5AE4CB7FD5A8412504387A83B97D63542A0D25F40A5
+94C740B9FE2ACEC81B007C61593AFB32634D320000B712C7DDD9DC3901512A81
+B84ADE3F8024A714A104B2D980B330E739D5A404D575B4E6C3EB2C81DAEC5FA0
+E5184BF09687972600756C48AAE1D8EB7E1495C99DD8F6C58F223F7B16423721
+B496A36E5921259863814889C6C018CEDDF20A9CBBE53568F68D789A80DD5C9A
+99A3ACAF98C34FC848B9B2A4FBA06C19FA2BD40206D05F6900C03E640CE06A82
+BC0D90797764C4ABA1EF38EABE848F105EEA6F6511BC5903613A247741B45E06
+E4C8256D4EDB47840BCDE298BDE165A8ADDB8CF58F7C1EE34F7C0346650E4237
+20A906492F4DEA1329408400E15ECD81CAF8565CD8F5524CEDBE0B8DC17150CE
+A159B5CEF77E71BD91C004E3BB3BA85784405A4D48C7062DF621925F103B9C5C
+44C254228444B92F8F7AC140A16EBF76EFBE03DB0E1DDCFFE2A5377C79B12619
+0075C51E2767C259370A2AA29EFF540924016771DE4B2ED135405210A62DDDE1
+17BF56825610EE8D9B04428236AB680E8CE1E81B7E1C53B7BD0E23CF3C88D1E7
+BF8DFCFC79684D2FFE2E341D92317F845B1A24889020828372AF7C3937F2B04A
+83589CDC81999D77627EF34DB08AFDD06C0B5A50CA2B4D1A878F9DA28AA78501
+53DB8CF545AC39F55A8430F07A1592BBA0C57E78C95CEDD7F26A20506FC830E7
+97C608A484D418E6074A28D666FB01723F80DFBFF80657076B8E01ECDD778051
+296E11F922DCA12110572410AB7282842761840B67710E605E97114A40C21931
+113BA14B7B906DF4E1ED533DE6B13695DFD4B1411D07B5D18DA8BDF21D387BE7
+7DE83BF302064E3E8DD2D471E4E7CFC3ACCC8339165AB50B49A43D4919B89187
+5D1C4363600CB5D18DA8ACDF86F2C436D8A52108AA8170077AA3A6DE78FCC992
+9FBD8DF893FA27FA5C32E5B8AE350341203987A8574073C5E8EE843EF4264E65
+0923382F0212581828607C7A014C88B7EDDD77E0F70F1DDC7FE9ED5E46AC3906
+006018C00D329787CCE7413847DCF60E11480F02F0A60DDEA88130E6C5D405FC
+74D224497811921FB2EDFFF83DC54B6733DB0B5D0AA6617EDB4B30B7630F9855
+476E610AC5E91330CBB360760384BB5EA40380A40C8269707325D407D7A131BC
+1E766908AE59F0B401C706755D10D89DEDED25F8395A9B3B107F270760A28FD1
+3F8600D2B120AC2658DF2092398AD29E3A73F2A5420834F2261A05137D95FA3D
+92909700787C791ABF3C588B0C608704D6D923839E2A6F59AD0F30E583279240
+D46A108E153A00D58CBADE08A1D3BE0ECEB12E0E30408248E931035FB2374636
+A03EB2C14B729148B8C760D5B7F98580D6AC858C2B2DB576491EF84E2690EAE4
+8CEF4B55FB93FA42028440D42B9052009AAE3C6A8243155EF523CA18962D7387
+102CF615D05FAEEB005E8F8C015CF1D80100F6F090B229A6D2C6BF6742E1D616
+01294140218944B2799D22B69622F99748FC88B5493807E16E770DA4539BBDDA
+F629CFD275BD934990B8AB939F4040542B9E3F8606751964E7E6C9F286ED2B25
+13C2CBA7B879591BBE0CB86A13182E013B01800F0CC0FB9C5A4E3E65254A2404
+E0F5AA67F307B63F28C26260BE946D35B304C92F978FF803426D3D4A5CB27628
+599E742DA5CD9EAF95D417B16B75DE2721BBF685DF0265108D0684D500613A08
+A34AFFCAC47722E195475F964880DFA265E870740D54C897EEDD77A0B04C0D5F
+16AC3D0620719D64D44BFF55AAEE28FB5B04E94FD8291D1BC26A2823EB10A9B0
+DB59E2A438FC52253F3A1364F480E4EDF1F54E1257261C924AFCD1E74AB940D7
+6B75DDD78BE4070029211A555FFDD7A292BDD3B59653039080AB6BA8154C1029
+B701B869F91A5F79AC39064004DFE4E6F310B95C388EDF438CD87CE7392104C2
+B6212CCB8B0010EA87925ADA66D4EC4CB18115EDA2B3E4576CE02ED23EB29E3A
+5949EB3E640AA145EF238DE0A3C7C4142665774A1E4517C99FF8CCEAF6781F82
+407217A25103FCC94783B90FDA1C8F91F72A7D3EBE4C1A80940025A816739084
+9844CA3B97A7E1CB8335C5006EFFC93FCA132127DC7C1EC234944AB8314918A9
+E3E769009273D060CA6CF8734C015E2620D4E35BEB89C2BB07C9974EFCEAA65E
+25BF4C39E6E23590446D21B2DEAB9D2F7BB856CAF313405A7548C7F6243AD3BC
+8DF1E74AEA6BB28421C0BD4002B5BC09E14517EE5DBE86571E6B8A011021D741
+887E5EC841EA7A5484C3FFD8443BC170BBE9A9998479453468104A4AB7B7A5B2
+1E278C76691C93FC40F41E54719B22F9553B573D2772AD98204DD64094BE886F
+6F33091234903666A2683BCBE97B9000AF550178139C10C622FDDBD1F700B4B4
+85E58014A8174C383A0591B8EB6A2A1CBA261840A0EE11CA8688947DD2342135
+16F948DA253FC28F8D5B0DBFB73CE75F50845308D13EC167AA69DCFD63EB9EF4
+D2A19D5E8F4BD540BA4BE344F3237E4C4FCF9C20E1DBDA5737C5B6530A695B10
+CD9AC29435E590D497E03FE7F26B0042A368E40C00D802E0FAE56B7C65714D33
+0012CE791FA6C10D022842D75B136322F8E063923F943402D2B2FC9972BCD3C2
+69B3B940FBC7DF210FA08B2444EC9424091C6D2B7D9AB2D6E63449B874699C76
+AD440D242E75E3E656276D22721FD16382EDA25E0184F03CFF417AAF54DAEFD4
+EF442ED338491504B5420E444A0A296F0796D1CFB082B866F30014C2570C5E31
+200808CF99DEDC71C95EBCE8C7C92584EBF8E5B4147E49282079F23971DB3B42
+535153C13B222EF99288334E0868BF96B29E9E570F2431BBF67364785EA76B25
+9A11914D490C28E1793BF561E45A04705D88660D843240C20BCB320640245C2B
+DEEFBE06B0DC2C8000F582194C3FFE92707330F9C8155A79EB9AD40062C4DF82
+94239252887CBE550EB213F183005200DCF5A6C90ABF1BBF9E5C104548214220
+7E071D54D3F0BC34153DE1CC1455BC6D73D7EBA6ABE2DD89BFBDC96E164422BA
+A8FDEA6E613700EEB6D478EA9B655DCDAF1524420958860657632012B7EC78DB
+BF0FCAEDF933AA11A8CB95826B8A01C43A57A1627F45629D640C226F7ACEBE50
+834F974052B890AEEBCF91178400FD642021913A6330827D09AA78E8188B27BD
+2072ED085350D5E624A61349E38D69196D6ABFAA17A7B5B9D4597B5AF79CB82F
+ECA7F8B592FA2259EDF7D47778391912A1379F50E6F902428D2EA9DF63D75D6E
+1A94128EA6C1D6751029B717FB26D7C5DFA8F23D922B85115C530C2006A22C3E
+E490640CDC34A32140FF4FD2072F5DD757DF68B4290280BB2DD5EE92247FF43E
+D2247F7A3B177FDD2549FEF819F16BA549FE4E92374DF2279DE9276549ABE13B
+62FDF7A12963FC7BB9EE8A2802125CA7B00D0D0472926ABA3A6F80FA1D2AAC0C
+ABAE115C130C20A113E3465E60880D70438730FD24A024FD52F9080908A4E378
+BF29F5BDCD41796D0621B8171E94316BA36B2A6C42BA6BECDA1173203C27768C
+2FF9A15E0BF16B2548F838F1F72AF9D5501F92AF9524F9933597040DA4AD0FDB
+EF43D42B9EF395D0F00D133F0290ECFC4CD032E2EF7C392001508A664E8704D1
+09A1DBFD3D246151EF605535826B8201A09DD8038A5426BE2180C480300D4843
+99CCB3ED2344743BF72BFED2D6FB23205E8930E9FB003A240345D61377A5A9D9
+68DF9ED2BE4CDA9E6AA02BCF9B70DD4E923FD64097E74ABF76C77E4FBB0F4200
+D7866C34A2F31B808068AD429F32E9BA6D3F57440500A444C3D42129010192A6
+1357672449D2082E3B07B8EAA3003ED754B969F05BE5B802040C52F673D380D0
+34CF0448538303DB93004278956348300620BC12F55389452B3AD0D3D877D903
+F127D8DB290C42C6DA8F5E0B89D7EA9ADF9F60CEC8C41FF16BC5243FE2D74A60
+BA6D0F94127500209A7548C9FDFEF6ED780A6F725619EF8B0E0C9EC4AEB95C90
+124D5387F07C13BB95ABC51DD211E10485095CEEA8C155CF00E04D6E22FD9E8B
+4BFE90AB16C7B61B000678CE84D434502121DA084146888E0080E0BE9E4483AB
+B5E6D41302AAE3296C6A8984A0AADFEA798984A0ACA7850F7B2684D875DBEF5D
+BD4A2FD78AAE2FA9767FDB33C70880BBE08DBAA78949FFD512E9BD17AAC5EE3D
+8DD905EB2B246825609B3A38A3D084D84D08616869D911F1117DF058B83A2982
+B542B8AA4D8040FA2B5A802AF9A9BA9E1F9ED4010C885C0ED0B454E269DB2484
+A7F2137F820D7546592920058F9DD78BDA9CB0B1A3069FA6F6238520D1FBE793
+428B89A6722FD74AD4AAD2AE9BA265B45D944034EB807001D0562EBF6F774743
+80BDD8F82B455B122EA3703406026CDCF2CA1F19F32F46630B89AD0331B3E072
+F904AE6A0680D6D466091EFF98E345422312866414124499C51768ADC49C4452
+F8CE420A490964900C443C67A09412D275D19A5A5A261049CAF8F6884452987F
+277320425CC9D255D546D46BB587D9A2DA4EB41F627DD1D3B55AE7A74D8C9218
+EAF39F5F26F545C0CF85EBA7FDAAC3B1BD574CA89F0A9C50F528D1F91999F065
+99210149092C53079118288C6DDD0C2FD8CC90EC0C4CFB6E93D65704573B0350
+A57F9C93AA5C965AD51980A0416C17E05C395C5517D54DC176E10DFE09FE9158
+D4C1755B36652291446EB7F326952065D2F19D0A8DC64FE972AD2EED25DBFC69
+D76A1DD79B97BD47C9EFF376AFE22FF7723010BA61BD7E8F8D02ECAE8178ED92
+B815BE5C200496A101408E19F9ADF0180085C704029340D54E93184144135849
+5CB53E0042885FE699A8949CD6A9B47AFE081752CC6BB51A8863035A01C9B677
+AB2929A497ED170C02889968840042B89EFC4F53831355D374BD3B511A478E4B
+B3ABD5E748B381D5733A4FDE9178ADC85A2AC7E8E20F4879AEA47D8440B836A4
+55F7247D1C92F821400A8077ED77198EF6922BE76423048EAE810094526DA3FF
+8DFA79CA11D54674684542F16D1142E44ADDEFD5AC019084DF49DB280026B963
+4B29CEE4162A6035DF9904247C7FF12F99785966A1FA198C09A090F0EACB9388
+5329A606A36D57F2868E36B58CAFB6DF3B64D2C694EBF5A04924693132655F27
+C2EBF0BC516DA7FD3809403682894848724BCA30E0CEFD2E62BF574A05801709
+A00494B12D84DC13487C55FAC73582A46F3749BB5D765CCD0C208E4EF6150360
+716E3DADD56A3066E62058ABA44F1BF1071FA7BFBF95C34DBDBF40C8106430AD
+18805E925EA2B628C2F3BA15DD6C1BB1985849382AF9D3537C5BD76D7BE6487B
+D1FB4FDC9756C128D1F780846B29D750FAD0EB5B1BD2B1DAE2FE3208F8840EC0
+D83DB4F5BB32737150316805C36CAEC6C02903216C2BF0601F14418464C2EFE6
+1B583153E05A61006A1825D10400401B9599A70817AE717E1A10C2AFEB8F0EAA
+78EB638C2E34CC0D904278094148218448FBED849A4E902DE6941E4E43729BB1
+CB470912117A53EF2F55BAA712BFD25B9DB62732A7D6F3B7AE25D54B4236959C
+7F9FF0C352E7F067F9612C6CB30DBEDA1F7FC752AEA00920A5C7001805015967
+F40D0FC0FB063524FB01E2D181B64571742F3BAE05061027FCF89B0DB617669E
+7DE04941C9B1C299B360F30B9E03A98D20954DA2A501B48602B6889F50EAE509
+F84EC5AEC52DDA367456C5C31F5DD5F414C91F692CE6D5EF55F2B75D2BBADEBD
+8E1FDAAE95D61791BBB59A90B6D532D5149208B530E6D192447C54664BF277BA
+D68A40028E46C1350A4AE8F8C0A65B0611650034F6371EB24E4A105A315C950C
+2021FBAF97C59C3FFAED29DBAD7FDEA8D5913B7C14426368270485A8A4C757BC
+D17F242C07A6FA02A4E0905C44BEBD54C99F503ADBFB9D4C901DCB864572DD83
+4BA45F3799D1282650AA0A9FB22FF1FE62DB9722F9234D093FEC8788E615F1FE
+FB21C0684E8FFABCA2FD5AB2D5FE8A414A08C6E0320A42E93ABD3834889619AA
+6A00712690BAC4F25D9615572503406B2415E9B03F29BE5A987BF681BFE284CC
+0E3C7318DAD97390B95C784032AB95F0A48CD25CEBD5F874C9135C38E8B04176
+DDDCE96E3A6EEC2A2F64875F29C7270AF3242D2345F22F715D361B9E6645D2FC
+63810F80F5F010ED3B573CCD9612D8BA068014CDE2F028DAEDFF240D20C90440
+C2FAF2DEEACAF6C48A21AECB767AA36A079A670F7DF6486DFEF4AFEA9685755F
+F906B4A969885CAE254964BC79E21701551D81D4CF09A000F1928188506E274D
+F203A1349608B6B74BEDF431F3486E1F29049926757D2758AB3DE5DCC4FA01CA
+7189DB5BD76AEB435503E920F983E46BE938107613F01DAE61E24F20F983E00D
+2590BEFDAFDE47D4F919EF77BFEF85C44A3A0101780C8052E8A5C10D48267ED5
+07D0291F403571975D0BB82A1940E01489650186BBD12E565473A1F4FC677EFB
+6FEBF5B90F1AE51AC6FFE92B283CFB3CA4A641322D72AA0CE7008CB5E84B7F49
+00092F12D031F12461B5178540DD18A5EDA84ADBD5DE96ED2D472DEEA4AD4B93
+FCD1E3A2274A241D9FB02E8417F307BC0958436A8F0A43E9F73F016B9D1FDAFC
+B2BDFD98D9733906DAD8068304C08CC27AA48700BB8502A16E5F0967E055C900
+5210E1941D1600E87BE613BFF67BB5EAF4AFB37AA3B6EE6BDFC2C857BF016A35
+3D938040918ABEBD1F849CA8EA08F4B4016FC870CC119524ED54699C26F953EC
+6A550223727A0FF636A2F711A1DF36099A70DD706B32A349ADE6933A4B729296
+41206D5FF5A7D42772FF9C700C86BF488004D580650FD3BBC799D04AFA00FC4B
+D8BA06100266E426D199E05393D7A03CFD4ADDEAB5C8008064B9AD32010AC078
+F693FFE9C3178E3CF82E2EDD67FA5F388EF17FFC1272478F813306E87AD8522B
+0F002D2754E00E200444F2E895E2976E13C4097669D24AA2008FA9FD890DF5A2
+5EC48E49643AEAA634CD22BDCD644521E1BA84008E154EF2D12EF9BD17210920
+03A6C09842162979146DF7A130CB15CDB0F542811200D18C09B40F064A0BFDC5
+CA4EB569B6CB8E6B8901A861C0F82262EBDC7FF6C193DFF8ABC70E7FE10FDE5D
+B316FED4985B70C6BFFA4D0C7FE51B200BF310A61E8DFF837A7168D2D2024089
+3F3F40E0084C92D4E9D2B89BE46F4F0052B7AB6DAA3670B0294D03E9742DF5C6
+6547E24FB4B71325BF6CADB7497E00827B21BF20C92762F327F87283884C78AD
+2EBE07B4EEAF9503B0821C40028EEEE50230AA8F0130D099F883DF40BB26103E
+782CFAB52CB89618409ABADF8D11E46B5347CBCF7CFC3F7E60F6E463EF75ADEA
+57875E3C89F59FFF320A4F3E0BA9EB1049DA803F3B10210C1080E06EE255BB97
+F292D1F39042241D09151D09B5B7DAFD09D7EA45F22798332A4F8A1DD86E6210
+02693721A4800C62FE71E2F799426B40963F0A500AE5FE24E27DD1BA966C5D2B
+ACE1B0B2E08CC2D52828636366DFE8205A9A6792C44F72FEA91D17702CB2DCFE
+8BAB9901C4EB0024117D9CE0D3161D40F1F897FFF49B8FFFE52FFE7479F1CC6F
+68B5FACCC4234F60FD779E44AEDEF4220534E6AB510D0ECE11DDD87D3DD11090
+9DD72F668051EABAEC7C4CD76A3E09E64CF22FA95CAE9DF8A5EB2271C6DE4863
+4A448030DF54E8C290DAF6A99FC3CA4210025BD340404AA50DD70FC39F6B3A65
+893D6878E732E59865C355CB00629180345B3F2EFDD585C71601A000803CFF99
+DFFEB353873EF32EC7ADFF4BFFD9696C7AE010469F3F0E060A611AAD6420EAD5
+09F0244BFB2421E9AA7802317423722804A96E4F333114AB224DED8F5B10D1F3
+D2882B85F8D3B48534A64600E93A9EDD4F7DFF8A242D8B0B4A19B678B20F25E8
+6C96043FDAFB1DC1E8CE158584A47E856042F385E14D63E8CC007A1D13B0ECB8
+6A19400C9D3A2849E273243383E02595A69FFACAB1C7FFE2177FB63C7FEA3FA1
+D9981A7DE6056CF8D6A3289D9F85D475484DF32FECFDF322012A15A17D3D4253
+69440E249DD0BD467FFBD951AA56B6C9A46312CEEFCA9CD4E352349034C54408
+C0B15B6A7E6896B7BE791931031044C25B04DCC375DBFAF172D4DAF39FC53235
+8052233F38BE051EADA9CE8724675F7CDB4A73AAAB9E01A499014926405C1388
+4B7F0EC055B6E50088E73FF3DB1F3DF9D0DFBEBB6155FECE9C5FE41BBEF304D6
+3FF214CC5A13226F7AC9287E451A29BCF052BAE4EF9676AB88EDA510BF7A2DA5
+ADB46B75D60A522A1805578BAB0C716D2722F9156D27D21702D2B6FC3C8B309C
+1209F5C98019C8186D108493B3F62CF9836796D21FB8753940FC61C1941A85E1
+EBE08D05508DC62B02573503908A6717ED1C334EFC71C9CF7B5800A06FE6B907
+4E3EF5D7BFF2AB7327BEFB538E553BD477EA1C367EEB510CBF70D22B2E6A9A9E
+7F40A60C3E894BA34E42A87717428766D2AEDDE14289D74A333FD4DD3D6A3B6A
+4BAEE311224D107C11A5376E0210C8A01EC34548F26819B89587AD334842C18C
+FC0642998E08776C33BC923A337EDCB2E3AAAD0814C0AFB802B477921A120CCA
+324978842D138E618876B8FADB04408E7DE54FBFC672A5EF5CF7DA1F7F63DFE8
+75FBD73DF1FCB6FEE36730B7653DAA1B26C04B0C0CD42F5E19DCA0F75FBB3446
+577F407AD5DF84ED7E7B117320518A03499180F02E7BF549F460F3275ECB753D
+73291CD64B10D6E78AB44910794D24D84323CDB57AB74BDF027E7DC7CB050997
+32080A504607B57C3F736AF3490C208919242D2BA2355CF50CC047503E49EDA8
+A0430592EDAD24420FE2B1F1DF0103C9F366D53EF2B9DFFFBBC2E8E6AF6FB9F7
+3DEF2E8A75EF9AAC54476A27CF6271DB1634B75F079E37411C17C49F3E3C55ED
+479C48D2884B5D4997B89D883FD14F7009B5FBA3CD25117F5CDA4A80732F5C4A
+D122F0C0AE07BC249F40E5579882D79A9F014849A4CD0465A5BD8F42FE285690
+946220049A10A042424AD8C269B8687D8B49923EBEBEE20E40AF9BAFD0698B97
+F410ED5EDD6043BCEC72521186A485755967F0FC05CDE19D77ED5CBFE72D3F9C
+CF0F7E3F282B3507FBB170FD76D4374D421826886BFBF307287777B191805EFC
+014BD432D433C336D3B677BA87F8B5DAB40C09E1D8EDF710F913FB16656CAB90
+5E0110BF0C78B7AAC5F1FB108E73797C008C823A2E761E3B8FBEAA85C533CFFD
+C717FEF1F7FE0FFC8031A2FE265759547F54A0B9C64DD96575645E130C000899
+803A494820C1931880BA1E1F92D90B035033B95C00F6E49DDF77EBE8CE97ED33
+CCBE370140637800E5ED5B51DD3C0961E64038075122056992DFFB93F441A765
+132E9D1092257FFC1C1939B6ED5A4B91FC524204732C066D2A72B0B306D2FACF
+4BC0D4106515B2ED3C99B05D0A09E13A17F975F5083F43B1506F62D3A9190CD4
+6C34ADF2D79EF88B5FFA6940069A651AE1A7318080F045500477392B845E330C
+0008732555152AFE37290B2B8911248DDE4ADAAE3282060063CBF7BCF7EE81CD
+37FEA8C10AF7823234FB4B285FB711B5AD9BE0160B208EEBA50DF79C8E8B74C2
+8B4BC8D4A9BA71710CA09349D01303F0885FBA1C5ED59E24091F97FCB1EBAAD7
+220420AC3786D7C6000484EB62C5C028281718BBB080C9A93274CE61D9F5EF9C
+FAD6C7FFFDDC916F9F85970EAC4699E20C4025FE80F0D5EC321908B78C01A43D
+0C0903C9712610ACA7A561AAB9D84944DE699BCA3824000B80BEE99E1F7C69DF
+E4EE57E44AC36F61A0EBAC813E54364DA0BA6923ECFE3E484A405D37621E2413
+7FDCCEEDA6F6A7494228EDA5F817228CA69D00DB35904ED7F2899F0B8425BB82
+125D6DD755DC329D985A501330F15A4A1FAAF7E9FF14DC0DC3B4CB0A46012131
+B858C5FAA945F4D52DB8DC99AECD9FFDDFC7BFFA91BFB316A7ABF0324DE3AABF
+CA049218409BEA1F3E5566027479A8DE3501A05D13E8D537906612048CA40180
+F66FBA7972C39D6F7D7BBE34F656A6199B5DC344757C14D58D13A88F8F421A86
+375129E75E0DC2849CF660FD92257FB8AF93CABD74C9DF7E2D7F3BE7B1764472
+9BE1390461055F10A52FFC3C8B7086E676A6D66A36F9FEB9EBE0624287890807
+234914AB4D8C5F58C4C8420D90128DDADC27CF3FF68F7F32F3DC0387E1E592E8
+001CFFE1556257194052725AC00082BF414D806525D86B9501246E56FE263180
+B876A09A06BD3284A4915E1C407360F3AD1BD7DDFC9A7B0B239BDEAA53FD56A9
+1B86DD5740656C1895C97188FE7EF09CE9BD69DF5FB034C9DFFA9D26F9C33313
+247F6B5F27C9AFAE74BE56286DDB4A9913C8244DA0135393D2CF0AA4B16BF568
+3A492C8FFDEF9792670E47B16E6174AE8CC14A13CCE5B09DE6638BA79F3A78FC
+2B1FF9B2FF5D04523F9E73126702C131417DF938F1070FB4ECD21FB8461940F8
+70D1598380CE26417C518B3526D56FA3F0C2A8EAB1F1620F6A1B8EBFE436DDFB
+C3B70F4CEC7CA3991F780D65FA04670C565F01CDA141D4C786D1181D02CFE73D
+75574810C1FDE9CC65CC24589AE4F7D63A48F84B96FCFEBA14AD0F35729E27BD
+65C4F9D9417D0FB500B454FFAEE32A12EE9F0B6F9AF7A57F40AD014842A2546D
+6278A182FE4A1339DB0511028ED33854997EF1EF8E7EE143FF04A00A6F3C894A
+C8AA8457D793D4FEB8F34F65002B92C67CAD33807015BEF694308D7827276127
+47612F1A40D25FC0330FE4C096976C5E77F36BEECE0F6F78A3CECC1B28E8A8D0
+189CBC89E6603F6A63C3B007FAE114F3700D039212109F21781397068FD7A3E4
+F77777257EFFBC440D2455EAFAFB4470AD76826C4FF2098E938A1B40BD07A2DC
+792F7E8E846BC133457AB6FF03F51E007338724D1B7D9506062B0D141A163421
+C1A5A839CDEAC3E5B3CF7DEACCC39F7CC8A99717E10F24437BB669DAC0B3F86F
+89760600AC90F73F7CDC6B9901840FD9EE1C0C7E77D30802824D9BDA59D50CE2
+5184240610373F021B908CDDF0CA6D43DBEFB8CBEC1BBB53D373BB18D3B71110
+26740D56A900BB584073A084E6E000EC6201DCD021FDD18812C4D71084A731C4
+66BFE95ABBFFA2FC0B1D087249DA8748BE562753A70B538B3B3913D5FF70A4A1
+A2590809C37651AC5BE8AB3550AAD9C85B0E98CB21201AAE63BD6037CBDF5D3C
+FED8E7CF7CE7338FFBEF51472B592C6DC0591203E864F7AB0B7CEF7FA6015CD2
+83C6B401653DED6F9A36D0C951183703D2FE262D163C13A1901B9C280D6DBF73
+D3C0E69BEF30F283B7694CDF4689B619BA66084D83600C4ECE08198393CFC329
+E4E0E64C704303D734CF6126098814E1C71D485B12DAC6CB28F93B48E3F67364
+78ADA88F21C5CF11B9C50E4CC87F2EA966174AE9A7662B042F25882BA0BB2E0C
+DB45AEE920DFB4516CD8C8590E18976082437067DA76AC679B950B0FCE1F79F8
+A18563DF3DE734CA65FF82794455FD5E19401AF1AB925F22D2F1683DCB3263CD
+3080F081934385AA49A06EEB943B906416C499431AF1776204C1CB17006C00C8
+0DAD1F1FB9FE155B0A43EBB799A5911B34B3B88B6AC6660A3A4400038480EB3A
+5CD380AB6B10BA06276FC2CEE7E01472700CC3670C3AA4C620298520F0A7DA52
+FA460041C88E280C03F0984618425C822AEEFD49D2403A94F2F289582A3E006F
+D57B4522EEE3952DC6062940A4F44C2529C11C17CC76A03B1EB11B8E0BD37661
+381C86CB61381C94736FA42044D975ED179D46E589E6C2B927174E3CFEF4ECE1
+078FC323D6A0AC573C95BC57069026F1931800109DD668C5A6075E730C00E818
+25E8E61B88136E20ED81CE0C61290C40DD1F80C3630602DEC024B330BAA9AF7F
+F32DEB0B239B37997D235B75A3781D63FA38256C94503602A6F579054B6838AE
+9E6B1A5C43876BEA1E53D01984BF8DEB9E66C13506C1A8B750E699183428814E
+A3637402B24F20EE708B4C23720E01123867C2BF3ED97BA60C24E0E7D393E02F
+17A0428072EE496ACEC11CEEFD750534D785E672682E07E3021AE7A0DC6B8B48
+78B9F9820B29F92CE7EE792E9CF376A3FC5C73FEDCE185138FBFB0F0E2A10B00
+9A7E7F1BFE12DC75D2D28D01243182247B3F4DF50FFD572B420B6B9101840F9F
+AC0D74730E764A264AD312E2BE04A03323489A2B2EEEB300A2A12506A0AF6F72
+F7607E64C380D9373A649646C7B542FF7A661426986E8E33A68D10C206092145
+026212101300091905A510944230E2FDD534B81A83D0183863E07EA14B49BDCA
+BD0163090A7946DC6C81690D783E89E007E0496B0041496F2224A83F569F06BF
+3987C63D22A65C80B91C1A17E1B144485011487B11A8FF42020E202D29A52524
+2F0BC117A470E7B8634DBBCDCA59A75E3E672D4E9D6F96A717174F3D3DEBD617
+17E1995E3A5AF3F7A94822F8A530804ED23ED1E647AC2B579246D7340300224C
+006867046ABD846E449AF4BB5702BFD863E2A643FC2303A2D10A2D3738512A8C
+6EE9CF0D6F18364A83239A59EAA39AD9C734638069C610657A3F212C4F092D10
+4A0BA0B44008CD81509310628010134101BF885B0531F694A465C9C4D5B663A4
+74A5943691D29152DA90A22EA56848219A528A8694BC2E04AF0BEE2E0AD72E73
+6E558463575CAB56711BE5C5E6C2D44273E15CB97EE1785570D7423B51AACE5A
+86E8FB97B1F53861C619411A71774BEC09B6255E77253DFF91B7B4D61900901A
+2E0C7E077F7B7114AAD23E8D887B25ECA59809EADF6078B37ACF2A234BFB4001
+4F0AEA00342DD7A7E706D6E5F343EBFB596120AFE7FB4B5AAED8C7F47C8932DD
+04A58C10A283328D10CA08F12A75124A7CC617A9F6113814082085945240824B
+29240021A5E010C291527029B8235CABCEED669DDB8D9ADBACD59CEA6CB559B9
+50B316A61A4E7DD185A79EDBCA33C4FB5B35C3D4E756FF02D1E1B971E99BE48C
+5B0A0350FBB993C44F623AAD9B5E61FACC188082947021D0AE09047FD3D4F4A5
+4AEF5E093F89B9A0C331692644DC9CE82601976B9E6DD5D11ABF6E52FFAADBD2
+EE597D5F49DEF38BD99744F8EA7A120348630A69A683BA3D64424AAECA4A0B7F
+AFF3320610454AB830F89DF601F64A8871A9BC124C2289F069877B569F35C9CF
+D0B5CBD04ED8CB0199F23B209CB8E4BE1882BF140610F701C81EFE76BB6EEB61
+2F135D5E2B1581960D41C7FBD58580F60FAD577074D61264877D2BE11F40EC1A
+88FD5D2A03B85886D1F3AB4094B12C8501F4BABE1C0CA013A1F7A2F2AB7F2F9B
+E40F9069001D100B17769274692642F0B71391271D43BB1C73B1DA033AAC03C9
+CF16DFB612D2BE13924C8EA5AAF369EB4BD9D7290CD80BC12731B048AC1F9799
+F8818C01F48C0EF3B227D9AAE8F2B71B9348B3EF976349BB97F8B3C47FAB5277
+290C60A9CC4276F8DD8D012C75FFC53080F836D1655FDAFDB43DEB6AD062C600
+9688D808C338412411509ADF20FEB7578DA11B93E8E67B588A0690C40096DC65
+4B3CFE521880BA6FA90C005DB62D452B486B2BA928E88A87FA3A21F3012C1DB2
+C3B63891C499837A2E557E2F852104E731441950C01084725CFCFC4BD500928E
+E986D56200BDACABAA78D09771225D8A36A0DE6B64286F4A3F5E8C6F69599169
+00978058AE00D0594D4ED216929C6FCBA52574F339C4DB8C3F4BD2EF8BD10296
+930104BF97830174FBDB49654F22F8B46BC5CF0D35C82B81F632067089487014
+02ED5EF7B4633A11602F0C206DBDDBBE6E51806E84BE9448C1528E57FB258900
+81EE047D3144DE4BDBBDB4A16A1569F7EF6DBC42E82E6300CB88841C825E1882
+BABD572D01E82CD17BB5F7937C17EAF5249299522FCFA322ED23EBD65E128125
+ED4B23BC5EA438E9D06ED2BDC7CFEBC6A8C23EBD12692D63002B800E1395C4ED
+BF24C253D7D55930E3049BB4AD17AD41A6EC4F62329DB0148DE162D02BE125ED
+03BA338F4EEDC6D7E3E72439F392EE393CE64AA5B38C015C06F4C010E2DB83F5
+6E91866EB67C2F9A0452DAEE84783B2BC900E244283B1CA38E0B88A72F076DA8
+C7A8EDA94E409AB22FFE3B7E1F6A1F5ED1841FDEEC957E83D72262A64280B48F
+88A41C4B13D683E3BA3916E3EBF1F390B06FB5D089E03BD9E7EAF634491EDF97
+767E2FF77655117E78D357CB8D5E8BE852BEBC17ED2058EF64AF77D220D4F311
+6B3309CB21E93BB5DDE99ADDEC72F55993A4B8BABFAB87BEC7FB6B3BFE6AA3A7
+8C015C61E8513B88DBDF49E72469024926409C91AC14BAF91892A47112E2B33D
+2749F824553D8DC8494A3BEA3149FD1BEEBF9A6928630057283AF80D80DE9C89
+9DF211921C582BADE6275DF3628E511940A7649AA43EE8765CA7BE683BF75AA0
+9D8C015C25E861605227A6808463BB25FD5CA9887BEA3B49ECF8B37622F22446
+D0DA798DD249C600AE422CD177A0EEEB75FB52B01211805EDA5F8ACF20E95953
+3FFCB544131903B846D0852904B818B57FA509BC1724DD432FCF92117917640C
+E01A46173F02D0DDDEEE74EEE542B72CC2D4E3B26FBB3B3206B086D0A1A641C7
+D3B03A8C62491F66F61D5F1C320690A123963A27DD4532993664DFE5E541C600
+326458C3F8FF01AEF93EED4A260EC8000000287A545874536F66747761726500
+0078DAF34D4C2ECACF4D4DC94C5470CB2C4A2DCF2FCA2E56B000006015082782
+83368B0000000049454E44AE426082
+</a:Content>
+</o:PictureFile>
+<o:PictureFile Id="o4">
+<a:ObjectID>0F9DE976-CEE4-4666-A78E-F18BE46878E5</a:ObjectID>
+<a:Name>Engrenages</a:Name>
+<a:CreationDate>1642453044</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642453044</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:PictureID>BB432C4E-CDB2-4E54-A46E-B0227927A771</a:PictureID>
+<a:PictureType>3</a:PictureType>
+<a:Path>piclib://Objets et concepts.piclib#Objets\Engrenages.png</a:Path>
+<a:Content>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A8
+660000000467414D410000AFC837058AE90000001974455874536F6674776172
+650041646F626520496D616765526561647971C9653C0000A84F4944415478DA
+EC7D07801BD5B5F619F52E6DEFDD755D76DD8D8D6D204008A1E5A512482090E4
+4F4802BCF44A4B25051E2984103049A88180E9986A70C1057B5DD6F6EE7AEDED
+BD6AD5BBFE7BEE68A4D16846D21613F0EAC258B3D2481ACDDCEFBBDF39F7DC73
+9870380C99966999363B9B2C7309322DD3320490699996691902C8B44CCBB40C
+01645AA6655A8600322DD332EDCC6E0A6E876198CCD5787FDAE9BCD099299D4C
+9B1A0164DAFB0A7C26C97353017A384304999621800F36F0F98F625B32C2084B
+904058B01F161C9B21824CCB10C07F13FC8FBE79A8B2B3BBFF21998CD9545E52
+28807058805486B71FE6BD10867028084323D6898EAEEE1FFDE947D73D167925
+C47BE46FDC3B990C09645A8600FE4BEDAB3FF895657CDCDA2083B0A5A6BC0496
+2CA841288B6BF52430459E18191D836CB3C15C5290736FDF0DB70E3D7DEFED3B
+23600F8A6C211E39645AA649B6CC2CC0691CFD172CA9BFD6E3F159D0BF6A36EA
+A7047E7C0D8771B54A451E19301974B06CF9B2AF91A70C64D3934D47362D1E42
+366584D46529CC8B4CCBB48C0238DD4DA5D16C723A3DEC85566960D8EA12B7E4
+79563F23E145D0AB94D13F8D46D31AF260269B3FB2F9C8E6E5813D2C3011322D
+D33204F07E8EFEF84F2010ACC347A54241502807AF2F287EB0C418CD3ECFBE68
+D269A2CF679B8DC6F9CBD6CF6F39B8AB2B027E374FCD850526009386CEC8B48C
+09306B817A5A24F257BEFFCB2AA5525589FB7ABD0E4222AB2E11E062E0679F8F
+3F355F20081A8D9AEEE7588C5059BB7C2DF242C41430889801F2F741FE67CC8B
+0C017C28012F047E3AD372936A659535754401D08F321A8C53063ED7FC8110A8
+7866404565E57CB40622E0E7FC00281354227E80D371ED98D375ED322D63029C
+AE918A493172F1E7D5A7358566CECAAEF778BCAC7C371992CA7DBED4976A7E7F
+10F46A35D8C041FF2E2A2AAE02D609C844E47E20E20FF0F214802CF2DA74CC00
+264DC524BC7619B32343001F0CE07FE5F6FBAB16D7CEBDA6AF7F9899B03B3BEF
+FBC9971E16E9C861100FA8094FE13B712CDFC43DA1D56A253E84816411D8FC97
+82A1102894313F404969F9BCC888CF811F7D019E8809C0815F36CD1199F9D9FD
+2F54961558AE1D1AB343574FFFF6FB7F76FD76112290BA769021820C01FCD780
+7FCD8FFF9875C1B9EB6F2ACCCBB9D164D05A5ACDDDD0D1330037FFE1D173FEEF
+3B57DD2018A942201E5033A50E1C08062901E8741AF26666CAC08FA715066432
+1984081990DF0375677FB4F6F0CE578F44643FB7097D00532500E6B1B78F5CBB
+7A6EC9668BD900C7BAC7A0AD2317F2EEFDCF8EB6D6933F7CFCEE1F36F2549254
+50524611647C00FF1D1BFF8117F75CFB992B2E6AA8292FBAA5B820CB924564F8
+EAFA85505A98077959E6AB6FBCF39FF7F3EC66DCD422009A921DFDD5EFFFBA5E
+ABD353901B0D0601F0A5C19FF04502AB9A7304B271053A28AD9A5716395F25EF
+BC15220A60B224C0FCF08F8F5FB1A43C6F734E9609066C7EC8311B61C59205F0
+910D6B36AC5BBF76D7B7FFF0C8FD4BCEBAA030720DF9FE07B1F348657A655A46
+01CC888D0F773DFEE639F3AA4B6F351BF59B2C263D68D42A76440E84402E97C1
+CABA05E0F278F01D9FBBE1970F28EFFDC997BFCF93D19C1DED8F7C6620F2B1A1
+C98C608B962DAFF7F97C745FA7D5261DF199B49F2404E00F825AA504B7DB4DFF
+AEAC99531201995C00BAE9101873CF965DCB3EBE76E1E6925C339C1A7603E68D
+6422EA233F270BB2562F839ACAB2CF15E6E75DDCF291CBFFF1E02FBE7937EFFA
+71D75018999859A7902180D307FEDFFCE3A5AAEA8AD25BF2732DD760D49D41AF
+65911B0AC3A8CD030EB71F72CD5A306A95B0694D3DBCB3F7100483A14F7EFA1B
+B71E79EA2FB76F8158408D4F306A4D9A04640AE526B79B73001AC51D7F93003E
+13F9371008139382089509F6F9EA9AB9359173152301A102484786333FFAF313
+CBCE5F31EF4D027E4BC7A807AF11D85C3E50C819D069949444950A3994171740
+5E8EC554515A746379C5739F6A786FEFAF9FBBFF575B79D7D0CF23048E08F8A6
+42C62CC810C08C8CFACCC3AF1FB8B5249FB5F34D467D34B781D5E18509A78F92
+00B69109377D938190C0BA158BE18D9D0760E9B295B707BEFA23F596FB7FFD5C
+C489E611719E05D21CBD28D00281401DF784862800049124C699543F3276008E
+C47279EC966567676799B2F3F4B6B1610F8F04F89B6C12661E73D753EF581694
+E5BE595D944DC11F20E76D27E0C7C508C16018EC4E2FA89472D0122290314808
+6A58BCA0064A8B0B8ACB4A0AFF347FE1E2FDAF3FFBE84F0EBEF3521BB0B31162
+44C008144166C1D27FB1C96FBBED36BA73FBEDB77FE8C0FFC81B07AFF8CAB7BE
+F34A4941CEE53916A346AFD352F0BB3C01181873D14761FC8D87C8689D5A414D
+8382DC6CE81B1A81DC82E20D728DB9B7EDD8FE5E888FA80398DC8C0073E5D7BE
+975D563DEFAE603008D91633982D16F109F214C29C89FC276C2A32FAFAFD5E4A
+2A680E1C3F71AABBB7ADA98F27BD7DBCC780880467A4C0BF7671F5B68D75D595
+DD562FF8022CF859F91F3B10C9144D113A7A28E42CC9916B595C980B4585F9C5
+C5D50BBF50B67065EED8D0C031EBC84040C40C91CA8190F10F6414407AC0FFEB
+33EF2C2BC8CBB98BC8FD4D66838E8C486C841C8E5843560F787C01C90F08930E
+8CE45090A503B3C9001B57D7C18E7D87E1AC732EF8DEC840D7F0A1ED2F1F05F1
+292EE04958C9F32B2EAFAA97C95960E89090A631E227BC8DFC13086140900A7C
+3E3F95E29573E697EC7B3DC104E09B024225904062175D75A3A5BA3877DBEAF9
+25759D6378FD82E0A0CA2994785E91072FB9C6189C846A40A190819C9141517E
+0EE4669BA1BABCE4F355D535971E6F3C72DF237FF8E1839173F145CEC52F300B
+32CB973304901EF89F7AFBA08561E477E76519AF3113DB1AA7D8508AE2A8341E
+91FB29BD8491516C909040518E9E92C0D2853570A0B1457FE9E7AEFF2D19F17E
+7878C72B8D22E0E71AD771C5BE4256545A714E75793114E5E540302C23A3A837
+25F099242F0A638470F425CA9F9CB7096C363B149656717E000EF44AC1E6E7D9
+DFFCDF14FD5D5FFEEA971FFAD8AAF92CF8FD2170BAFD34EE80F33D0817297126
+16AA03B7DB470940A32666818C01A5520135552550989F6DCCCFB67CAFAAE6E9
+ABF7EE7CEBA7AF3DF6971D3C22F0F11CADC2E5CB1912783F41C55506FAA0E704
+24E0CFB2180D0D1683AE52A3D58056CB06C520E811FC9C9D3F990117E57441B6
+8EFEF6AEDE0168683C01569BC3F9F75F7FF74B237D9D83E4100CBB73920D97F1
+B985B2FA135FFB99A57AFEA28D85F939F516937123E9FC752683CE5C56940746
+BD0E466D2EF0FA8333027CFEF379597ABAEF0F04A1A5AD0B0647C6617478B87B
+70A0AFBDADF5C4C1D181EEC6FD6F3EDB400EB147CE9DB3C7137205BCB8EFC403
+17D4577F71C415800962323909A07DBE6052E0B3FB89CA40A9948346A588BE76
+B2AD1B7AFA06C1E3F5C3F66DAF7F67CBDFEFDC1AF1B1780544906CB620D33204
+00CC235B77DF35AFAAEC66FC0323EB18B992C87D3795FD9305BE9004F20909C8
+C9E875AAA3178E349D82FEC1A18E47FFEFD6EF0DF775F0490009C0F3F59FFFED
+C2B9736ACECA321B37E875BAA5057959A0522A49C7579247052888FCE77AEFC0
+98437C115032E0A7315D68316AA8FCE71BF46EAF8F9A0536870BFA0687616C6C
+C231343CB2AFA3BDEDD5BEF696ED3B9EFFD729814F20F49B7FBCF8B71B3E73C1
+D5767F1826DC013AF253F0F380CF0F53E69392D024602207E3F1E828C40D09A0
+B77F90BE4E88E0E42FBEF999ABB9EB1879F44636BE5910CE9040C60448B4DDC3
+E165DC3E46F3A90DD9D3027E54529351748410092A819ACA12FADCBC9AF24A80
+DB7F87242053280C175FF995D5F5CB969F5D909FB73A3F2FDB84DE6FF43B20E8
+A320E4A111D508FA21F8E067529CD964E204705931CEC92369714DAB56D10DA7
+405181787D7E032185F36C8E35E7B577F7C305977FEA786F77CF93271A0FBCBC
+EDE9073B7EFBE8AB9F5DB178FED513DE10D8BD416A5AE07A83E8C8CE1FED85C0
+6784E7CEC4794C904430EE6274CC1A235A8D760EB0AB1785518AC210E2600696
+19024868C160E01D82A74DB4AF854807F313DB53A99A32F0F9EFF1FA0344AEBB
+21C7A48D92808C612A4B4BFE766F5949515E416E1618741A0A7A45C4C1C72326
+2AF3D121869F838F9301BE54129064C681DB1BA01B1E840A06E7E81591F97959
+841470E5206E66132184E27C70BA3CB51336C76DDDAB57DE76E9A7AF3A5E5951
+529B9D658E82DFE5F64BCAFCE8AF48027CA1A9E0767B88F4F7469FB38D8F3601
+BB72913FC52A4C69C6647C001902106D238383CF792B2B6ED1106949E437F48D
+DAC0929D3B2DE0F3779CEE0055A63926D6B730AFBA1C08F6F384A047702360BC
+7463013F59FB7EAAC017EE32113F809F37E981AA00A7E750822B153236F41891
+47080CB792C25C701032C063711A11CF1FC1CF813999CC8F3ECB8024F0A3F76B
+742CEEEC9B1A0FA26355CF03B830FA926F9E648284320410D7C798EF5EFFE923
+CF6E3FD4595C905B813677D0E7997C80BB4867E637B48155043406AD8A8EA4E8
+C8E340EFC15197C8FA64538CE9803E19C89934809FEA37A32F14090A373C564E
+7E0FB5C9092960141F4330658864174253C5EDF147492299CC97023EC3930A7C
+621DB74EC4467F871B0EED7CED38B06B06C290B874F974E42FC8B4334901601B
+1B9F78A1283FE79BD8410D3A35B159FDA0542AA70D7C7EC3E8419C5AD4A81531
+D047E4F67F05F84C7A260E230242D65A22E4150A8097FC062435F4D2A3B71E4D
+1787CBCF261D6592C87C1E192444ED487CA7CBED06AF2F36253B3A32DCD7DBD6
+843312AA08F0858B866662E972A64DA17DA85603769C6C79C4EB0FD121C46232
+82D3614B2E1BB83ECAC43D23E98493453AF0B8DD03FD230EFA48477C461AF80C
+A458D7CB24AFFCC1A47813938238D8D5854CDC6FA59985223B0C6F3047D704FA
+0E6C84E41C18E21B453F03F1898822BF8C6112CE81FB4EE0BE13F8DFC93E3A9C
+CEB8F33CDAB0E720C4AF5798EE6AC54C9B8D0470C777BE7A787474AC8B7372F9
+BD6E0950F0BB55F2FEC5077E1AE84C0D7C662AC08F7F13930AF88C0084D1B732
+09C0E78EE59304C3BB2EF1E9C978BF4C02F8C2CF117E0FFE353C321655251E9F
+1F0EEC78AD19D2CB269469190210ED1CD10E32661D7F91EB4A6A0526C7082602
+1F661EF80CEFBFA4C087A9003F7E148514C0E7CE82E18DF65C9E811820992820
+139410130F7CFE2F630404242410E179C6E53164D0FFE0232680276A920C0E0D
+5B073A5BC705F7929F44849F482433FF9F2180E444D0DAD2B49346D791BF72B2
+CCE0B4DBD396F9DC1153017E4A5B23893D2F097CF2BF756202FA0706A0BF7F00
+88BA015C4424A668A2C04F21F363C0E78DF6BC37C51DCBFB6DF1842054158932
+9F4F307CC5639DB0C79D7F6BD3D12601D8B9293FE17A00B15A8799967102C613
+C06F7EF08DE7D79CB57EA2383FD78CE1C0FE31F40364A5E383130FB661A6E0D8
+63D2FE18109D2927BB98D4A3A3A3933ACCF82FC87BE430A7A60A4C4603A48AC0
+4B15AD0722C70A7F5982679F01C935001C2124FA2963070E8F8C465FC6E8C486
+1DAF1D94007F200509645A46012434DA91C6AD132F45194C168E9A01C91C81E9
+807F32323F95A1C1C441325EE687C8287FEA545B14FC18D587C54368786F3804
+2D274E82CBE51195F92021F34144E6C7FB1378321FC4EC776955013C05020205
+C2F08EF5FB7CE074C5080DE57FDBD1F7FA407CDE9FDBE2C293330490210048E1
+280A77B5B5BD84EBFAB1D65E3635036C93073E333D999F36F09944BB9900834E
+93C918190DDFB58E8F5B87060606B24C3A28CC3183D9A085BEFEBE3840429C5D
+1E93F9D19745643E2325F319A1CC17017EE48004E08384E941FE1B1BB72593FF
+DC48CF077E00127316645A8600A4C18F1DE5B69BBFF4FC84CD4E234D3052CFE7
+F5C457A69809E033D2C0973E3C710A40EC3D56EB041DF511F08D478E34DF76C3
+67EEFEF94D57FDF53F4FFD675B41B6094AF22CA092417AC017993D00819211B3
+EF852A2201F8FCB800891906E1378D4F4C88C97F3E0108158094099021820C01
+48FB01B0B30C0D8FC4CC002644CD8074803F93323F11F890D6341E4A7F83560D
+B916231C3EB0B799336F4E1E3FDC86D17AA802F2B28C3187A514F01929E0431C
+F0C5A6ED80EFD917029F49043E236A4EC49E0F92EB4F4839467244D510F9DF9F
+04FCFECCE89F2180A99240A8ABA3ED256E36203F3F37492EFDA9C9FC49015F44
+E68BBE2702668BD904469D062C462D9C73FE85F5C6AC5C4C69145EB7E9BC056B
+165511623090D774F165C2E2EC708132109BC64B2AF399B8D15E08FCB8CF1499
+2E0411958549418C065DF4F996638D4D103FDD2774FE89C9FF0C09BCCFEDC336
+0B10550159D9399D180A8C29C1720D06E819B2C756E109647ED2C624FD53E22D
+E987E92684CC927F900064412FB5FFBFF6F9CB2ACF5B5B77838BC882752B9616
+614E01A35E035AA71F1CA1C4EF9B8C375FF4FB050788CE30247C9EF8F3FCEFC0
+8C406B572C81E32D6D341F010600417AD37F19F067086072EDA197762DAD2A2B
+7E29C762A2C941E80F21D219D7F68B75E654A04F0FF84C42CC3BA418EDA54096
+979B030EEB285D73A0D7A8E0BCB5F516F29285FF5D5E726B98694DE3A5007E4A
+8033D2D3A742E28BD40CC0BF17CDAFA64F9D7FC18567194D46F5BF7EFFE3C720
+31F04718FC9369B380001889117D52EF7F7677F33506B5FCC1BC6C0BA8D56A3A
+EA63420F5F30983AABD174809FF6A29C44B2883E13D9C7A4A186AC1CF0877CE0
+F2FAC148888BCBB08BB31BEDA35E0884E3E7E1A54767E1B90916EF084E84111E
+0BC2C53C12A37D82AA883F2B4CFBA5562928A92109A0392097CB9633DFFB4DF0
+D9CD77FF7B6274D02E72CF676A1D0093443166DA7F89009849632DC54D7B7E6F
+CBB5D906CD8359444223F8311D18E6FAC735ED9319F199344F3F5DE027004238
+BA8A24D250C815440B2BA0DF1E0257D0096A22FD3121E7B8CB2F88C19F0EF019
+E963D305BEC8682F9ECB9BA1998070E931AE3A2C2F29A4B10DA4AD2A282A29BA
+FFD7DFFF9575B8DF01B14540C28D9F0C24555290C9F6AD0C19485DC8D3901350
+AA9C3493C2AE17DEA830FF7D2F10F06719349B39F023E887C65DA239F7A633DA
+8B4AE949CA7C512248A60C6640E6A706BE484C220FCC8CD89D4B097C91C4A180
+99816564F4679FED1B1881632D6D70B2BDB3EBEFBFF9E1AD63833D383380F385
+A8089010306929E608F40BFC02097D40E456A6EA5BC9FA57A69D060260FEF0D8
+EB951E8FEF267F3088F5F10E8F8C5977DCFFB32FBF00E99594162DC23129F0BF
+8FC017CB2C249549371DE0278094493DDA8B92D16992F97104C5883B3AA3D252
+2103A59C9D6442A7202581B6AECEBFFFF6473F1CEDEFEA8F100097B53821E3B2
+886390F69FEB7E766F655145C5E52A086F624201E8EE1F7AE4EFB77EF50588CF
+22245C7014CE90C0E92700E64F8F3C579F935FFCD684D56A59B36229B575BBFB
+87A1B37770A2B77FE8A5DEDEBE97FFF59B9B5FE2DD88908473287AC39E23367F
+AE49FB20D601D06834E0F4F8C16AF726827F8A323F11309397F9934EA10DE979
+D953019F9929992FA22AA4647E2AE0F33F87AD23C892001240DFC0309C6AEFEA
+78E0B73FF9EE705FC7408400A21997052410ED035FB9FDFEFAD28ACACBCD26FD
+651693A1AEBC3007F46A058C0C8FC2E8E828EC3BD2FAA33FFFE4FAFB04FD2A04
+89330DA10C099C460278ECB57DDB26AC139B4A8AF261F1C2B9D117B08C95C7EB
+83AEBE214A087D03435BDBDA3B5E3DBC63EBCB8DBB5F1FE3DDA8B81BF6F4F623
+5F28CCB1FC5DAFD78241AFA7E01FB3796664B4E777D65473F7E92EB449E6F967
+971FB34F98B48AE867600E3F8D52167D4F10330AD33067B697A2DAF105C3699D
+93B8CC8F3D3F65992F4A4C8CC83925EECB653112381A2181C6A6D6A3F7FCF0BA
+6F474C007EDAF5688AF0AFFEFC812585C5C55713E2BF2C3FC752519A9F05D966
+03E4908DFBFCF6CE5EBAFAB0A3B3CBF6D77B7EBFE6D8DEB76C20BEE848186D98
+2181192600E65F2FEEB82218669E09F8FD70F6DAE51008E1149722017A810819
+60318B939D7DD0DB37F05A5B47E7D6233B5F7D8990C13877B3EEFCFB931F5FB1
+62F9A3589FDE6830D0249C28FB670AF8A922A092023F61B48F3F16418DF257AF
+9683815C0335E6E48BFC3D193F28BF8762AD3E5F200C0E6F801282D31B047FA4
+2602231CED412ABBEFE4802F154F20AA1A92A81ACC5A8CB909F1B9F70E35C1F0
+98150E341C7AEBFE9FDFF86B1E01B83E73E3CF972D5CBAECFC9C9CAC8F15E466
+9717E55AE8BA080A7ADE7772E20FE34030EE20E0F5C0F67D87B6FCE107D7FF10
+628B8EF87512FD90093A3A6D0440DFF8E8D63D6D76BBBDB2A6B21CB2F3F2619C
+C874040216E2D46B94940C84571C65BCDBE383D1711B258381C1E13DA7883228
+CE33779EB369C3DDF9D966B34EAB21A4118621AB4BA2C8469AC04F67B4173AD1
+D294F938B22BC86F35699590A55752A063F66280C46A9C2E025CABCD012EA266
+9CE4B75B6D4EC177C5BEBB20C74833F76AC935C4D0E0841A65442D383D41B091
+0D3FD71F0A4DC2BE9F19992F69E2082E2AC669C81558E23C48EE6710F61F3901
+AF6C7DED85C1DEEE034BD7AC5F55565AB6B1B830CF989F6D025C0FA1D7AA131D
+46E4FED3FE8A99CC64AC7A1A181A81FE41B2F50FC2638F3FF1F5B7FEF3F7BD10
+4B38CADFC4CC8B7086006680001E7965D76D1E8FEF165CCE7AD6EAE5D03DE410
+ED783A42027AB5923E2268A22E5EB213C4CCBB041013760705467E8E9966E5A5
+0E3F01F8675CE68B685C2605F0F1700591B7397A1558744A301259CF2FD48123
+362613757A026077FBC1ED0B12F36794D6CEC3F7E3EFCFCBCDA68F4C24906664
+7C220ACC7142127E7F8010849D90A48792062E1EC2F0E1F2C22C40A09491479C
+3EE41A4E234EB8025425F883E1F74DE68B3B2F13AF272D221AB9464EB717DE3B
+768A98763AC831E909E8CDA0D3AAE3CE95053CD0559FE1B088D29233B4806953
+6B3BB85C2E683874F4F0ED377EE1A608D8B9EA43DC2C8307C42B106508601A04
+C0DCFFD4AB955A83A9C1E97058562D5B0CFEB09276FA548E391D5105A80E7013
+FB6E8EF10788EC0F44A5EEE9B3EFE3819F9809973B16477A9D4A0E05660D053E
+1FF456870746273C60737A09E0433CB290D1B971BA2F63E832E0B87DDE23435F
+133F5F2481E1512B8C10098D32DA1F084051AE8912C2E239C55425705DDA4695
+819F9A0AE9025F7486214D992F067CB1C222680EC86452139EEC3DC7D4E6613E
+E1278968C4CF1B25C4D9D9DD0713562BFCFBC9A7EF79EE1F77BF1C01BF13E26B
+3B0AA71B673D094C3B10C86036DFEAB03B2DD916C2E03A03F48D3953D8E8EC9E
+CBC356B7C1FC31988B1FCD0494BA8AC8D41176001CF911FC9391F9D1F9A26900
+5F4CE623F051DEE7993460E2F936C66D6E1826E7393AE1A67E8A28E02300E724
+4EB43F87193AA2712C1766FF611FB14BCAF0F7CA44C933CB64A0DBBCAAD22821
+6099B4C69383B0F7682725D525840816D7B06460D4C8A9BFC0EAF2839D10420C
+5462710A93B7EF1989E98A64E644909C0FA780F8A66058087ADE978A3A5F237B
+F8162C493E366EA56A60DDFAF59FDFB1F5A90363033DC3DCC7437CF521E14CD3
+ACAE44341D05C03CF0F41BE728D59AB730BDD5C6752B61D8E64F28D62996128B
+49B2C48E230394FEE8F59F2CF0A5940223AA7153035F19017E814543A79EB0AB
+787D01181C7540EFB02D728E4C14F04202C0BFB176815C2E2712989809C44C62
+78B23F6D274B8A868A00C9A0B37790FECCA21C23ACACAD8085D545ECFC171956
+ADEE00D8DCC178732A09F0938EF693043EBFE1CFC6DF1E0EB1E067D298DA14EB
+49DCFBD014B03B5CD072AA133C4E276C79FEA52D8FFEE98E47230E463BC4C71C
+F0A71B67BD0A9816013CF2CAEE6D0E877353455911141597C0286F8A8E91B8FD
+A952734D45E6277BAFD8681FD7A119F12A3728ED0D6A3994646BA9730FBB08D6
+0868EF1985EEC1092A53D9A9BD887407262AE1356A15A8346A50A95414FC744D
+3F755AB1DF4B1F1910F5F6C739F98231671F02389C46702CFA0D5A3B7AC9D603
+01B2AF2564BA6A51392C5B504EAB17FB0361187705C0E90BCE88CC0726C9AC81
+E8BD90F0393029CC09C9F383A839D541CC80116222F5F4F4C1AF6FF9DEFF76B6
+1CEE8800DF06F191875E812900B39504A64A00CCA35B775FEBF5FA37A3ECC269
+BFFE7137EDA48CC4ED6798B406F11903BE5802CB64E1ABFCF3A0363E19F1F34D
+AC530A9D796DDD23D0D53F0E411EF0212265F1DAE9F43ABA3251A3654B776339
+413AFD25E38D86912EE6F278696C84CDE9893AC482E43A26023C4CE7D139E798
+C9A0A5E6819A100B9242909E8CF4F5EA248AE070D3494A0A681EAC2444B06671
+355B202410A244E0E729B6B465BED0BE67D221E1E4330C92DF93D20919998991
+313429CC91E327C1EB71C35BEFEC3E78CF2DDFF81D8F003812E0620E7C1987E0
+D40880F9E96FFF6A59B074599BC3EEB02C5E3807347A13E9CCBE49037F32D17A
+92E5A992013F95CC17001FC19A6D50411919F53178054B5C77F58D4153FB206B
+BBCA20E6C08B487B93C50C06833E528C93A1A0E7FF6616E86EB013B0BB08D0B1
+4E1E77ADA9975BE8F98CEE86931A0226CC194088414F0807A74AF175F656C61F
+87E03F49D400550481009D493877D53CA82AC9A32AC68666813730E3323F8E70
+93CC3030129D8511FF7AB13A6FD1CF43D2EDED1FA6DBE8C808DC73F71FEE6C78
+FB85FD3C02B081F4FA83594902532280C75EDD739BC3E1BA45AFD3C2EA154BA0
+7BC839C3C04F5E10931137F0D38CB717F77E23E0CB73749063644B8E0F8DDAE1
+586B1F4CD83D342F972C9A3B8F8CF63A1D18CD46309B4C04F80C9DDE9231E138
+D0E3FCFEB8CD45362778C888EF702309B860B4BFA7DD49FE1E1DE86E1B9FB0A1
+A208FB3C2EF750775B9FD660D4E41455146B88F960D46B416FC8B2E417156567
+65E715EB753A2D8643CB19D68918FB1D2C556499F4E43D7A3AAD866688F05A61
+B18E43440DF40D8ED0DFBDA0B200CE5F530B2A85823A0AC7DD7E3A75985CE64B
+D70A4C0BF812E5C4C5C8403C245A04F83C6297457CA7878EB5D2B4EBFB0F1EE9
+BEE3A62FFE48440538782AC00FB33823F1640980F9DB93AF561A4C1632FADB61
+E5F2C5E00D2A886D1CFCC0003FE9682F728E086C9CC3AFCCD3D1E01D0C5439DC
+DC4347FE70D4BE64935DA0BCCFCFCF07A351470943A560E2E2F670941FB5DAA1
+A77F843CDAA0BFAFB7FF64CBB1F693CD47DA7B4F1DEFEBEF38310A896B20C220
+9E10336E218C39A7405B59BBBC6CC9CA7573CBCA2A4BE79456CE31E6E568F9D3
+905CCB2244612104A5D368125E4302D8DFD8C29A055A255CB4AE162A8BF3002D
+019B27002E7F684A323FCE1790CE682F55743405F0A51408D7D0BF323E618713
+ED3DE0B2DBE091C79F7CE2F97FDCBD45440538790EC159AB02264D000FBFBC6B
+8BCBE9BE3C3F2F1B16CC9F0BFDA3AEA4C04FF36353FA031829E0A723F3C53A34
+27F98D4A3AF2E3BEDDE1813D87DBC8E8ED8E79F1F138324A1614154076960534
+2A1995F97CD58EA0EFEC1982B6EE3E686D3AD6D478686F53EB91BD6D04F06320
+BE3085BF2F4606624E297E9E62BA867EC3A5572DAF5BB976DEA225CBCFCAC9CA
+E29101AB0CD0E99763B140B6C594601620092019E0A8B9644E096C583E97CE52
+B83198888BE3381D325F2CC6225D991FF9CC5453BC78199A4E76C284CD01AD27
+DBDD3FFFDED7FE777CB86F504405700EC1599B9C743204109DF6F31039595355
+062A7D363B4FCF4C05F84C5A8E4049A99826F0A5AAEA20880BCC6A28C9D2D25B
+DED13B02078E7552F9CEF0E47E4E6E0EE417E4135B5B49477C7E1B21C06F6C6E
+8713AD6DD67777BCB6FBE8DE6DC7073A5B4705E016CB85279C97165B0DC92701
+468C0020566557FE914F5DB772DDA60BCF9EBFA0B65EA75245DFCC65162ECCCB
+A1B908F9ED64670F1C693A45F70B734C70C9A6A5D4A7E0A7264120218C795A32
+5F720DC5E4647E3A0D49AD77609828B16108FA3CF0F4732FBFF1F0FFDDF2A040
+05D8052A60564E0B4E8A009E78E3BD2D13E31397E31F7A83014ACAABA60DFC94
+25B592AD7C139D0D903E967B0AC15F9E4BEC7D838ADEEA434D5DD0D2D60F5C6A
+5FF428E3145E697929193D311E5F161FCFEFF1113BF3146CDFF56EC7C17DDB1B
+76BEF8684312C0F3D3610724C820C4F3460B57AC3102129089100057725B3167
+C9AAC24BBFF0F54F2E595C7FB6C5A08BE311955C0E45F979A0D7EB6224366685
+DD078F115510A453869F3C7F39649B0C100885C0EE0D91C770CA9994A4A3BDD8
+ACCD34657ECA1E46DED34C1480DDE1A49142C74FB4BABF7FDDFF7C3D02FA0911
+87A077B6FA022645008FBDB6F721FB84FD1AEE0E15169782C99C9526F8D3CBA4
+CB4CD7BE4F6A22B0E0AFCAD783458BC14641D8B9BF0506476CD4AD268BBCC19C
+65868ACA7230E894ACDC0FC79C7B475B3AE08DEDEF0EBCBAE55FAF1CDBFBD629
+488C34E383DD0F8979F0FD9320003113404800DCA6E06DCA79756B8A2FFFE237
+3E53B7B47E834EADA21F49D75C90DF9C653642497161F48371FDC5FEC6135432
+6BD54AD8B4722ECCAB28A4B30A564F90AED3487B1A2F0DE0A70AF0992AF0B946
+E30108B145A65AE0E8B1A6B11FFEBFCFFC2002781B8F04F8D3827E810AC81080
+F0D8FB9EDC7AAECE607AD3ED72459F341302282C299D41E04F5EE6C7772E91CE
+C7C446FECABC18F877BCD70203C3D64887636DFE92D212282ECE274090B39FC9
+819F8C84CFBEBADDF39FC71E7A65FB0B8F34888CF67CA0FB241EA54A628985A8
+86452E0F47000C5FFE0B0840C9DB54F3EBD7967CF1C69F7E735E7555AD821F79
+48C8ACACA4884E6152BF402000DBF71D011B2103FCDD179E550B73CB5912B0F9
+423C121089D6136A30662A323FB57D3F69F0A3BE7739E1DFFF79FAB5A7FEF6DB
+677904C027016E46C03B1BCD8049110076B827B71DFC92CBE9FCBBD7E38982CD
+642124505C3269992FD6295256C285F48FE5EF53F0E7EAE9021E04FFF67DCDD0
+4FC0CF15C940475FCD9C1AC8CBC5A93D599C05DE3338068F3DB5A579F31F7EF2
+8C7D7CC425017C5F64F30A1E7D222A402A377EB28415C9FC007C128823006EFB
+D457BEBBE1A2CB3FFBAD5C9351C77DB4CFEBA3BE817C62167024B08390C00447
+026B09091025802765272420B00612F7186953904962DFCF44363A2CABDED1DD
+0F38B5CA7DB8D7ED86EDEFBED7F6D0DDB7FEC336363C1619ED393380DBC4CC80
+0C01480CD0B493DDF7D4ABFFA3D319EFF5B8DD66EE009D5E0FC5A515340DD864
+813F75992F312F2D2001F48E57E4E8205BAFA2E07F676F13F40F59A375EED0FB
+BD60E17CC8C932907D86D7A9C2B0BBE198E7AE3BEFD8B2F7F5678E437C851B21
+E8C5361F8827A5902A8C916C9DBA982F8011F105F095808AB7A94BAAE6657FF3
+96BBBE33BFBA7A0D5D9117660013B86081929AEACA3812E094C0F91C09845912
+988C7D2F7416CEA4CCE77F1E82BFA5AD2B5699983CE971BBE0E5AD6F1CDCFCBB
+1F3F15B9F69E1404E081591819381502C04D7DC71F37AFAAAC99FF8CC7ED3171
+AFAA351A28ABA8A60B5FD206FE34A6F1C4EBD7C79F314EE7159A35506CD1B0E0
+DF731CFA86AC9132580CE8097155D554417E8E216E99AAC3E98567B7BE3970F7
+EDDF796CA0B3959BCEE3466F3EF03D824D0AFC419EC40CA618F5C329EE039384
+08C4CC017584043030407DC3ED7FFAECC6B3CFFD8A56C52669096318B23F00F3
+E6D55032C488C11DEF1DA13E01BC4E979FBB1C8AF32D340CDAE98BC428329034
+A330731A653EFFF3A2E077C7CA928F8F8DC3B6777620F89F8E5C6B9F0401D824
+A6033304206502443A16ED4C3FF8D53D2B172E5DF180CFEB2DE60EC2C49D85C5
+65940CA424E05465BE28F019E95903C4337AFA71F4C7F6FACE46E81B1C677F2B
+83E5AC34B078E922301B5571E01F1AB3C303FF78F8E05F6EBF718BC4A8CF019D
+5B63EE1610001FFC427B5F0AF8E129F4FF54668142600EA82324A0B9F8AA1BD6
+7CEE0B5FB9CDACD7EAE9171312F013B3AEB6763E25018C1C7CEBDD061A33A056
+2BE18AF396D1D9018C13F204C3E24E5F49E04F6E1A2F8DF9237636869C23821F
+49800B9D46F06F7EE0FE67B73DFBF001DE7DE3EE154700FCE94067C607303902
+90F34615EDEA0DE715DFF083DB1F21F6E43CEE13D00C40258024C0CC80CCE7CB
+C554C0E7BF4FAF92C3BC42035501BBF6B740C3B176EACCC3CF522A55B074593D
+141798A889C0DDED8EDE31F8DD9D3FDFFACAA37FDEC5033F378AF3477CB76013
+825F2A21E56446FC744940CC3410F30DC491C0473E79ED924F5C79DD2FCA0BF3
+0B20A204FC1E2F2C5C388F92C084DD4949005B8EC500979FB38C56FFF1926BE8
+0F4903FF74C87C617311B26A39C5033FE68F181A8187FFB959087E4EFEBB0404
+20AC4BE0CBCC02A4BE0F8CA0436147D2AD386B63D14DB7DCF94F9FC733173B11
+470225E595A0D7E9A72CF313A68E783BC188472A14CD20035170E32326E5AC2F
+378351A380E653BDF0E48B7BE88A3B6E11CF5967AF85B2E26CEA1C64B30F0174
+F58DC2AFEFF8F1B36F3CBDF900242697F4427C9A299704F8F9923F15F0610608
+00D22402A1494009BC62FE92BCEFFDEADEBF9417E4D57024102024B02042025D
+BD8370E0E809FAC115C5B9F0B1F54BE887BA71352248E4159C61992F7C72746C
+82DCABC138F0B777767BFEF9C0DFB6EC7FEBB9E302F0F3477F2E0B311FFC6E98
+C5D18053210086A70238BB1235B6FEDE27B7FE5AA5545FCCCFEC5254520A164B
+16A41BADC7ED70596258808769AC3ADEEC60289CF809829CF638E2CF2BD04349
+960646C6ED70DF23AF838F4859AE63AE5CB30A16CC2D89821F5B5BF728FCF617
+51F00779233F7FD477093631F0079238F8A603F8C9E045CC3490F3EE1BFFDE69
+2B17D6E57FF797F7FEB5223F670EEB132057DAEF8385B50BE8873510024022C0
+B67AC91C58B6A094FE004F88E1452ACD8CCC4F067C6C08FEF6EEBEC84524FF51
+EF7FAFE7EE5FDDBAB9EDE87B7D3CE2E693B64B400042F0FB61964602CA2671AC
+B0DA4A506013BB6EF8CC453FF6F9BD2FCBE5B19459FDBD3D34571B2351CF1EC1
+EDA7B9F043E0F00669424BABCB0736B71FEC64DFE50BD2D770DD3A0B7EAE6E7D
+AC767D34CB6D04E0390625053F66EE79EAA5DDE4D11F1D29E6CE9F0773AA8BE3
+E2F971E18F08F885892585D96584A388270509C069EE5C621571420232F30B94
+0C054547D3E1BEBB7EF6CDAF9EE8EA75B0ABEA641096C9A1ED541BFDE0250BAA
+234B8E010E3677C0D0389BF455C984E3EFC534419F90CA4DF024AE5DE0C04F7F
+3001FFE1C6262B0FFCC23EE91601BE5304F8B33627806C1A1D2DC863DAE8C526
+24F0A3C1FE9E7B14446673F7AEBFB79BAECFC669355C6CE224C0C48495632E3F
+5D8F8EA077FB83745D41801F8B1F3101D88D8916D88825FC64E280CFA5149B93
+AFA727B8BBE104F40E8C45CFBAA0A810962E5D4017F4703F646CC2037FBCE7F7
+6FF3647F5064F4702401BE5867929ADE7BBF9A1419042400E26C3B76B0FF99C7
+1EFCEAC0B8C331E1F440009386787D303C344C8B7C2E5F3C8F5E7B9C21D875B0
+95AA33E450F934877CD1FC8D224F0E8D8CD1A2225C0B05FCB077FFA1813B7FF2
+CD7B79E00FA4017E174FB5F96196170C914DA1634132158017F9475FFBFC831D
+A75A7E81EBCC87C76DD03B340E6AAD8E8EE858F506D352A1AB803F82F317E000
+0FF8B1119F077C8689CEE1C7488295FE55793AD0AAE4D4DBFFCE9E63ECC992DE
+8A76FFCA55CBC0A88BE5EBB73BBDB0F91F0F1D7CF6C1DFBD25011057924E2406
+FC0F5A67925204A2BF73D78B8F1D78E6A9476F19B6B9A07FD40E3D636ED8F9DE
+51E825D7D268344169247C7898C8F0832DDD745F01A1D30A7CAE2FE04C04770C
+66FCD9B9B761E09EDBBFFD907D7CC42D22FBDD4964BF2789ECCF288069980271
+F6D6ED377FF9C96028D88A0B67D41A152580A8F09790EEC003331FF8092401F1
+C0E7BCCD349557248DD773AFED63EDFE485BB66219649B35D11F80C546B6BEF1
+CEC0A37FBEE39564BF43A4038975A2E0FB28F56186EE5950E0E0A4A079E55F77
+BFD87864FF7D5CCA110D01FEC1838DC4140B414949191C6E1D80A3A706E0D9B7
+1A6064C2CB2A81347F6A3A325FF4E4C9C7E3FA054CA84A0968741CEEFDE5F71E
+B25B47DD22C4CD37D95291760866796250D90C76A83806DE78E165593E7F8816
+082C2E2C0017A69D9202B388CC8F013F51E60B81CFFD5D9DC7AEEBDF4B246AFF
+D07874F42F2C2A829AEA92A8DD8F1DEA60E309CF3D77DCFC182FB497EF357609
+3A91B003F1A7F9421FA251444CC109BDE5AECD3FFFD65D3DFDDDFB6907C1EBAE
+54414B5333AD5274DEBA65743564FFF0043CBBED1078899A23F7993EFA6996DF
+E98DF6C949C040CFBC30C70CEB2EFAD432113213236FA1ECF765C03F7D021023
+81385979C555D79D43976392565858C81BB5D394F9202EF319096580D37D18F4
+E3F305886C6DA6094AA9A38A48FF556B9683561DB3FB07466CF0E05FEFDA3AD0
+D93A2E908F1E817C142B2CE183E4B5EC3FE82D9CEADEE1EF7DF5A987BE6777BB
+EC74DA54AD829EBE7EB04D4CC0A279556036B20B88F61E6E81AE213B5BAA8B5C
+6F34F9DC84085CFE3078C97E200489894E27097C7E4315804DAE54C38AD567D5
+8B9C3F5FFE8BCDD4884DCFCEEAC220B219EA4C21818CF6ABB4864FE13C2D56F6
+D568F522C04F21F31911991FF99B0B3CE17C0118C45791AD65A7AC8EB5C398D5
+1EED7835736B20CB1493FE385ABDF0F2CB1D6F3CBDB941A4F3F0A7FA9C121D28
+20E1DDFFB0B5A4B33A4776BC7CB261DFCE3F7135998C962C686E6AA17F5D74CE
+9AE887BCBAF3300D119645F214464374C91BA38440360C1E0A84A77EA1F07E9A
+22F90D18B902CACB4A0A8D59796A91731786677B9378FC677D6930D90C75A438
+59F9A51B7F5CE20F8696E09379393954FE278CE2C9643E48C97C489876C247AC
+C09B6D50B2A3FFBEA6C8098541ABD3415D5D2DCDD6CB05FB1C3ED6EAF9D71FEF
+7846CA7411803F95BDFF61EF444949E0E93FDF725F4F7FCF3EEA6095CB89CC0F
+C2E0C0009415E5437E0E9B07A2B1A59D164841534B1E0E898EF6D4E7425E4255
+80EAC09DC45C48DA5965F2E87424D612AC3BFBA3B522E7CE5FA4C58FCA3C93EE
+DB078A008424105E58BFE212B7DB4B9FC0945ADCC29BB4653E23A20C04C7028F
+4CCA2269BD1A8EB6C3A8D51129B505B0A07601E834B19F38E1F0C0BF1FFFE79E
+88F40F8A8CFE42F9381B3CC649FD396FBCF0EFDB9C3E2FBDD65AA3015A9A5BE9
+9B562C9917FD8077F637B38552C2E1B4643E1ECBAA03729103480CAC6248A7D1
+D5CCE454719A79F9CA35B512331CC230EC0CF84F3301C49180CE60DEE88EACCE
+32992C3322F3C5804F33F52A6560D12A68D0CF7632FA732782A9BBE7CDAD8CC6
+F9A34F60EF812356DE945F50C2F677A721FBCFB40E244902075F7FEA60776FD7
+D35C8664B95A05BD3DBD71BE00CC8B6875B0842F0BA77369620C818707E80223
+72F1FDC9C9806F06C8144A282B2FAF961A8460724BAD33043093CD1F086CA44E
+1B8B89DC01597A537E4C22F0E3A207459401BE5060545390B7750D50DB9F6B0B
+6A17D2D19FBBDB56BB17B63CFEE0DB12D25FB8B827D534DF99D8F800898B15D8
+FDDA96DF3BBC6E7AEDB5060374B477D037200960F3FA7C70B0B99B2DE11D0EA5
+057CA913902203EE9DB154E70CE4E66469E6D6AD2D81C4D0678099894ACE10C0
+64DBCDB7DD55CFC81416DC3790CE120E83C8349EB4CC67C4467B8959039CA2CA
+8B14F278F7C089C828C106FD545795444B77E3E8FFDEC123569EE34F38FA7B52
+803F0CB323524C7476E0C0EB4F9FECEDEB798A33E3E42A355D76CB1100B6C3CD
+6DE08B78F998705804F4CCA44F84F51B909BC22303950A0BADB2A1E698F4B466
+F18A39209E2B91BF202AD3DE2F029833BFF61C5724330B2E02129FC64B5FE6F3
+812F5C0380537F68028C8CDBA0AD7B288ACCA2E22230EAD5D1BF27883C7D71CB
+E37B203124D62B017EA1E368B615904C081FDEFBE68BBF757ADC346FA246AF83
+818101728D7530A792CD07D9DD370403A30E96F0436198CE7C9F903284CA00FD
+0798DC05FD0073E62DAC81C4D468DC26CB10C1FB4700F49E2935DAA8FD8F69C2
+52C97C4821F3198963818EFE4ADA3D1A9BBB6887E09C7FF317CC89A6F6C20E79
+E254A767E7CB4F3448C87FFEB49158904F7816821F84FE807DAF3CDED6D5D3B5
+9B9D119081D56A03BFDF0F732AA2B960E0686B37FBE650785AC04FD6F0A3B1F2
+F2A9DE11E81CB482392BA706A4B323CB796A8099162B650820ADFBC6F87CFE7A
+EE05A3D118077C3199CF30A9828378C067E2CD892CAD9276B8238400B81EABD7
+E9A0B0203B7A7238EFBF63FB5B4D9188BF6473C6C225BDB339524C74CDC7E103
+7B9F08101B5F169911C0055ED5E5310238D1D1035E7F84852741029345A5997C
+37F53DE002B2B04C5B5CBD3017E2731EA44302192298220130121BB5BF1899AC
+A2B2BC04CE5A55174DD021B680474AE683C852DF386510391617FCE0FC3EAEF7
+1F1899002E0741514931A895B17B8B21C1AF6D7978378847BD0913784A05FACC
+C626740A06B73FF1C78787C7C66C587C54A952C1C4840D147279342600CD008F
+3F929C2B8DD980A9A2D06C3244F7B12A736E51790E88E7421492802C49FF9D95
+A4A04813F0627F471FAFBFE5AFF55555159B2C46FDA6E2E2025832AF02BCBE20
+0C4F78455277311235E198A4C70A33CC66E9D853EF2252100B7A727A7FCE9CCA
+687EBF10B1158F363559DB8EBED70FE2B1EF62E9BB833CC71F4066DA286E66A0
+B7B7FBE5F2C2C2CFD1AC404E0F25DEEAF222181A65D75EB4750F42DDBC42EAB1
+63E4B2949D692AC30F060329950A9AAF50A3D5C1591FBFF2CAB2B98BF78C0FF7
+9D6ADEBF63FFD8600FDAA05C36648ED439C74450E0D349A5F0C2B395004473CE
+5DF7B37B2B727272EA8B0A733769349A3A8D46BD31DB6C040396B3D6AA41AB51
+D103BD015ECD40267576DF7842889F2A143BD6A86657861D3BD1C34E3F617A6F
+9512F2722DD1DB867274FFDE9D4D22A3BF5001F09D7EB336394492CE1FE2C073
+B2F9F84BCBEB967F4E47AEB54AAB05EBF83814E7E744DFD0D13B088B6A0A6895
+5E86BB31D305BEC89BAFB8E86C70BA3C3431A8C313C8EA1D5EF7B1C1E131E8BE
+F8F3E0753B86DCF68916C7F8C85EC7C4D8E197FF79D7DB3C959A2A1DBB70C687
+39938940910CF8D7FCF88F16B556BF6C5E4DC526AD96805DADDE6434E8CC5944
+8221D8356A15B1B9711E3E91E9E9621C661269BD0579E49296A6264FE0D25F6C
+27BB06A377A784C8FF68510FD2AC36071CDCBDAD1912ABF8F8403A67FFAC4D0E
+91061984B63DF287E7379C733ECC292F0735B9FF6E02C0A2A25899B1EEFE21F0
+05D044631519339DACA0126FE5AC0BBD4E43372C6B5255921B7D7DC4EAC8EF1D
+B6E60F8FDB360C0D5B61FEAA4DE07339F778DDCE469FDB7174A0EBE48ED71EFB
+4B0724AFD02C2404E64CEC0F420260FEFAECAEFAEEBEC19B8A0BF3EA2D26635D
+5E8E99568CD5A895A021769F864BCC20687E32E27B23A9BBE81608476DF6A9CA
+7C31E0E32366FDE1EC7FAFD7CFDE9D304E3B5AE8F3DC6DEA229DF1D8DEB7DA92
+28001F48C7F8679A8443D0669BD8256398F5783F702600177DA11F00CD80A111
+2B2D281A0E3334B720239B39E0F31BF94A9EDF28BEAFE45A0C74E39A97980A84
+14D6F60D5BD70E8D4E10B371212C58B9D1A6F0DB8F8E8F59FFFDD09DDF7D0C12
+CBB489556D3EE348208E001E7FB3E1DA3D0DC737A394FA9F8B368085E76C89BF
+F8B8F43344BDB008747C041094868E036F72E0273709041212B3C344A6F88646
+6D74FA8F731E1615E5456F0F9E57FBC9E60E105FFB2E2CD7F541CCE6F3815400
+B80D0E0FEF20F85E8FCACF8B997909D0B18A32120046053ADD3E30A8355405CA
+6618F84225C05F7E004CE22336B55201257916BA716D7CC261FAE91D77AD2BCF
+37ADFBE6CFFF7AE59F7FF6F54F43624567AE5FF07FFF194502FCFBC39C38D575
+D7E0309B438F033F26ED44804FB8FC3062F342EFA81BFAC6DD304AF61DEE005D
+2196FE341E239A0884EFF94F48FB0589B3061800840DD37E71B706EF485E6EAC
+523166FC397AA4A11D12B3E0080B79CECA74D0537404D26BD9DA786807AA3C9C
+0EC4D900540128C5B9D63F3C0E5C76E1B4403F0DFF7BDC5B238480D1C898722E
+1464F7F944C1354C2E82390F5BBA47E0E881BD6B2FBAFAA68F90A7B1D3E36203
+5C5B8E4B8DB99904399CA1B304710A40A152472972D4EEA5B2DE87CE3CC108CE
+2471ECA594F920A81294A2DCB4D8B1AA48669FEEBED168EFCCB298A3A1BF54A5
+90CE77B2B9B11FC473E18995E9CEAC164B5305F49C3C7670786C8CD8DDC5A008
+2B687DC11CB3297A90CDEEA4044CEF4758023633EF1A90F61784E3255D74B0E1
+060BD257BC6E2702DFC4730CCB7903E419EB0F50485D57A727101BC1E3003935
+992F65DF4BC97C695F00437D0078F9AD7657740640A952C6A5FAEE1B1C86B1C1
+5EAB880920B65C3463FB4F025303CD7BAC76BB7D822800B35C85D596FDA050C4
+EA416245216EC44505294B60F9D30FFC64EF0E8B9092CFEBD64708C013C18510
+FCA133D1045088BA5739968C0364BAD378622378FAF63D23596E3A762CA70046
+C66CD1D32EC8CF8B3B7EDCE68048BA6831132003FE693A037D5E6FA34C263B9B
+2DEEC040B6C514EF140E0244C300662075F8E97EB7DFEB41023046643F27F9F9
+0387FC4CEC2B920A804905FCB4647EFCB1E9003FB5AA881140AC3FB26BFEA349
+3FC966B7D93C02E6169240B212DD9996820CC6EC362B065C213187C97557F082
+7E702A30CA14E82B48522D9A75E68ED3D91C4CFDCD45154EDFD89EDC2704FC3E
+5DC407C09D6C50C4577466FB00E22E1F932E2099B4A5BBB0AA2F77EC9875823A
+92B015E6E7267E8F2038083B56DFD03878BC81A84196956589BE86F6A7D765EF
+07F154D84109F067DA241C820EBBFD885C26BB844E05FA7C8404846232750240
+0C1DDEBA6D373519B8864946CE5DBF02E6465619BE5F7A21140CA8220E400EFC
+5CA0981212C3886703012493EEF1809CAACC1F181A815DFB0E82C3E98A7E2FAE
+F75EB678012C9A5F23AA40E40CDFD117620D32264C5356F33B5FDFE08098FD26
+047E66E49F2209B81C8EB04CCE62022330F19A87C8FD904582C2D85A8ED2ED64
+470F3CBB757BC2F34806F8FCC7CE5D0B8BE757CF3CE8250E25E7CE554EC6915E
+05F1330042F09F31D1813231232F26DD532FCA99CA341EBE34383C02AF6EDB15
+077EEA8CF1F9616F43231C3CDA1C5F4424F221B8FE1F849E5D2C4E112DF41916
+1BB14222A640C6F69FE2E8CFF95D1C1E2F8D0245275F586CAE2DC9C57D65DB9E
+A45F84AFF39581349A99F4402F3854F8AE702824B59A5006898B88CE982693F4
+0108D6DE4B17E660E2A600D329F8816DE7DE83D46EC49062A35E438335B46A15
+AD3F8FC71F6C6C0687CB95B08438CE1B1596EE6441BFDF03E2A5B142209E330E
+3264303987A08C91D1DC000C21010CFA11963F965A1088D2DFEBF545FF3EFEDE
+DB5BFFF283AB6F7DFB99CD0FC9F1F322371A55C28C003FBD770AB30A0993899C
+912B0565494D003130A791CB1FF8E9BE05C0C7E38686C768EEB8E23C0B14E59A
+E1C0F6D7B6DEF5EDCFDDFACAE3F73D64D4283D18C6A954C8A1B5AD2B211F407C
+6CB9D0CE8CFDE1F7793D82514B480642D067C03F395B3B8C4E4094FCF8180E27
+8AA9B0E0AA7228EAE91B8C3EE7754E0C6CFBCF0374B936866D075CD6F6E25C33
+55167C9298D4003C39E047CE353C2B97094B13C0B4653E2392CA8B3DD6ED7651
+F0971564433018F0BCFEE4FDD10ED0DFDD76BC343F0BF2B38C60B33B124C0FD1
+A14804BA1ABDC19202FC99917FBA144040CA8DD861B1E13E1C8B9AE1DF395324
+9BB046A584AACA8A42A32507C308C3C6AC5CD5D205732CF32B8BA020C73435D0
+4F12F8BC734D05FC339204523801932FCA497DACB8373F2F270B421E07BDC926
+BD56535831D732D0D98A31C8A145B5B555459125BD7A933936E233B1080CBE09
+C0306108A7BE371947DF69B002D06CC3919A35FF636A8C9BCA93BAD865C505F4
+31CBA483FA796570DFC3CF7CFDF891030D752BD62C3B77CDD2ACCEFE5118B739
+A1B820674A4EBD4CAA9F99208004F04E225A8F1F2D183D36F69C56ABA1ABB5B0
+C8237680071E7EE2EBFB76EF6EA89AB770E1C6554BB2C6269CE0F5F9C1841D89
+FF3D0C9B1092DFB3B828005CFCC36F468341CC0F956CED77A64DD2098039FA69
+941FF9C3E6705245808D9B9191BAB038D5B772E902181B1D0503E90B1B96ADB6
+7CFE928DE7B1A41E8671BB8B924465597106F8FF2D02006672D17A52413B0C30
+02C2C0829D2AC8CECD856C93068C3A2D7C7CC3720DD9D6519BD017A00E25972F
+08D9F979201A4804EC74212E4DF6E07260F2E4D8182E0C2AA2AF610CBA516FC8
+DCDDD3D88ACBCACD38FA23D9E372602C042B8B12808AD66B4C46ADEB562E8686
+C34D74A92EDE4363643151201822F7530673E7D4A48DF00CF04F8B09907A518E
+B4CC17077E5C04A14A0F21B91C84F922D0F9A752AB21BBC024B2EE808BF4C3E5
+A7866887C38E86D38731DB94A80C535655E6F69EBE260F87EAE491FB87F11818
+C9C7B5FCDC585096543E102489B356D583D3E98471978F7CA087DC7B0538FDC4
+B430E56646FBFF060184C32022DD2767DFA7171CC4FE33E80881C3EF832CAD9C
+86F7A2BAB779C86812D644134930220A048B44E08A606A7F465E430240334019
+C9155044D483312B4F6B1F1FF6402611E48CB7FCBCDCA802F0B8BD74ED4554E2
+1BD874F0D8A164B2E44B01F57A7408EA694DB68460DBD300FC98B33263F96193
+9C05B03B1C92D378A269BD05B9FC93CF1AC448C1E50B41EF44003AC6FDD06DF5
+C3842724F0FCF36A0944DE4BD38D91FF2BCBF2A29EE6B1712B44FD50E41F4C57
+56B9A0BE48A4FFCCF0E2D4D9D9B41A551DC60004690420B1DBADB6E86B9C973F
+1CE70F3ABDD378E9003F1C0E4523169B4EB4656E622201C458F185ADDB20E873
+834E2DA736751C20211E90C08B09480C0E8214C1414C5C5AA7B8A9457E1111DE
+F7F882EC5C9E81D88DE10803A00F20C04B40919F6381FCB26A7EDD3899C47EA6
+4DB295AEBEACAEBA660EDDC7D11F41E58ECCD99715E747EF25DE0DB95C06D389
+D69B11E087421102607DBE63E3E3F0EF2DAFC48E0906B8F564A912849ED92680
+2C1C3C421E96E2FEE0F028DCF3C013505C900BD515C54452E710DB2E1BF27273
+68CE3F5C70135B569D7ABDC074660D84C70623B7A5302F666BA209E076FB40AB
+629D49181ABCA46E45D19B4F26D62E902081333AFBEB4CB6BAD56BEBF322CB7F
+B10C3C06ECA00980BE1B6E0A90DE03992C3DE09F1639C68626E36775F5F54377
+6F3FB4B47640572FEE0F90C1430B05A43F9B0D3A081565C1738F3F40A7A1413A
+63F019EF03083B467A2E9C5B5DF69FE151EBD9D609B6D26EDFE008DD62D24F4D
+E7676B2A4AA0202F1BCA4B8BA9471E0901B764C04FBA2C38A9F3309E24FC21D6
+1158569CC3BBD90C0C0F8F43B69955FD0AA25ACA2BAA8B413CC4F38C8EEF3EDD
+CD6CC9A943E0E065773ADDD03F3402F2C892DFB2A27C3A038083ADB8FD7F7A80
+CF768F308C8C59A1BBA71FBAC8D67CB29D80BE9D162FC1622208FA6CF25855C2
+16AF0A06FC60B38E79F63736BCD8DFD1829D5C6CC5A854F0D899A7007EFD831B
+3083CEC5975DFF835525E515E78618C57A62912F641879A1DBE3A18518DC1E2F
+9CEAECA31BD73021242A851AA2145021549615D19CFC9C229F2AF0A51C8DFE48
+9EB71CB391662C76BA3D94107AFB87606E7511E0C0835B4565555171D5829CBE
+F6660F24568F95654C81C9E30CB7F2A282CB11068160902A8001A216B935FF68
+0270642D973369219C9922E0716B26006F6E6DA380EFEE192004304EF359EA09
+D82D4603ACAEABA5FE2094F97ED221B1EF747575B4F77777B60F0EF4F6B534EC
+3A651F1F460FA670EDBF58D29833DB04E018EEF907EF4453E024D99E209B31AF
+A4B2B876F539AB0B4B2AE69972F26B41A62E27575F8B73BFD8C6AC76BA1D6D69
+8F7E500551065FF8CC2529647EFA2681505560C619BD5E0379394670747BE8FB
+070686C8F3615047469EEAB212A859B27A0E21803E48AC202BA60432F23F452B
+5EF9F1CAC58B1656E0BEC3E525A36890808E2DCD867E170C028A4C008082ABD1
+701A64FE6D77FE99829EDF962F9E0FB573E8A9D13C859831DA3A3ED63F3E32D8
+DFDDDDD9D6DF71A2EF54E33E7E962861B568AE4624B749958A3B63948042087E
+10A9A03BDCDB31FCCE967FBC4DF6F7910D8D6CD582151BAAE6D4D655EACC3965
+2A43D65CBDC14C33384CD858D3A1B3A78FDA861A8D3AFE8633E9C97C26E9B10C
+F842ECBACD9A8A4268EF1EA61D0E09C0453AA5DACCFA01944A06369E77D1E21D
+CFFF6B27C4578F956754C0D45A6DDD8A2B2A4B5833CB36E100BBD30913642050
+6BB45401A2C38D89A801A572E64B8321D18C92513E0EFCA100E9671AF07A5CD6
+81BEAEFE91A1C181AE93CD6D47F7BC710AC473FC0B9786F3AB4573A5E2F9F522
+CFD8E431620A805F41979F1D35CC7B5ED57C60C771B29DE08FAA177EFABAB357
+9E77E9356DEDDDC039126938E714647EA20F21DE8F408BD01249378710C01B3B
+1BA34774F50C4296B9829E2CC6042C5ABA7C91293B5F6F1B1BF240F21AF21947
+601A6DE58A1597E908A9E3E86AB73BC9F51E0085824D08524DEE35378A2815B2
+19073EF5FC84210EFC9EB15EC8CA2DD8F3DEAB8FEF7EB1B3751C1293BFF0657C
+5062E31300F613178F04F82AE08CEB17320905C02FA0891704B53EDA4938BC4F
+08361BB7BDF6D4E6D77CEE58828F4EBC512996102794FE0641DE81887D204CE5
+4CA7023116A0341F4C465DA49390EFECEC051F6F5D404D7931D46FF8581D24D6
+8E578898029996C4EC2E5A7171D5E2DA059BE8E8EF7413F91F20EAAB0F186272
+E1BA80DC6C73340458A592CFD8345E884EE385D89C0364BFAB27E67F522915D0
+766C7FD3400CFCC2F2EFEE08A0B9FECB6D5CBF15F6657BA4BFBB227D9F9F3EFE
+8C7302CA9228008E15DD3C02E02E989577D1F8FB13B290FF28F7618343A371CB
+82810F7C10013E0371B904F8F1032072A268062848075832BF2C7A573ABB7AC0
+E78FDD23A35E0D1FBDE493AB21B17CB490043266408AB6E1C28F5FC3C9FF3162
+F7A302B0BB5C14A475B573D894608C8C3A64D56AD9B4401F057E880BDE61C18F
+69C64F9CEA881E8BD2FFD8DEB7DA45C0CF8DE44E11C05B798F56DEDF7C02E09B
+01676C06293102E0AB00EE42BA7917D22E71215902007F0BF7611D383A44A57B
+62F5A084084248CCFE93AC79436C11D225F3CBE9F0CFC5033435B745C39AD113
+5D57575F5352539B1B01BB12C4EBC767A605937BFF61FDAA155F44F93FE17083
+C7E581A6D636727D1514A00B6ACAD90B27039AE9492E63A608FC50FCA8CF05F2
+44C08FCFB59C640920E4F76242D20109E5EA1601BF5504F4C9467F7ED5E833B2
+6C9CD0049052011E11292526A1263A4E9E783727120CE2F17AA91F40346C5818
+41C8A40F7CBE19809DA5BC240FCC265D342CF8446B7BDCF2E08AE202F8EC97BF
+FD718102E09380D02198698276D695DFBD76C1DC9A4ABCAAC364F477395DD0D1
+3B40E5FF42027E9542418B8320F16A34F2C9035F30D2F3257F28420AB8CF819F
+7AFADD36F0FB7DED2204E01121800989CD1EE9D30E11F09FD1F23F9902102BA8
+E915108153E01BA084D07AECD0017324163CAA0292C87C4822F353761C3C2172
+9672D2F156D7CD018E0170366078D4CEB3131958BB6EE3EAD29ADA021EF05590
+3CFB6B860878ED828F9C771346FF4D385CE0221B46D3852389FF962EA8A18095
+475283AB55F2F440CF93F9A184513F26F9719F2581509CFC0F07B07C5D6040C2
+9BEF12E99F7611C03B7892DF23F0FE07E00CCF1B2993C095D83C6940E05CE14F
+994449E1C08ED74F40C817CDE6D8D1D59754E64F2BFA8BFA0118DA11972FAE02
+954AC17A8AC9BF071A8E92D1211C55050B6A2AE0939FFEF2253C05A092500119
+E00B2EF3A66B7F72C5FA35ABEAF03A8E8CDA20E0F5C1D1969334CEBF383F17B2
+B34CD417836A00C19F100024027C51992F31EAD3FD10AB0E8E1C8B5A98A0D3E9
+E054E33EAEFC7B50C26C750A062B276FA417825EAC5CFC195D315A9664700510
+CFA9CF27033E2178B80BAF57AB5EE63EA889C8718FCF3B65992F057CEE230221
+36077D4EB61916CD2D8DE6AC6E3DD90E2363F12AE0FC4F7C6A4DE99C4585BCD1
+5FCDDB173305663B19D0DF7FC10517DC954B46FF91711B381D4E38D5DE453336
+2140572C994FC1A952AAD8559812F23F5EE68B39F742BC519F033C4B0ADCBECB
+ED8E261445FB3F140C0E08BCFF01B1FEC8DB3C1280172B137F4606FEA44B0042
+73201519C4298481DEEEED0505B1A40E1D5DFD5396F952C0E73FE10933940456
+2F9B4747256E49F07B078EC64D09569515C017BEF9D32FF114809A4702677C29
+E8A9B42BBE73F7CD9B562FAFC479FFD1713B38ED4E686C6EA566576569215D17
+82B6BF5CA1001919F9356A7902F04547FA84FD98CCE7EFF37D02478E9D887EAE
+DF392EB4FF83122AD52B90F552A1BE528B80CEE8989074E76A922D954C08B0F8
+D36D373DA7E605824C67ED359304F8516760646D40555921D49415444FB995A8
+0FBE2F006B075E74E18573375D76F56A1102E048402E2081D94A044CE18A8B2D
+175F78FE2DE8F9EF1B1C03B7D345E3EE7DFE00BDF367AF5C422F8E56C7C66118
+F54A51FB5E388D174E3AEA8779A37E384210ECDF479A62042027DD6E64A0A709
+C4CBBFF3D5A918E853017ED604824D27F825291968D5CA97B8038FB7B64F7FB4
+87E470F41215808141E7AD5F42B3D572558276EF69207235143D2E2FCB08575D
+7FE3972C7945593C02D0441E9590580B0E662B097CF6EA2F3DB4745EB565CCEA
+00BBC305D6312BB4B675D2117F75FD02C832E9E92220A55249ED7E8D5A163F8D
+171299C6C3476E7DBE50E68B8CFA2C0984A9FC6F3CDECADED550907C97DA7374
+CF9B7CFB5FCC3C4D56093A9318166636FA2D8E08BC0EDB8B26139B98D3E3F142
+4363F369013E5F05E0DDAD202AA07E5155F4843A3B7B880932483A52E4A39830
+AC59BE447BEDB77FF9551EF835021298ED4E41E693DFBFE78A8F9D7FCEE5C160
+1886C626C04B46FF8623C7A98BD54280BF7CD15C0A687D24F9AA41274F042FCF
+89C7DFE70822B6CF8DFAA184519FFD4C22FF9B5A63F2DF310621866912314B03
+229BD86ABE4CA8F76920803832D8F1DAF3CFE76699E91F9843A0A420776A329F
+498F3630F583373223B061F522D0451621E19D7E67FB1E18B7B923D294A09B98
+27975D7269FD255FB8F13C1102500954C06C730832177DFD1795977EF4C2CDB8
+76BEAB7F183C4E377476F5D275FF4AA2AE2E3C7B0518B42A60E44A50A955E47A
+A2F75F2621F3C3299D7B31E288013EAA0822FBA5C585B41FD14E1BF2C3D8507F
+B388091A9090FA99D1FE7D24007A9177BDB6C54A6E616349612E7CEBDA4F4069
+51EE8C8DF6520CE147672060A970139CBB6E71341AD0E170C27BFB1BC1ED0DD1
+110C89202FDB08D75CFF8DCFAFD8F0D1793C02D0461E55205E16FA4C2701FAFB
+CE5EBF7ECB1222FDBBFA46D8849FA363B0EF6023ADDBB87E792D5494E483D71F
+02A389CD0A64D0CA12653E7F1A8F2FF9F9325FB01F1BF563E0676B0E86A1B830
+0F6EB8EE73940430ADFCD850DFB888E929F69801FDFBAD007E72CF3F2DBFFCE7
+ABBBC9CD5C7223013F92804CB0D477FAC097F00584D8EAC1ABEAE74139660C8A
+C4011C3F7E023A3AFB2110884D6ACCA92ED3DDF8C33B7E5A50529E1B01BF3689
+1298152470DBC36F3D74FEFAD5753D03A3602723BF87D8FE3BF61CA0D70BEFE3
+FA150BE9821FA54647467E059D5E55C84162DE3E9410DA1BE7DC0B85928EFAA1
+6868308BE42242023FFEDFAF4061D53C98B764F575ABCEFF442D88C7AD64CABE
+FFB708E09E7FBF6151E8735EF7381D4BBF7ED5A5341F0086ECE274DC74657E3A
+070623AE5FEC9C979CBF1A74DA9829F0D6B65D3036E18260281C495905B0A876
+91EEB6FF7BE4B6A2D24A3E09689390C099EA14647EF0F7576EDEB8B2FE9AC191
+09C0EA4C3E62F71F38D40876BB03B2CC7AB8F2E31B4145D0EEF285C16034D278
+0E8396119FC60B4938F404923F0A78E1A81FE64508060310F078E9F36AB51ABE
+F6A52B21AFAC4A6334677F61ED473FBD6A921D2733BDCB6BF2DB6EBB8DEEDC7E
+FBEDD3EE400FBEF2DEB29171C79B26AD6AC1973F77312DF4E00D60AEC09993F9
+E9344C2C2E67C274892AA60BEBEA1D660B580443D0DB3B08D55595345905AD2A
+4886B3BCBC027355EDF215EFBDFBCE6EB763C20B8925C441C48974267524E657
+4FEDB9F69C9575F7DA1C1E189F70D068BF132DA7A0B1E904E41273E9EACBCFA5
+C5581C6E3FE84DD9D4FB6FD091EB2C8B4CFB45A4167FDD7E6C9F8BC894DE072E
+42905EDD70347F7F5CE42066EF25ACAD50CAA16EF10270F819181D1D5B52317F
+A9BBA3E9600BC4827BC422FAC21912387D0440C17FB4E9D49B791643E155577C
+845D992704FF0C8FF6C9DE8D248093812545B970B2BD8FC859366D18E636B4D9
+1C50545C40AB10613FC3292C42029602A2021A0FED3FE6B2531248355574A690
+0005FFDAC5F33647C1EFF343776737BCBBAF01B45A155C71C15930B7A28896ED
+F2CBF4A0D16AC9B52332492505F8F87D88104422E0E3F739B2E0839F5BE51935
+2F82411A51AA902BA0767E0D8C3B7C3038D0BF68E1B27579AD47F6EE83F8E9BF
+40123F408604668800983F3FFDCE152D27BB9E396FED52CBC7CE594DAFB49BC8
+448CCE3B1D323F1DADC0191C2A850C4A8BF2A0B1B983E6AFC3A7ADD609B21F26
+A0CF0165247210E7B64B4A2B2B6B979DB5EAC8FE5DBB6CD6B17448E0C3EEF08B
+03FF18017F281080C19E01D8BEFB3D62DFCBE0CA4B3741FDC22A1AC939EA0C83
+D962A1A69341138E076F14E47C20C79E8F1FF5E3477AA9515F8A043011898C61
+2DB285F3AAC9CDD340CB8993158B57AE2F387178CF5E100FE90D4B393D330430
+750260FEF2ECBBD7369D687FEC82F5CB346BEA1744C11F9AD4E59D3EF0A54C01
+62098051AFA1D96A9004B86C43C3C323A05269209B3C8F6BD7B9345679F98596
+85CBCF5A7568DFCE770909F820311C3A7C86801F7EF5E4BB37AFAA9D7BEFF098
+9D3AFC10FCFDDD7DB06DE75EACBF04577FE25C585E5B4548520EC3363F98B3F3
+A88AD26B30F1C754657EBCE44F057829B208B2C53CA81AC0B473D9B97970F8C8
+B1CA65EB3E52373AD8BBD765B77A20BD557CB39A0418EEC233935FA1C3DCF5C4
+5B3777F6F4DFF5D98B37C29CCA121A89E7F687D3440833FD1E9C66538643F843
+E1E0B153F0EC2BEFC6552D5AB9B21E162EA804B55A111DBD02811074379F743E
+F0E0EFBFFBC6F3FF3E0CB1156452C9223F4CCB45996B7EFCC7AC95EB37DC555B
+59714DCFE018F58DE0A83AD0C3813F085FFAD4F9B0ACB61A1464B8EF1CB4833E
+2B9FE6FED7AA4284284392A33EE707482DF3F9EF91003CDF84103CCF7D8F5C89
+F1086C529243479BE1A9279FC61471ED7B5F7FE6E6A19E765C2A8C2B00B935FE
+DCBDE3AFF10F7D48EEDB078A0098DF3FFED643DDBDFDD75CFB3F17D0E9A15064
+E40F9F46E033D3789F22C43A23B66EDB0F7B0E34C595355FB16229CC9D530E3A
+BD2ADA01D1E38C29CDDE7AF5F9FBFEFCF36FFF0BE29790A69331F683D6A1E82F
+FEDF3F3FBBAC6ED1C2CD392673DDF0185BCFCFEFF1424F570FECDA7B8082FFFA
+CF5E082B08F87161D588CD0B41A599825FAD0C11932A9808F834ECFBC98FFA42
+32917636521250B0043E30380C0FFDEB095032C1B6DE8ED6DF1CD8F6FC61917B
+27B6E4775692C054088082FFC4C9F66BBE7EF5A514FC685AA3B73FFC01033EFF
+035001C843ECAAA1E7B6EE86C3440DF06B13D4D454C0F2658B2809E0B5E03AB4
+D3E581C6C64387FFF2CBEF7EBFADE5D8A00809F09D4D1F443510BD7C3FD9FCFA
+CDB5736A6E2182C8820B7AF037FA3D1E68693E09EF1D3C02D9662D7CE3EA8FD3
+4CCB58D66B60D4417EA801B43A2D31034284000269035E6CA44F6BD44FEA1390
+7630A20A902BD5747F8010F7DF1E78185461AF7378A0E7DB0D6FBF705882C067
+3D094C9600983B1E78BEA1B5BDA77EFD8A45F03F1FDB40C1EF099C1EF38A99E1
+3753120806E91D461238C22701F2FBCB892DB974E942B0580CB4AC15B7A028E0
+0F42FFC080E3DDED6F3EF4E73B6E7E8827293D022520B6E0E4BFD5A9A257E05B
+7F78A2AAA4AC7273B6C9BC09CB647180C2F8FEFD070E43EBA936985B51005FBD
+F22228CECFA6B32243632EB0FAD534E98602C1AF08488CFA02F0F381CC07BCE4
+A82FE22C4C39AD28EE7BA024A0620BC6BEB8F51D387CB4095401A773B0AF3319
+09084DB95945028AC974A85F3DF8DCCDAD5D03F558224CAB8D05F87CD0467BA9
+16C6C2A20400324202977DF42CBAA865FB9E23EC7C1EE9485DDD7D3031618795
+2BEB2037CF022A250B169AF9A6B8D8F0F1CB3FF3AD858BEB37BCF6D233F73DF7
+CF3FEE80F8FA02529964C4A60FDF17E0A3AD5FB3A8FEA62C93E9168356170DB3
+457B7F6C7804F6EE3F04438343F0D14DCBE0CA4B36809EDC531CF95BBA4641AE
+CB25E09783421604B53C1003EF8CCA7CFEA89F1CF06264114F1C1827E0A38E4C
+B95A0B6A3551723239B883A0CFCACEBD0E0590A07788CDEE70F76CB2DD303C1B
+0800ABBF5EEE767BE8FE9E8626D870D6AA0F05F045498048978D672DA545235F
+78EDDD0809B0958D76ECD8034B96D4426969012D3FC6D6BA0E8346A382050B6B
+EB8B4B4AEFDBF8918B1B76EF7CF32FFFB9FF773B22D7D1276112081501731A3A
+0E2370F2594AE7D6DE9497957DA3D960B07071F8F89FCFED858EB60ED8D77004
+54F230FCF8EB9F84158B6B28C9E16CC8C19601D098F369C20F04BF4AEEA7D178
+49657E3AA3FE24657EEAA94471A51022F7D545FA68E371367780426B02835EB3
+86EC1A04C017860E4F76A6207C2610826292C71F522A159B50018C9391F2CD1D
+EFC14736ACFE40C9FCF4DE47E43D06B01369BFB4B69A90801EFEF3C23BB49419
+5619C6DFD74000D2DB9B0B8B172F0493594F17C28423DF898B6096D62D5B5E59
+5DF3E0BA8D171ED8B7EBCD3F3DF1D7DFEC8C5C4FBF400D48AD439F6AE761A49E
+BBEE67F75695D5CCBF26DB92F52D834E67E17C19880D3AEA0F8D40C3E1A3D0DB
+D707EB96CD831BAEFA18180D3A0AFE2051457B8E0D40764131DB31640162F773
+E04F2F5A2FD9489FCAB997AECC4FC7F770E0483378F05E029B3ACC1D7060A92A
+1D882F1DE65701E6DF1B264D02088B288A0F4D85A9C9F800984F5C7B53F6DC15
+679FECEAEEB7E01318E7FFADEB3F075966E38703F8226F0DFBD91243569B139E
+7EF16D181A1E8F6430661B2E7F9D3FBF064ACB4A68541C86A1025D9C12EBBC6E
+B79B48E981BEEEAEF62DEF6E7BF9C937B73CD2068979E692959A4E77F68011F9
+9BB9E9EE272F2F2C28FAA2D164BCCCA0D14541C181C8EB74C2E123C789ADDF0E
+3946357CE38B1743DDC26A2AF7D1DE1F1E73424B9F0B2CD96CB975A5DC077226
+30A568BD64237D3C714C45E6274E310A1D8C1376273CF8EF97A8FCC716B0F621
+A73FF2CE967FBC05F169C2ED7396AE915DF2F9AF5CBA6CE11C3D513C410664DC
+27B20B90C22126F29BA238D97EE0F891877EFE8D1744D4443AF7F6434B00DC8B
+B25F6D7EEEB6D6CEC19F72A6C0F2A50BE153977CE40325F327FBD67080C039C8
+2E157EF39D03B0FF50731C09E0A5C9CA3243656505E4E56753FF875C218F76BC
+68704A28040EBB0D8687879B4706FB5F3B71E2F8AEC7FF74FB76482FFF5C3222
+104AFC0A7376DE39058545971A0DA64D46BDDE8C6B1A22588A39F9C83D6A3D71
+0A8E359F20D22408575EBA1E2E3B7F4D04F8325ADFEFE8C9417091C1D16030D0
+AC0A4AB9974E052693F9698DFAFCE3928EFAE194D38A9309217EEA8537A02F92
+060EEB066814E1B6AD8FFEE54F205228E46F4FBD7EEF272F58BB9A49201B109C
+57ECDC7B866DF0F80BDBBEF57F3FBAFE71886523122E430E7F589C8A9325005A
+5EEB67F76D69696DEB2EE75EFCCAD59F80AAF2920FDC683F99B72301A0FDC816
+9F1C8457DED84347133E092025580811545494424E6E36A8352A50AA62014431
+90B071043EAF076C8410EC76FB1EC784F5DDD1B1A1AEDEFEA18E5347DF3BB2FF
+CD67C7D3210202F6A572B9C2525054BCD168302E556B754B753A5D855E1BAB87
+188E765AA0B1F25E971B4E9E6CA7C09713EEF9F44567C16517AC011D395FD6D6
+9741F7C0183475D9213BBF90657626084A865D07355587DEF49C7BE93A184192
+387A0686E1E95777C6EEBD7304DA9A0FFDE954E3BE4E88D5B8A404505C353FF4
+C4D32FBCB1A4BA80BE777C6202DED9B10702C100B9D7328A079C0962B358CBE8
+727624D9713721CD1EDB9EBFFDF4BACF8274262229B3E243EF03A057DCE71CFF
+5176B6E5D1B1312B7DE2CD1DFBE0CB577DE24309FCE8F1041878C343BE209495
+14C0359FFB18EC3FDC02BBF735F28664622A8C4FC0847502CC16139495955242
+50A995ACD7591E1B85F104546A0DE4A8D5909D93B7963CB51697C806FC3EF05E
+7205B86EFC09AE3FE876BA3D5D1CA818998CF6F3603064562AE54B30F10516DB
+D0E9F4D1CE1E8A8210A26044B2F1FBBC3467DFA9B64EE8E8EC86D2822CF8D215
+67C347372E63BDFB91DF376177C3FEE3BDC47E3347C1AF20C09731FE1999B717
+8BD64B25F313D401DFDF20A542F8EA20725EAFBEBD3B7AAF7CB661D0A8E40709
+F8FB217EA908ED1A75675FB4A2B2283BFA59FB1B8E10F007E91A0346160F7A4A
+0691E7B374B81A51B5967C840912EB65F8040A8E3FAB10FE301340DC8FB8F33B
+D7BD70EB7D4FBF4B08601DFEDDD6D90B0D479A8939B0E0032BF3D3F30D92D151
+4D6E3451022AF2DFBA554B60D1826A787BC70138D9DEC34E06D09EC780D56A03
+DB441391CE3A282A2AA08E41B5464315814AA5049942164D46121DC17085A212
+CD07156875E8940E9799CC5016EFE1061ED078233CEF756CE8B4C3557B2E62DF
+63DE43A22CC0E771C159F573E18B1FFF1F58B994B5F16572B6235B6D2ED8D7D8
+01CE800A8A4B4BD9519F0C5272C643E3FED95902386DD17A5375E885FF3F7BEF
+011F4775AE0FBFDBBBB4D2AA77C996E46E8C6D30BD130204134212424D2124B9
+90E4DE9B84847043CA9FDC7C0937249004123A0408C560530CD8D8608CB12DDB
+B26CC9B62CCBEA65575BA4EDBD7CE79C99599D9D9D59AD6CC9B161E7C730EB6D
+9A993DEFF3F6E7CD32F6B0EFE011F086986A4F4C1AAA532B82DBDE7DE51D9E30
+262DAEF9F3E73592C02EFAACD3857E4B8F1701A4B0D04BB97916B815191DD50A
+295CF0C56F5CF8D1DAA7B9EEC3104C32499F32C27FCC1600DE0FECDA7A57DD92
+B3F78EB0831ADEDEF4312C6CAA2781C1534BF0D33F2D45FE3DEE128C226B20CF
+A0836BAE3C1F8646ACB0637707E0EB254527092236E0F3FA61746404F4130E52
+34A333E48142C508390E18E2125A99424E1697841D98C92DFC788AC64B058B14
+7F145B0E08946291283A46C16C1E8331AB9D509D85830158B1A81EBE74D1C5B0
+A8B99A10A010C167FF1616FC6DADDDE00A4AA0AEBE0E9069417E42ACF52578ED
+12228EE30BEE09A5F1A6A7F5B337F3858023888070F7819EE4EF177123308C45
+B67826EC0110E10C5CD8DCB88CF3FD71EA572AA8F519A1A701003F2ED02A20DF
+54BA187D4F172BFC726A21C521BDBAF05393064C463D5F7BEAA1FE5F3C72CE13
+72B9FC76BC2831F3EF27BBF74F2F2D28F9B7190B537E1AFFE00A959C98D7D150
+14AA2A4AE0FAD517C3300282435DBDD0D9C574166293DCEB0B41201806432882
+346A1C59104A3CB71C2448D8623205BA61084C1252B6A84896FCD39854832D31
+A0026640043DCED21847D0E20E472260B38F4338144280E381C6BA7238F3FC45
+505F5504F5D5C50CC8B000C35D55DBC17EE8EAB382425F00A5E5F550CC0ABE0C
+59A952BC66A793B79F6EB51E0D1C02C21B45D733D8D7076595954861688E3BC5
+B875472B9954C4A5FD0C3A9D73FD0B7FDDCE13FE94590145A6C226EEDC1CE313
+0C40535A5F0800389030681408E88DCDE87B70FA4B0193CC5A715E2C400AE93D
+229F0A0B80DCD857FEF1C73F7CF18EBBBFD23F3042D821377DBC8B6405A64C0B
+8AC81E66978986C3D0D3D70F7BF7EE83850B9A61E1E2A5339B49C8F61B92422A
+012542FC58340E110404950808F07EE68AC50804FAA0F3481F783D3EC0F4D92E
+8F9FF8D85A8D124A4C795098AF03A346460692C86409B2C8E2AC1B1A46EFC72D
+B57851591D6E6A741AB3A2542A051419F5246690A7D7805E530565C5C6A43F8F
+477033E6BD947C2688C0A777D00A9D478761C21F87E2D232A89FBF38F993C990
+D04BD1DA4F0868FA6331F38FB55A0FFFBBBDFD0084256A30B77722735A0665A5
+45506832111AB7E95A2118188F0CD9923F5BCC6385FEB191B5903AD792F3CFC9
+94A0B33EFFD55A93516FE0CECB837EBF4900E06B7D16142800C84700A0379A16
+01535C24A3849F061919FBB72527735D807C9A824F0340B46B7F8B23EC713C68
+30E87F8579E3882BF0FEC770CBF557662D7B58E8BDE8B3BD7D0370E0D011324E
+9CD4DF23CD7BA0EB3DF85E492594A30572A2059FFF14A6129723B31EB7CE8691
+AF69D0EB60E5F245641F19B5C2610404A3C80FC766B93F108681113BD971E4DD
+54A06701414FE8B5B0F032422C23C7C62A63F239ACCD275F4F7F8E33EFB1C6C3
+91FC3E24F47D43631088CAA0BCA21CCAEAE7439542C19E771C097D04C34D4AB4
+7DA6AAF544853F43B55E6FFF00D8BC51C03A42A6D2116919B279A17F780CF054
+E9A24223180B8CE9F1019114E3277B0F4D9AFEDE09301414F57FF4E63F7B79DA
+989E17182AAF6B9E53535A98FC6E9FCF3F2D0028CA538352AD312137C0E4728C
+3928E157512EC1293157E2782C0072D10FFEEC8E47EF7D64CD57100060865638
+74A41769A21168E0D2829274612242EFE584BE9B083DA95147421F8CC420807C
+EF480CF779EAE0F1E7D7C21D377F9180C0AC3A0992EC3E8D8550A395B2917774
+9E9138549497901DAF4BBBC309A39631E4A7DBC06CB1821FB90601F3388C2061
+05764A32D6E46AA51C8A0BF3C8A2AAA928220539781172397AFC3CF798B12CFC
+10425ADE6C75C284DB0B0909B2108A8BC83EEFB495643A4F328681D63C23F891
+93AA5ACF6A9F80F51F31E6BA5AA584D2A242B2E3C7180CBC484CBD162748D1BD
+326855506C32121A703150EA1B1C05B3DD95BC6EB53C017BB6BCFD3AA44F0BE6
+26061310387BE5B26512F6BAC6275C49C14E06FCD2849E8D0F70AE01FA5D4C7A
+15CC5B71FE82960DAFEEA2845F68DCBCF4640E081E4B0C00A81B8C2F2E3274F4
+D07D251573D758AD76F2E29AB736C3DD77DD9A26F48EF171E83CDC0D477BFBC1
+851771023713C5C18F342A3E62ADAF542A41A7959BBD8168398E2D04822152DC
+814120FB00A36446855E68C38B41A596A31D88F98FC1208CC0C064CA27938A17
+2D6822EFF3208BC0814001A74CC7279C10468BDF8B348EC5E62416024684DDED
+BDC95A03BA2603FFBFB88461E1292E2E06855205950D4DB0B4381D0CB1D04B58
+C1E704327E1255EBE1D2DC97DED8009138E32EFBBD1E30873CC1718F3FA856AB
+8D857A35B294F2895584ED16973F82761B2810309A0AF208AB13A16F63CF2D18
+0CC2F6B6CEE4F507C747B04BB5859D162C362894746F961417CD2394B0249BE3
+9AD4FEEC7132F24F097D0A40203740872CBBB22A5C0BD306A9A3E6F923E73939
+499C8C20203FC6CF252810883CF7E07D1FDDFDE71736A2C797E317275C6ED8BE
+7B3F5CB06A298C3BC6E110127A3C530E0B3DFE580409BB2FC4687A1C81C642EF
+715A3BED43DD9DFB3FD970308AD4EA777FF5D76F9BAD13A4307D74CC0E8FB196
+406610987DC1178C5D60EDAD96213090111701330AE1F903F8A8D7E94087F61A
+641125837DD45DE45A8E3130602D9E44D82996082EDCC1157B389587053F9152
+C196652B6EC6BCFD3156EBD1C0C145E991F0BFFACED6A4F0E3349D321E0C1EDE
+B3EBE9DE03BBCD7397AE2A6D5A7EFEB2B18992F9C63C5D810E59472676AA14B6
+042D48CBE35DA75543BE5E0B3AE483B71FEE016F3092FCBE828282E096379FFF
+04324C0ABEF4ABDF5DBC6CF9CAA5556545F3A512E65CBD7E7F1A00086A7D1E00
+14E769A0B47AEEA2CA86F93B467A3B876072E2346D05C841BC45FCA488091C33
+2310A7D8D98B545E79C3B79BE69D79C926E40793802036DDAA8A0D100A3023B9
+B0B063F33E88851E089D74D06533778EF61E3CB467F3BA83FC5C6D5159A5EAC6
+FFFEDD9D56BB3359625881DC8074109879337F5A4828D6CDC669477435D15882
+5809A429273E99D7278FA96590A04001CF30E41809A41266FD48D9B5243985AA
+F5B0F0AF79772BD8C65D49618D7BC6C0E771ADDBB5696D2BF046CE372E3DABBC
+61E9598B709AADACBCA2522D4520AAD5A4DDF709B78728060732E143E3C3100E
+785F6F79FFF556981C0D81B5BDFF826BBFBEE0924B2F5D36AFB9E9AC395525FA
+42839A743D2A08DF430276B7EE27E04BFBF862423F990D9092F5DC3EE000AB3B
+003EAFCF31611DD9BDF7A3F56B10A01D05B6D70098CAC320A4368709358525A6
+B97A13270300006BDAC858C453FFE4C167EFB5BB42FFC5F509101343CA4CEDC5
+762CD29401B7CD7C080BFDEE4D6B0F091468D08D33F1928A1AF5D77EF4BBDF8D
+8D39B4A920705DF6EE8064768A8666D28F9EB93CF909ACD613B10EE8BF83BB2B
+D7BCF77152F8195BDD096EBB99167ED1619ED58D8B4C0B565D7A7A45EDDCB38B
+4CA62A05C448BC80DE62E100F4F4F6989F7FF8370F73DF87C04376DDD7EF3CEF
+E20B2F58B5706E6DB109696B39116420AE837D7C82E4FEDD68C7E956092FC827
+0C00E9C140EE383AEE8361871786ED1E703927DAEDA3036FBDF9E4EF5FA20080
+A3219BAA3B3491617966CA24244E3400D0568094B302B0E2FFF9DFD6FCD5E1F4
+5EEF426E00A6DA46386B73D946DBBA5AB7EEEEDABBCD4A554CD16E045DA8411F
+E3F34E3FA7F68A9BEEBCCF3266D74D0B046641DB67D4F453A4BEB2A2D03E8EC1
+1927A25A6F3A4D3938D0F75A66E18FF1A2F461014D995432D54D8B4BE7AFBC68
+45755D43737149D9691AA50CA2A1204CD8ADE31BDE7AF599EEFD3B472BEAE719
+BF70E31D975D79F945672E995341B43C195C8269C22C3618B3DA88E00BE5F627
+0B806800A0343F0B0099AC83481C370B79A0AD770CF791981110FC6DCDDF7EF5
+126505F049633211934A787226168B3B2E97E2780180B602E46C245473C665D7
+35E51596343AED963832EF31332B165E0D0B123400C4A91B1211D00604292FBE
+F6A6B9ABAEF8CAEF7B7B07A606815936F3B335A5675BC04E4CB5DEB135E504C3
+61787DC3B66C843F4205E84285A555F2A6D3CEAEB28DF6997B3A768F7121166A
+7D91DD58549657BF70791DF68ADAB6AE3F8A34BEEEDA5BBF77D175ABAFBE6869
+63B546C16AFB48340243C3661819B5904ECD4CA93D291DFCE309BDA075C02B1C
+92F26208DDA313D0DA6D8671A7BB6BA8FBC06FDF7DEE4FDB289013E58BB8F1C7
+7F301A8BCA7F804EFF022658EAFEC9D3F7DFD90EC26C46C7DD7E7C3C00C0B702
+64AC806389D4B242AF678F7857F30020CE33012322378780CCD2732E9F77E175
+B73D84DC013D0D02B77CF92A2830E6CD9E992F50E196B5804DA1F58FC9CCCFA6
+5A4FA41537FD5AA6C8DB8B581E99AC109BC3099BB6EF43C2EFCC56F8B1760C34
+2C5A6178F891C7FFB4B4A946D7376A871DAD1DDB9E7AF4CF7F4356A38D167E2A
+BA4E8ECB2FBA66C10FFFEB47B7AF5C34B70857E8E1E22A9C3DC2823F3C629E14
+7C0161A6037E587883011FE9A7C02B47A3D5813E2F3F230064020B0E183AFAC6
+60D7E1119818B7BFF1E16B4FFDB6BF73AF5D0408E2DFB9FFA99BE50AE503CB9A
+6B8CCBE7D58075DC036F6EDDE7B29B07AF7AF9A17B0F0808BF507BF9B440E078
+01002800A05D016ED4B68E05036EEAAE82AA9C4AF01643847A4C5B009C95219F
+B37059D1176EBFFBEF16B36D2EF7C771B0F18E5BAE4BD609FC7BCCFC63EF753F
+D114DAC737B22BB315621F77C3EB1BB725CB7271C04F12F688093F47AAEA3795
+D748FFBFBF3C75FFB517AF9C2365039CBD436678754B3B8C592CEFB4BCBFE6B9
+AED66D0E5AF04D65D586AFFFE09E1BBE74F5E557579A0CC8DC677E3B5C1978B4
+B78FC41FA6CAEDD3DADBE7758156A386B356AD222430FBF6ED03ABCD01A6E2B2
+CC4141F6286A214819DE858DAD47E1E890CD73B4A3E53F37BEF8B74F802225FD
+FABD7FF98AD660BC7B7E5D79CD95672F82F2A2FC241FC5E63D8761FDC7FB0F6C
+7BEBF92F75EC78DF2D60390B59125983C04C01009D155050960027F8DCC86D39
+AF7432C6B300A202C1120E00C8F7362E5E5172F5377EFC38FAA11B31D27320F0
+C36F6366A2BC1360E6CF7CF4FC4453684F9765271B97C5E1F432C2CF527161E1
+57447D306E1D11D3FCB85107AB5BDFEF9F5C7BFFD7AFBDE83419ABDC7AFB0661
+E7EE3652D9E008C9C01992807BDCF6DE86171EFEBB75B82F3077C999E5FF79CF
+AFEFBBF88C450DF95A05597811B4163ABBBA49CD05DDC1976D6EDF6E1D85E645
+4BC088D650415E1EA14A7BF38D37A0B8AC8A9428A76A7D1A4CD22D0421A0C0EF
+3BD83F061FB41D05F350FFE3FF7AF0677FF9E277EE3DAFACAEE99EEAB2A2AACB
+CF980F0BEACB59966A49CA9A7C65532BECECE8EEFCFBBDDFB886156CBEC52C36
+083571220040C815E08A2154021552525E0030CA4333A10B49B12E9A96AE2CBD
+F2D61FFCCCEEF05C8941A010B900F77CFF36B6ABED38CDFC2CA6D1A49BD8D90A
+4E7AC47C60C40A6D9DBDC857F43063B790169A5353064B9BEB0435FD4C5168CF
+D4C82EEEB1429F0F8F3EFD2AD2FE61D29083F3FC473A983C3FAF2A2F45F87FF1
+D03FEFFAD697AFB842A762A8D6269C2E786FD396A4B062418AC625600D2030F0
+47BD4EAB79E3D7AEBDFCF2C50D157A959C4994DAED0EE83C7214E2B1784AD75E
+A6C87EAA1F2F01F3E810680B8B21CFA0270080FB598607FA09EDBD4EAF1736F7
+F981414AEB8BBDCFE6F4C1DB3B0EC1A875DC5C54985F7EF9190B60C5FC5AAE02
+8C098EB1F79DBB964028028FBEB605BA8FF6BDF5CCFF7EFF3E8102279A905668
+5A95780DCB4C4D071671BBF9248C6181CAAC201D08A22E4E9461C531361A1A19
+E83BBAF2C22B6EC27D04679C361FE636D41EA399FFEF1030E6F1B63D87A0A3AB
+9FE4A5F3741A22FC78E158C75D68814C405D65C92C51681F237865B042B09039
+3D3EB0392620ECB260CA844D6D5BDEEEE4FDFE499F1F03C0D7EEFC9FF36FBFE9
+BADB8A0C6AF237B1F07FB87507F94E29DBF3808FB802D0A89642914EAE946BF3
+E697E5A994A5A4A74246C84F8E1CED234B8FF94C763BD7532163FFED714D405C
+A620D3A371A526DEED636628292BE77D26FD98FEBDE2EFCBD36A605143055495
+9A0C375CB6122A8A8D8CD667DB4249F52607265266702DEE0559D2540B9D83B6
+66537553F4F09EAD4720957F008E3508288799D912BCC83EBF67204AC5092420
+4ECD2C46D32CE5053C129FBFE1F673719521DE962F9D3F3B663E2DB0D34DFDA5
+54DCA5E7C9ADC854C5452C152505A0677BF871C00A0FE2F423331A8F33EFEA1B
+8146640D4C99B7CF86427B8A6A3D31969D6C630F31A4F5EB6BAB482F8854A903
+6922844C18A02BF32254814EE0DC2FDCD2F893EF7FFBEE8A423DFA7C9C14E3EC
+DAB39F04F0A474330EA5C5D532093416C9C0336183ED3B1D6040DADAC755F209
+687D610B4058939B8A8A91256103A95A0B8170087CE356282F2D17D1E61291EA
+41BE0B20FC7E9D1C09F49C8A24D0115398582F903C3FAE1A3441CABE9019AD54
+C0CD579D038F87C2775DFCE53BC63F78F5B1CD90DA6C44034034DBF4E04C0100
+FF8FC479422EE5C50AF88318840A23E8A28838E53A308D1F06E36AB7759C98FF
+E5254519CDFF29ABF5A6ADF5B34DE389FBE8C3163B09F6E00E410404C17F3EF7
+F47BA1802FB0FACB375EB4787E6399D31B209C848913CEAD976DF560EA75E1B6
+E5FA9A0AB4509197A62F0065C435CF5050A4F24CD8BD3C00089D7EC1D515FF73
+CF4F7E538E849F3BEFED2DADE0F67892C4299C8F2D5E9A2B017F20C0F0204C27
+B52722B479F905A052A92110F0131F5C5752027ABD4124C837753640E8FDFCCF
+629217998CB9F7DCF384B29E127EC2F3C82EFC529311AEBBE44CF0FB833F7298
+07EDFBB7BDD7C103808480EC65EC3F984900E0A3106D1148786E825021432676
+5C096515C0920BAEA90D85220BF1636E2AF16C57EB1D5F704F408B226D5F6ACA
+8762A31E9E7DE6E92D9FAC7FB18D5D098995FFEFFFDD586E529205C511831C5F
+66224B335FAC4F209B0224F48E58384CC8610F2393DC838479E9399F9BBFEDED
+175A6817B0A8BC46FEC31FDDFDCB25732AF55CC47F4F5B3BA9CE4B06ECC45275
+19C83A32E6ECB3CCEDEB90C0EB0D7922C1BEA9837CC9F7A53D979E1E9426051E
+D8E7D2B57E82628962245902CDF595786AB32E91B8E177233D87BE65370F8E09
+58D3896C9B8F661A00F8C29FC8101FC8E4B7889D309186A5ABCEBF321864A2CD
+0B9A1BC4FDFB0CAC36C75CAD2768624F5358D06ED46BA008697F0C025A9D5E4D
+FF6835652608452210C554E5A251FD13554C943D48462341A84356000600EC06
+28208C7DB39D741CE03FEEFDFD2F562E6C2863843F0103832330343C9A223062
+8CBC746030DBB6DDA92AFA70231A2E2FC647DC7AAD542893AB95B01745995214
+CCB6CC75576612E84CD6C1A475930A0E425A3FA9BE799640EBC1A3E4BC8C793A
+DDA5377CEF7B2FFDE99E0784CAE805C0401008660300F835CDD9042712D3702F
+1245A595E7982D3692FE5BD8D4402C8093A31C36FBE879A1D100F9060D98F275
+F0E33B6F5F15704F8CBB7D81C46F7E71CF5573AA8A499FBB2F1086482C3E2BD5
+7AC70A5E99AC9018F29DB97A0C05E3062CA0CDD145675D5A5B5858B864677B37
+5CB0AC11D7CD435BFBC134937C526885C939A7D3B62B64F6E7190C6030E848A7
+A6949BA74011AEA62E3C364BC6EA2F42C68AF919C9B879499A7B90FCFB598204
+11FE29B43EF75CDFF018F40C9AC9638D4A010AA5BA94ADB3890904CDE98CC009
+730166AC4941ECBB567EFEC6FC683C81F3A1B0785E0321E648CC78D7DBEC57EB
+69D44AD02815A04520B66A69937AFD4B8F5F475F286612C22C40E16834FB6ABD
+5918E4312D77288E17541CEAAA2BA07F6894B801675C76DDA25DEFBFBE1B7FF7
+68DF61AB2F10028524013B3A7A401DF3A66A71BA1E3F0339E774DA76B9EF51C8
+E550642A8402633EC9EBD30154A2D5710600170FC915930089DC2F9904489646
+92605C31FC595C2844F89630596B8C19A2929E02142814E2B90604153369FDE4
+EB00637627EC683B44FE2EFE9BC3661B0C74ED6F616B6C685A726E9753C1F7C4
+BF0B00667C3BEDCCF357FB7C01C6FC6FAAC7E39B6631F535BBD57ADE50042422
+BD0B6E5F107CC1F08C57EBCD5C7193F0BD8D8683505B5D4E0000BB0106851C73
+E7EDC197356E19F677ECDFBF76F9B2A55FC475FAD18017F295521146DE744AEE
+A972FB6240515E5602C548F8A514A1482C21833012E0402441F819C3C87D8993
+71602162EAE3EBC32E3ACECCE07F60C1574A11702BA490A791835CC2B247A3E7
+E364360313C517CA040869FDB880904F82C02420E0DDE1F4C0873BF7916227FC
+7C77FF088C0DF5EDD9BAEE993D54D19D50BDCD949464A71C001414155F3388FC
+466CFECF6FAC23BDF633DD9473A2AAF5BCFE2074F65BA0BAA4801080E2CDE9F1
+C328427B427535C3D57A19CF6746067920810905A1A6B22CE906C8838E85D462
+94BDF4F02F1ED7DEFBE7FAE6869AD324522502C1001875CAAC1979A7D3B6ABD3
+69A1AE06330FAB93F72A88CC774F200ABE5014E21219E0E583DD7C32DC05F9FF
+F8C8702FCA8860E332DE702446D274C14818590931180F46111048C0A4938316
+1DE5F8EF813C794FB8733A56AD9F34FFD1311489C2E64F5AC1EF0F90D7CC5607
+B85C4EF387AF3DFE3655592BE3F54988097F9A2B702A0180E4CCAB6F2D080442
+ABF13F1635D73341B2F834ABF5C4CC7C5EB51E9DCF87E9B0EC4C33ADE8F2FA89
+D0CF54B5DEB104F7663AEB81798D6AABCA6160D88CE9E235675E7EFDD2968D6B
+5AB885BAEEC93FFEF2C63B7FF14C79717E016609D244E3A0552992429F0900B2
+6DDB2D2B2D86AACAF2E4B563819FF004C0E50F2141C67C9372D0681590A7D791
+1E008FCF0F2EB70F5CA35E707B7DE47A2ACB8AC91A2B2E2A246080F99770CB2F
+B6FAC34842FDE8BC3548DF96191820000204120A0426055F54EB27053E55EBE3
+D743E128ACDFFC0961D822CA019DDF986D3CB867E32BAF7B266C415E2F8E4464
+CFD822734A59004B579EBDDAE767CCFF7973EB9814D92C54EB6166DFBE9E1E68
+983307341AF5AC08D831652666C8CC97223F37140C92E21D954A35E30D4FD80D
+A84656000680B85481ACB69225AC1B40B4D4B865C8BFE9ED577EF2B9D5373C51
+98A7069B270AD54A0589794C99DACBA26DB7A1AE064C85054C141FAD11DB8417
+EC2E1FD89C5EC237A845964149A101466D13B0F9830F3ADB5AF75A8E74ECED45
+3EF508122C3F9D436F5CBAAAA2A0A4B260D91967CF99B778D9A2FAFAFA42AD4E
+0781206315A8910BE30D26A0C420838A7C153B9B8151B4B4D617137221ADCF3D
+B76DF77EB010966C200D56C31607F4B46D5DDBD3B17B9497EA8B4376436713A7
+3400687486D56356E686CC9F5B9B4C93CDA480B99C4EE838D44D188AC7DB0E40
+4989094A8B4C246A2C1ADCCBA22927AB6A3D3101A3BF5BAC5A4F8C429BE318C3
+5D690929F48F8E41EFE028F4F60F832EE686EBAEBD0A544A152F5099D9CC9F12
+9490595F5D51CABA0185485D3A1751662AF1510FB76CEA2BAEAC7F70C5CA33FE
+5BAF96C3A0D5054D554559B5ED66CAEDCFA947C26F62841F333263576A78CC01
+E3080030A92AFE1DFB07879C7F79E8E11D5BD7BFB4D73361F7F34AD653DA6CBB
+F7EFC4145F895DEFBF862D18683EFDDCEA4B56DF78C9E2E567AC2A30164024A6
+8020720B4251194CF863B0A042070A398600294FD34BA6D4FAF473B89DFAE0E1
+A34C591F5AE743663B78EC233BF67CF0C6214825D2894EC53170229A8166DDFC
+3FE3AA5B0B969D73B1C3E5749311645FB9E692A905679A2C3BC150085E796303
+B12CCA90D0E331E01C6E62E2114CFD5D68CC2751E0381B1C9AED9E816C35BD10
+28614DEFF107A16FD80A23633622F4296995780CB461075CF7A52FB220907DBC
+61AA7BAB3414C2473BF7C3D0A805A2CE5108047C4FB014DA3E76C78217BEF29B
+3FFD655343FD45589396E46BA0BAB43063DB6EA68A3E4EF849803510849E212B
+BA763332E903A0D668C0E50B06DF5BFFE687EFBEF0C87648A7A1134BA1C5052A
+53A5354D4B4AAEBEF5AE9B162F5BB1CCA037905A02AD4A0E053A053495E941A7
+62A646C753347B26AD9F0E122FAE590F56C7048C586C108F46FA5F79E8E74F09
+F455A48C3C67771FDB6FC1F5D6F0F90266BC1968D601E0A22FDD768542A9F96A
+0809E9E2E606A8AD2C9D51BF159357BEF2E606D24FEE4342631EB3824AA3031D
+CB4B8F73BFB859050FE19C7079483E58AE509041A04CD4387E429B72842C0F09
+F26BB1D09BED6E38D03D48D2463B5A0FC0E088059DBB3B45F019CD8AAC02A91A
+BA0FEC85858B16649D6214AF1E9CFC0CDE306B2FF259894B909767881DED4036
+2DAFC1CB3A32D062AA6A3C13B95AA64AE4B7E76BD54C75DC540D3DB2D47F93D9
+0C658CD5E10B8688F0B71D380C1E24FC32B91CDA3BBBFBFFF1C07DCFEDFB78C3
+115E7F4284D79C16A09AD4E8C774D35AD8E51873EDFEE0AD4F82E1E8504965ED
+6952995C118D33D4AD766F048A0DCC04A714A14E64B004E8A020FB3E9C86D8B9
+A71D146A6DF0ADC77FFB7838188808F455F8B9CE4AF618A03A046330C568B253
+C60528AFAC593D3434CAFCC08110C9FF4FBB5A2F439EFCB537DE019BC33549DD
+1D0D437BDB9E2D256515F9D5750DF3F3746AB534CEF00FE01801DEFB0747487A
+C8986F206DA4D8BCC4797D0C0E38871CC7C522B351AD8711512A430B5F46024F
+B609044C163B02A731181EB59296DCB4124AE4EFEB0D0648440266B7D3D2669A
+B3F462B7C3AEC6DF13509AE0FD0D1BE092CB2E9BB16222EC06E08EBAA41B1072
+CEA1DC002E520D2EEBB0FB505BCB037979973E36A7A61CB95B46323046AC6D57
+C8ECD7239FBEB6BA8A35FB91F00F5AA0A5753F32CBD1DA972AA0A56D77DB8B0F
+DDB716D229C385F2E76101733ACD02E0AE65F39A2737DBCC43C357DE70C70F1B
+E636D545225192D13938E28645D546524300692090EA1AD0F5FE344834D4D542
+43433DB4EDDED1E6713A0202E72F045AD36A0B3E650000A1A9917BDCD276109A
+1BAAA00659013351ADB7E1C3ED60714CF2D785FD1E181BEE5BF7C9FA17F772E6
+D3999FBB7E7EE3C265F555B5F50B8D797905B2040306B87BCD6E9F2096035328
+22039D564BAACDD4B218E8F3F266BC5A6FDC1B82BE112CECCC2E7ACF2471D0A8
+54E077D93BD135F5EEFEE4AD43E6FE23F844E3D5F3971F39EB0BB77E67DC3AA6
+C12030E80CC1A68D1BE1E24B2E3D8EFA086ECA8104062C0E32369E032B3932DF
+A8F4149DA28ACF5B727AD565E72E8739B5154CA3173A676C71099BFDE94D364D
+8D0DE4DBF067B0BFBF675F3B19F72D5168E0FDF7D6AEDBFAD60B7B79A6BE505B
+3ADD5BCF81434CC07CE6CE3D19D368FF64631BBAAF3FBAFD9E3F3E503FA7B1C1
+3AEE466FCE83AE5137CCABCCE705FD68AD9FD935C07322AEB8E45CDC39BA0CFD
+F31D81CECA90808512E69D7BC64ADC5306006C639637B53AED6A3FAB559E7B6D
+037103AEBEE46C3253EE5829B4DFDBBC150EF70C261B31FC4E1B36A5DB58E14F
+06855A36AC69433B8E64BF5C396741C1B20BAE5C525D5BDF989F6FAC36E8F585
+722909A89045E8442E02DEB59230342F58905DB59E98592DD0A083011007F2F8
+FE3C8EE8E3B6D1A0C7D9E777DBFB2C9691DE033B37F508458A873A5B7B0DC682
+87E69FF5F91FBAC61D1A994A0B432E3FECDAD5022B56ACC8EE7C045C1137B252
+DB8F8E9076676EC333FBE44A49AF18005C70CEAAF308010A5EC54883E34A373A
+87CE6FADA501A0AAB28CF8DFF81C3087C2A1AE6E305B2CC86CD6416767571B4F
+F8F98213E069CFD0342D8024F98D6DA43FF8D41FEEFEFE9DBF7EF4E5B2B2323D
+2644C5E738321E80B2028D686DBFA06BC08E6CC7473C20A5B4A458BDE2926BE7
+EDD9BCAE3D03888504B4FF9493894F05002036D493BFFE8FE77EF2D7D797C964
+F2BB3C6EC69F1D405AF06FCFAD8573572E86158B9BC9E29F0E8576EBBE0329C2
+1FF2BB89F0BFF1C4EFD76688B246477A0E79D03EC09D5B75E3A2D29AE6A5B515
+35F535550DF35695197526FC9D38B78C2B1567328D87376CEE7366BD3C1E0A22
+57E3703C16B10C74F59A0FB67CD09321AA9DD2307268C7A62EA94AFF78E3B273
+7FE09918070C0207FBACA0D71E84A679F3A7D533104948E0F0808D54A9A5B81E
+211FFA3EA579EFD6F7DE122AEFAE6898AF2B2D2DB948A3601981269CC951E7D2
+290A7F703016E7FB997B1D80316485EDDBDF8EC0460503667BFFCB7FFDF55A10
+E123A07C671A0468218A6608024A78053818044263833DA1F5FF7AECCEEBBFF5
+9FCFE623CB6FC2E54556980470AA33E90AA4D5FBF32D8104A96D8953F52CB8CD
+BAB679E97C0400FB33B831111067D43AF55D00BC3D70D7753FF9DEFD8F6D282A
+36DDE3717BCFC6014120F9D20ED8DDDE05979C751A2C6CAACB4AC03A8FF4923C
+6B52F3BBECD8773FBCFED93FAD15D0186101F38AEBB0920C751FF0A11D23896C
+D9655FB17CE56BB77C4B128B90116811E48F23D03AE6CC445AF5602094F4F163
+213F246281C31FAE7D662D080F5789666812218BE4C096755BAA1B1AA55A7DE1
+5D785E1FAEDEDBD9D143166253F3BC296314D8BCEF19754067EF088423D19498
+834A12098663A11DEBFFF58FF779D1E8E4799E79F9972EAC2ACE2765B724BEE3
+0FA4710288116E96979630B304D1798C21B37B67CB2EE63BA292E09AC71E7811
+D2D9A8F841332E7046FBCF119EF0F3B5284D7F4753E2E332DC70CBC635ADCDCB
+CE7AFCACF32EFEB61FFD561EA49486EC5EA829C963855AC41260EF6D3C3139D7
+910B2AE3DE8A8292CA7A9E25974DE662CA7E1CE9A9560AFCE8FFDCF1F15F7F72
+D397A4F1E04F0B0A8CA33239C3318AC928DFD9B20B9E7D6D230C22BF18A7E9B8
+454A1EE3A05C8269F068EF3808EF6FDD39E9F3077CA0D4E82D5BDFFCE7EB3CE1
+0F518BC64BA55B5CECEEA41EE3DDDD73A0B5332661CE49863491C7E5221982C9
+F3997C4CFA18788FB905C03C8E4F9E3FFB7864CC913CEF58D88F2BDA2C904A13
+CD2DF600B5D0C5CE9DECEF3EF5C0DA44C4F77F5ABD817CAF32AF18761DE805BB
+CD3A99E1489E1B7BFEB846DD1B860D3B0FC2FEAE81A4F01332D004B24C62BEB6
+6DEB5FFCE3E657FEB149048CC8DED4D4B84CAF66662286C221B66481A2D59289
+D3719596309D8738D28F5B8AC7AC564820A0E8686BDBE299B0734133212E42EE
+7E78A9DDCFB304F8F18088804208F12C0A72AF9FFBFD8F1EB458CCC447C3A42E
+A30E1F997198945E56F37329C2382BF038B02DB463DA7B437E7EC1DC25675650
+429DA90828EB46BC530500E88B2217FAF46F7FF8CADB4F3FF0658524FA54BE31
+DFCBBD11FB9EAFACFF08DED8B4039C78027152C018A1B2223371073D55D6E741
+A6BFC7B2E1C5BF3EC516858809BF97CAB3A60810BDBBCD3DFB46CD4C604E8E4C
+EA8971C7A4C0C72981E78112FD380916F149E1275D8FE83166DFE536253281AD
+43BD66114D17A0163A1FB0F847D75BFFB8FFD54834FCAE52AD4982C0C60F3F41
+2060A3CE8739377F380EDBDAFB606B6B27C9C84C22A91794717F7F57EBD64736
+BEF4F7D75836A048067F3552515ADAAC56C8884AC593A045F9F678693F5C9E2B
+63E87460DCED83F6030C6DBE2714776E7EEDA9ED22A63F0D883E5EEA4C2806C0
+E7A48C89B886615EEAD0D7D9DEFA9730264845BF1BB66ACCE33EAA0780157EBE
+D02726F704F518BF8659AFCAEB9A2BB29495AC41407A8A093FCD891E193AD261
+7FE6B73FFCDB8EB7FFF92DAD4ABA499F67487EA86760149E7A7503ECD8779804
+96F0E2C584956BDFFD3069428790F0A34514DCFAD6F3B4F0F33506AD41F90517
+6E9E0540F66030B0973B612C2093023F09443428A5089880D6E7841FBFE6A0F2
+F92A0400C8E7EFE52D76FE79BB33582D6EEAE87EF7EFBFFC59619169BD4CCE78
+86F2822AD8F4D17670D8EDE47CB0163BD06F830D3B3A52A6FE24A2415044DC4E
+A765E05FEF3EFF97277A0FEC1EE6E5D885FC6E2270C67CC33CB592E1B7C4569C
+3403D1A68C05027C341A99E9C1D8F2C0BFEBD89895A4443BDA5AB7402A17651A
+0D39751E7E91E8794CA4AC5648EBF22711132078E5E15FBC80C0930444B02B60
+9DF00A6BFD141088271FC778C05058900F85A595153CF723531F4056DBA91403
+480300F68793B56FDFD48BF6FB2FFED23737352FBFE03B6E8FB71EE7E249CA10
+01C0BE433DB07C413DA19E620836D0AF168D4224E00D1EDCBB9DAFF9F9DAC2C7
+331143945648CB0B9388B0DDBEB3B1A6FC74ECC405826146E0219B4EC1CC4D39
+D8DFC6137139FF1FA2D17E9EF9CF072E6E910B69367A7127273B3D7FFF7FDC7D
+C33D7FD54DD8AC17E27B84416057FB6158B07829B41F198088909F1F0EEDD8F6
+FE6BDBA9FB28349E9B6F2A07AEBCEDBF4FCB276448904CA9726CC0997AFBF1F3
+98CC83687C7F1099FF4C85634CA681FDDB37D1A5B2FCC01F1F8442BCDFF358C6
+6CF119B0929F191AE879B2A2B2F23E2CC06EAF1F7CC10809547342CDF7FBE9E8
+7F92E7827DBDA4D8048682A24A5E2645269059E137007DAA6200740D34FDC392
+72C80F5E7BEA93477F7EDB773CB6C1879126F3711FC28D14DBF71D411F50A2DB
+2283385A68FE89B1E0A1B6ED4F226D352280E0011173D127103DF6F3DEEB1D1B
+19DC179330EDA1205380D7E3C960E653318138671DC4051F8F5A29FF3FE4C302
+631600C520CFD7A5AD17DADFA5AF833EFA5EFFDB6F7E5A545E7184FB5B01A91E
+5A0FF624859FF3F32130BEB7EDE377FF86FD7C9EB91F14883FD03BB98FFAFC02
+B551A7619A67D07FF83EF0CD7E21DF5FA7D590D800FE10AEF71F1A6200C06A1D
+3BCCF3FDA30200141488F8C73234D264A394849453B8AF73FF5B5E9F8F8D5145
+10588598DF730A9F9FEF0EE05DABD1803EBFB09C27FCF42E04029F9A1800403A
+CD78840A76A598BB6F3EF1FBB5AFFEF9DEDB6489E0CB863C6A5A10D21C09998A
+44BAAD9691977B3A760F4EA1A57C02D1E2904066802EC8F0F71CDCD71A88C492
+8140AFD79334EDC5CDFC7872719016E704FB3EEA312686486ACB8007018BAB2F
+83191A1010F48050592BFFFAC36EEBD8CE379FBDA5B4AAE6485A4E1699FBF2B0
+EBE87077FBDF3F78FDE9972D03DDD60CF7CF2BE03671801A282EAD68C6F5F378
+B972E6BF8CA5D39209F8FF4C4050065AAD26B924B085651963622E66B3A58F97
+09112B98E1E7FA8F69AE9E081024DDB10FD63CDEE3F7F9860860A3DF1753BDA7
+0B799C27EC714140C02DCB32B942C34B410A81C0A7D205E09B591C0880485A24
+621BED0FBFF0C0DD8FCD5B7EEE86B3AFBAE9BB71909D81DD02A924E1EF6CD9FC
+FCAEF75F3FC8B32A84827E42F5D57C739136B9F0F332C7D13D4727269C433A93
+A11A534DE1E2A5443C711CF4E4CC6B13EEA451033A7D1EF4EE6A35F3171D6FC1
+D3C70808CFA6E7164C4A14B967FF0E2C55B79CB3FAEB8F789CCEE5B89E3F1E70
+D95CCEB137B7BDFD02D7DA2BA57E83A888C005C4AAD5AA4A0B6374331A43A7C5
+98FDE15010DC6E17180C799087409C2EFEC1049E9C50D91D8C5584DB8EC786FB
+2C429A5820F828F43B1EABF083C06793BF87C7E33E505252528D851BC702E2AC
+993F69E22760626C04FC9E09C82BAA00953E5FD82D40FFC3958115F5CD45A37D
+5D23904E02226405243E2D00C007011AB1050180FBA10FB76EEB46FBBD7316AF
+AC3195D554EF7AFFB56E481F531EE55913F41E10A901E01787007D5EBE500C57
+6D55736DA934BDB7E8C4E1294A6DCDF689A409AE56298348FB4E885C3B1D79E7
+B78A8A9D3BDFEC952010B0A2FDD645AB2E9DABD2684B5B3F7C13030E3DE89503
+809880B91D1448AB85E832DB700C162AE40C8906F6FF65EC808F91A101E4E36B
+A0696E038C8F8F4357E741689EBF100180820084861D098F0933C2EC20526CDD
+0D1E691F15B100F875FEB119D2FC6220C01171C642C1205E079FC74FE2AE44C6
+9D63043C1A0EC391DD1F40597121CCADA880C1C12EB0462450D1BC42302E80C7
+95A1356C4200600681B1E953B8029F0A4E40A1B903529E1614FCE191B97F14ED
+D85954412A6F5A9CB200F891E20088375888DD5842173BEEB07D1CAF28BC4A82
+FE89699D8E55EB73453791386E42F227FDFF40CCDF276076A6552D42F6D363B9
+B90B511E30C0819D9B704F3C5E745AEAFE72939E85026E21115783163E240792
+1A25AEE360FF1219D1E57111C6DDFAC66632ECB5B6B60EF47A3D8C8E5AA0AAA6
+96750564C9931E9F6040312E5303EBFF27207DEC7CA64AB904CC2C796D8ABBEA
+0F04E25CB15932CA4F5C3E00FB482F1414E4436DC35C30E619A0AEBE1EF6B6B6
+C284B91F0CA53593A9E0E4BA00587ADE1597690DF9F2968D6B765282AFE01DE9
+C1BAF10C96CAA9C70908E91CE7F10C155251813CB48AB200A4022E4080DA4322
+DA13A60081F8EE6D1FEE5BB97401C890DB21536AC0ED7232DD78C73085083FB4
+D89C29FEBF4CADB680704FBBD090D54C8B3D2102021291451DA54094B600223C
+4D1F12C83EC4AEBFF357D5739BE6DF54565C707365B1B11603005155ACEF4F98
+8A90DBD43B384C00004FEB2D2DAF80C35D479216027366CCE985533B1F33AD83
+6806109F354B351A09ED4F59185CF02F813B21474082DC19E65A0D0804D0F516
+9A606CD096E2227000B06AC532282B296E28AFAA6B5872CEE7AE1DEE39F42EB2
+68D73BCC8301764D2BA98A4B3E35BFE06F7F2A028090F009CD1BE46B446E812A
+45002022A0B9F89D55F12CCDC584A56DC356DBF84D5096AF05A94205019F0F74
+3AFD3113904E78FC93A88D84656CF0689FC0F5C6040A57B29D149B10B104F8C2
+C5DD2739EFFE4541B86C9A9CCF6D3F7FF89C86BA9AFF283319BFD05C530C2683
+060C5A25F9E17000308AAC241CECC3EDD521971B6CE313E0F278210F3DD62393
+1FB3EF926020CBBB27C25F9310B927B129F2FBB3B64EE50A554D0A0050168042
+AD25160FCE5239DD1EC837B8211109A21352F10080590BD8F2A9AFAB81BADA1A
+305BACA6A19A9A9B1B162EBFD9E518DB38D273E88D0F5F7BF223482D53978AAC
+8364FCE75405804C3958B19AF808A4D226CB292DC75FC0422DA1D3197042CE23
+188E74A0078B71800BF7A9338D41C7C6608429A1B80D93900C74ED1F15707D84
+EAC2A7BBC813026623F06A0D14D4FDE307DD922EC83957DFA45F7EEE6537D654
+967DAFAEDC545B61423E6C9E1A54728651C9E7F393A22C62014898C87F714929
+582CA31097CA2084AEDD66B3C358C00D8B162E66E7004A5384BFB0A080711F62
+E16C402071A2049F3B22AB265FD80248407E692D38ADDBD1C9E74120988080DF
+07F1800F2A969CC78B014C5A851C3094141741519189CC471C19315F5E5A597B
+79F3E9E79A9D76CB737B36AF7BE9687B8B8D55727CCB2746C7D14E750000109E
+421417F08F39C1A0492924FCA86D067371DA82E4F607B702E42FC6FF08C6A410
+4DC808EDB41073716A760052C0E068EF004CB8BDC9E21B49022C14975D26E19F
+AEB6139AF20CBCFBA8A0025012A17B7CCB4F1F3CAB714EFD8DA682FC9BE6D594
+40A1410D469D8AD1F658DB21AD1E8D4505B8F325C40258B060310C0F0F422C1A
+21AC3855CDF3A1A0B030F97E4CD5AD520133CA8BCD08E05398B3F88CB29E8E5D
+03205CBD7722043F6D2B2E2ECE63B21CCCF94E5A000950E71741D5C2B36062E4
+28B956A95C094674ED3285864D0B433A00F00A88700B785D7D2DD4D6D682D566
+2FB7582C3F359555FFF4FCD5B7ADFDF8AD7FFEAA7BDF0E072F2EC4590524F3F3
+690080A9DC02BE4B20C49B9E80F496D9E33115C9FB877ABAB72DA8AFBA5386B4
+935CAD8321CB38E4E5E989393BC95804C9FFA5FC0136E8E3F505C032E1875A96
+6B3FE273C2D080A31784F9EC2219827EC79A6D018140A38C976A4ADEE7DF3EF9
+D6FAE6BAB2F32A0A0D48F055807DFCA4B647A63E5EB4B8A28FD3E6429D7E0683
+0116208D2F366D976B8BC6A5D0490B201EC1A5B2053D1DD07FB2083F71D7E48A
+A59C76C2BC05740110BE0C759E094A0D8529421D1712FA38BF6A30BD73D08427
+1F15182180AC828E0307BF78FEB55FAF4200700B083736C54ED520E0F1024154
+204DC2371B6762E124B6BFFCE737569EB9EAC5229DF246883385416EE4EB2560
+7A89274EF8E3D110D8AC91E09E2DEB37427A97DA4C46B98552AE34084805ACAE
+C41DBF79E2E62573ABCE9B575540B41D4EEDB95C1E084722496196498F7FDA2E
+9E90C3D50EE8F51AB4EB08455B55756DC36E80B6936931AAD4EAF3B973D56000
+88A736FC2405399EA12C58AC6C389EFA3A57518AEB05940A323B7025FAD306D6
+F5E5E25ADCDA0F7F5A5C806CE30312481F352E11F0DD8FA51E5C14801EFAEF1B
+BE77FB6F9E6851C4827322E1902A1AC17B44854C3E652C1653C4E33139FAD1A4
+89785CCA4FBFF1B7702894D8FACECB5B3D13361F4C32C38A46DC8F33DACDCFB6
+C4A87B27788E52992C4FAF6126EBE085E8641B97A4229379D3E7E965376D3741
+CD83C71C8CA5A5A508007AA1BCB21A0F237D1DD21B63F80D332764FBEEFF3EB3
+9AEB59C0868B5AAD4C1601F16BFD85851E261BC832F60DC4D38E3E9F0FD07AC3
+C55C79ACF0F3DDDEC4A71D0040241522998E00CF442EF889FB6E7F91CDA1EB59
+4436B08FB5BC945A2610480844E3B9E225A156567ED622711CF78F0F0A625BDB
+D88417EA4AD8B8974492AECD338CCF4E19A49961DA2E3E92AA4EDC17A051414D
+5515F4F4F482560E054BCEB97C6EFB271B3B20BD4946A86B6EB65C02F2FDC5A6
+A2D5384641FC7FE40AE189BEC94EBF24EFC374B43E6D2DA46AFEC91E9304B232
+DDC44A0A05FC0E16001462311B297C36B6C434F6E31118A1BF29C6E29A6C1E82
+74720A8FC0EE15793FBF5C59AC6E6126AE25D3BD84BFDFFB8D8F1C2E3F4BEB2D
+216C3DC93E7E198FE003BF4637FC5047FA7DE90D41CCE7F002C74090A7D3406D
+4D35E90E94C4C3B070C9E92B41BC614606590CCC9C89EDDBBF7EAC4E6730DCCA
+687F09180D3AE15AFF84F09E106C129A2C248AB14D641808C9F3DC11B99A8160
+8074BB4E58878FB28A46C7EE5C15A7924BE37E560060BA6030937F8B5FA7CFE7
+18E0730BB833EC2EDE7B3C14086453B5385BF72E692DF843E1017F3042B43F4E
+570A117C4CFD9C4C1804D8237131583700BF5E98AF27F4D9F899EACAF215950D
+F38B20FB52D95901833C63E17D3840493A7710181A749A14ED2FC40140EF3121
+6048BE3F759F0403E6E8F57A211289807D74608C157A2D2BF86A5E2A5CF65904
+80130D3242C41474F7621A45D714BB8B07041E489F0473AC3500C7ED6AF902C1
+81602446B4330E448909BC9447F2916A1D70AFCBD241827D0D7F3F474D66321A
+60C1FC792425284356C0E7AEFFFACD3CE15740E6E9B933090292EFDCFFD4B2CA
+CACADBF03F643209E96BC0EC4D642C7926CD2F0808344948AAA00B697FFC1EAF
+C74B0078DC32E481C9CA574EF015B425940380130304D9700C662BFCDCE3B4F6
+5A110080130002494DEAF3053FF606C2A45A0FFBBD29745E329980B92FCB6C1D
+B0A3BAA53C6E4020D90026C481D3AA654505B078E14272D19585BAB99FBFE9CE
+CBD8C5AEE409000704D36E9DCDF23E407979C553C425C17F105D732102A8382B
+FC8CF04ECD01904A09C6D7FAB14930E081421C1D710C007FBE7BFFCE319E0524
+E75B40F29C8CCE3A00C4A9283AF000410EE27DDC920C4140B19AF794661B3871
+79EFE4DF71BADDFBC7BD01689014103F9FABDF170BF225837D54904F2C13C09F
+B68BCD64592C414CEC129311162E980723160B118015A72DB9BAAFEBFC8387F7
+6C3DC40301252F4602907D89F794C2FFB347DE78BAB4B47429034C52C8336849
+2D0426A2C2433EE3BC60DF649E3F35FA9F9AEE4B0DF2254962528ECC7B828120
+04434188047DE60C01D0C9CC4D4E46675D28320503FDBC6060A640201DF4E333
+1365F2FD4F64F14B221C0A0E7421D7130B2A57BF9F29C82793F1B5BF4CD435C0
+5A3F9E4865D50D4559E215043695A52658B9FC74321F51AF966BAEBFF99B772F
+38E3C246D60CE67C6015150493CD503C807CEEBFFEF4CA7F969795DD86CF458E
+4C7FB55241DC132E68178D65CB0044F9F702667EAA1510230D51789E8213ED9D
+873B49FD85CF396EC9B01693FBA9321DF854DE243C3339535AEA58C0250EE905
+3BFF8ECA37EE9AE4FFF5C717830BEA4AA1BAA480140171EB8BDB0D1A15E8B5EA
+644A8FD3F0982FAF18090C5FFB4BD8A1016223B5540A19A8E48C2E1BB6D8E050
+773FB4EEEB2013A3ECBEB8FFB5179EFAD5819D9BDA7981531A3885ACA6C47485
+BFAEB6F6418D4643CE5BAB9441598989802016D45024CE33EF816AF74D2FF5B5
+DBEDD0DDDD9DE48AC0CF6301A747C073372539CF921BD282EEB97B6CE0C38D2F
+FE6503AB6CFC30C90EEDA4E247BE9C0B70622C01B1821A388E405422438AEE44
+6BFE94F38A4663ED669B7309A6308B53453B9C8EE13800813D4AD867554A39DC
+FCF9B3412D5724CD7DFCA1C4148334314DB95CCAB80F1548E882A108D97B0706
+A1B6D8A0FDD677EFFAD5BAF2EA873F5AFBF42611618F50AE401C52EB1D121940
+1D6EFBF9C3051555B50F565555DEA6502819E157C9A0B4A88004FEB0DF1F8EB2
+BE3ADFECE715FDD0853C5D5D5DE0708CB327202EF4497E09986C2CC39F1FEDED
+E44F8812EC8ACC01C009F69179A000197CFEE97E5FA67F9FD0EB4426687B301C
+59827D736E5126455F02698F3940080463F0C9FE2370D9AAC54CDF3F64374813
+1F9DE8B3051A39B118EAABCBC967715660D86C8132539EF6F66F7EFD678DF316
+2D78EBF9471E1F1BEA111BF725D43528AAF5BFFBDBA72FACAEAE7EB0A8A86829
+57D4842B218B4D4664952888F0E3C625CC449D8DD6E70060D46C069BCD36C91A
+2D2AF4938D635C6F097609942A35EE161D01F1E950C9EBCC01C0BF1708664A68
+1327D335864281B75D12C9CDDCFC052C049CDC632D2FA3CB4F2492E46BB8AAEF
+C0D12158D050059565A6EC066952203111888351CD580E755565E488C93447C6
+EC90A753C357577FEE9AE52B4EBFA4A565F7ABEFAF79FAD991DECE3148AD188C
+C064B79C982B25F9E62F1EA9ADAEADBBAFB0B0F056DC8780FFBE528673FD6A30
+15E491022822FCB158D2F4171FFD3559DC83837CD89FEF68EF204366F1E83B8E
+4A4E8E6BFBE5CC88B9383550166F6A8D267972018F73B47BCF8EF73D13363708
+F78BA4F05BE46200B96D26374E90E4577FE3C78D25550DB785C34165C0E75545
+236135EE7FC82B2C598A16BD14F73FC4A231492C16C3ED7DA050AA34BA3C6305
+7A1F9CDE5C0BB7ACBE98141225A61CA99D0A12D81528504B93A88887868C8E39
+C089E9D4F03C01BD1E64C8541F30DBBD073BBBB6EC6B6D7DFFCD277FBF9E8D07
+44408433F0C61FFFA1C6602C3ABFBEAEF696FCFCBCF3753A1D12D238B162F068
+331C6FD06B35E4DF58F843E8B540389A2EF4220D3CDCB11D097F6F6F0F332139
+11771ED9BD792D2B9F783204B90501AF3BD0D3B16B3843CC87E66E0842FA9018
+2E981CCC01406E9B9540201B69C7AA0997A0E272545C936E80C992547E0F0459
+805FFBF1FFFDB4B8D05879EEE90BE08AF357A40CD2E46BFD84C8B45D1C0FCC57
+49C911AFEF60280C66AB83D0724B91269529D4A045028C35E7B8D303878FF683
+D3E5DC353EEE1A94CB2483DD7DC3F1225341A2B8A8201E0845CF292C30D6A854
+EA1A53A191D41E60E1C479771CE5371A34C8725133BDFE6C314F201C237BA681
+9FB4E073DA7F6474145A76EE241783E7248E0F76AE6B79EFE5BD197C79B1EE55
+BAFA94CF74EDA582A0A11C00E4B6D90000192BDC58C8B530598BCE35406960B2
+3027A530E5F40BAE9EB7E0ACCB7F52599C0F5FB878152C686A48D5FA00195D03
+EE39FC6579E82F6815DC730942AAEA70794985A25283A9DAD48C55910092AD08
+04421044263836BFB1DB826503E7EEB1C033397C8683408D762DD2FAC06635C8
+D86FF4621457E105A324E8974DDB2E7DC4EDCC9B376F262E400459416AA5CCF2
+C623BF7C04846B3DC4C85E8500804F769B52369E8B01E4B6D98873F08795D295
+775C69B412042AD3F67EF4F6EEFA452B3F1A4DC42E78EFE33D5088B46EB1A970
+0AAD3F29FC8C6BC0089A032D792FFA0B382E805C74D0E9B4A0D16A21128E9031
+EB7826218EDC87D117609A328D524E708A1BE386772CCCC04E472651C2589CF8
+F6C9B65E56EBE3F2674F309224FAC8B66D17BF2F8C7CFD6DDBB641301020CFC9
+E50AE8D8FAE6EB3C41E693DBF2C95F84E61646282B803F14857C266701E4B699
+B6008067052821B510876E48116ACE911657D4192EBDF93F9FD52AA5BAA2827C
+B8E9BA2BA0A4A83055C8852C0191F6591C39D02BA56050491904A268B693D908
+8984CDCD30FFC69FC55640146BF62823F41192CEA39A7558C14FD7FA19DA7605
+2AF93EFCE003B0DAAC0CFD3BB24412FEF12D5BD63CB6198487BDD0330DF99D9F
+B42520341D891E8C4240200700B96D3640801E5FC5C503F80D29629578043CCE
+BFF6B695C5750B1F2A443E76B1A900BE7DF37524AD97EA0EA46BFD046FEA0E9F
+6043A7942020409A5F2649A1E04AD01A9DF6DBE39014764EDB6350F087A244F0
+2349C1CF5EEBD3DA7FE78E1DD0D7D7472E029BFF05460332FDEF7B0484879BF2
+079B0A557FD240203430268530260700B96DB600803F3599BF0B097FCA67BEFC
+83FBEF0AC724DF2E2E30404559315C73C545840D97AB0160846C0ADA2C9169BB
+B80F16570FAAE412E41E48C831C5AC67DFCBE4F2E3108EC593C1BD50249699B8
+232EECEFF3EBF9B76FDF0EBDBDBDCC68AA6814F2F4FAE0DE0D2F3C6219E81EE7
+99EFFC59957E102FFF1663C816A48BCF01406E3B1120409373708FF9E5D02000
+1ACAEB7FF8BB3F787DFE6B70651DCEE9DFF6B5EBA0B4A4385DEBA798DC306D5E
+3DEEBD181870BC003FC6C22E04267421CF74B53EC94A0443F0E1871FC2988519
+6588EBFDB53A3DF4EC7AEF91DE03BB472175D4BB50BF8810008891DAC4219D21
+3A0916B966A0DC369BC140A1806018526707D2E3C9D32633EFDDFCFAAF8B8A8B
+BA2C388DE7F5C313FF7C15FCC1605623B5334DDB156BC2C1BEBC0F093E36F1C5
+C83AB26FDB8D0BB6EDB6B4EC84D1D11122F8613C10452A03D7F0E17548F8CDBC
+A01FDD34468FAC139BF8CC1F082BC4139952069DCB02E4B6D9127E3142D61888
+B73ED3560359B0482870B5DE8D8B2FB8F6C5D1315B7353430D2895AA54665D11
+5E3DD1F65A966C937E6F2C1A066BD76E306A15E444267C1130CE391D9D897CC6
+DB768B8B8BE1F0E1C3E4B142A984A06360DDEE8DAFB6427AC7684044F8F9139F
+A71AFB263ACE2E0700B96D3641007840009099F380760392FDFA180412F1D8CD
+2BAFB8F1F918C89A03C884C6B97C71A1CFCE54A705190B7F6D55192C983F1F74
+5A0DD86D36D8F4D17628683E3B4303CF646C61AA605F823A56565691683F0E6A
+461C83EB76BFBFA6158499A302021A9F9F01A0C95F4140D021D36B391720B79D
+285720912148C5DFD352587D87F68EED7AF7C55B9029BDE5F5F51F02060171D3
+3E3E05ED9600071F9EB81C4D90419DC3E631506B75506ACA8388DF95F17399B8
+F968961EEE88DF13442E4C55555530E61CC1C2BF1752A719D3517F21DE077EFA
+2F0ED327BDCD01406E3B2901412C7A4D84A2BF73AF75DF47EFFCAF7DDC29CAA6
+9B1110328002AEF6B3D8ECD03F34424000EFB82250E8737C465E316E3EA12307
+0625C5454124FC6DBC384958C4EFA7B90B2259087ED65BCE05C86D2773FC20CE
+8B1948E79F71E1F975D515A4334E28DF2F6EAA67EEC557A80D789637F8D13F02
+A1108C8F8F83DFE5028369E1A4999FA194976FE60BC500E2A4A230011AE46268
+740663596D63BE65A0DB01C2397F7E70940BE84D77EA73C62D6701E4B693DD4A
+A08B59C2FABC8215B5D5E55944FBB3E3DFE7DEABAB9C8793F110F3B921EA7511
+E1D7D62C49A3E91237F327AD80CCDA9F396AB55A58B0F2C2F9903ECA9EAEF80B
+8A98FD33C6F694B30072DBC91E4404CE47BEE08BDF302A94AA2B6AAACA59A1CE
+ACF5E9AA4021AD4FBF57862C80BCC6B320160A30937A55FA630EF209697DFE51
+AD5643EDBCA5A7A1EBFA08D26BFEB31DF796C801406EFB2C000169F06B3AEDAC
+AB6A91F0E311E2F1B4745E22635520FD3A1E51DED3DB4FBEC760D093E7F1100F
+FC1E90AB402253263F871986994EC10061DC8D2070A8ABAD1349F1890B7CF248
+80220E2AA512F4F985E5E575CD46737F978517F8141AFA1A8359E07BCC01406E
+3B15E201C40A5028D55755B3DA7F4AA18F8B03C0471FEF0097DB9DFA6712622A
+3541BF4C361CC59F3B776EAAD69F86F6E78E2A950A169C71E14204006648CF8A
+F07BFEE3300BC35E720090DB4E0957E0C61FFFA1402A955E535D5136393B6F0A
+AD2FD40CD4B2BB151C0E074F82A60600FAB591915142435E535D3D3DEDCF590B
+2C60E040664DD392E5E82B37658881CC2ABB730E0072DB29B1E51796AE2E30E6
+23B35D96D902C8306D7747CB6EE8EB1BC852F853D57E82F77CCFD11EC2FD5752
+522268054C05061834B00BA235E4575434CC378DF676FA21BD7F62D6479AE7B2
+00B9ED94D8B0F66FA8AB12C8F56717EDDFB7BF038E1C394AFC79CCB883597CDD
+F6D1B688DFD31709F9CD4A648E635AAFC9F905CC3C02B9420E2AB50A029E89DE
+B077E2E0F8F0D14DE8E500FE9E8E03078835C015F8248F53F503B0EF258D4181
+00CC5B7EDE12489F664C374DCD1A10E42C80DC76B26F12CCBD1F8D4657579597
+A644FFA7E200E01E1FE9EE86DDAD7B930A1CD7DFF7B47DBC6EC7BB2FED05E14A
+C48CB5F54BCFFDDCE1A6332EBF0BC7023A3A3A48445F87D981E3D9BB027E9F1F
+868787081598DE54BE187DED4698EC82A48FB33AD23C6701E4B6937ED3198C17
+58C62CB0EEED0DD03F38927D27207ABEF370176CFEE023420316098789761F3A
+D88285BF15845973E82A3CA13E7CFFFE6D1BDA2D3DEDCFE0EFC2241E2D2D2DE0
+72BAB2D2FEF8FD9800A4BDBD1DC6C727C8BFA50ACD1C101F672E363B326701E4
+B6CFC6E6F1784E0B0543D0D3D70F47D1BE78C17CB8F8C2F340A95266E400B0DA
+6CB071D3E6A41EC7B306136EEB8E9DEFBDCC35DF70C2CF67CCE133EEA66D1FBF
+F1EC860BBF747B5063AAFEAEDFEF831D3BB6C38A956710DA71C1EC003A628D3F
+383008B1583465C84734AA069E0BC0177EA151E6331218CC5900B9EDA4DF9050
+0D60A1218CB9686FDDB71FFEF2C8E3F0D1D6EDA21C0096312BBCFCCA6B100E85
+C9E770BDBE34E26F7BE7993FBE0393CD371C3F01D778C31FD94EEF6963DAB7BC
+F6C45B0A88BC89BF1B9BF46D7B5B93C33CE80A409C75F864DBC7D075F8300402
+FEE43985C3213215291A70EDE105FFF8FBACC500728C40B9EDA48F016021B8ED
+178FFE69CC32F67DAFD793A23DF3F3F2E1B24B2F82C6C6C6A4058085FF5F2FBD
+0CD86AC06FC5293BBD22D1F6DE737F5C0BA965B77C7212BAE1260A99F3EEC919
+08ABBFFBAB9F8F39263E4768BDF2F260D55967930C810F5906EDFBF793BE025A
+67633A52B94C0EC67C83737CF0D0FA3D9BD7ED8749F61F2F0F78DC90CA0034A3
+A5C03900C86DA704006041BBE65B3F6DD4184BFE31326A3E3B140AA608554D6D
+0D9C7FDEB9040036BEBF09AC080438DEDF8AD212CB9657FEFA9467C2EE83C9AE
+3B4EF3D33DF71C1864EAB54F3B2FB42BAEBBEBB70FF60F0D9F178D4499661F8D
+16697E3B758E9373FE8A4C854159C4BB63F3CB8FD2CCBFF4000F3725FC1ED63A
+09423A01480E0072DB670700809D36F4856FDE7D4942A9FFBF51B3A5221A8DA4
+BE9B276C48F8CDDBD73D8685DF0FA9C33284C836F96CBB6216009FC05459DDB8
+A868E185D73DD5D7D7DF449F07EDAC171616224B04F6B6BCFBC23BECF9D0AE08
+3DC6DB03A9A3CCFD20CC00940380DCF6990200CCD785236678BA90FE0BB7DFF3
+6D5F046E1F1D19D5F3850D3FA8AEA99C6859F7C45F3C13B600256C7CE1F70A00
+00DF05C8745EC92948B5CD4B4B9ACFB9FAD9EEEEA34D34066891455056623A3A
+D8BEEDADA3ED2D16F6F37410324C59225E2A16E1A5B47F280BB7240700B9ED53
+0B005C741C0F19E1660EEA4A6BE6962FBFECCB7758C7DDD73AECF6E4874ACB4A
+038E23BB1EEDDEBF731426DB8A2390CEB4EB8374A65D3A1300221600F0CE0B5B
+27EADA79A795CE3BE70B6B3B3A3ACA150A05545656D8C0EF7873FBDBCFEF81C9
+E87E4240FB07042C1221504AE40020B77DD60080EF067020A06577DD69E75FB9
+D854BBE87B91382C5229E5F6C1FD5BFFDEB577DB28FBB904A44FCBA5A9B6FD19
+B47F228BF3A267216A3008ACBCF48B5F0D78DD91960DAFEEB59B0713ACE5A2A0
+CE27CE7347F8F507011197240E33D81B900380DC762A008090B6E5C68D692830
+D040EAF831390F0042BC609B98EFCFF7B3C52C007A0A929C0601D642D152477A
+1A32402A05184D029A69FC57AE1B30B77DE636218AB008F51A9F51878BF02B79
+26778CE76BF329B685A6EC8088B0F1A9CEC5408B13D6A80000D00C40B415400B
+BE181108E40020B77D168180136498020042220010E199DBF4C4DCE932EEF019
+8BC4008036F5151470F04B90C322823F9535920380DCF699B102E2903A33804F
+9E11E5091B3FE8C6AFF90FC1CCD06D2540989B9F1ED34D4F43A6B90EC3D47945
+A93D2EE0F3E72C80DC960301481D361217B102E801A400E969373ED75EE23884
+5F32050844A8788444C4728951822F36EB0F720090DB722030290C719E6B406B
+554EE0A4D467E9EEBF184FF8E3C721684220400BB98C0746342009D17FF1037D
+B3C60894CB02E4B65375E347E2F99388F95D743450C479267F7C86048D3FE598
+DFE0C33F9704A44FED85D9D6FA3900C86D9F052010EAA04B80C088EC191636A1
+F311EAE44B6430F31327ECE6E50020B77D8A400078C2261131D7675BE0C4261F
+8380597F424CFD1C00E4B6CF1A10640280132570D90A55E2DF75C37241C0DCF6
+69DA122799B0254EF61B96B400725B6ECB6D9FBD2D470996DB725B0E00725B6E
+CB6D9FC5EDFF17600098147C40D534C5980000000049454E44AE426082
+</a:Content>
+</o:PictureFile>
+<o:PictureFile Id="o5">
+<a:ObjectID>BB02CCFE-07FC-4A06-935B-82BD2C781FFD</a:ObjectID>
+<a:Name>Réception</a:Name>
+<a:CreationDate>1642453044</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642453044</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:PictureID>70E3A1E4-FC2F-4D0E-AB02-4F57AAE2CFD4</a:PictureID>
+<a:PictureType>3</a:PictureType>
+<a:Path>piclib://Architecture d&#39;entreprise.piclib#Gens\Réception.png</a:Path>
+<a:Content>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A8
+660000000467414D410000AFC837058AE900000006624B4744000000000000F9
+43BB7F000000097048597300000048000000480046C96B3E0000000976704167
+000001000000010000B267DC8A000080004944415478DAECFD77BC65D75DDF8D
+BFD7DAEDF4736E6FD39B66D49B2DC9926C631B636C20383CFC089004F2004F12
+02098110F2FBBD2094270FF08414200921A1251808D518C720CB55B624CBEA75
+A4E97DE6F67BEEE9BBAEF5FB63EF7DCEB96D8A46238FACFB95F6DC73763BBBAC
+6FFF7CBF4B68ADD9A44DDAA4B727C9AFF5056CD2266DD2D78E3605C0266DD2DB
+983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB
+983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB
+983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB983605C0266DD2DB
+983605C0266DD2DB98CCAFF5056CD2A5C9ABD779ECDFFF02A001B1629B0642CF
+58798010F10220415812228D96124205B644870AB400A5C0900899ECAF757C6C
+A441245F4D8156802920D460CA5875441A21055636888F0D35C8E420539A428A
+AC36E4B09662406B3142D9B169471911462D118687D1FA3C817291F1B15A1AE8
+408025E3F304517CBB212092BE150A300444F175A7D78914F136AD892F56AC7C
+5C19033C056E18AF4F7655D1AA472735A61DAD79CE6F2469AD90A6C583FFE267
+B172B96B3E7E2E469B02E02D40A1E772F4B39FEA31674A1AA4A918BB610921E3
+CD0008628616204C10B644681D33BA5210C998F18588D76B813045F7A4420A90
+3A66720DC210F1674B20A446664048306444E84B8E3D328632CD290C633F596B
+BF768CFD38E67E91913BCD4C346AE7A29C69858619454843E1BB26EDE56C2B68
+CAD768075F152DFF3196FD471D7BF942C6AEA34C03A44407F10DE908103A6649
+45C2EC0AA404A5D1C9FD6A05426BBA4D6EFA1F976380AFD05E140B000D561672
+83BDE72624F82D93F9A315C435B48DB55618B6C3FDFFECFF0B6C0A804DBA0409
+21B0F3853502402B819D0FB8E33B8F22CD3E0140BC9B346301204D1046BC4833
+615E0348BE23411AF1FA74A1FF33F15F69829183E605411498D9E7FFF7EE3DAE
+5D789FB16FEC4366C1D8EF14C3A94C31B08A9516A581458AE52685528B6CD6C5
+3002848A406B02CFA0B65CCA2FCD0FDCBD303F72776379E047DC65EBA46C579E
+A2B5FCA745E3DC9772999945C30275B90DABD61A47EB6F4FF65101942660CB9D
+A0C2789D6141F58C43F5EC360C4B5DB3F7990A8015C2FC6B449B02E0AD4E1AFC
+B6409AFAF20440C2E8D200CCE4EF2A012025E8E4B361C68C2124B4972447BEB2
+EDD6D79EDEF5918E287E48E48C779546DAE6EE076719195B6468B44AB1D2C471
+4284E85ADAE810A23066B42800530464465C4606E6D8BDE330ED669685C5919D
+B373933B17E7B77CD75C7DE751ABBDF49725F7C4C70ACE99578488AFF18DEC5E
+A7A2DEF5845E6F5DE81B5777E2B7186D0A80B73A09B0F26C6C0118891B900A00
+D927008C3E01B04AFB1B36D839706B70F6F94AEEA5CFEEBDDFCB977FA013E43E
+58B9A13DB06BEA3453DB2F303054239BF330AD84A914847E7C0D5D4B3C6136D5
+FF378A05838A206377981A3FC358E50C8D89020BD5F1BDB30B5BFFE572F5CE1F
+AC37767FDC5C58FCEF95FC89A7ED6C1361242EFE1BF0DCA2003A35B0325FEB97
+F8B5A34D01F056261D3375656FACA5576B48916AF555E67D3FA34B49123388E3
+6CC28CBFD7CE3A3CFF975B46961B03DF7AF2E8D6EFAFECF61EDC77D719B6EC98
+2167D7C8E58338DE9630B517AC7B79F1DFA88FE9FB961582208CAFBF906B92B3
+8E31563AC1527D6C706E79C70F2E5576FCFD0BB33BFEB2503FF95B45EBCC1733
+B99A124918E3F59234A05505F719D8793FD7D4E7BF9E6953007C1D9056C9B2DA
+4416ABFEAE776CB25D081056CC8CE75E1A1CF9CAC76FFA67B3D5F1FF737C7F6D
+E2DDFFE0207B6E3A4D36EF11B6A03507FE65304CBF05A01346D7AB8440FFB5F7
+0B05432A864BD3549C696A85417BB6B2EBBB966ABB3FDAA9EF783AB374E667CA
+E6892F3A85463753F17A4888C4027A1BD3A60078BB938ECD7D15C0892786E4C1
+C7767DDFE9F3DB7E62ECA6C64DDFF8D167D875E3799CACDFDDBD5383D63C94A6
+12C6D3173D75FC37EAB9072B34BF5A6511A8649FE4AF0A63D9557696280C2C31
+689FB4972A7BEE5FAAEC7C68FAECD63F18A8BFF4CBE5FCD9636255FC63932E9F
+3605C0DB9884003307AD399387FFED6DF7CC75A67E21BB457DF081EF7E99FDB7
+9F20530841C5C2010D98B1166FCD42717C03AB631D5A6DFAAF58C29E6540B2A8
+7EEB20151C1A2ACE22456391416BD499CDEFFF81DAD2DDDFDA38BFE317479C67
+7F33936F79EA12026993D6D2A600789B929060DAF0D4EF6CCD1C3BB2EB675A99
+C11F3DF0C0D9E26DF7BE4665BC858E92605EEA6727781BA5A0B590F8EC572800
+54B4361E905A02FD9ABFEB16ACB216D26D7935C7367391E5E1EDA3738503BF3A
+B7F09EBF955B3AF99303F9D79E35ECAB8B0DBCDD685300BC0DC9B4E2A0E1E3BF
+B7FBC6679FB8E5D7866E0D3EF0810F7C959DFBA74124693105E83E06EFD3AEEE
+3278F5D87AE062CCB63A06B04AB3A74BAAF951F1D2DD47F7FDAEEE5D8F06848A
+A88427C899B3CC4DDCFC0DD5CC814F85B3B97F596C9FFC58BEBC74F9F881B739
+6D0A80B719397938FD54C57AE63337FE64351CFBB19B3F726EE4AEFB5FA63CEC
+120609E3C14AA64BBE8B0487E4B7A1BD08E56C9CDFDF9052F46EC2E02B185F25
+A67FBFE6EF8F0DF40B82E433FDD6814E50C1618B71F524F9D2B6F199EC6DBF3F
+3F3DF9D1A8F1DCBF2A17CF1F4991C19BB4316D0A80B70949132C1BCE3C5F99FA
+DC9FBDEB3FCB11E7DBEFF9E08BDC74E7891802DB49346B1F4E7E3D0B400888DC
+580094266286DD30C9D06701B04EC0AF5F20A4DA7FC5920AA1C4CA88A1BE2B5D
+0F9D5C6BA17386AD7299B9A93B3E5A6DDE735730F7EA3F2CCA539FB60BEEA64B
+7011DA14006F03322C085B065FF8F59BEEBAD0DEF13BE377566FBBE7DD8F3238
+D6204AF2EFBA4FDBAF30BDE9319B486B64449C0A0CDDBEFDD7A3F4F855DA5D45
+AB84825AE9E7ABD41548D72729C2F43ABB8BEAFD8612600575C6FCC7A8156FDC
+B668DDFC89F6A9E17F39269FF9752BE7BE31E0A1AF43DA14005FCFA4E3405FD0
+107CEE3FDD7AEFB4DEF5F103EF3A3D71EF7B9EC7CA44046E9F26EDD7F4AC1402
+5D1740901420C5A9C0C08DA1C21715009A1539FE7E735F27A93ED56709A808A2
+7E737FBDF4E12A5781D4221020A2884AED65AC5CC359D877DBAFCD1EBBD71AD3
+5FFDF7767ED312588F3605C0D70369BD6E44DE74C06F4A3EFFDFEFF8C82CDB7F
+F7CEF7BF3A7AFB3B5F4348083A7DBE7EF2B7FFFB7A56405A4F6366A035039D25
+C80F5D029AAB120B3E5ACBCCA95617A4558BBD5A0461240247F49D274949463E
+041EF82D085AB1FBA282DE75680DD9FA2946B32D1676BDF3DFCD9EB9AF34D679
+E267AD8CBB191358459B02E02D4E5A0798D9AD64066F05DDC3E30A5312B6021E
+FE8DE68F2EC8895FBCF79B5F2C1CB8ED388A9881E283D7D1FCE93FABB7099252
+DC5800A8089A33901FE855D3AD7F817D1680EA99EDD2889187322D56123D933F
+F4216C43E4254544115D0B44183170C9C9436E20FE89288885417B295E423FAE
+22B41AF38C161E637EFB7DFF7A76F6C19131FFF11FB79DB6BB6909F4685300BC
+D5492BA455C2CC1E00DC64A5C46F867CFABFCFFCDC9C2EFEECBDEF7B911B6E3D
+49D4A775E363FB7033AB7DFE55E67F771F2131B371CD7D6B21D6C442B27E3A30
+3987EA0BE449D92B4986D812692F825B8F0B8FFC56ACCD557F2A50AC0A3426D0
+656981E5805D804C118A63501A8FCFD598864E1544ADC6887A9CB9C907FFF1EC
+B977E5C6DA8FFD909D73834D2110D3A600F87A20AD000FF00141D80E79E83FCF
+FCEC5C879FBDEF1B0EB2EFA653447E125CBB94CF0F1B0601D102290DEC9C42C8
+08B7015E0D32A50DC037AB8E9789591F7AB1FBD09C8F9935708905445A9494FE
+5D07A72FFA3E6815A724BD263466E2FDEDA4C9C7E00EF0C7A0761EBCE50623FA
+711626DFF57D73A7EE5D18693EF92FEC7C677D7740B0B2A3D235A16B7DFECBA7
+4D01F0754512BF16F037FFF1C20FCF45F2E7DEF5BE17D97DE01CA1DF17E98775
+B5FB0A5CBFDE40200801DAC02E00222274632D6BE7D68F03ACEC5014336A6B1E
+1AF3E037934D49418E307BFB5E1689B83110007D8222E8C0F2B9F89CD90A54B6
+805781C6F91A43E24966B7BFE727AA276E3C38C1B3BFD7BD64D5F7F76D66196C
+0A80AF038A194DE237023EFD2B673F341B5ABF72CFFB5F61E7BE73845E9F76D6
+2B7DFCDEB1AC9BF35FB34D68A492D8791D370D2186051747D7CF04E8C4D70F3D
+68CE42632ED6F6326934D2A5CB60FA0D15E6AAF5C2E8AD6A2F4167193265A86C
+87D6EC1295CE0B54276EF9F9DAF4F463C5D285A3FDC26E85907C9BD0A60078AB
+938EFBE179359F4FFF9B53F7CEE0FCCFBBDF7F28B767DF69426F03CDBF11D3B3
+CEB6FEEF029492D8398191F5501E74EAB1196E65575A0129C33666A03E13EF23
+64D25DE8620C2F3658752921B1CE76997411726B10B4213B0423B593844679EB
+62F6EE5F65FE89BF3DB065DE5BF75CD787857ECDE96DDA06E1EB88343839C957
+7EE7C21DE7FCECC76F79E0D4E8BE7DC70983A460277A0397107428311D934C21
+8ECCA900DAD5554C2DE248FCD249583C155B0086D56B3BD665B0558BD86061D5
+B9D7DD9FF58F4B7B196A1D5B03D281515E253BDEF97023BFEF5FA940AEBA76F1
+E62DD7016D0A80B7381996E4F863ADC9D375E77FECBE6B76E2C00DAF1186BDF4
+D9952EDDF65DE106DB2281E998D845A31BAC736B092438010A09A03E1DFBFA86
+D58BFA77037CE9B24E97A2CBDE7EA5DB92A062E083297D46E4AB8443C33F313F
+77E066BD02CE9C0213DE84E53AA04D17E0AD40A97AA3EF2F200C8DD7C866BEF4
+A9ADBF3172F3F4AD77DEFE3CA0E33C7F9AB717EBB800AAB7FD922E40DF71088D
+8E4038264ED140C8106982D78A836F761EA469A275885D00B918FF8C162B6F65
+DDFBBBC8FA0D79E5124CB49E9215221656793D4DA1B85874CBE3FF007DF027D2
+FB1442201C03615DC3F7A989E76AB80E84C0A60078AB909938B4FDA33A523059
+FCE1C19BFCBF75C76DCF6299615CC37F05F0DE75197FD5B67E6120438DB64D72
+830E86E575D3715E13AC1CE4C7B712BA2DC2CE1C763636FFBB972C2E31E62FB2
+F19216B3B8C8AAF5B6294541CCE296F6DE1B06A6B0ED5077F795FD29866B40FA
+1A9FFF0A68D305782B9010889CB966216B212AD62DDBA74E50C8B509FC55FE7A
+7FC79D2B8807B0CAEF57FD9F43858E0C3203590CA767727BADF838C3C952D97B
+07A603B94A72F9A9790E9734892FE92E5F66DC406C646A27EBA401B66EE04799
+7D275FDC31B6222B21DF3E31804D0BE02D413A9E022B05CE272494225A0ABE70
+EEFCB6EF1F1FB980E30444FD65B4AC4A6BAD17D9DFA01660232C800854322189
+8353B0709703A4115B005E1BC24E9DFCF82EB2A39304DE053AF518AABBA6EBEE
+EB8DF6AF3A5EACB3EE72F7B7696239EE8056E6CD6866D2FBD4A1460BCDB522AD
+355AF6C330BF76B42900DE22A43748528BA6F7587561A4D56C15F38EBD146BEF
+8BF8F5579506D4A08208AD409A16B92107B716747BF5779621ECB400C5E0FE77
+E22E7D8ADC4048639675517DBD9B58F7E32519FA92B262831D526BC4D22EA6E1
+1B226BED033E07714A556424C2BC86DC791DC500365D80B702696240FDEA05C0
+0DCF46B5E8A96A6D744DB9ECEBCE025C645BE40771630E61901BCE77E1BD22B1
+02FC4687B0B58C33B095F2AE9BC996C129F630FD9795F2BB1C333F7D36177129
+2E66796BC010218ED361E6D4E4AEE5F3B9189CA4753C81EA9BB15C07B46901BC
+D549EB50D65A0F4FCF6DFB86ED932751C93C571745F8A59F59BBADBB6E1DEB20
+CE20A8D80AB00CB2953C764112B41586110B89D68287DF5CC2CC8F32B0EF2EDC
+EA3451384BED42BC5D5E4AE55C446B5FE97197B2262460A90E0143DBC2A80F42
+F836AA05D8B400DE2AA4D72E3A12642B3E7B6E3EFEB9E5996CB3DA9CC4906B03
+7EAC0EEC5DCEB61058277888021D04200CEC7C866C391B5F9F88F3FDEDAAA63D
+370B840823C3F02DEF213794A538DA43E6A5FB5FA9D65EEFB84B0181D6040257
+6DB7651B911563C2104EB7DEC1946FCE721DD0F571159B74694A7B65AD5A8450
+6484FB62B8A41F995D9840988515D36DADB75C6C5BBA7DDDAEBCC99FD0771142
+224C8BC26439AEE94FE61B5411544F9E432B0F88B08B230CDFFA6EB265190B01
+03BA557FAB1679AD814072ED7653741016C318A2C4F511977B5369D30578CB90
+58F537FEEC35157BBF69389CADEBFF79F664F95B766D1DC5B40382B6178370D6
+ABEA03D60CF62B18F93A0A11890ACD8F94B132D344818EB1FE026A67967017E7
+C88E6C0342F2E37B18BEA5C1FC4B5F41C8B80C3855B617BDD5F5BE5E86E57C25
+B50696F41096A8089302302F247110D0B8964140910401BFF66EC0A60078AB50
+9ADE13ABD645A095E0EEBF35F8D94FFCB7D997A7E7876FD9B3DD2568CFA3C260
+6D438F37E252A2108D460A132B9FA7305EA176B6DA4DF5453E2C1E3ECA96916D
+C98F869476DE46E876583AF43C05110B01E833D52F41EBF2CAEB4002AE3EDC10
+01A00B7EC78EE7080E357AC9479BD11BF3B0D621AD15DA82EB61F2824D01F056
+A148AD45022A0152117982D11B0BB52D530BBF7DE268E5D7B68C57C90D19B4E6
+A6210CDFD0749310A07D1F15F8184E162105E56DA334679793FADFD8AF5C3C7C
+92915BE670CAA3400868060FDC839092A5D79E051DCFCE8BA25B43D0754857F3
+C57A31B3D5C250AC3D6E4DA6A0FFD864954184615138717C5F7E7C6A1E6C89D8
+5E4018D74E00A015C2B26373E96B4C9B3180B7386940851AC3B6B8E981FC1FB4
+E7CC23A7CF0E6066326487271086F1863BB64A6942B785304CD082ECF000D981
+2C69DF3EC304BFE9B3F0EA417A3F1E9B300337BC83A19BDE49A624290EC76DBD
+FA997F5D1F7EBD20603AAD797F10709DE9CFD3FD56040E57C41D229048112933
+BD4CDD0CD0AD6BBC34C3EB22E0B06901BC05480AC94A707E3FE904571EB1EBC1
+C1A5973E5BFBA513C7877E6F6AA24565C80231457BF65C1C347CA3148E48013F
+31F719964369EB049DEAF16E9ACFB061F1B5A30CDF7853CF0A50111A4D65EF1D
+483BC3E22B4F208D200610F9ACD5F45788ECDB689F35ABFB8E952884D0500F4A
+08208C60AE03D7D005402BB0D45BD705F03C8FD9D959A494AB02345F7B93E66B
+45FAD2AD648A428882D67A89B8815F976208ECFACF4E694D5E68A461A0A268E5
+7EEBE4ABEFFED6CA1F7CE2BF2E7DE7A1C9F10FBFA3328353AC8086CEDC79948A
+DE90572480B0DD404721D2B2406B8A53E3D44E9F2768B9B17605423764EE85E7
+D8FA9E0F26B80285560A1D4514B7EEC370322CBEFC38C268757BFBADF9A1B51F
+2FB172E5E3E112C78954A83A46266D7A4ADEBAB6693AADC0B2AE0B24E0EB1200
+8B8B8BFCC99FFC098669AE504A6283272EBE9E048300AD3461D4D3108661605B
+2B1EA50D0C03DB84107B04DCAAD1F76ACD9810E230F0B0D6FAABC06B403B0C23
+94D6C8752AC434F0CDEF7E00CBB4F0C268EDC615868166F44031DCB367F957CE
+1CB2BF614BA59CDD766313A7328CB41DDA3367883C6F2D2EFF753C031504446E
+0B333B8A560A3B9FA7BC7D9285574F74CF6FD8503D768ACAEEE314B7EC45EBB8
+54512B850A03B283E38CDEF501160F7E15B9308B6141A746B7FD78F7E7AE20AA
+BFEE26B1F176913C376D265D09256049B8C65060AE1328F0EB1200524A2CCBE2
+AB2F1EC2F7C3AF2F062729D6E82FBCD110258DF594D6641D87C9B12194D2034A
+A9A991A1CAF8F6C9B11D9152BB8560AF40EC03B6045158F4FCC06CB43A2CD71A
+34DB2E03E5C2BEB1A1816FCD3A4E200427A5944F2F2ED7FFF0A9175E7BC80F43
+64F22CB5D658A6C9BBEFBB03534A4A91C2572B8B81B402A934A2EF42ED82C3D6
+11E3C5E691F6F2C20BC3D94AD9A3B445218A154C3B4B6BE6347EA376D9D1F78D
+9F11F8F52A99A149204403E51DDB689CBB105B0109B04E458A99E79E26373A81
+344C54E427CF571105016626CFC8EDEFA67AE8599AE763E1E136623CC2E5B803
+9762F2F58E5F9B501510E9287DD7841BB95B6F10694D3CC9E1B5FB89CBA5AB8A
+0184614410BED5058040294514C56D61B4868C63E3D8563250C9D89699BB71EF
+F62981D8A3615F3663EF1E1DAAEC8A2235AE941EF38360B8D16AE37A3E6DD7A3
+D57669BB2ECD5607D7F5703D0FCF0F89A208CB3229E4B20C54CAD6C4F8C8BEA1
+4A71DFE850E503A3E323772F2CD5CE9946ACFAB4D698A6D12D7AB124E834A095
+902681D6AE78FC0A8DDE319CCB94B6EE7D17E7BFF279321F59C62E8110394A3B
+F6D359384F67FE022A5457650DF8AD1A5A4748C344A3B1F205CADBB7B2F0EAD1
+6EF0CE30A033BFCCFC0B4F3176F7BBE2679A8098B4D628E5210454F6DD8E99CD
+513FF51AD288F05AF1DC831B5EDF9556036E74AC8E7F40042A8825960637BCF6
+3180C8B8FAF3BC017455024008D15DAE67526AAD464FC56FA43495528189D141
+47293DA194DA3A353EB26D74A8B24F456A27B05308B1DD30E4841F8466C7F368
+773C0E1D3F4BBBE3D2EAB8B4DA1D9AED0E9E17104511918A10082CDB2297CD31
+30384469A0CCE0D0008383830C8E0C521918A050C8D3AED539F7EA2BA337DFB8
+775C640BE7563E494D54AFC625AA52A0E54A9F5F93AC5BAD494CB1CD2AE4B3DB
+DFF96E3A8D16273EF3596EF8A8449A1AAD04F9899DD8A5615AD327F1EBB5F85D
+5EA12010320E0486ED2699CA302A8AEFB9B8658ADAE953447E401ABB342C583C
+7C88DCF80485C9ED446E07DD9DE75BA12315CFF0BB652F66AE44EDF8CB08D920
+B0E2669EAB337EF1055CCE456EB0EB0A2C85446B81124603E25E1DDA1468EBDA
+C500B42639FFD79E6FBE2EB30051A488944A04BAA65CCC635B265A6B5B6BCA37
+EED95EC964EC6D5AB31BD89FCF65F695F2B91D41140D44615471FD20B7B45CA7
+DDF17A4CDE7169B7DD589B7B014118A2B5C630248E93215FC8313256A4325061
+606880C1C10186468628974B140B39325907CB8C5BE2FA4148ABD5C1B44C422F
+831052985134B6BA3E4C20103A3601A425916A654E4C2B81342508B5E2282B6F
+4EE50647A469D9EC79FF37F3CCEF1EE1F85F9F63F7470C4C47A3228D5DAC60E7
+6FA7BD708EF6EC79941FCF9B77258240870ABFBE486668BC8B3ACC0C0C32B877
+37F3AF1C8A2F35399F8E60E19517C80C8C20A5444509F3AB18DFA0B542F93E76
+69908103EFA079FA10EDC569A4A109DA496B73716582E0924020014A19A05099
+D1B00D204C891CCB21AF3110485ACE7591847F4B0900AD21522B5F8C142BBBBA
+469162626C8891C1CA88526A87D67AC7F6C9B11DC5426EB7526AA7D6EC00A694
+5279D70BE8781E730B558E9FBE40ABD38999BEDDA1ED7A0441804A5235A66162
+676C8AA522935BCA0C0C0D303034C0D0D0208383035406CAE4F2591CDBC6344D
+B456B85E48D3F55968782C9CAD33576DB3D0501C7BE5795EFDECFFE4DFFED7DF
+64687808A4446B3D21D641BB681197E5A94E84F2A235022036557B5E6D67AEC3
+DC33F5D2E48141D01199A1710E7CF83B78EE7FFD1651D061CFB768320316910F
+C230284CEE223B3C855F5BA43D770EBF91580497112310023A0B17286EDB8F8C
+6B69D11A06F61EA0BD30476761292E170690E056ABCC3EF7386377BE2B061445
+712A4C77A702D6A8C0439A26A55D37615786689C3D8A946E5708A4F311E875C0
+426CB46A83FB9002222CA250B476EE39DA9646D20C64B6F3262001DFC269C06B
+4DDDDA719D44DB35B18F699A8C0D0DA4E6FC4014A9C13DDBA74606CAC5BD4AA9
+5D42886160249FCBECB02D6B6B1084C5200C8B1DD7E3FCCC426CAA27267BBBE3
+E27A3EBE1FE0F9014A298414D8B64D369B656C7C8CF260998181410687061818
+1CA0522953AA14C9673358B685149250295C2FA0DEF498BD506761B9CDDCB2CB
+EC528B0BF32DE6973B549B1E411091752C301C1A33554EBD7A90EAE202935393
+48D34007E156BD5A00742BE70446C1C4B0A2752C0093B8A40F40E02E792C1D6A
+6777DF578C9FA1DB6468DFCD1CF8D0DFE2D5BFFE3887FEBCCDEE6FD694B7E789
+82D83532EC0CB9F1ED6447A6F06A0BB467CFE2D7975041D46BE3BD1E0908DB2D
+FCFA02B9D1ADA8309E25D4B0338CDC7407179EF862ACE193731806B42E9CA79A
+7B8181FDB725098CD40D080111BFDB28426B855319C2B0B3B87335C28E4FA7DE
+A6DD584212907A3E57150414102A1B22EA5A890E241650C104F31A9AE75A8365
+5E1769F3AFA900D02983F747B12D0B2945625E1BDC7CC3CEA26918535AEB9D19
+C7DEBD6D726CAFD67AB7D67A526B269552634A2BFC208C83701D8F0BB38BD49B
+2D5AED0E1DD7A3E37AB85E1C7D1680340C6CDB2697CF313832C2D0F02043C383
+0C0E0D323858A15C29532CE6C964331852C681E130A2ED062C375C4ECD2C31BB
+D46666B1C5CC529BD9A5164B75976627C40F6226CD672C462A79768E0FF2A16D
+C3EC9AA8F0D82B67F9EAA1198A9541CC6C99EAC202A669224D8B2008B6C51A61
+750FAFF8F148DB406A63A500D00269487A02203661CD82694AD34A824D71378F
+2D77BF9BA0D3E2C8E7FF8657FF2862DB7B7CC6DF6963DA062A885B054BC32437
+BA85DCC8147E7399CEDC79DCC56942B7D3ED24BCC23210B169DF9E3B4F7E6C3B
+C23062B9AD2272E3930CECDDCFE2A15731646F7F21A176EA2866364B61EB1E74
+E8279D867C825603AB3810DF5BD481284765EAFFE29C7D808FFFF92779EDD5E7
+58B870945BB7CDF3ADF7B6B1ED5591F42B0D020A08541615B048A8EB5D38B11B
+BD4941C0B78105D00F90E937E195D2E4B31926C786D14ADB0826B4D66337ECDA
+3699CF3A7BB466B790627F2EEBECD44A0FF94198753DDF383FB340DB75E9783E
+811FD0F17C5AED0EADB68BE7FB445184521AD33471320E854281918989588327
+667AB1586460A042B95C245FC8613B361AF07D45DBF5A9353D4E9DA832B3D862
+A9E1D26CFB2CD55D66AB1DAA0D17CF574829C83B3603C50C932315EEBF7980F1
+C13C957C8691813C93C34526060B540A19CECED5F9ADBF7E96E78E4C23854038
+39849D63E6C2790CCBC27232F8ADE684D00ADDDF31236953AD238D7BA185EF79
+6B2D00BB03BAF71A951F113602CBB462933C6EF1A3412976BEEB0318A6C9B12F
+7F96630F75A89D0AD9FE0141718B8D8E042A8A23F442089CF23099CA28917F23
+7E7D91CEE205FC5A95A0DD40857AC5041FEED20CA1DBC2CC97D0093E426BCDE0
+FEDBE82CCDE22E2C2252DC4BC264CBC75EC1B01D9CA109B4DF4198365A291A67
+8F901B1DC1C81CA030F1AFF9ECE7CEF1F3BFF0D31C397A8A6CD6E01BEEF0B869
+77846DEB352DC7D7D0258280428217E5D0AE9E2352F5EE20EDEFB8746D98223E
+FFD79EFFDF580110A7D354DF831764334E1C6CD15AE6324E66FFAE6D031ABD5B
+6BF6E473993D63C303BBA3486D555A4FA8488DF96198EDB85E2F00D7EED06CBB
+B126EFB8B8BE4F10C40138296562B267A80C0D521928333038C0E0D02023A3C3
+542A658AC502D96C06CB36114210298DE785345A3EB3F50EF36766B930DF647A
+B1CD5CB5C562CDA5DEF2E9F8115A691CDBA4987318A9E438B06D8C9D1315B68E
+96991C2A323A9063B098A59873C8D866CCDC227EB752C4AAFB534F1CE1DFFEF1
+E34C2F3629E56CA434C07490569699F3E71052E2E43234E7C37111B886CC17A3
+EEE0D33AD6EDABBB5DA4B46EE71A81103206B8E99E6F9DF4F162DBBDEFA7383A
+C96B9FFD38F3071768CF09C6EF0C197B874166D0422B810EE3B8834663380EB9
+F16DE4C6B7A3028FA059C35D5EC0ABCEE2379751814FD8F2694E9F62F086BB92
+A908E26B924E8EB1DBDFC5F9AF7C0615783D5CBF883B0B558FBCC0E00113AB58
+41F91E4E6588B053A535ED32F9AE7FC7A38F9FE35FFC8B7F4EA3E971DB8D83FC
+D80F281EB855D1989EA75D8FAB0E2FC78ADE681FADA1131691517052081DAE78
+A66F938E4057250022A508C30821044A2B06CB258606CB68A586B466D234E4D4
+0DBBB6EE314D6337B04B08B9D336CDAD411856FC20A0ED7A1C3D759E76C7A5DD
+F1BABE79DB7509C388288CB1E3424A1C27D6E6C3E3A3942B650606061818AA30
+383448A552A650C891C966B0CCD84C0E4245C70DA8B67C8E4F2F305F6D33BDD8
+627AB1CDFC7287A57ACCE87E186148493E633150CC32355CE6EE1B8A6C1B2DB3
+6DACC4C45091A1728E723E43CE31310DD9B514E3F422F8418417445D4D93754C
+0C29F8B53F7F92DF79E8790C29A8149C980FD148D3429819662E5C402B8DED64
+D09A111015AD59EC2F57D35A23A4203395437AC63A310005C2EFAE93B6C42C18
+7ED049A366F422665A41E032B0EB06EEF83F7E80A38F7C8AF923AF71F6CB168B
+AFC2C8ED01C3379BE4C60CC040471AAD45ECC70B8161673046F26447B6808E08
+3D97A055C3AF2DA1A20015850899E6B7055A8564862719BEF92EE69EFFCA0AF7
+4148888280EA911718B8E10E8C4C0E15786486A6C80CFE144BCB157EF53FFE30
+1A839B0F8CF2D3FFA4C56D077CDA1D1B7B681221CE13B6235C77DD5EA92B691D
+5E9302FCD0C16DE799DC72EE95C1C9265148AF27E0B59C2658AB55999BAF1DBD
+6E01A0941693A3C3E35B2746C6B5D63B35DC502AE4F6970AF99D51148D875134
+18456AD0F53C516BB468755C9AED3895D6EEC4E6BAEB05F8814F1429A4945DB3
+BD323040B154A2542E51192853A95428574A94CB4572F92CB66D6148032DC0F7
+239A6EC0B9F9164BF525166AB1A93EBDD866A1EE526F7A74BC9028D29886A490
+B5192C6539B07D94C9E12253430526474A8C56F2540A190A199B8C1D333A80D2
+8A4869B4D2343B7E827BA08BD85BFDBD90B5A9B73C7EE54FBFC2FF7EEC30B94C
+1AD3485FBE464A03B330C0C2DC1C411060390E5AEB2C302A8558D4BA171349BB
+012B4FA13CB5260610F701EF1B5BA126684661E075E2F63C6984BD7710782ED9
+81216EF9D0DFE6FCF0239C79E5253A558F0B5FCEB0F892A2B83D62F8D688E256
+07332F1108542492E9B3151A8590122B9BC72E94C94FEC40ABA82F57172F42C4
+F180F2CE5BF0EB4B2C1F3F84EC1B714242E876583EF612953DB7200C8D30F763
+97BE8587FEF04F989E9E617C6C941FFA3B756EDDDFA2D12AA3321FC1ACBC8399
+E030ADEAEF3362BF800A542F70BC11AD0A021A123C3F87E7664381F7722AD575
+DF72ADE87A9A85F8750900AD75DE30E4FF73DBFE5DDF2DA418F18340B89ECFD2
+7283B3D3F38926F7E8B82E6D37CE9BAB04F92584C0B44C32198781A1014AE512
+E5729972A54CB952A2582A522CE6C96633D8B689401029851744343A01D3E71B
+2C355CE6973DE66B2EF3D50E0B0D8F4662B60BC0B14C2A4587A1528E3D93434C
+0CC6FEF8C4508191811CE55C866CC6C2326417C4A4546CF22AAD69BB015A6824
+2219CB3DC09344F766CA22F9AE41484129EF70F8EC3C3FFF3FBEC44B276629E5
+1C649CE28B1F9C882D73250D32E5519ACDD7703B1D2CC7062973C0B834E46B3D
+FE8FAF492B08AA1EC1EA18402490B6073AD5BA9ACCA0CDE0815CDBAFB7E300A0
+5E1D584C2808105AB1E5A65BA98C4D70EAA5E7A8CE4EE3D54D828326B52392DC
+784069A7A4B85D5298149805BB97EE53B100D25A4114BFD774CEEFB45B50D754
+1292A19BEFC76F2CD39E9B894B80131212826693FAE9C394B7EFC22A3D40BBA3
+78E289C7289647B963D73C776E3948DBBB1331F4F364F2EFE2B77EEB37F9F55F
+FF4D5AAD1ADFF34D15FEE9DFAEA2956615527A634AE2179DA04CE09A0B5AAB17
+D36B154220CC37A12DF875D213F075090001E342F0FDC7CF5C285F985DC00F43
+8220C2F53CC2C46C370D13DBB6C864B30C0E0D512C9728974B944A250AA50285
+428E5C2E4BC6B163C82B8230D2B87EC442C3A736DD62A919B054F758A8FB2CD4
+3CAA4D8F8E1711261683631994F30E5B86CB8CED2D303E986774A0C07039C760
+294321E3E0D8466CB68B386FA4B426528A8E17D0412493C088D87F4F6E4ECA18
+80A312BCB64CEA3684D6E8AEC68FCD792D048614641D932F3C7F825FFEA3AF30
+5B6D512EE6626687153EA52646F539E5615AF31D9A8D068EED208474A2289AD4
+41D0D3A45AA392325EABE2A03DD6710102106177646547B38CBDB3E4350F2F13
+853E06B975DAFB92D8E021F81E85C1216E7AF01B583C7F8EE963876955AB6834
+EE5C96CEAC60F18508AB20C88E8414B6BA64474D9C01072BAF914E7A4932194E
+AB5850C44F419A0E23B7BE9BE947CEA05A16C274D13450E64984E1E12D2F5137
+6062E20E5E3D7E82E5E51AC3C315DE79D34144A0A1F873E42A0FF2ABFFF197F8
+B99FFB39B66C99A2542AF0FB7F1D70EB1E870FDEEDE2B9AB44DD4582801A5876
+477174E3E91D379F5E5221F1FC065AA3DD106D5D631C807AE3FB34BC1E7A7D16
+0054D19CEAB8DE6DF3D51A86949896C5C4D404C5629172A544A954A450CC93CB
+C52838DB32136D48EC9FFB11B3CB3E8B8D264B0D9F85BACF52C3A7D60AA9B703
+5C3F22D2604A493E6B3150C8B06FCB08230339462A7946CA39864A592A850CF9
+AC8D6D1A4811A70F53FF1CC0ED2B5612D00DD489EE54B6A2875813C9788D4008
+DD35EFE33A20DD3BB6AFBBAD6D4AB28EC59F3CF22ABFF6974F11294DBEE0C430
+DDF481F5317FFC57E39486586CB5A92F2FB365EB160CCBC4EBB4C74C3B9374CE
+542BEC51E586282F5C2300B0C2356F276C458B9D7A8DD073310A4926A0FF02D2
+87A1A2D83D080384900C6FDBC1D0F8244B33E7993F739A46350E47A8D024A819
+840D49F384444881550C712A21565160642466C6C52C465885082307862D90B6
+445A668C559012BB5C60FC817D2C7C6904D528A3831A61E10F90B9598400BFA1
+88D420A74E1DC1342D2A65C9EDB73BE4B6FC1AC5C977F3A94F7E925FFEE55FE6
+C1071F64DFBE7DCCCFCFF3C4932FF0B9E704EFBD23C4B042A275F8B69B7DE8FB
+EE85196AED6164BDF1909DF3BBF539406F6AB06B468906B90EE280AF3706B08C
+E07C219FBDCD48D256D96C86FB1EB80F27E360484110EA98C9EB11CBD335961A
+214D2FA2E3452CB7426AED808EA788B4C6340C728E453167B365B4C8D8408172
+DE21978919BF52C890CFD964EDD46C8F2F220E746BBC20EC06E1626DDE67B6D3
+636629048A7EAD1E7F17C979D2FD63F46D6CDE93FC15089488AD00117FC04E8A
+757EFDAF9EE18FBE7010D394388ED18BB9AD8ED827D7AC0458A5215ACD168BF3
+F3ECDABB07C3B2A0D5DA6218026199DD54919774CF14A64044AB06A68AD7AF56
+253AD20B6EAB15469E6BAE7038577701D5AA571791CC0822A46068EB7606C727
+695497583C7F8EE6F222A11F0011D2140829509E43673A8B3B9D14D3180A692A
+A41177F99156803043A419204C17610A0C138CAC42C80E5264897440E01A3889
+916265A608228BC5C579F2F91293C3B354C6DE4D7EF27B999D9EE1977EE917B9
+FBEEBBB9E5965B78ECB1C708C39042A140AD15109A11595DED0AFE35D4F7D8A4
+847A6B18AFE12C8F649E7F344517AED8F95A0B80EB81FB79FD024069AD4F6613
+F35D298DE77A74DA6D222DF9DCCBCB2C36429A6E48D30D0823BA267B21635129
+E4D83F9C61B89C63B89263A090A598B3C9652C1CD3E806E048357AB27841881F
+8A9809933E50FD1A5D88785BBCA2C7D032F9AEBBBE7C3CDE85E869F515425926
+E6BE1471D566321E643AADB6869C6312448A5FF98BA7F9D453C72964ED18E3DE
+7DBFEB333FC46E8155A810068AF9D9694CCB424803ADF5785A299732AEEEFE15
+71D0AF6FE0F4D6AD1AF48A99D073DDD06B1712BF273D62D57EFDF383774F9AB4
+1B17948647280D8FE0B75BB8AD26F585059AD54502DF4713210D1D33BC940861
+22D23E5B91402B09BE241222EE6824044A482229112648115B667ECBC4AA24DD
+BBAC129EAFE974DA38990C535323E446BE0FCBB4F8ADDFFA6FB8AECBFBDEF73E
+3EFFF9CFB377EF5E6AB51A2FBF729462DEC4721C4C728451EB9283570858EE8C
+20DAD12BB66A1F5E83258834C86B1C05BC96E7BF027ABD414094D2272CCBC4B6
+6D3AAE471486B49A4D32B93C33559FB97AC0D4509E5B764F502964182A662917
+1CF2199B8C6D601A4637729E92529A8E1F764D3641E29B4BD1EDF9264919BB17
+F6153AD5F27DA6BD1648A953FD4ECAB9A933208546E8F42CB1864F5B5577E76D
+4CFE49137F3AF9ADAC6352EFF8FCCA5F3CC5970E9EA794CF76FDCA95D57A7DDF
+FB630080C816205B646176166948441C2C1C41484708E1F5EFABB546FB11DA5F
+0B05D63A5A858611449E9A0BDA9EE7B71B85D87F592F10984628361888316A0B
+003B9BC5CEE5290D8F10791ECD5A8D766D19B7D5C4F7DC18462D401AF1739546
+2A809377225557F0C6B2402250988689DB32C8A5825538B85E80EBBA087CC6A6
+EE2753BA8B575E39C8273EF109DEFFFEF7F3E4934FB26DDB36DEF18E7770EEDC
+79CE9E9B65CFD645B24E808E3248D34785C186635708F0028BB63B4C7579F6D1
+AC5D0F0C410F6F01F100B8869383C6AEE75B58000068A54ED8A6A91CD394AEF6
+505AD16C34199B1863A868305BF3D8365AE29BEEDE4D182954E29BA33541A808
+C338A5D54BA7A5DA5C74BBC4CA24F32492A6172209BA09ADBB5A9DAE999F5A02
+A9050089CD4E1A50D352C40558DD609E4E0AB252333FFE5D9D366B51C98575C5
+04E46C93A586CB2FFDC5533C7B7C96523ED3C77F625D4140DFF7D42D90A68351
+1E61717E3E115612ADF5189ABCD6DAEBD7FE2B06CEDA37B1E6B7EC82B1A0A260
+D16D368650498C608DA64F8A512E271F15A55308090CCBA23C3A4A797414E5FB
+F8AE8BDB6EE1B55A786E87280C50914AE22ADD6286F819F7978E6B8561DAF86D
+93C00323EE298AEF05743A2E03953C77DCF50000BFF77BBFC7C4C404B55A8DD9
+D959B66FDFCE7FF92FFF855CBE483EE770EF6D118688F035483B93D424AC7F5F
+5240272810F9798E1CAE7E7E7158F21E33A2DD7F88F12674047A2B67010094D6
+471D53BAB66DE6D2C29D56B385508A52D6402258AC776874BC240D96A4D1644F
+B3C74C9904E710440913CA044BA692372213E617A9E524D27D7B61DEFEE6AF29
+BBC635432206132582233E3C111ABA6F5F62E120446C018AB4D844C7DB84D664
+6C83F984F95F3CB510337FFA4ED731F92FB61ECBC2298F303F3B83D60AD3B6D1
+304E14E4A56D2DF5EAA112C1D93F677DFFF9D6F8AA21FBFFDEA477E1C5FA05BF
+D9DC4718AE9A93ABFF5AD4E50980DEDDA408A8F8BD18069942814CA1D0751D02
+DFC3F75C022F4E5B4661888AA26E1A582BD575B50CC3240C049D066473A02397
+30F4F03C97BBEFB885A1E1299E7BEE39BEF295C7D9BB772F870F1FA6582C72F2
+E449DAED36ED4EC40D7796B9697B8330145D18B3344D54106CE866D7DD61DA35
+4E9C986F3CB3654AC656543F6DBA009726A5D4598158CC3A764E243E6FABD522
+5211A58C449A927ADBC3F5C2B8161F8D44A3A2C4074FCC43A9E2509B16A95687
+48E83EDF3DDD57209448027429F3EB15C67D1AB44B995B262A5D240C2CFA2C00
+D1153C3DC1A1FABF6BD1FB5D348E69D0F202FEDF4F3CCB4BE7962816FA981FD6
+35F52F160710D2C02A0F33377382C0F7B13359B45205AF5ECBE5F38558F0244C
+13BF29112FABE70558A7B7BC4643C031B7D57C2FA107A6C35A8D980A85AB1888
+7A6D318E95C96065B3DDED3A8A502A424531B233521141B3815B5F464801DAA0
+5985C91B0A4422200CDA948B79DE79CF7D68ADF9C33FFC439452CCCCCC00E038
+0E9EE76198264E26C787EF5920A36A844121AE9B5051DCAE3C0AD7156E4AC372
+7B1455ED7CE185B976ED038601F4B90C694BB06B69A27F9DB404AB6BAD4F671C
+7BAB21054A43A7D32108028A198929056D2FA0E9050C5A460CD4489598EEA5D8
+B448FCC324221F3360CF944E993335FB2362DF5D26D67D245261AA51FDA67C5F
+AA20F508A44E0CD93E3F5FD363FAB42558FC3D09346A4DD6340894E6D71E7A99
+E7CF2C50C83A5DCDBEB284B797DA49D7A75A3CED97DD151A86C42A0EB0F0EA2C
+9D8E8B93CBA2C141887C1792962201211E94E12AA48BA2E7E2F493061DA863AD
+DA323AF46386E85E4DDFC197EB025C09AD3A9F1002C3B4304C0BCB01A42440E1
+3597138BD0A0B108D2CE62970A2CB5AADC71E7ED8C8D6FE5CB5FFE324F3EF924
+C56211A514994C0621E2926DC32CB17B6299FB6F9A2508352A6C61D8D9AEDB24
+C45ACD2E05B84106DF2BF2EAB9E5479126C6AAE98A850461A7D9956B445A20AC
+B7701A308DCA2BA58F6733F603424884043F29D829661C1C53E00511F5A6CB40
+2143A4128D2F7B3EBFD07D0CDE178893F406B5E8D3EA71396F62D4EBD5667CBF
+F99F1E179F41E8F4DC3A59D343F2253C9EF8FC71C04FCBE47714389641BD13F0
+5F3E7790278FCD91CB655668F7AE05D215042B5FACBA886B600D8C51ABD7A9D7
+96C9170A71740C8A9669A19546EB185495A604F53A4D41B5D2EB96C405B5F078
+A7582370DBD89643B73F5797D2563D6F821AEAFF0DAD905A61182602B01D8BCE
+22B4969A8CEFC893112677DF781FD56A958F7DEC63388E432693E9AB2A15686D
+5029E788A22AAEAF702CD09122F25DA469AE6CFFD6474240D3ABA03D7BF9E882
+FB52601A314C7BF58EE6660CE0D2F7A0354AAB6319C7C29031CB05814FABE552
+2867C8DA9296AFA8B63CB60151CA84493C207581528B20F5FB218DDCA79F5241
+20BA8C1A336712615649EE3F39A23F7FAFD3752A0EF875CFD64DEDE9E4F8DE79
+351A99A4D61C43E28511BFFED9833C712C86F6A6EFAF3FA8D70FF8590DFE59FD
+B92B28045895117C6D505D5860C7CE5D4920508D2AA51201A07B31808D02F9EB
+8C5321243B3E3C7CE2EC631DCF6B351D3B5F5ACB106994332DF47F334848087D
+A48CFD7F84C0C964E8B4A039D741E83AF952085AF0E94F7F9AA3478F32383808
+401809426580D6DCB26B896FBB6F9E5FFB5F055E3D9DE7DDB73608A3B8EE4005
+B1B5A537C00334FD0A61833376C73F22D2E988FBE5536C3DC510E76B445AABA4
+11CA9BF3D82F46AF5B0C25B8FEE366D2135F10A7F1DAED36A6846C46120949AD
+ED13EAA48E84A4D49A5820F4BE8B749AFA74BE4B5462AE47A9024C3EC7EB7577
+BFFE63BAC7F52DAA7FBB5E67FFBEBF69622C4C30E10AF8EF8F1CE2C9530BB1CF
+2FE59A052162212065CCDCB199B366FDEACF4A088C4205653A2C2ECC63393642
+1A28A5A68230204C96547B0A436CB8AC656EC9E8DDE5D9B0ED9FEB346A2470BE
+BE3BECAF76D36FDED2873AB46C2BB600EC0C910FF505E8CC9D229F07CFF379F2
+C927B12C2BEEEFA0250345C52D3BE6F93FDEF5323FF081C7F9C87D0B6C1D937C
+F6D961C224AE148F4B151726AD626001444AD0768BB83EC726761F683F70DFBD
+54CAE5B5E8C114EB7DAD97B7AA0B00104611D3B30BA74687077CC7366DD7F711
+5AD369B591280A8E444949AD1310461A15D7A576DDD6744E219964106457D327
+5249F402A5A98EEAB6815A65F6C7C1BB9E991F47FC132DAFFBE69C1420FBDC88
+6EFC5F0BB4EC591C694EFB8F9E3CC1170ECF92CBD82B1B75A48304D6D5F81B46
+FEC54A7353E68A28D3666E26060399B685EFF9DB858ECBAB21AE5D887BE52954
+B0AA1A50A591FCB52DA6FD6A30E32DBB679ACB8BBB4751494EBFCF0D1089C87B
+33CBD212B42142609A265118E038951899370F9DD63815EB769E79F6590E1F3E
+4C2693218C206BBA7CEFBB9F61DFC42CA6014108860AF88E6FA8F39FFE7C9CE7
+8F55B97BEF326E1ACB5BE79E84003FB0E8B8799A38A7ED9DFBB8018B9CF1449C
+D4307AFB093311ACD7EC395CE3F35F01BD6E0B208A22EAADF68C1462CEB1ED2E
+47BA1D17AD14C50C601834FC10378CD0A2A78123E2F96223626DBB421B6BD1FD
+1CF6AF4777B57ABA7E5DAD8FE85A194AA7C7E8A4C94BF21D9D1CA77BD7D4B76F
+CE36F9D291393EF9D239B2593B9E6033D1EE5DED9F6872A48C4DCE7EABA06FD1
+AB8EE9AE4723B20594E13077FE0286616267B34461B0250ABC38429EA6DD482B
+D4D65FD61961E4C6335161CA395C9F5F8CE7BBD311A800FADA7177B300FACD58
+8823F3091966DCA0259B19887B05D64D8C919FA2D5C9F3F0A7FF1AC771C8E50B
+389912DF7CD7496EDA3A1B573207F1FBF63DC5FB6E9DE7A69D3EBFFDD0766A6D
+03FB12EA2CD2267E9045B6BC97A2D0C70F0294D66B33A96947A06BBD5C07F4FA
+0440E29B4A29E640CF3976DCEF494A4918C6BDF10B0E48D3A01D283A41B4D284
+5F6DD2F799FBE9FA745BCF7C173D135EAFDC277509147A0523477A95F9BFEAFC
+11A2E786244176CB34383CD7E04F9F3D83659908C340CBD89A51FD8C6E18F1B2
+7A7DB274F74FF6498F51DD6D02E164D14E9EB90BE74108EC4C96A0D3190FDA6D
+0CC34822D9AA1B15D968594B8AD2CE02A3B7175F6C2DD4093BED8403C255CC2F
+52A8E19BB044746D6D1DB76C9386206397314D98BCF787296DFD76BEF4C587B8
+70E102C3C34358CE00EFBC6196F7DC74083F5CC9339182AC1DF0431F3EC36223
+CFFFFCDC6EFA922DEB921F3A849EA164CB7BE5A2F6B7789396EB80AE2E06002D
+10E76DCBEC22FAA230240C237296C6B424ED50D3F022941028D28515CCA9102B
+AC83154CAA577AAD4AAFFCBC522088BE7DC50A21A3582974FA2D8274BD654896
+DD80DFFECA31AA5E88615B6B357DBF3FDFA7F137D2F4ABB7F52C00D096855919
+6571611EA52232B91C1A4610E4491D159D3EEF8D970DDE10DE52F052BB5ED75E
+BB155B302A31C15386ECE200DE8445AD44E70929310C03A92376BCEBBBB8E5DB
+7F9E23475EE3D1471F65606000C32CB16762816FB9FD712CA952ECD10AF20238
+B0ADCE0F7DF8245F7A790B7FF8C89E38C0B8DEA816E08645225FCCD49CC1B317
+CDF3F7B705BB96CB7540AFB71C182904D57A936AAD713CEBD898862444E3FB1E
+9EE793336CB2B6A4E641DD0B1849907E4AF745DDD3CFABD6A9D40F4F3454DC91
+2A81EFA6C7D17FACE84AB2D5F101D2E8BFEE13BEFDBF4F529C63083AA1E2779F
+38C999658FAC63F5A2FDEB45F737C2FC279FD78B0DAC5C0F5A1AD8A35B589E7F
+0ED775C9E47220284821860DC3688944FBC7B1BB446AADC601A8F46ED7527ED4
+393CF7DAF274B3B638991F1A8E193E0AE3FEDC2BF2896F8239BA9A8385C0941A
+63EC00FB6FFF29961B2DFEE6537F856DDB4086A9AD9A8FBE7B1E79A14D186D7C
+5A2F800FDC3E4DC773F8E32F1FC0340CBEF3C1C3187265B3240174FC0204EAD4
+727EA471519C4F1AA4BB56A4AFF1F9AF80AEAE2760A408C2F0642197C5348C78
+5AAC30C4F53C325993AC098BBE60B91376B575CA7871A02F6EBC1133B2E83267
+8CD6EBBABFBD1C7F32D6E56AC1D1C7F4AB014468B1E27BBAA4024312BF0B434A
+FEE2F9B33C375D23EF58A8F462B88C405FBAED22FBAFDD9660018627593EFA45
+5A8D2676268310B2102935A254745A299504EB3750F7A9F9BE2E29F67FDFE4E2
+F9A76ACFD6E6E727C776EC8134F514E9B8E740D7BCE86FCDFE0693107D9D89FA
+28F4A13285BCE143B822C35FFFEF3FA2D16890CD0F32545AE6EF7E6F9391919D
+9C6B1E245898476C30955EDAC2EF5BEF398534247FFEF8CDB4FD1CDFF39E97C8
+58117E5FBB844E5040BBD10919851D1CE7BA48C37DADE9AA5C80046A7BD83024
+A699D4CC45119EEB2285226769B434A87BE18A805E9AF653AB96D4275F9D9E8B
+159DE82AC1FE34612F4E200859E51EF499FBFDEE45FFF710B04D8327CE2CF1C5
+138BE43236C89529BB34B5B7C294EF4FF9AD0E0C5E2415D8730B245A80353846
+BD56A7B6BC8CED3808290B52CA1123E962A4928A082D365E36A2C88DF016FCAF
+D497E6214D296A9DB801115D297B2D17B5AA2721800A898A6378073E4460E5F8
+EB4FFE2567CF9EC1CC54A8581778FFEE3F61A4B400385476DF8A302E3E4C9582
+20828FBCE3043FF4A1E739786E0BBFF9F0039C5B2CE198BD14A0EBE7902DFFB8
+50973079C2246B72AD97EB80AE2A081877D311470D293A9619033BB48E7B0308
+A528580A0C83661011440AA54537CA1FF5E5FED3CFA9724A0374AB837FDDA01D
+22D92EFAF64B993EDE3F5CC1F862654030DD1F300DC9F9BACB5FBE32133B8F1B
+04FBD604FAFAD6AFB7ED72D62B1466799846ABC5D2E23C762683619946637161
+22F0BC188C92F60308375E3678491819931DDF3CFC4C7D6639ECB49A745B1925
+B3EFC48CA9576506DEE065D5546E443E617102EFC08709AC027FF3BFFF8A4387
+0E61664AE4FD536CABFD2F329DB3544F1E43AB80ECF024D99109F445DC806448
+1284F0C0FEB3FCF8B77D092FCCF19F3FFDCD3C7F7A2B8E0591325081A49A1B3E
+EB59D9B86FC4865CF126E100AE03BA2A3CA2148266BB33AF34E71DCBEA56D979
+AE878A147919224D8356A8E9840A2556A5F1744F73A74C1BAE020585C478FF5E
+EA30DE3FD5F62B4043A4CCBF1658940A9395D640BCFF275E9BA1EAC753776BB9
+2AAD976870D65BBF411A70DDFD57A7019340A02C0DA0854963A98A65DB98A64D
+E079532A5271C30F00443C39E806CB86EFC734193C5038D8596A9DAB2F2D2485
+43896AEE6602E09AA9FFD5DD88554038B893F0A68FE00A9B4FFEE55FF0CA2B07
+31B345CADE417635FE10D9ACB23003CDF347081ACB80A0B86DFF6535D1D41ADC
+00B60CD6F9E16FFA3CFBB7CCF2878F7F235F7CF526A2780A30DD16B985D0B0D8
+D0FE17021C03EC3761B90E64C0EB0E022A15CF8EB3B4DCE88C0D0D9CB22D738F
+4C4CD2C0F708A388BC11220D89AB34CD4031605B8941DBABE74B63023A2908EA
+C181926020C4B87FD18B03A4EEB9D2317E43899E5FDFEFE7EB242090028B3469
+FD4C7C5EC794BC3CDBE0E05C0BC7367BB0DE8D6AF9FBB75D2208B8EEFAFE6D89
+0011B912E4CAB41A750CCBC2B04DD28942A5884B5C353AD11AABCF272E21C235
+283DAD82E0E0F2FCDC8EB1ED3B93D5E9E057AC687078AD28B10482F19BE086F7
+B15C6BF2C94FFC05C78E9FC4CE64B933EF51091F65296A210CA8CEC1D0529BE6
+F4494ADBF6E39407284CECA071F6C486B1807EF242C8393EDFF3C097F9C2C126
+9F3B783FB3CD6D4C3941CB0CFD39615CE27EC354885DABE7A1F97AA80604404A
+116AAD4F5866FC66841084814F1885E4448069C41AB91369CA22D6B8A91E5A2F
+289762F4E832BAE80605FBADA63400D8BD8E8B9CB33F4E9E8A18DB90D4FC8887
+8E2DA00DA30BCEB914A24F6FC0D0E967BDDEB68DB20280C8E6A03C42ABD98CEF
+C3B040EBB13008A49051D75BD541840E14FDE92BAD448280D8480A444C3E38C4
+E9CF2F3EB27C7EEE23EAE60ED2EAD37EFD91D36B452A02210977DC87DCFD2ECE
+9EBFC0273EFE679C9D9EA590C9F040A5CDBB4A1EA79960B17A16C302B7154383
+F3E78F901BD982304D0A5BF6D0599C26EC742E6B0AF3488121151FBAF519060B
+2D3EF3EAFBA8671A5886F0C4469C17A7B71045F31A230155DCF7F13A48055E55
+3150DFF59F342D13C390F1F4606180EB87387640D65054231B57E9D87CD77DFD
+F6E969FDB89437393700A20B0F4EA79BD2098EA06739C498FA5898A66DBD45B7
+A4383D2EDDB72B20126BE06F8E2D32DD0EC95846AFBC3739C70ABA4C8DDEBF6E
+23865FB1BF1008CB410E4FB030371337C68C270999D002077447776BEED74390
+5C0EA2449029599F5E38B2F87FB71BF54C6168B82F25A7B9A693D447013A5322
+DAF36EE4E4015E7CE105FEFA539FA2DEEA305270787FA5C94D399748980CE477
+E3384F13298D94509D86CA6893D68563E4A7F6222D87C2D46E968FBD72F93F9F
+B457BC67F76B48E1F08523DF5030A5FE0903F5F759D5050CE247A1830875A185
+B0AE6D3190B0A3EB020DF83A0580EE96E6465144A3D53E96CB38588689AFE349
+4002DF276F99E464C89CCED20AA218A9973087883B7B2429BD9E10E8C701C496
+40AFB167B7DF277D8C4D7F3D407A7569DE3FF98DE47CE9F9B3A6E4E0429B67A6
+1BD889E9DFBB332E91BEBB842570853502C2B2900323CC9CBF401445D8990C5A
+A971B7D1C8388542A75B06BB9E557A5996AAE2C67F3079F8733F7AE8B9E5C5F9
+77158686E9550026078BCB39CF950C0F052A4457B6206EFE109133C0E71E7E98
+2F3FFA288112EC2E0ABE71B0C69413E22B015A93CD9619A88C32BF388B6942BB
+01CBF3E0148F630F8C615819B243E37416A7F1AA8B976505A48F288A60DBC034
+3B07168373CDF1EF31A43E2CA4FC052D4C9A2D4194784228108E89DC5B465EC3
+D981B5D648D35EB799CB9B4DAFB31F40CF02505AD36C774EE7B399866919453F
+493705818F50190AC24749492350843A6EFA9176D915881EB8276568D19BA423
+557CBDB9E04517F8931E23E95912A9865F2D28BAE35C802505CD50F3C5D3CB68
+29BAA8BCEE0EE93DF67F7F3DD6C1254A83D3FDB53490A51116CE1D4EA609CB10
+A968D4ADD707B2C55235991BE82A5FB308B203D6E7E6CE9D7FD796DD7BFBEF30
+A164F4BF11A4A238D0B9F35EC4DE0799995FE46FFED7EFF2EAE1A364B30E7755
+7CDE5D699337145EB7F9A2C61479462ABB58A8CDC6EFDC80C5F3501AF0C8CC9D
+253FB93BAE3199DC49D0ACA3C3E0D2C64FDF9D46DA60D058BAD00C734F74B2C3
+FFDA147C4108EB3115F5C6070208157AAE8336AF7139B0A5DECA1640170A9C32
+DA0521C49269184588517BA1E7A394228F0F52D28A347EDACEBB9F8957317437
+06D065EED4BC4F2C81B48A30F9DB1F204C4DFD6E3B7088E360A227603252F2D4
+F93AE75A3E19CB5CDF745F87C93732E9F52A2171A5FB2B2930462659786919B7
+DDC6C93820645E0BC6B4D62774DA7FCF3290915C29A494B8681620D90B67C061
+F7B78D7CEEC89FCFFD64ABB69CCD972B7DE939D1F389AE965404C511B8E903A8
+E2244F3FF5349FF9CCC32CD59A4C0EE479EF409B1B334D348260158041AB8881
+EC4EB2F6B3F8A18F21C1EFC0D22C64CAA7B14B43F1E4A44E8EDCE814CDF3A72E
+DB85D61A724E838CDD19CF9BDEFFF6A4B5DF90EAE785B43E68187285AAD79146
+3783374100C837D6EA7A9D745502201D3BC01C5A2FD8A6B15D8A9829A3301100
+C2C33005ED103C15436E810D193A9ECC562451FB95667E1CE8EB69D06E53D035
+E7EACB02F4FD9625250B5EC893B34DCC2408A3AF40A30357BEFFC5D6272487C6
+A8BB2EAD7A03D38EE717D04A4FC40D4192E72DD65A02B107B03114B8EF47F197
+82973BCBAD99A5F9D99DF9CAC0AAC8FF1B608A6A05B9327AFF0738D330F9C29F
+FF0F0EBE7608CB32B87F678507075D4A6E8B40AD1F82534414EC0986CA3BB8B0
+780421630BB93607A5A100337384C2F61B4129320323F8F525FC46FDB25C0195
+08806CA9E3542E4CDFDD5113BFAC9DFC1F1BD2BA13219E5EF104052413435CFD
+33B9C8FBB81E028070953180EE37AD02ADF529C330EE4A9B688661481886644D
+17536A5C0D9E8A7BC66B01461AE0132B83800A9144FB575A02FD1641375E005D
+7741F6A5167BC1BF9E259076227E76B645D55738A6D19BB7AFFFCE2E55CB7FB9
+D6C106EBD70A108D5119C11336F5DA3283434348C3446BBD05920E4A3A06EEAD
+46EC6A05FAB27CE188C9070797CF3E517B74FEEC859D53DB7722BB9D82F51B34
+18054A290E3FF3187FF5E42196EA6D768FE479EF8E2C371442DCB92AFE45EA16
+A490F144B28D510C79240E4F1A71E9C2F21C640B55E4CC69B2A35BD04A931B99
+22F25C54E05F96FC9202860B17581A18FC9ECAFCA9BFAEEFB8E3B410E6774B21
+9F5EE102686258E1B59E1EFC5A9EFF0AE8F509803E9FDA3024CD8E4BD1F54E98
+86444A81527177D6308C70848F2D142DE2CAC08C9D74F9612D3EBF9BF7EF6AF9
+DEDF747D2A0CFA73FD3DA6A72B0CFAE3E31A812505B39D8017173BF164A4F2E2
+1A7AA36D6B98FA320488BED8FE802C0FE11B16D5C50546C7C6E369C2D0538939
+1423010395A40157BA005A5C2C0DD8FB95FC640E19EA3F5C9A9EFBFBED7A8DC2
+C06A2BE02A4908A4D7626F58E3FB6FCA52F3B36CAFD8648C90D6F9398240253D
+0ED692441028C5D153A709FD3CC3C30758ACBF165B01129A5568D701790E210D
+ECF210D2B4C90E4FD09E3DB342196DF804340CE667C894F68D852DEFFD9690CF
+08CBFA9090E2E780FA8A3772ADE7EFBED6E7BF027A5D39A0B80625EDBF978275
+D411D3303044D2C53F8A08A2082BF2C8E113088366A85142F6A0BC22FE1B0AD9
+FD1C23FD56427D530460240491902B61C05DF4600A335EBB84C4C1BE97165D1A
+51DCA7E0A2F5FA8681EAABF75F0107EE5FDF5FFB9F1EB31E4C78D5FEFDFD0294
+D6C862054F18CC5DB8806159588E43A7D99C701B8DB82E01D64ACBCBC900AE20
+C5BEEF1CFD6A7BB6F9D2FCCC05BADD50BB25C16F80152004A665315EB6B861D4
+2663285AB37384BEBF21F38B24107AE2EC796AB565462726B8F3AEBF4BB9328C
+52497DBF86F97310B8D0993F8BDFA8A25484E164310BA5CBE225A52163B98C55
+CE21B3E147B2EDC582B49C2129C4C0DAC1BDEAF3B558AE13BACA9E8074DBA769
+AD4F0A443CCD950050846188542179EDA1A4A4192AC294C1052BB1FCC4EE4077
+BD1084895050A49F7B7060D515087DB50542F441857B05474841CD571CADFB18
+A6B116AADBC7A05C62DB7A0D41561CB3FA5C29C8488895DB0C038C047FE06488
+84CDC2EC0C424A6CC721F4FDAD81E77521EB3299766FED72B98CAB19B9AB521F
+BC21FBE7D3A7CF13B99D5ECAE40DE2FFDE4F0950D0595C2068B736ECD211B786
+971C3B7D86858545F2F902DBF7ECC2CE8E70C3EE8FC4058B8061C5CCBF781E54
+A868CF9D25EC34D15A63E52B18967D594CA581A98113942ACBB79A4EFB1DA661
+7690D25E09DE4A96A8CF12B856CB7540572500FA9FBAD65411E874624F814085
+013A8AC8851DB461D05649918E1084C84410A44240F631F7FAC542FD1641BF95
+D0DF543412BD6620A9B0114270A4E6B11C6A0C43AE69E8B1A2624FCAB879C92A
+CCFF9A86A0ABD6778F49D7AF3E57C2EC2BF617224E455A1664B22CCCCEA2D198
+B60382218128E8A460274EDD1BB163DC5DCC8BB7C059F9C6B00A0E43BB737FBC
+746ABEBA383B9B5801EB54EBBD01E4D797F1EB75C406D7174FFA223976E61C0B
+0B8B58A6C9EEFDFBC897CBE0B71919BA9B5D3BEEEFA6740D3376036A734014D2
+59384FE8B6104262172B97AC184CC62819CB65DBD81132E26CD9F616CF49152D
+F53D228469203216980698E68A45BF81CBF5520CF486A40193354B5AEB862165
+294DCBA928228A14F9B08930241DA5F135C90C3D2B23FDBD88BF5891B613A217
+28ECA603055DFC804EC13EA2E7F7A7FB4BE2A9C8DA91E650DD4B34F4CA093A2E
+07C073291CC0959C6BDD2C826543A1CCD2D22261102631004A1A06B4A601F133
+0BA7A7C1EFE5BFB512C84C007AFC32DF5AC4E8DDA5A3273FB3F8C7674F9CF8C7
+23E3E3C9EC3C6FA0369292A05EA7B3B4B0A1556148891F294E9C39C3D2521580
+89AD5B98DABE1D1D45DD0959766FFF561ACDB32C54CF602565BDCBF36065215F
+0E701767702AC308D3C2CC15099AB54B5E5EA860B4344DD37DCD383597BB898E
+F90121F8139146985B2EF2E071A4A1D6846D92D8F4CABFC9F62B8AA3469A6862
+7C6DA3D9AF015DD5C4205D128266AB5DB34CF39C21E58DDDFD5448A4211BB431
+85C6D3024F83832014BDA06B6F62CF55A0A055E9BDB581C33EF04FFA22FA0509
+E008C19956C09CA7304D632DA2AFEF3397B16DDDBC7FFF311B09888BFD8669C2
+D816EAE79FC1F33C2CCB02212B5A4543A0CF24D3EEA11617D12DBF37A74704E4
+002E570028866EAD30BC3FFF9FE64FCF7EEFC29E99D2C8E41484E1651E7F0992
+92A0D9A4B338D77B21ABC8340CEAED0EA7CE5EA0D96C220494CA1576EEDD9B78
+2369E837C290456EDCFB7779E1D5FF4AB35DC532E3D356A7C1B4C0C985F8B525
+AC7C0969DA184EB6E7DA5C8434B063E435BC205BB9E0EDFDBD579F0BD44DEF38
+F867320FB801E2CC4CDACEA1EBE2A6AF6CCD92ACBF225E0EC02B97AE8B54E0D5
+B900229DCD57A0B56E6AAD4F8BBE756845142932411B8B085F4A3A0A22119BFF
+8A95C1BF7E3FBEE7DF8B9EAB2056EFCFAAEF72C5F12A39C7B14680126B4B76D7
+5D2E52CBBF5E306FC3BE0057D24740488CB1ADD4966B74DA2EA66D2384288661
+38A052B4589A173358BB5C21EDFBEEF1D7DA679A7F78F6C4C97812CD37421309
+49D06AD2999FED8E8D15034D0A0C6930B354E3D0D113B45A2DA4945896C59E03
+FBC96432442A9ECFAF2BA4954F36BB959BF77E3FF9DC605CFD69C41ECBE205F0
+5DD0918FDFA812052ED2B410B1F57489B11B83D5F64DBCC8962DC7B2D3E2C6DF
+3DF8FC2DDF2314BD6A43B3B7E86BB15C07CC0F575909B222182D0880D35D2D2E
+042845A41556E092511E8130E8A83446145B016112E04BFDF5D501C2B03F3008
+2BA3FBE97142AC6A152E924A0FC9A2AFB8E04648D360455BEF8DEAF653717EB5
+7D01AE647F34C6E814F5DA32AD5603D37190A6291B8B0BA3D145E6BA7F7D1451
+DE53E0F67FB2F53FCE9F9E599A9F9EBE7A01202561BB45676E366E62D237B805
+B1D6F7C2886367CF71F2D46954328B2F6876EEDB4B657090308AD657DC914BB1
+B48F5BF7FF20856C39CE0C9831E8B03A0D8107E888B0DD44051E326DE17E09D2
+1A0C19B26FF47976EE3C5498E6C0EFBDFCECADDF47F4C6C643AF77BAEA1800F4
+1E58A4D45141ECE3C55A40A1548424C08E3C22C3A4A362A6575DB33F3E83143D
+57202D064A85894EBE2B21BAE698EC9AD03D8193C60EBAD34F0BC1C956445B0B
+2C43AE845E6C50C5179F932B32F12FBA7EF5B9D6890F68347264927AADCE7275
+99D2D6AD48691044EE169556EE094120FCA45761F20E446C0008690099CB7E77
+C2805D7F6BDBD1B35F6EFCFA8943477E6E687414D3B2AE3C1690BCC0B0D5A23D
+3F8BD22963A766B141A814B3F34B4CCFCDE1B91E8611ABD8288AD8B67327935B
+B6A222D5F5E3E2895A7AD3B8C73BBB1472DBD9B7EF1FF3CAE93F4037CF615831
+48A83A0B036360399AC8F71086915AA41B5E3249E2236D50BB7BE4652C19D827
+CEDFF89B8D99C2A8183BF81FFCF95A24AC95FE7DFAD9E6EB4748BC51E5C06815
+E179DE71C7B6959442A6A6AB52115A0BAC28404B49476B02D269BE1326D77DCC
+4B8FF1BB013F7AB0DF14779082867A013F48D182299AD0D570A61325137B24D7
+7905009EF5D7A70CBFEA8124936F5E1458B49120D01A39388E2B4C961717D8B1
+7307D23401B6A4BB2B227607077002D183A92A0176885F5BA076E249E224E9E5
+91300493EF0C7FEDD53FF6BFF1DCF693F7EFB8E1C0FACD3B571CB40A141545F8
+8D1ADE7215AD1452C6D11A290DDC2060696989D9F945DC4E0710188611C78F94
+626C7292EDBB7725F31EC448C015F19C153F1CD189146787BE95ECD00344477E
+9668E159489182B3501E013B073ADA58856B2D70832C8ED5C14CA69DD2499F89
+5D2387C8D8CDCCF1C5DBFF6D74CF8ED68D9FF27FC38ACC780ECAEE3DC7E3F0A4
+759840F85727044C795996CAB5A6372608D85B7F06684821CA5112CC113A422B
+C8042DB461E0EA88A0CF4D48B301DDDAFFF4735F64BF9FC9F52AEB202DF5ED4D
+D79D9C570A16BC88E51064AAFDAF14AB7F09CDBD8212E170C548C02492A44B15
+280DB2BCB888406098064AEBC9EE4CCC3AE216EF6E0A7E991E8C5442D4E6F8C2
+6FD15E9CBD328089042D582E4DECFA17479EC97ECE769CFCE4B61D3D80D09A97
+0B5AC505F651101076DA84ED162AF0918609A64110067841C4C2D21CD5E53AAE
+DB414A19C38E13524A313236CAEE7D7BE3406D5220A6B54EE45A5F8E5C08D011
+0D91E7586E3F919347A90267733F8E9DF95D86A347307584D6710391C22064F2
+1BCB3043C2CCF276AACD314AF92A8EDDC690115164E087593A7E81C08F226760
+947BE51E64B85EEB30C9B479060FFF0DE8A4F0B5C7025C6531D01A0976566B5D
+17529651094B6B0D2A24E7D61152E02309B44866145EC5E409F3A74CDC9F2148
+8584ECFBDC2F24E2EFA2DB17C01082692F061E59726DD1CF46557CDDD7723193
+BE7FBBB8BCB2DF35BFDBBF9F10902FC1E018D585F9045167A3959AD45A1B4024
+4C49207DC0A35F004478082991D695CF362B1CD8FECD27BE7AF60BC60FBEFC15
+F1DBCDE55A7E7878886C26832125E9CC44688D8E225414A18310A5C24428093A
+4144A35AC30F23EAF506AD56AB7BFED4DC4F298A22464647D9B3EF06A4348854
+8494E9A47CBDCB4F4429E8902539C4C9DC0D902912BA2D4E9C3841BDD106EBEF
+D1326E6022FC2BF2FA3C5AC490E128805C89753B9D09A129E716383BBF9FDA5C
+E979A1F532E8012D449B9079150687B667A6BF7CF75FDEFAB00C35E0AEF3D4E4
+1B509E0DEBCE74F235A037CC054814F8A2D67A5A22B6F60A773491828C5B4302
+BE1078083209E3E8D5A6BDE82BFE49DD84142B2052D7A1E742A4FFF68A830021
+F014CCF91A0C8996AF0FC30F1761E02BF0F92F292000B239181C65712E8EA21B
+B68DD67A1CC8A850B5EA2F2D11B96F6CFF7E1D77EB62EBFB8EFEF199CF3173F8
+F1E0A7CE0E4EDF50AA14464A8399826D5931DA5008A4955CAF1F116A41184534
+9B2D9ACD16BEEFA1540CB292EB0414532B66626A92EDBB76230DD9172CEC63FB
+C4F68F2744119CB7B73293DB85B46CDC7683D3A74F53AFD79342268F65F14E5A
+D60D54D4D34C185FA0282F10BAD05490298069B34228460A06F20B544A0B2C5D
+C83C672C3CFA4FAC2CCEADEF27920237B275347CBAC860FD01C07FC39EF3F54C
+5729007A68088140A9482B659C1452BC33DD2489C13F19B78E49882F6C5C2DB0
+BA26731F43AFB206741220EC9D4BF4660D12A905D1174B480404025AA1A2A604
+C230E2C0195CB6B6BFACD97D2FD3A2B8ACFD8500CB81CA084B730709C308CB72
+D030A4B51E20D22D6FD1435F835EF23AE986B3E5BD471FA9BE567D44986202C9
+F6132F6C9D549133226D356E0F9851EBA43FDAB9E0FDD0D4B7DE9FF11B2789DC
+7802D3D8DD921B2612541461982653DBB6313135859002A5747C2C7DD67E525E
+2E554868D89CCEED6329BB15CB10B45B4D2E5CB880E779D8B64D144571571D3C
+42F2549D8FF0CA8951E65FFB6F7CC7831D462D45D88AE742B5B2DDF00C0086D4
+8C954FB33472D777EAC5CA2F0A317322578833AC2A03D199126F8A69FE564702
+C25A5D14CFCDAE8FA48C0CA9C124B03B4DECD0A393C9E2694D4EC8A4C36F3288
+FA04400AE849993365F07E21D1ABD758152F482C87C550E023305775D2BDAC28
+FE452C806BD217400830050C4FB0FCDA97707D2FC502E4B556E3C03991FA3ED7
+807492FF1EB9730134D3C07479FB22460EDC3983B9A7B2CC7ED2F899FCCDB7DA
+431FFA6EBC2FFD1EF3A74F20E5C639F734D8572C9598DAB68D72A512BB8D2A8D
+EEF757DCC4A3494601CDCC30E7CB37D130CB98289A8D3AF3F30B8461886DDB84
+096829FD6B1A1078CB7CEAE127387424CFCB17B6F2BEDB1ADCBD7B891DA39DD8
+25B4E3D4615CC40683F9698A03CD527D60EF3FA73DFFA34AC5814375EDBA80AD
+2021419F6BA13D9500B9BE76F4BA83804AA975F1D70AF55A3ADD577CB7C43EAD
+D726E336A81686F1744498467D454FA38B7E6DBECADFEF4F03F60706BB413448
+8049F1B916C228C9BB5F44A3439CAB5F15CFB858E7DF8DE09B17CD22A481B575
+7F23CD5902533BA9775CDA8D663A7DB6A594DAA2E1996BAE2F34445EFCD7C880
+341567FE32EF4C7F3EFBF7EAA7CCEF6F0875CFCEFFEBBB6466649CCAD414BAD3
+607E7E01D3EC0DA1FEE070269361647494E124C5184521228D2BD087E2D4C498
+4DA5A895B6333B742B1E16D2EBD068B5A8D7EB0821B02C8B288A504AAD48259A
+A6C917BFF8454E9E38C2E4D81075B7C09F3E5EE2F32F8D70E3D606EFDCBBC481
+AD0D862A21B95C8C13C9C88089F2511AE377FD9FD1F1037F22C52B8F5DEBC7BB
+8224E8AA7F5DCC0E749516C0BAC3F204A0055274A7B516A083806C7B196D9AB1
+0048067E7FEE3F65F4942764F2458A5E53B05E6C611D5720891F7434D42311FB
+FF705941B86B6D016CF41B2B8CCDF1293C24CD469D72B188340CB4A7A72EF51E
+B4A5D0179BEB027092CF2A8115AFB1DE046809661E169FB578F11706FF765893
+3FD5C078E7A15187B3BB26B8E3D61BB1EC1C0D37E4A63B6EE7C5679E636971B1
+CB90A66992CB6629562A0C0C0EE038F1AF2A15D1EDCDD897EB136884F289EC3C
+CDC93BA957764318A2DB4D5AAD169D4E6745205127D38AF77F3E7AF4288F3CF2
+08E5729952A984D69AAC1D516F9B3CF6DA204F1E1960B4EC71F3F63AB7ECA873
+607B83C9D190AD236758686FC9559BDB7F7979EECC070776D4DBDAE29AB6025B
+416F7517604D10305DAFA25984B120841881781F436AFC2824D7AEA20D832094
+F8488C7EB35FF622F85D933FFD2B7A4540DD94A08C47D1EA2C8221205071B051
+C89E1B71D1829D7598F94ABAFCAC38DFEB05166960641C4F18D497AB0C0C5462
+01A0D578C22DEB9312D8E72AF1C0DD400084288E12CF3BE0380E994C66451A57
+19716D71AE5EE3E41F14EF5F7ED2F9C965D7FAB6A3A359717034CFACA9D93739
+4A2193419A36FEE04E7CF734B7DD730FC75F7D95C075B1331932C9622670DC18
+E013A764D3A06D57EB8B88D00FF02ADB89F63E889F1D427A1D02CFA5DDEEA094
+EA6AFD74BCA5D7ACB5C6300C96979779F8E187D9B1630742882EBC18C03434A6
+11C7EBE76A0E0F3F3FCEE75F182272CFB03DB7C03F7CC0A472CB120BA353F79F
+3DB6F52313C6D93FF30D81355B84372306709DD0D5A501D75B0FCB687D0E1849
+BD5643C42F2FD35C4210D70204D0EDF620905D00904223844C528231499132BB
+EC5A033A891DA4422275F5A5882D8090B8A99CEECF29F723C4FA4DF9747DBAAE
+DB5658F4EE7523D37FD579D6ECDF7F2EAD5706FFD2BE0026E83CB06D279E962C
+CFCFB36BCF5EA461A1B49EDA783C2A8C96C3D67FF2772EF2A624E769F03E3E06
+C09D77DDC67DF7DD871B0468295086243F5B65F2D513B74D1E3CFE634DCCBF7B
+74306B1EDC95673E67C5B327B73B0C552AE4F37934E06CB9910B4F3CCBBE5BC7
+3970E71D34179768D5EBA03542CA1ED4B72F5ED36BF0A6515E879691833DEFC1
+DCF58EF8EDB71AB89D0E9EE72184C034CD35CC9F2EA669A294E291471E616464
+84DDBB77D368343877EE1C4B4B4B718050A6B9A45801994684EF2B5E39D1E1B5
+006E7FDE67FF0D4BC8C9435C786AF9A7CEB66E3FFD4E6E7BAA3709DDDB83AE0A
+08B43E9049D7B5D2E784D077A45ACB94022524996615430584D220E81AF5A207
+E3EDF3FDFBB5BA4AD66B21BA1680E8B304E2E05FCF2D686A4D2865372508F4B4
+F76A464E99763523F76BEFF598FC622EC03AE7EAAE370C70045840006A791E4E
+9F81971E83AF3C0CCBF3D43B1D101269993116A0A73C37A04B99ADAA7B02D314
+A89C45E6C232A6EF31FEE2899D6327CEFF6810F8DF7F70A834F0D2689ED9828D
+D06025684E5F6BCAE5721C81F73A14B6EEE3C2F3E3D42E5CA03C3945616810C3
+B6682C2D1185518CF883DE049C5A230D83D06DE3FA216AE200A5777C0BE6C038
+41A74DABD5A4D3E9E0FB3E52CA35710529650F45980880679E7906AD353B76EC
+C0F33C1CC761F7EEDD140A05666666BA82A4074D16445100619B22E048D08767
+E0F00C1603773DCFD1CF9CE4C24F3EC86DBF3DC9161D6300BEFE2D8137A41660
+E57A94D6FA34F4527486042458AD65CCD0C3CB160984C294A937DF4BE3C58CDF
+D3EA09BE0799827CBA3E7F1A3BE86D4FCFD6D40A2593CE441701F0ACBB3EF97C
+A52EC04A81905CB41957EF698B38C817815E5C86E79F81E7BF0AAF3D0F670E91
+9B3BC7B6A949B6EDDAC9B61FFDA7ECDABD37F17F4D8001D039A0C5EBA4FED62D
+CBD52AC38F3EBF6BE8D5E3DF5AACD5DED9C4FCC0574B99D1237BC6A816E35973
+4D9D5A593D061C1A1AC2719C381A9F950CBCF3C39CFC9BFFCCCD838398B643B6
+54C2721C9AD565DC562B7E9786819492D077A92D36D1E33750BCE7BD0C1D7807
+1AE8349B743A6D3A9D4EDCDDA7AF926F230BD3344DCE9C39C3850B17181C1CEC
+6603D2B4F4C4C404954A85B9B9391616160882A02B045ACD26688D03D822CE7C
+C416EA32A87C794105FFFD333CFDCD3730FBCB7773C3531619E08D2EC6BABEE8
+AADB82AF262140687D5829BA2D9D64A2E58D4E8B4CA741BB3888AF7C6C64D737
+9489A694D0EB0ABC2AED27534B017A138AF4098254E3BB5AA0E5456AF3D30BED
+FB7BD57D01D20E9676C2F00A74DB85F959387A045E7B065E7A02F3C4AB140919
+762C76ECDCC9F60F7F23135BB753191A4E82669AC0F789C210619A68AD87D10C
+F0BA05802087C98D387C98FCBB468E2EFDD0C891EAB78D3038B893BB094596AC
+DF61F7699FDFE55566F38A9D5BB6C5B87E11E3F78320A0582CC6CC1C8610858C
+1FB88BE0FC0739FAD2C31CB8FB1DA0C1B46D2A63A304AE8BDB6CD2A85669D497
+51E549061FFC5E866F7D1023D1EEED769B56AB4510045D0D0F3154B83BBEFAC7
+1A31B2706E6E8E975E7AA96B11AC1E93511491C964D8B66D1B2323232C2E2EB2
+B4B44410042CD7E3DE9F8302F23DDC11A03165134304044A7FF449FDEA372E51
+FB377772E0572718F29259C4BE2EE92A2D808D2253FA84D63A444B33654A2105
+A2DD21D358444DEC26202410B20B269249EE5FA5BE7FBF564FCDFDD56021FA80
+4049C02F025C2448BD42005C7D1150B23EBD6743C6B97B9B38ADA380E5261C7A
+0D5E7E1C9E7F12E6CFE3D41618531E5BA72699DAB295A13BBF9DC1F149CA0383
+589695744F0E89C2807652FA2B0D03C33453A62869285CF91B12804940C0118E
+DDFE9394FF7991E2DFD9A247EDED4C31CA00120BB4E43637E25FF338678D1A93
+5BB6E3380ED96C96E1E161969797F13C8F7C3EDFB3D284C03204BBDFFF9DBC70
+EA158E3EF72C7BEF7A47ECE284215EA7C5CC85F334239B91FBFF0EE3777D00D3
+C974C78DE779B4DBED6E302FD5DEE9F774BF94D2D45FA3D1E0D9679FC575DD35
+30E37E4A8548269361FBF6F87E0E1F3EDC9D8075A78452E2A5AD74083DA41160
+46F9C29968FA978F33FDDEF770EB8FDFC68DAFF58ACDBFBEE8EA8A81F4FA4A33
+D4FAA4D6BA83D6C5182D1697088B2824579F471B92501904AB003CFDCC2E441F
+DE9FD495162B3EF75285E934E17197605FA8B89BEE1B91BE4B8F9132BE10277E
+6A3A021617E0E42178E91978FE3178F5190AA1CB5021CFF8F0083B6FB991C92D
+EFA33C3C8293C97407B95211BED7C14B8A6584905D549D0A03C2964FE075682E
+2DA2B4CE5EF91B3208F039C289C9A739F49325723FF40077E7B7338E954A2C62
+58F1220D7E902FF0B9910677DC782F6343C3643219B2D92C96653133338394B2
+9BD28B7DE90803904E869BBEF7A778FE37FE25FAD9A7A98C8C327DFA14617E94
+E13B3ECCCDF77D182BD343BA28A5F07D1FDFF73192B2DDD43C4FD17DE96FF4FF
+9552E2791ECF3CF30C8B8B8B5D57A11BE8EB7F57ABAC02A514AD568B6AB54A10
+C40276878C5D80F5C0BE1285341BE4A48B1F153FF4987AE5804BF08FF7B1FDA1
+01FA0BB1BE3EE8EA70006243ABF99CD62C6928C6CCACB1CCB83828D758400888
+A42414BD205E6A01F4C0402BC13EA970585DF3DFDB2716063E10CA3E4DDD7751
+975FE71F4B1D6DF5343C01B0B404CFBD0C2F7C199EFF2A62F62C99C569C6F20E
+DBF61E60E2831F6074720BE581011C2743DC1129228A22DAA95F9C307B3A3147
+1486A830C06B37F1DA6D02B74DE0BA8461B86C9AE67121E5C788B11597493611
+1E9FE2F18F4EB3F8CBF773EBBE9BD889890DDD3EC90AB038CA027F97CF736277
+966FBBEF23E432D9AEB69552E2FB7E37176F5956B7B22F8A225CCF2397CB912D
+0F72F78FFC3B5EFE9D9F61E9FC125BBFF10719BDED41AC6C7ECD95A5F104CBB2
+1042C45DA3FBCCFFD5A93E8899DC755D1E7FFC714E9C38D1DDD7F33CA6A7A7BB
+D79BAEEFEB5085D69A20294B5E5C5C04208FCD3D0CA1C43469966A3D328C808C
+AC6284A5ED4F45AF7DFC354EFFF287B8F717C7180AE4B59C51F94DA6373C0D08
+6018A21104EA8C527ABB36E27A7FCB14200DB2F505A45268290985EECE1024FB
+985F8A7ECD9F66087ADBD67301941018027C1D671CE01288BE7E249E4C7ECC4C
+FC7793B8E86EF6021C79115E7C168E3C0B079FA1E4B719191C666C7484A97BEE
+64746A2BA581412C2B7E942A8AD05144BBD5EC99CC49833943808A42C28E47E8
+BBF89D3641A74DE87B28A55A5AA9970DCB7A325F2A3F09FA1927933D3A3737C3
+E547A32D8E71C67881433F2DE067BF8B0F88210620E991DCBD5F2CBEC269BECF
+F832C61D3BF8F04DB763248C6DC608C42EE3856188655998A6D965D634E79ECB
+C5DADD9336DE1D1FE59DF7DE87E96C6CB0F4337A7F54BF7F4CA54BCAD4AEEBF2
+E52F7F99575F7DB5ABF9538C80D69AB9B939AAD56A3783A081A04F4B0B21705D
+17D78D2BFBF651E6DBC36FE4359EE035F328E645522C526A1CBB861165336E20
+7EEEE3FA917BF730F5D311C1B35F2F22E0AA8140EBA5024D4320843EAE947A30
+CDE95B461C24CB34AA18818B9FC9136AD50DF4A9AEE6EFD3EEF4827C29F3F7EF
+D79F064CAD80400A944CF4FFBAA09C3416409C8A7392CF9D006667E1E86BF0CA
+E3F0F463987367C9B69619CE6698DCB987B10FC41A3E5F28605B165A2B5414E1
+7B2E812F56307CDAD956A908ED8584BE4BE87562EDEE7B44615095D2386139CE
+57A5693E56191A7EC1B4EDF33A0A1B995C1E210D42CFBDAC596F0014929778CD
+FE12CFFDC62DECFE81777347A2F5FB73DAF1B0FD0F3CCD2FD9AFB0EF81BBD9BF
+6337518AABEF43D969ADF1FD9E91AC92861FFDCBC2C2022FBFFC32CF3DF71C9E
+1FE04682F7BDEF1B2E7A9DFDC1BBD5F9FDD5A9BE56ABC5C30F3FCCC18307575C
+1BC9FBDFBA752B9EE7B1B8B8C8ECEC2C10379C1DC0214C9C4A410CB7CF912544
+F1412629E922EF08DE4B2414C7CCE3985CBCCAC2363B1832C0F72B1F3AA6A6EF
+CDF8D6FFAF90E5BF8A4B2467DF0A74F56DC13778745A7358AB5EB36FCB9008D3
+C4EE34B0DD266EBE1CE765A5EC83FEA660A05E41500AEEE9B60BEF8F03D0730F
+64E20284117100B0FFBAFA1B689AC47CE00233E7E0D0D3F0F457E0C84B70EC45
+CA7E9BE1D171C6C6C79978E07E8646C7C8158B1832EE46A99286181DDFEF228F
+24323EB7D6A034A1EFA1038FD0F708DC365110A0953A0EBC00FA6CAE5479511A
+C60B96E3BC942B161588B82E5E40E4BBA82842682E9BF9C1A44D433CC273BFF6
+0E0EFCC0FDDC4AFC74FA99DFC027E4C77894DF2E9FE1BD0FBE872D23E3F194E4
+96B56E502D8AA26E362035B5A328C2B66DE6E7E779E8A187705D972D5BB65028
+1478E5E02B8C8C0C73CB2DB75CF46AD70BF4F58FABF4FC9FF8C427387CF87057
+F3AF17189C9C9CA4D3E9D06C36A9D56A4C52E04FF80043640185411A1CD6B408
+9922470C13B37847F01E5A46836939C7A55A891A464826B384F48B153F2CFE46
+B36D0E3B76EBFF76ECCEEB65A1EB82AE2E087811274A2B7D244A66B4EDA6C44D
+03B3DD21DBAA521BDB46A4A39881FB199CB58541DD96DF0993C76D9C12D1D375
+01620FD723D9D922F6DF8D6465A70E33D3F0DACBF0F257E0E033D8B367C9061E
+233987F11DBB19F9E087280F8F92CBE5300D23F6D1A308BF13834252CD9EFAF1
+688D082322A550A14F147844BE4F14FA818EC2335A73C8729C272CC7792C5FAE
+1C44884529A5B62C1B611AC435308A5EE38D2B61FA942401019FE1E91FDFCFF6
+7F741F37D3B39F52129CA1C68FF1389F1EADF12D0F7E8852A1D8ADB05BAF875E
+FA8ED3405B18861886816DDB341A0D3EFFF9CF93CBE5D8BB776F77FFB1D1519E
+7AEA29F6ECD94336BBB12B90A617576B7E00CBB23879F2247FFEE77FCE993367
+B06DBB7BFED5144511F97C9EF1F171DAED184F70D26FF09F7885DFE7FD903488
+EB7F0EF1770D8458DAE15EEF1B7824F3107559BF6483652114994C0D230871BD
+D22FB43A83A350FDC98CD376798BD23571010402C791673A6E1828A52D43C669
+40DB8C73CAF9EA0C58B7A1A3B88D37A44CDF0BE875D741370620495B7EC5CCAE
+753CD3502821324099100AE2F0EECC6CECB73FFF5538F4225467C92D4D332C35
+C3C3630C8F8D91DFF720858141728562EC5E2491E8C0F708B5408B3853DC0D30
+298540A3431FA29028F4D161888E429452D342CA67D0FAAB762EFF553B937905
+98CBE4B20869745D1299344CD551D445415E0D69E0533C7AAF4FF00B1FE65E64
+9C0F59F13600FE9413FC25A7D956DA492197270802B2D9ECBACC9FBEDF540028
+A5BAC140AD35CF3DF71CA669B263C78E15D1FB62B1C8F2F232870E1DE28E3BEE
+B8E875AF16029665E1380E4F3DF5147FFAA77F4AAD56EBFAF9ABAF6BF5F7E1E1
+615AAD16ED769B53A74EF1317D941B19E05FF14E2E0EEB8D28AA611EF0DECFA3
+99CFD092ADCBEAB2EED82D0CC3A7ED0EFC48B333302AE007B3D976E33A99EDEB
+8AE82A0480DAD00010022C532EB4949A554A6F49CD78DB84369AFCF26CD2934E
+76ABA2A2E4C0FE1A00231504C4052421F18057240C6FC7156CB481B327E0D811
+38F834BCF018F2D8CB14D014A560647C82E12D5B18B8E31672A532866126D0FC
+B866DDEDB493EB16BD3E04C4A94BC310447ECCF0843E2A0AD02A422B755A6B7D
+D8B4338F19B6F3B865C897B2C5F2924028611A5DD35947C18ADE5417C74F5CF9
+EB9B66267F9E857FFF511ECC6512F376D59B0224DFCC567E8517983E7F817ABD
+4E3E9FEFFAF5E975AD7CBF3D011086218D4603CBB2B870E102F3F3F34C4DC545
+8AA98048F71D1C1CE4F8F1E3DC7AEBAD17CDD5A7C79AA689699A8461C8DFFCCD
+DFF0C94F7E12DFF7316310D4658CC3789FD1D151DAED36ED769BD9D959FE0DCF
+F10E46783F3BB8389A2F60209AE21EEF3D3C96FD0C91082FEBEDD8568014559A
+EDC1FF4FB333981782BF97C9B4AB6F3521705569C08B91D6CC6BCD74A4D496F4
+672C53A2A441BEB6109BBBA65C1344D19A5EE55832E7B796801D6BF818431AC0
+857938FA2C3CF54578E559E4DC59B24BB30C5406189A9862F81DF7521E1C2293
+CB631A065AC5FE7BE0FB04F82B72D03A694629A5816519E4B2190A851CC55291
+C0ED70EEC8219452CB08F11888274CCB7EDAC9E58F68D469CBC9200D0B21D262
+97C4BF556A7DF3E80D23833916F92B1EFBE73B197FD704236C9CA3D61C60806D
+1499EBCC53AFD7C9E5725D17603DD45D0AA64905C4E2E222511471EEDC393299
+0CB95CAE9BE2B46D1BDBB669B7DB148B45A6A7A7595A5A626464E4927721A5A4
+56ABF1477FF4473CFEF8E32B2C838B8FAF95DBB3D92C232323789E47ABD5A2D9
+6CF2C33CC69718649C021707F1048C853BB9D5BB9BE7B25FBD687AB09F2C33A0
+985FA2D91EFC48BD3DF0490DDF93CDB4CFBE9584C0EB1200D2B0BA036423D2D0
+524A5F88C20892AE40961947C833B525A417A04C6B6D143561786DD26BC0DE06
+4E1D86179F83579F81834F224E1CA22005E58CC3D0E8380337DF4269E0BD64B2
+D938A09674D20D3C2F96FF226E3D9D5C5BB772CDB62D0A851CF9428E62214736
+9BC576AC64E00B542ECB62A148BDBAF4C8F8AE3D1FF53A2E51E8635876B7A45B
+2B053205A4AC6D6ADDBD3161264261B56F7AA9E76D222230E276A7C96F58B874
+2603C27F7407FB12D37FA341AE9158DCCE10CF30CFECEC2C6363635DF37DE31E
+FAA25B99B7BCBCCCF2F232B55A8D72B9DCD5FCB66DB36DDB366CDBE6E8D1A35D
+28EEF4F4F465098083070FF2B18F7D8C93274F62DB76D745BA520AC39072B94C
+B55A65DBB66D1C397A9423418D7FCE57F87D3E8075D1671EC704F6FAB7B3604D
+73C639CDE5F658B5AC5808D49B830F34DA03BF2DE05B32763BD01769DF283410
+690CC3BEE2FB7CA3A92B00940A6954A757282DDDFDA7EFE285A6BE74AE179CDB
+E0C4F1E0D1C7A348A3548C9CB50C89340D9C568D6CBB4AAB321A8F598398D9D3
+A6168D269C3A07879E85E71E85575FC0ACCE926B2C51A90C30383649E5BE07C8
+972A384EA6EBBF2BADF0575581419F86376286CFE772148A798AA502F95C0E27
+E3AC3085958AA7348318963B3831C1F2D2E2FD61A7B567FB9E7DC71666666835
+1A84BA37C38DD0B180114964B297AA54686D62102183AA10D22C087447DB0321
+324B12B6DC900482467D86B0A2A8BA2D04360245646A9E5A3EF48DBBD5E4D424
+235C1AA6AA791763FC3687989D9DED06F53612E4293C3705EECCCFCF333F3FDF
+AD0B80386037353545A150406BCDD0D010F3F3F364B3D92EF06623725D97871F
+7E984F7CE213743A9D6EB0EF528A65BDEB4CC9300C2A950AAEEBB26DEB564E9E
+3CC91FEBE3DCCE103FC5DD5C5CE86AC0E0D6CE7D54AD79DAA27DD9709F58082C
+536F0E7DB0ED16FEA53312FD3FDA12F114E3EB50A4414716B5A5D33814FBDEF5
+DAB7DF7F9F8669912F8D5DD1F3B91475054073799AFFF14BEF45742747D3AB04
+40FCDD101175BF8269DD79D197E258068E631E0E8234482430A5C0302556BB41
+C66DD3AA10A7E3EA3E9C78150E3E07AF3C03079FC2387D98A2ED502E9418181E
+66E0D6DB280E0C615971ABD7D4A48F027FDD304F5A936EDB36C5628E62A940A5
+52A2502C90719CA4336DCFD74D6BCF573CFE2408393432CA6CB138B23833F3A3
+13DB76FCB3EDBB77D36E36085C9F300A89C2B8A79CD01046115A180869A0759C
+32048531FB6765CB3BF29D5A98DF2D74F46898DDF7DF54F1AE695D38103F6421
+93E0E74A80AA6964F8CCDFFC6BF2DF51E70FF94A32E2C0392E8CC2C3E287BE45
+DD4B2C41370A76F592D5B73288005A9DB810A7582CAE8803AC77FF69CE7F6969
+8993274F92CD66C964625CFFE8E8288542A19B2E4C8380B66DE3791E6118AE28
+ED4DE9CC9933FCFEEFFF3E2FBDF412A669AEA8024CC7CFEBA1288A2897CBD46A
+35060707715D970B172EF06F789EF733C5DD4C70F1A060485E0D73C0BD93E7F2
+8F75E75FB9140920E37868BD4CA355FA99A5ECD6678CBF37FCB056E91C073AFD
+3F1EBB0963FDE5FFF8EE15F79A2A8F95674EE0F581C7E8E44D7CC78FFED9EB7A
+361BD18AB7639A16AF3CD3A4D5885696CDEBAE3888678F2964903BE1A226407C
+DCB128524A292DB51183764CD340FA01CE2BCFC0B38FC2E30F611C7B15B3B644
+A6D360A05C6678CB76CAEFFB667285229669C5B0E0A42F7DE07BAB7E82153509
+29F47862728CE1D161F2853C998C8361A6BE79ACE155B881C64C528D52C6813C
+434A6CDB6662EB365E7BFED9EF6A2E57FFFDD8E4C419C7B4300DB31B00D35A23
+A4899059FCE6394277C1D451B06DE9D89FDE2354EB23A13B77DF72D51AAFCEAB
+5CBE623C3838F8DA0FD8FEC9E75575E0735679DFE3F6E8FDC7DD566DB91D9511
+661643C465ACA62538F6BCC05DD048195FB36FC36DA7CDFB0F84957BC6C55012
+2C59EFF16B5A34C992C5C0608A3C53E439D769B3B4B4D4D5DCB07E1030B5A452
+54E0ECEC2C77DC714737FD562A95BA82532985E338DD9261DFF769B7DB944AA5
+EE39EBF53A2FBFFC321FFFF8C7397BF6EC8A14DFEB65FA950C14BB2B954A8576
+BBCDF8F838CD66937ABDCE8FF3049FE623E4484A3537249F1DEE8D5C708E3163
+CD605EC165E5B26D226538AD43FC8797FFB4F5EE706B661137EAB53FED3B57EF
+B9F7C6EDCA0F2BD7059EC7F61B96F98ED7F59436A615024029C5EDB7DF80D071
+59EA7A0F59A2A9FA362FD62F61720AD0E8E948293F8A54C6B28C383B609908C7
+60F04F7F1D71F604C323639427C770F6ED255B2CC51A3E41D0A51A7E75FFD8F4
+4B0AFE314D8161C4ADA724A05544A5526072CB2481EFC71A3EBCF8F54A291152
+6224387D231100A9D0DABE6B17E74F9F1A9B9F99FEDEEDBB76FF926367D04834
+064A7510C2A63DFFA2E3555FBEC75B3EF46EB77AF47E84F50EBF630C792D1BA1
+87885C879263A23A81B53CE36DD1B2B3C5C9CD7F6BAE3317F9738FBE6048FDA8
+9DBFF5512D8B8F87A57B661516ED8ECFFE7D3B29EC1D8CE7379002D909C99D3B
+FB7D5362D474F47A91FFF80584045CE0027B8973F58338ECA7C239DDA2D16824
+AE4EB46EB43E8DEACB2EF64174837D6118323030B0268598BA0B9665E1FB3E9E
+170BEB5478BCF4D24B3CF4D0432C2C2C74BBFABC5EEA4704A64B8AFB6F341A40
+ECA26CDBB68DC3870FF36830C37FE5203FC15D5C2AFE22B0D8DDB98D797BA68B
+33B95C2AE49AF8BE7DE3CDC7F33F9F7BCFFE1F116339B4BFB2C459A7ED89D375
+69F1531FEFF47F1040147A0C4DED79DDCF6B235A639FC5557E295862E5C38658
+AB68AD2E4F626B1A2A526E18451912AC956D0AC22060D7AE3D18FBF6F7F2E24A
+ADABE1BB0F4CC4CD41251A438029345228A46162587D1D648861B1F333337147
+DA5551EE152F5A88AE9697522293892D6492FB4FA7B4965262E7F2ECD8B59B67
+BFFAC48F7DF1A14FB163CFFE8726C64AA76570BEBC7CFCE3B709A1DF1B7AF50F
+B49697F74651CEF15A83F86D0B8983C0442031CC38CD69091B74061516096A11
+4BCBBE212DF72EA710DC65345EFEA799BC9A33BDD79E159ACF0E46A52F45148E
+6A19B5B4CA8021B08E3726B3CBE137ED10536C3C980575EA54A9223001858DC3
+3ECA7C8EF3341A8D2E0A703D0DDC5F919746E6070606BAA6BE65AD1F084EB570
+369BA5DD6E333333C3850B173871E2049FFBDCE7585A5A5AD72D783D16403A76
+3A9D0EF57A9D66B3491886DDF7DAE974705D37EE5E1DC0CFF00CDFC2366E6090
+8B0B8188B1603BE3FE14D3CEF92BB202A4A129E45B54EBF21FF8CFCCFEBEFDE1
+ED4F697D0901B07124ADEFF95C26CF5D215DB33420801054112C8591AAA4FE82
+65F63AF5A828EAE2D0BB37DAFF308935BC61284C54CCF068043AD488A3C0B250
+E17D026B8514958624F47D6A4B4B8C4C4CAC098FA59ACD58856DEF6778C39071
+0FC2643F4308F6DD7823683D7AFAE4895F3C7CF0959F3EF6D2E2D191ECD9C182
+D9DAEAD77C649801761005369634707222E9099834C216FD25AE22761984C090
+059402AF1DE0459E741BEEB816ED8F640AC1472A85565B38EAE548E49E1661EE
+4B5AE82FD8079BF70D5299AAE88B4D626130CB2C2121FDE5BF373308C0625240
+E338CE8640A09491006CDB269BCD629A26F97C7EDD5FECC703643219E6E7E791
+5272F2E4491E7EF861969797D7E4F7AF7450F757FB351A0D6AB55AB7B7400A59
+6E341A54AB559ACD66D70AD94A9E1FE56686C85DE49975EF04A12D76BBB7329F
+397FC5D9DC6CD6A5DDCEE5FCAFCCFC8075DFF85314EDB81DF37548AF1F087489
+1B524A532C64DBADB677260CA25DA934B3CCB8D847AD180474BB68C5907D8521
+3446C2F0A0DBC019B47815C3785C691EC3B05E94E8A1C8EB7C459AC176C376FA
+1CAA38935B5D98677074345925BAD56C3D668F6BF1FB05413ABD55FFB6D41AC8
+641CDEF78DDF88EFF99C3E7D2A77EAC4C9DBCE9D3BC7DCE22C46D424AF3BE444
+07C7F2112A8CDB6F27BFB5DAB98B948648A1D1F14C39229E2FD1C4462B1BA58B
+B4E67D6AD35ECEC87AF738F9E01E27B7F823D9B298AEBF4774EE7A6408A39302
+23D67D43CC3187D3AD760250DCCA20590CDAED169EE791CD667BB33CADA27E66
+CBE7F3DD4621EB81748410F889BB956A78C3303873E60C0F3DF4D0BACCBFE1D8
+5A679FFE6B69369B2C2F2FD3E974BADB5CD7A55AADB2B4B4D4ADFC83B8FAEF47
+B899EF6217A394E895445F8A4286BDAD0C0713CCDBD31857C0BF424236EBE136
+EC8FFA5F38F7F3CE77EDBDA0DBD767A3D1AB2E07BE5841941068A5D4339EEFBF
+B7D972C9656D6C3366B2285409B65F63CA98E9051112AD05BAAAE155908F68AD
+9F10A67D4118C634300B129D4CD9EC38E605370A3E1606C14F9BB69D305A4C52
+1AB8AD26ED468381E1E15E89699FB697526208894C187C3DABC0E8C603E21A00
+DFF7B11D9B1B6FBA890337DE48AD56E3FCB9F31C397488E9E969E6EA4B186187
+82F4298A36B6F6307432F34CDC902031B9BB4F72C50314B2177CCBE62CA42810
+848AC80D5161C4C2427322B3AD4E76AA00C70CD647B949023A54A9B295AD7D6F
+48B18F0A151C3AAADD0DD25DCA450AC39052A9442E97EB06EED6A3B4BD17D045
+0D7EF2939FA456AB5D12DC73292C42DAD8A356ABC5667D9F15B0B0B040A3D1E8
+F607041826C33FE166FE1137324E91B81CC847A312CCC4254738028B6D9DFD2C
+3AD357D40140008EED238946742BFC2881FA2F976AEBFAB5A22B1600E97D5CAE
+E9562A667FB5D9724BF38BF56F776C73349F73B0A442C8080B453C2B8C5E16F0
+2C86F10CD27C5A6BFD0CC238AD0D3361DC1873A0228521219BCF629B06CAEFA0
+B5FA9D30087F8428AA18B6D5B52CE2B20F4D7D699ED189896E45E16A0B4026CC
+2D451C0330FA185FAC1200A9500882A0EB6B160A050EDC78801BF6EFA75EAF71
+EAD429CE9C3ACDD9336798AFD77054879C6A93534D1CE522753271BA485A9B03
+C85E1D444AB156D66801A629B16C1B431AB45D85DD6993F79C8B3C75493BF9CF
+5CF58A47C8B29D22D3B4A956AB8C8D8DAD986D67C5BBEE63BEC1C1414AA5D286
+8C9C76FB490B86E6E6E6F8F8C73FCED2D2D2BA98FE8B517F0602E89AFA29E303
+54AB55E6E76354633F5948FE0137F013DCC63E8688B57D0008AA5451288619E3
+F2DA7B458C7A5B2945251A661D7999B7A001C70EC866425A4716BF233A5EFB6D
+B9B7E2E15E7F56C0358E01082AE5C2F9423EF30F9B2DF7FF6D34DCBFBD586D7E
+9F6988614B7312693C013C2E4CEB2561DA6711C243C493472AA520FAFFB7F7DF
+51929DF77D27FC79EEBD95AB3AE799EEE999E9C911834822108104408AA42CEF
+9ABBEB9569AD5EE9BCC75A9F23E978AD5DAFE4A0A357B4B9940F298B3EF25953
+126452240D5220C01C40221004899C660698D033D33977574E373CEF1F37D473
+ABAB7B66C0014112FD1B14AABAAA6EACE797BEBFE4A0196E6388782C46BABD83
+74264D3299C4B11D6CCB64796EFAD2FCCCF423F55AED9F46A211D70AF03D0143
+A798CBE2D4EB24BCE415D5B7D74288FFFAD78105E035C1F05D08DBB683C5E887
+C18410A452298E1D3FCEA1C387C8E7F25CBA7891F1F3E7595E5C62B194876A81
+341552A242D4AE21BCD9F6D2968155E0770AF2856C806C0837A7DFD44B74D513
+F4ADFAE66C6BCA93C7C6460F693B37D9E5001DFC8405F2F97C100968E59BAB51
+809E9E9E5048AFF977F6CDFF582CC6FCFC3C5FF8C21758585858976ABC113547
+1380208457A954820E42BE995FF4FAFBA97423BD7C8C9B782F3BBC6B55AD238D
+05163030E861902B13000E1127435F6D8462E4E4D559010212F11AE56AECDDE6
+F7A78FC576649EFD79B402DE5201008DBAED8EF6D485742AF167C552E52F2B75
+A7D7B2E5252DE2C7811BF17921408F44C8243264DADA482493414FBA482C8EDF
+E3DE711CB22B2B69CB76DE6DDBCE60A552211A8B9048C4907E39213A9659676D
+7981EEBE3EA4657B5A5E3499F90D2BC0C700B4168240ED8853ADD530BD9656EE
+0FEE8ECCAE9B269A1064DADA3876DD751C39768CACB768A7262799B870919995
+45A2A244CA2992742A441D77289F5BA0E416400439F9C10D72EF51A4DDA6A7D6
+46A69461B3D4D62C5934EF5F980487E804DCB65AA66986067004DF52FAF1F919
+76B1582CE8ABD74CA669128FC7C966B37CF18B5F646E6E8E582C76C5A13E5FE0
+F8FE7C369BA55C2E0716C8CACA0A4B4B4B81DFAFD21049FE80E3FC36074812A7
+513616BEEE259668A79DAB0BEC390C95F732953E85D4E4556D998CD7C8E2C49C
+95EAED089EFD79637EF819080040D16E82CEF674C92ED44B4ECD8DF3235DB028
+964A108BC7892712245249E2F1845B0EACFB0CA6915F5B453AD6E8ECA54B3756
+2BE5FBCBA5E21DB1787CA4A7AF3F3AB06D3BD1A8C1DCC4B85BABEF5F60C46069
+7E96DD7BF7138F275CDC41F3AD803030A86B9A7BCC900BA03784821068BA4EC4
+D0C9A4522CADAEA2AB8D2C3D33DEC61506FEFB99B6363ABBBAD8B96B17959B6E
+627A6A8A0BE317989D9E66666D09A35EA24DAB92A64A44D6023FCB4D4B6E6004
+0EA0C7A06B25C5E6F5040E050A44F1FDF5F0CA3BE009806ACD6D95954C263704
+DEC0F5E7BBBABA5A960EFB5690DF43F0C1071F0C0A86AE26CEEFEF2797CB85CC
+FA6C36CBDCDC1CA5D2FAAEE871743ECA1EFE152718A51397F137AEFCCB92F5EE
+C9D570A2246D75D26EF6B2165FBCE2EC4077EDD92462758A327E835CAE424F7C
+C3F4E0B78B7E26024025E9386E0441402A9526994EC4BB03D300006406494441
+54934CA588C5E2E8BAE63191C0712C101AE5428EA5D99931A1E977AD2CCCDD63
+99E66DF164625B476737FB0E1DA66F6890AEEE1E62F118F55A8DECD23C957209
+CDF369355DA75E2EB1BAB8C0EE7DFB713C2B20ACEDBD469DA211FE6B6005BEF6
+17816560E83ADD5D9D64F3796A9EC6175EC6885FF7AF3EDBB6E36A4E218844A3
+8CEDDDC7DEFDFBC9E572CCCFCD3379E912539393CCE45769B3B2F438CB7EE410
+705B9EBB939124440503CB6D9BDC613701A84A95089116A5C792DD64C810A158
+A9522E97E9E8E8688CF3F2BFA508B6783C4E5F5F5F4B86F66B27344DE391471E
+E1D4A95357A5F97D5FBF52A9847AFB158B45E6E6E6C866B32DB7FB08BBF9DF39
+C81D01C8B959C9AF8645952245321E20C815DBE30E9A8CD153DBC65A62F1AADD
+8064BA4661A57A9BF9CC4267F47FDCBD268B3F5F83467ECAE9C057674C794550
+48A193E9E8A0A7B7C70B93799A5768645796B16D6BFBFCD4C471DBB26EB44DF3
+DD9669DE9448A5DB868647E81918A06F608074BA8D48D46F1269532A958946A3
+F40C0E3275FE2C9A6884C8A42E989BBAC8EEBDFB88C5620D2B407D88F5D6809F
+19D8C80AD488440C0CCD403734DA32696617968818EEE8A3201DD9EB6AD2F8BB
+F1816DDBE0098D7426C3A19E1EC6F6EEE1D2858B3CFDA31FB13A6B11ABAD1071
+AA343A2378B51451492622E85FEA6293D80B152AD85844883452B815EA25C14E
+32BC2A57A9D56A41FC7EA3F6DAC96492C1C1C196F512E0E6087CEF7BDFE3A9A7
+9E0A45092EE7FBFB5A3F9FCF532814023F7F616181C5C5C59642E418DDFC3137
+F2ABECA4D1AEF9F22BB540811A35AA5490D888ABC4F5DB6B0344A486239C2BAF
+1110108F9A44841C72B2B53B64BEFE0886F6736505BC3901E049FDBA23D0BD48
+FDE6B7CFBDE6BAAD61498130C0884411BA866D5A38209666A777D6AB957BB22B
+2BEFB32CF3443416DB9D48A6E8DAB69DBEC1213ABBBB48B7B5A3EB1A8EEDE048
+9B5ACD511063D70FEDEA1B64717AD2EDABA7F9DD8622E4D656C86757D9363C8A
+635B2D40C06660D0FDDBD00D221103DDF3F5ABB53ACBF955D672798AE5320289
+653908E14D27F4AB0185621178DA46131ABA076ADAB6CDE2C202B33333CC4C4F
+B3B6BA4AB95C46D704994C8284A687FA1A4A2970B42A4904E94282CB0900104A
+0440FDAE430731B693E65556A9D7EB58961568F156493A994C86F6F6F6960C6D
+18063333337CEB5BDF0AB5E3DE743D785ADFF7F5EB75B73FC3CACA0AB3B3B3A1
+38BE4F0974FE0F8EF3FB1CA533687C72A5833A344A947070A863626111219CEE
+BE39D964CC1E124E9272A478C5D1008058CC221EB7B5C2B9950F3873838F68A3
+6DBFF802C0EDB75EA75077ABDEAEC6A71242201D9BE2DAB29056F5C4EAC2FCBB
+CAC5C23D8E6DDFAD695A5B5B6717DD7DFDF40C0CD0D5DD4D341643131A12F798
+661D8FB144E3D9DBAFE39844E349DABB7AC82ECEA009AFCA4C8065D92C2FCCB2
+6B6C1F96E96B7B6D1D1E60682E83460C03C3D071A4A452AD92CB1758CD66C915
+0A5896ED7524D6C2C32942E705027F068040D70D24925C36C7ECCC34B333D3AC
+2E2FBB432C358D68C4C0D0352C29B16C1BCBB10330D34D17D770622609D340B7
+37B3BB04356AB809CDFEF7D4DFC7ED0D3086EB46942BE540006CF47B757474B4
+2C1DF667047CE94B5F626D6D2D181ED26ABD847E7F29C9E57241CEBE6559CCCC
+CCB0BCBCDC72FBEBE8E613BC9B7B18C165FAAB35A325050A0804B6F7EF724D40
+9BB78FDA69525607E568F1AAAC5E4D8344A24EA112B985A8DE0164AFF2E4DF52
+FAA95C00BF8FDFD590E3488A6B8BBF56AB94FECFECA2B62F128D7574F6F4D0D5
+DB47775F1FA94C1BF1442240FAEB75D3EBB6A3685768F8D9EE5B01E3E940476F
+3FD9C5591CCB4278A8BDA11B4C4F5EE2BA1B2A24932950C25CBAEEB6A68A783D
+F16DDBA15CADB0B29665359BA3582A054926BAA1B9E6A300473A4146A42A90FC
+DC7934816D5914AB1556969759989D617969914AA5EA364A350C12F1B89B22AC
+09EAB53A128961E84434C3551452BA894F42202336E9728C88B599D075A8516B
+11FE0BFBBC7B6807A05028069D7D5A696F29258383832D01C06834CA57BFFA55
+5E78E105E2F1F865B5BF0AF495CB65344D63656585E9E9E9500B729F9218FC3E
+47F8171CF3B4FE9BF19F5D5836478E08060EB6971E7D35E48660DB6A7DACA4A6
+AFBAA15B325E43903A683D3EB327FABFEC7DEE4D5CC45B466F3E131030CD3A42
+5CB92F25348D4A21ABD72AC53F8DC65307B6EFDCCDE0B0DB673F301F1DC7D58A
+B00E4C6BD6F8E167F70B8E63124FB533B8FB00C5B5652AA5BCDBA61BC8AE2E73
+E9FC196EB8E5366CCB7219CD88A07961BD85A56596D7D6C8178A546B552FD9C7
+1510BED96ADB1281DD00E89470999F5FE0D80EF9FC2A0B73332C2D2C522E15A8
+566A08249AA1138F35B2167D2157ABD62957EBC4852419D38869865BF5006EF7
+22746A1949F77C9AA8B9D1CFE6A63F99984D0940CD05279231DA1140B1E40A80
+8D003E80EDDBB7A3EB7A28D32E1E8F73EAD429BEFAD5AF6E9AE2AB26F5D46A35
+72B99C3B0BD1B6999999616161A1E5B637D3C727B885DB19C6D5FA6F36894660
+6392274F84280E923AF5A6FB712524C9D4FA5CFCE87265F0EAD105C463163161
+19F585CAADE8E2B99FA781C3572F00DC325F77E1D6AA5725001C22D4EAD84837
+0B6E65658D5ADDA4B3BB93B6F60E6289389A26BCF0A00C9A84AED3FA572010DA
+7AFA69EBEEC3ACD7A8147294F36BE4D79678E3D42B5C7FC32DA49249CAE5324B
+2BABCC2F2D92CD15A8D56A48AF37A00F0A826BB5F8717AD512013784A9E91AB6
+ED50CCE7595D5E6679619E7C3E8759AF79D680462C166964D6D936F5BA49A552
+A55AAD639B26863469374C86E2550C6C6CE95B576EEB32C776D022166DC5A4F7
+B3B5F67F1B266EC46BC42670D6A5BF3AECA18D140645DB0A708056937A62B1D8
+BAD65EBAAE93CD66F9EC673F4BA9540A25FBB40A13FA29BBA5522930FFA7A6A6
+5AFAFA5DC4F81D0EF2075C478604D7623C77952A152A4488606353BB4C17A6D6
+244958192252C7D1AE7C48A804745D9248D4A939DC2EB3F54F91347E6E708037
+6101882046AD699BBB008ED4DCA527DC1BB63D7E113D5E78F785C5F60E2905B6
+69B2BABCC4EAF212B1588C4C7B3B9DDD5DB47776068BCA9112E9D8EB34FDE504
+82E335E5D4F408E9AE3E32DD7D740DEDA0945BE5E41BAF238C084B2B2B546BB5
+468AB0EFD2F8C76D31ACD28D20B84942524ACAA5126B2B4B2C2FCC53C8655DAB
+08375F201A8DB87D08052025F5BA49B952A552A961D5EBC4A8D3A65BB4456AA4
+B51A3161212D172CF5A71DE331B1E958441D9B64511DEED9E29EE31618A92EC0
+FA488064D86B0E72C6C951AFD75B2603D9B64D5B5B5BD041D8BF078661F0F0C3
+0F333E3E1E1413B5D2E27EDF403F8D17606E6E8EF9F9F99616C707D9C1FF8F1B
+3916A4EA5E0B55E946006C6C0C5C1CA6DE722CE8E54812B113C4ED34E568EEAA
+80404D8354C6666DA178BDFDCC42AF71FFC8922CFF7C0C19BDC6188097B32F5D
+F3351DC912D16ADB07E213875346E1F68856B9C7AC39472E914A3A9A408FE8E8
+D24D7D756C8BB5E565B22BCBC41309DA3B3B69EFEE22954A634422410B30BF9D
+527044B599420B8BC1A19190237483B69E4126E6E6DD1A03AD3154524A89E315
+E684AD0ADF121168420709E57289622ECBDACA12F9B535CC9A9BC9A7E906316F
+D08610AEE5609A75AAD53AA5B23B122C8A499751A72B5527AD9BE842A249DB0D
+8F4A3D103CD2F1859F7B4E96B0883B82687D33FF5F04CCEE2F76A1BCA7521483
+DDB471C6C9512A958250A04AB66DD3D1D111B40E03D7EF3F75EA143FF8C10F2E
+9BE3EFFBFB7EC6E1D4D4146B6B6BEBBED74E947FCD097E8FA3E8185C1BC66FDC
+933C79841715B1B131DFE4FE0D2742DC4A5189E71057C1BF0248C44D0C9C2119
+D34FA089EF5CC30BFCA9E84D0B00C771D0841BD377D0103818C224A655F4C1C4
+C59D521877B6E94BF745299E302D635725AB51B15268C4D1A44EA95245D705B1
+781C4DD311C270012F6F30C7D2DC2C2B0BF3C49349DA3B3A68EFEA26914EBBA1
+2A4F1880D264C1FDA371D35B98EBD8369AE6A2EB9AE632869ACB1F1626AEA617
+9A3BD5D8ACD729E67364979728E6B2D46BAE46D3758D48D4686CEF3858B645B1
+5CA554AA50AFD5D0EC3A9D913A5D5197E9639A832341DA8A67EBF58E0BAE4080
+90EE9004813B5854978288B5B9CBE59AFBEE3FD50508935B13E0028153810068
+D6CA8EE3D0D3D3433A9D0E12856AB51A5FFEF297A9542A2D7B09F829BD7E7CDF
+344D8AC5221313132D4DFE7DB4F3D7DCC9BBD9CE4FE7EB6F449222457474F73E
+A27B20E0D56300424688D9A9A074FDCAB7747180688448F5D5E5E3C6F19EEF90
+D47F2EDC8037E70220B01D0DD389D2195F25A657DA0D615EBF2D7EE136A139F7
+08BB767DB52453D57A946C39034E8C782C8EA11BE81AECCE94992AD9140A554A
+C528B1688C582246341A756BC9A504C3AD3AAB55CA2C964BAC2CCC93CA6468EB
+EC24D5D6413C91742BEAFC4E29EB16A27BEB9B2D8646DF7BEF6A9A3ADFF8263E
+5260D66B548B050AD9554AB92CB56A2558E0512F09C90DFF49CCBA45B952A354
+AA50A956894893B45663D030698BD5886A7630EBA0E61DDB9D062643E7ABF637
+F4EFB7D0400AE9E21297C15C6CEC900068D4023467BE09C6BC4840DD340301A0
+36081542D0D5D5452412A15AAD128FC7F9E637BFC9A953A7362CF2F15B73F9E5
+B92B2B2B4C4E4EB64C22FA2023FC05B77969BC6F053226B0A90555913A3A8EF7
+EFEAC9159A312BE9CDB0BCBAAD755D92483A94178BD7CB8AA5899471858DC7DF
+5ABA4201E0E7FC49A4B070A46EECE95DDABEAD7BEEDD293D77B7EE546EB61DFD
+60B514D52A790DC76E43C808028378C4EBAF6F3BD8960BB2C581B16899B2AE93
+B723ACD6E2142B51A41E25168F914A2689440D0C4D431811A4E35A06A57C8E52
+2E4B24162591CA90E9EC24956927128DB935035E82D2A63F63ABE6979A1B3377
+A4C4364DAC5A8D62CE657AB356413A329862E3E31E8EED324CB95A2357285329
+57C0AE931275468C2A69C324A1596E818FD070A4922BE0D54608CD1D8BEEDE62
+E14305FE9F01CB0AA16121708440EA9BAF3C07071D3D6401C8960B4DB0DBCB05
+B06C3B40E69B67F6757777074D3E161717F9FAD7BFBEE1383195F94DD30CFCFD
+75E14334FE8813FC01D711BBE626BF4A1A25CAD4A86160A0A1BD49E66FEC2F6A
+A7BC5E9457B9A58064BCCE4A2E7E94AAD5C6CF493EC00602401D0E20905A0934
+73540A678FA5E50EB677725FA7746EAD57649B6927A898299CBA8EAE4549C57D
+0DE2DE6AB7D4D5417859667E718BC4216958240D8BFE5885921D61D58C912F47
+592915117A84783C4A2299201E8B795D6634F02210A5DC1AE5DC1A4634422C91
+24D5DE49AAAD9D683C81109A3BBEEB323169E10FBEACD729157394F3396A9512
+56BDEE028F9A86A1EB689146D273B556A35CAA522855A9D66A68D222A3D7E98D
+9AB4476A24343B603D477AB75736559129390C6A0291F4160A52E0CD25417A03
+862C53C331A092DA0C8176AFD71700EE3B72030100832449A051B3EA989E15A0
+8EEB360C231820128D46F9F6B7BFCDECEC6C00FC35DFCF7ABD4EA9E4761A9A9C
+9C64757575DD314748F35FB89DF7B39BABCBE67B7354A6ECE656784BBD018EBE
+19ED2B31ECF855850183FB032413260267A7F5DDA991C86F1FCC5E736FE74D50
+4B0120451D2023F5C22EB4FA7D52ABDF53AF9B87ECBAE8AB57F548B52888E809
+848C22A5EE76E415603B36B66337DA88FB556C8E0C99B88D05DF9802DC16B169
+8F943065958A1361D58CB2568EB2562E21F40889449C742A492C1E2562B88DC3
+82D97EC53CD5629EECA241229926D5DE45B2AD1D23E28E16F2DD047FB2AF14E0
+5826D5628E4A3E4BA590C331EB8135A0EB1AC270EB031C29B12C8B52A94AAE58
+A156A9806311D76D866326DDD13A49DDC6F046924B8C905BA176FF69DC133FEF
+BED1275008FFD68896B8866DB9027071B008C2C21D22D0A2979F1701582F009A
+BFEBD04F8221525CAA550301107CEA386432197A7B7B8944229C3B778EC71E7B
+AC25F0E76B7E7F40E7C4C4C4BA461D00FF2B63FC3137B29B4E785348FCD5929B
+01A8A105A0A8FCA9CC6E89E1C45C4B42BBF29A00F726412C6613C58E5A7003F0
+EACFE0065C969A0480969291DC7D52ABDCE148798BB4E58952CE8ED4CB1A662D
+8A6D1A448D1886A1E158D26B5C616259841A5E0657ECDDB4E09E8BC69C04DF3F
+F75C68774AB0000D9B8C66D316AF3218D5295A1A79D3205788B1908F61C46224
+9309D2A938F1B89B262C70D1731C49A5E032B5118B934CB7916CEF24964CA347
+A2D89649BD9CA75CC8512BE6306B35B7459457FDE757DD815B57902B5529942A
+944BAE79DF1931198A9BA4220E69DDC2103E6B696E9702250C098DDAFEC0ADF6
+403D894610E4938D7269A417C6F305866CDC384DD7310B1A8B4345EA119B68BD
+B5F1E66B3B5F00B861C15666AF431F090648325E734D763596EF380E9D9D9DA4
+D3694CD3E4A1871E626D6D2DC8F80B7E658FF9CBE532D96CB625D86720F8136E
+E4FFE204AE15F7B3527D4EE0FFAB98887655854061D2A48EAE79E0ECD5F40904
+22119B44D42427C575578D41BE45A4AEA29810FCB56955FE9159D3443127B1EB
+3ABA8822844ECCD07053EBDDF05483E11B37535310F7A0263F843B3516BA44E9
+76432395D67F4B004901E9B8A45FD6B1A445C9AEB1588DB2962F91CF458844E3
+B46712A4D309A2918857CCE24DFCB12D4AD925CAB91522B138D1641AB35AC6AC
+5602BBDA4DEBD5F19AF0605936954A8D5CB14CA95445D87552BAC9CEA44557CC
+22A9D9681ED33B52E0485F5B4B17D013EEDC045541FA434383C6A734347B6014
+051A5F36296AE1F73775054031CADA8E3273C379768CF7B0DE7C9641B84BA8F7
+B5E56A93E8441921C38FEC852011C8273F0290482478EEB9E778E699678846A3
+212BC167FE4AA5C2F2F232131313A16C4170137BFE92DBF908FB7019FF67C5FC
+821A55EA9EFFDFB8EA9F0E781352B80FAEDA0BC0D0219171C8CE170ED69E9D86
+C31DC8AA19208A6A6ABBFA4200B659C3AC96AFF95D520540BBA689DBDF78B928
+849DA2AFBF83543A1A84CAFC6C381018420B7AD88512745444DD7B53A0BC8FC4
+6B051002A58526829CFAE67E834239D178C4A1275EA16A6BACD57556AA555697
+8BACAC464924E2B4A513A453092251C32D20921A8E23B1CD2AE5B58AD7D64B20
+841124FCD88E43BE502557A8502E5730EB753286C948DCA43366D316F1C39D9E
+B0F3AE49C76BF21930B26AEA7BDA5F2AE1C526EB2068FA1162FA8DF6E50A4B4D
+C659CB5778E1CE2986A6DA89D4DD7EFF4D5B07212FE032DA4EB0CB9B4D67D956
+A81EC0719CA05FE0D7BFFEF5A08578B0A557BAEBD7F15FBA74691DD2BF9F0E3E
+CB5DDCC010ADBBF4BC952428515AD7162D1C19B95A9268520F5CB6AB15006E61
+908DB552DC71E4F0BDDD831FB96B05AB8575D64200388E4D3CD576A587BA620A
+258C6B9A56CB674B4C5E9827998AD1D3DB4EFF40279DDD6D4463516CCB0E8666
+AA7EAD6B0D68C139AF4BCAF18D0129028DE8384AF698E399C1EE0E1BD681749B
+60F88BD97FDF10367D319B9E689D9AADB1528BB25CABB2542EB22022A4D3093A
+DA922412312286E1F619D66450A8635B36955A9D42B142BE58C1AED748EA2643
+318BEE8C4D2662A17BA11E5BBAE87B4373133049D0B54701CED47BD3F0EA1BBF
+A73AC92674AFD4FBE4017F527AA955428003B15894CA5A8A8B236BFCE4BD97B8
+ED5BBBDD5C013531AAC902D81803703FDDE54502CC7A1804D4348D6DDBB6F1D2
+4B2FF1DA6BAF857C7FBFA8A75AAD063303D7337F3B0F722F47E8E367E3EF3793
+A04E1D0D1D1DDD4D5FF77224C455B3AEB257A9B96DEDDF840000371F4062F58C
+1CBF7574F4F87B57DEC42EAE292902C05B98BAC0910E954A8D894BF34C4D2DD1
+D9956178B897C1A15E32EDE980896CC79DD7276D27F06385701B3007D24B557A
+A231A23BE8952F5B2DCD26FFB829434F2AFB8E47603852652855A364EAACD50C
+964A65A6F379F448CC150699148944946AADCE5ABE44B154C1AAD78860D21B33
+E96AAB93366CA21E9067DB5EE392C6A9AC3B3B299DD042521389D4F6E4AA9697
+BEFB245DD7C06F2386749042B83EA57F5C3FD62C3C7DE5C9D764AC8DEA22BC74
+6206C3D2B8E57BA308D9680FE66B3B55006CACF19CC0022855CA415190E338C4
+E371E2F1380F3DF410A66986927EA494D46A359697975B32FF2DF4F179EE6127
+5DBC3DCCEF5E7995EABA9C0881F8A9300081F0EA44AE0E0300BC46A11609D1DE
+FEE2273EBD73DBFBEF78219249BF4DF7C7A52624C95D369A672A6B9A2B395797
+73ACAEE43877769AA1A11EFA07BBE9EEED24164FB8F170BF9CD4B170A49B1728
+BC78B9A68B9612D75D680DCDE4C806F8253CB4D0FFB431844406AA512003ABC3
+F60449266291895A0C67340AA6CE62B5CE5ABECC4CB1442416C3AA9BE856859E
+984D77BB4947D422A2B9614ADB11A8876968671FB894A19A3A97374560FD0498
+48B3A91F64F47BD721C35E6863BE422301C0ED4BE83EBB22A9B17F210411A793
+F2629E676E9AA6D856E7D6EFEC22598821BC24A0E6FBAD6DA2AB86491347A354
+2E072E80DF06FCECD9B3EBB43F40BD5E676969A925F37F9011FE2B777ABDF8DF
+AEB237B702B04AB5A535F4D3080077EF8DC7556D27211A95C4A33A8BCFBF3866
+D7EA443257B9936B4C2101A066C3055DAC106886FB47AD5AE3DCD9292E8CCFD0
+D19961C7E82043DBFB68EFC8B8DD7D2C1BDB32713C7F12C7C6B13D204C0AB74C
+C54FE175A43B1DA755269CA6A19A069AD252CB670CCD35273CD33C84BD23A5A4
+CB70E88A57A89882A56A8D7C5D271DB5E9CD58C40C3754E9483083F5DB30C103
+F7C5ADAE0D2A20FDF3149E28900E9EF96F852C19B54B517066CAFDF4015237EB
+B0110EF4858E68F84CDE1E1DD78D110D133C4606D6E29CDABFC25A4F851B9F18
+61C7990E624E04B3091CDCD8E4F5438149266B95C002905262E806CF3DFB2CE5
+4A85A827007CD37F23E6FF3F38CA9F7033F1B734B9E74AC86D8A6261B5040015
+87EE4DED5B686E12D7D55A00E0CEB48CC74D2A4E7AF4AAD309DF025205801042
+441C895BF3EE8DF3F67D51EF0B44636E424F365B60EDA53C67CE5C6260A087A1
+ED7DF40FF690482601816D9BEE645FC707961C5C3962E0D7D8D85E83D0600E80
+7B7F1B379AF5DD647C72A444D8323097C3E0B907D869908CC1CE8403427A23C9
+741CA93732E46450791CEC571D7B2635A9B802CAFBB80B40C1EFBD0F5C331FE5
+9EF942CB0721F1A618373A0937C2038D458AF21E61CBC1DFB78C539FD73817CB
+B1F86BAFB37BB28B634F0D3074C94DF175AE6091C7D11926C3057B3160FE8811
+213B31CB5C6115431918E238CE8666FFBFE504FF8E5B7025E65B9BDC732554A2
+E4E5FE7BC3E5941C00FD8A2603B526D785F07EBF37B1BD06241316F9AAB30B89
+FE76DF2C550054412C1D38DAB32D12D559982D522AB8FE9BAE874D26B7C6DDBD
+FC7ACDE4E285692627E6486792F4F475B26DB89FBEFE5EE2A936A4E360992696
+59C736EBD8B685AFD18224558F091BA141F7CD86466DBC08D59D2BCCE1EDC63B
+3F5F532B42A339F4E07D0FE9872D598747A8A9B9C1FE15F027900922F48DE098
+52711BFC67474AB0D5C87CE3BBEEE78E72BDE13BD11C2100DCDE85A5360AA51A
+270773CCFCCF25769DEFE0D033FDF44F656898311B2D009D1DA441CE07C33D34
+40CFD728D9750CD1E813B8B4B4C4F8F87828D427803FE606FE3537E2AEE5B73F
+BF1D1C2A543600432F1719B91C4957F2BF49E52D05A4122646C119001103AE7D
+6CEF2A48150079E9C8FF4FDF60FA9FF76F4B7D38BB5CEC5E9CAF337921CBD27C
+19CB74105A83F17D72B59ADB11A6582891CF15B9747E9ACEAE7686460618DDB5
+9DCEAE0EB4541ACB32A9D76A58F52A66BD861354E24143E37B37D917074A9CDC
+5FFC52E1694DF15702CB59F9ADFC17AD8A824262C31704A84243A0E96A8E4203
+B9F733F69A995C7A205F23C55F04F5030138E8E30552097B7AFBD1A4EA5D364C
+93E0588E220043FB4F22D724B998C52B7BD6B8B02FCB9ED35DEC7BA997814B69
+FC34EA30834AC0608434D8926AB51A4435D6AC8A27A05DD37F69698973E7CEAD
+D3FC7FCCF5FC6B6EE6671FE6DB88DCF87F2BF3FF9A080041E022BF1919E07608
+B2D13527ED38324048371AD0FA5653180414BC6815DB7E331213C3074E1CFD07
+DDD3AF7EE4D0D1DE5BA7A7F2E2E2B92C0B33450AF95AD0563B8CF0BB0BD7B718
+D756B3ACAE66193F7391C1A15E46766DA77F7080747B3B8E9DC1ACD731EB55EA
+D532B659A7911E4B3874E065CF01F849043EF0E683652A93F937D37D76B106DF
+D4777C4653321103ADEA4B1FE9817BFE790463BA1A3F54E076A8E1BF00B06B9C
+AF2F38A4874BD85603E813FE3984EE9F6F0988E0B2DDF307A44330AE5BC9BAF4
+C3843E7EA311854292925EE3A583AB9CDDBFCAC8741B7B5FEA61F0421BF17214
+D722F08FACB1933670A0EC4DDD29572BE46425001ED7D6D6181F1F5FC7FC7FC8
+75FC6B6EE2E747F3BB77A48A57AAED85FF82DF2570017E4A0BE0A7A488900869
+C61EFA2FFFCB878D76ED37848330EB9547771EBAF7D9D103779D07B1B46DF7CD
+3F9BBBE5334B7E759A2F7EF25710D55E1C3BC177C76DCE9EFAA171684FD77BEF
+B9B9EF1FC563FA87EA65B3F7D2C51C97CEAD795681ED5905AD6FA89A542284A0
+ABBB83C1ED038C8C6EA7ABB70BDD88605B1666AD8A592B53AF55706CCBB39715
+C35901D08220605333123543CDCBC06D00992A730539F81E98A368631A4724B0
+1A840047AAACEA7FDAD0FA3E66A0807E81B6160DE1E89D76C81A0812A85401E3
+5B3AC8A012725D6E812A233D8B542AC7F77B135AA28648D64864606031C5DE93
+DDEC7CAD9374D61F1B6EF01D2EF07EBEC9E0F0764E1C3B4EB95CA6542E13310C
+4AA512AFBFFEFABAF4DEDFE3309FE436D65B156F27B9BFC8228B54A884CC7FFF
+D9C126431BBDF4736563C255D2A9A6E699D8F7756CC3BC6A105073A128561229
+C6770C9B8591985ECA49CD326D12698D48D4B6A534CF1886F6EA9EE31F7C4C4A
+EDA9811D27CEEFB9EE43F5682CF5D6DCB1660190D1B6F1B9EF9C15DF7C66DCBD
+67403CA68B9B0E77EDBC6E7FE7AF1DDDDBFE6BF188FEEEF999A2183FB7C6EC54
+9E42AEE685FCD8D48CB12D17108CC6A20C0CF632BC7398A1ED03A43319A41098
+B51AB56A997AB98869D691B6A586233C8DEA6720AA5A109C163F463821A9114D
+9021D912CECE13A1EDBD545FC503504DF24652D0FA34DE7052501390A0029D42
+BD67A10F5B962E6FF033AE4F2356904D1705B0D1DA4CF48849A71565F47C073B
+4F763234D1CE99DA1A37F1F744FABBB9E9F809AAD50AF5BA5B2178E6CC99A07D
+B74F1F652F0F709777EF7E3E5A5BF9F7C1C26491C550CAAF6AFE3B38A449D34D
+EF9B38779D4A6A8EC9FDDFC0D6AF5C0008C765FE6A2AC2FCAE0166477A28D806
+562E42444B20711BCE546B5544C4249600C72E124B504BA5336F687AF4A9E1BD
+B73FBDF3D0FB5E0079A6790D354836FDEDFE65DB269D7D63740FEE5B7F6EAA00
+F8F25F7C8885D9249FF8C28B62AD50F5A074341AAE82B56328D97D6877C7ADEF
+B9BEEFD7FABB62EFB34DBB776632CFF9B3AB2CCD97A8D76D84C0EBA4DBFA8648
+29B16D074D08DA3B32F40DF632B47D88A1E16DA4D2291C4752AF56A955CBD42A
+45AC7AD51DF4E131A004CF1D100123AAA97ABE89EE3E85937514A8D0653EA500
+084150FB2FFC704FAB5E84EA7D972EDA2EA57B4E0E4A2F41F0D4B29211D8744F
+9A05A69F4BD0F8811AD7AC9E7E60D5A0E410846E32C1A874FFB08E749B7F9854
+31DA2D32119D81E5387DAF67F89D579FE65234C2FEB18358661D81CDF9F3E759
+590927ABDDC776BECCBDA489F1F380F637DD4D4A148316608D5BD1F8E7E09021
+43079D5CBDE56250C94C33B9F79BD8BA755901A07B459BB5549495911EE6B6F5
+908DA628AF3A387583886EE048AFD7228D3E1375CB424A1BA1D908DD269E1444
+E316D2A9CDEBBA38A3EBDA3352F08474E44B528A45FF87D030BC45E299C0DE7E
+ABD535AEBFE77778F7AFFC5FEBEF982A001EFAF487397356E73FFCDDF3BECDAA
+0111E5E1CF7D7280C8F17D9DA3FB77B6DD716057FB8DBBB7A5EE5C592C754C5E
+CCB1305F6079B18C65395E42915018D43BB087D4DBB6ED26F66882CECE764676
+8E30B26B07BDFD7D684604CB34316B15AAA502F56A09DBACB9113E6F9C976F3E
+FB4939A008057F01F87EBCD2F74EB5A81BE140CF5F94EE7E35CD130281594FE0
+3AF837D7DF97EA36A8E67AC0FA1EC6D0887684B30543194684CF3DD4A3B00926
+F1178ED8A0434573C45B3D6747589030B1CD328E69319F97E46B49A61625CFBE
+32C9E2C25C685F27E8E1EB7C804152FCFC31BF4B6BAC6162A2C4989A5C00D702
+68A39D372300CA9929A6F67E6B4301E06B7BDB805C5F07D9810E567A3A589651
+AC8A81AC7A8B470921BB1B861BDBAAD1319038D246D31D223189C442E80EE9B6
+C85224A2FD187803B4D77527FD9294FA495D26EDC6C909CAF54B1C7DCFAF73D3
+BDBFDFE28A9A48496355139E34DCFA171D57101880FEF299B5A597CFAC7D3111
+D71FDADE97DCFD813B86EE1E3BD47BDFF19B86F62E2F962217CEAD303399A754
+70DB30BBC33F959B25BCF65B1E65B379565F7895374EBD41FF601F3BF7EC6668
+643BED1D9D643ABAA8D5AAD4CB052AE50256ADE44511BCC5EF83658AD91B8EA6
+C9B0760D4517C2E6B51B1070AD147F9D8711808645E01F48535C95D005AABFB6
+5FF72FF14A851BA1C4402048551AC890DA770555435234A21E4AEE42AB352DFC
+5D85BB03699A0E259D7A4DA3562BD31B35191BB038B24363DF603B6F5C109C99
+2830BF5261A894E28BBC9741DAE14DB5D57EAB4960E10D566951FBAF82813F4D
+1E80D46C6473475009BA0D52835A22426EA093E56D3DAC64D2546C0359D611B6
+41140171B94EE9A83FAB1F85129A08326A5DE0D7556C8E2D711C1BBB6EB3365F
+EDB59DFA87A309F9E17852C388D45663B1E82521CA4F38D2F981E6A45ED3646C
+0EE486F9D8976B09265ABC56058301C42A555B9E9B2C5CF8F3CF9D39DFDB19FF
+C2F17D9DD7DF7A5DEFBDEFBA73E7DDD552BDE3D2F81A972EACB2BC5072E7E869
+C2ADA96E327F75C3ED126C5A369313334C5C9AA6A3A38DD1B19DECDAB38BFEC1
+41326DDBB14C936AA544A598A35ACA51AF56BC36E0E0CE1C686D01B44AA6092E
+AEA948C77D4F0B5FB99AABA09CBBAA7D5533DF07E702A1A484EE5A463C68245F
+F90CAEE640A8A7EDA7273B3E50E8384D9F875D23E1BB11108C401736A009E2F1
+28C9441CDB9194B375A231C9816D310E0D77A3451C667365FA6693E8530E8BB3
+AB74CCC789568CA6E5F1F6838116367EAEFF4602A0B965FAD591F0985FBA809E
+2707EC88C6EA6007D9FE0ED6FA3AC81971EA158193D531B4A83B3C560B178BC9
+867A77F7E103C6C1CFE636A3712C07E16921FF7DA1090C2342C470FB329AA645
+69D54233ECAEA230BBA45E3991CE447E3F16379775437B519AF5EF80F84BA0D2
+7C45EB0480ED8458C47FF8E95D7EE6922A04F09EA380B6B456B5BEF793B9279F
+7C71F147BB87D37F73D78D03771DD8D579EFFE237DFB96E64B91F1732BCC4DE7
+C967AB0821D1F4A64C7521D085088671160B255E7DFE55DE78CDB50AC6F6EF65
+FBE8301DDDDD643ABA306B752AC51CE5C21AD54A01CBAC7BEBD0CDD55C6FA637
+CE3830ADFD4C3D4D6BE004C106EEDF3EA616EA81DF2271C8BF06F787DE9821D4
+92693FC149E25960FE02514F41B84D0B14FCD22D51F6C28352E881800B574F36
+AE513DBDE6590712C71D91A6BBD1817AC5C12DDFB6E81006E66E87EFEE9B2456
+15A4CD08DD2B717AA613744F25695B8992284430EA3A2169F9331408AE71DFE8
+FDDFEC0204F322BC8AC0374702CDAE21A4A4968C50CD24C9F77790EDED20178B
+539311AC92C0204A141D11F3BB51A9D65E931BE8DD2E5D71931DE984C457A8A3
+1478C5778DDFD430340C238AE380E324008D4A4150CCD57B1CA7746F3A23EFD5
+84781578B4F98A4202C0B21D867B3BD83DD4C9F8EC9A7FCE3EF3ABBD9455C1E0
+FFEA9AF288D7EAB6737A3C77E9F478EEFFEDEB8A7FF1E0EE8EE3EFB9A1FFBDB7
+DC317AAF59353B2E8DAF71717C85E5C512A6E9A069EB730BDC1BA3B993771C9B
+E9A91926272669EF6867787498E1D161B6EF18A57B701B5D8343D4CB65AA9502
+F56A915A298F6DD6DCDBECE7DBD300021D67E3C529A53AE5B6C19C3248020BB2
+8168D2FD61F45D45FBBDAF345F9F948D0F340F840CDC8B60734F48F81110BC1F
+5F00E84A1451AA470B2218EA7BAA6FE4038881BF49A35AB1B130A3082D86A80B
+9C9A4DDD90E4D292B5B61AE7C72A44F53552058DF48A41DB5A948E85385D7371
+DA1763240A06C269D615B2E9F9DA90E3015F7EECDF3DC2FAE72BAB066C066424
+5273287497993CE430796837A54C3B95749A524D6057254E4E201D77AAB42D25
+B6B0C06AAC1DFF92C3A9ED2148BA918E1EAC81A63B259ADAC5398E9BBAAE6918
+468C78324E3C9EC09192D5E555262F2DB3B6BAC27537B54B4DD792ADAE342400
+1C47D2918E71C79161C667D77C26F735BE7F5C07571818B8CCEF77EBF431025F
+08F82E426471B55A5F5C9DFFE1532F2EFE78CF48E66FDF73E3C0DD47F674DEB3
+EF70FF91E585A23E7E6E85D9A92CB9ACDAB463BDC672F1029D52B1C4E9574E71
+E6D41B64326946F7EC62EFC1030C8D8C90EEE8C4364D6A9532E5FC2A95D29A0B
+1E5A56D0E3DF050409F158F8F7F62B111B790822B8EB6A6D4003A409017FCD60
+67B06BD5C5085B112163DA096FEF8BDB26F8725D15A26FEAFB824657F2F87D8B
+C74FE26A5CAFEB6BFAD7E804666A2331AB618544BCD02848537A2A4192D74D56
+072D8C9D3534A7826EDA444D8DB65C84CC7284F6E528ED0B7152D908F1924EBC
+6834590BE1EB6AFDF7E6E47743567E850D0541B8553AEB5E4B615369B328B59B
+64076AAC6CAFB0B2BD4AB6AD4ED59058CE086659229635A4ED2B13D7E6B0FC3C
+16758F2159DE60F45698943BA56A3D68EE9FBF5F4E2FA5241289128926882492
+C46271A423999B9DE3DC1BE3CC4CCD51ADD64967E208AD437158C2B42E0F804A
+0F1D6DDDBC52DCC6C73EF1295FB30B1ACCAD3EFB42A0D5436B7AF8976A03F5BE
+AE78DBBED1F663EF7BD7D0DDBB8633EF93A6DD73E9E22A17CE2EB3B25474AD02
+019ABEB1B4F6B5B46D59C4E23106B70DB2F7D07E76EDDD4B47770FBA6E50AF56
+A996F3548A59AAC535CF2A50C268B2B11F1F9C73FCC41F271C4A537B13340388
+AAC05AE71628EE7E50ED201BDA3AF47DD1103C9A2A04C1B3661A7EA08A2F685E
+38B36534C093302A16E2BEE169C5C0C251989FF068320FA90C2E26B87C6F049B
+EFB34AA4DBEE3C0222E22035071191447441AC26889504F1924EA2A4935E8B90
+5E8B90CC19247311E225835849473705C2166881F5D0CCACAD2EB0918DD810DE
+FEA74EF09E83244A0CA983A34BCC844DB9CDA2D46192EFAD91EF312976D42965
+6C2AED36E5A8835D13E84E045907B3EA09687F1E85AA1A95CC51FF947DDB33D0
+F421ADAFAEE5C6F7FD4F7DD4264816F305986E108DA78827D344A3314CCB6476
+6A8E33A7CF3237338F65595E7B7748A6A2DC7AD7907DC787FFF77F70DD5DFFFC
+EBCD77AE250858AB5BFCFAAFFF3AB34B391E78E06F1C1A9D1CFDA174BE00B0D8
+58006C260C128BABD5DAE26AF5A9A75E5CF8F1A1B18EBFBDE968DF3D371FE9B9
+7BEF81BE23AB8BA5E8A50BAB4C5D5A2397ABA2CE215C9F7EEC6A3ADB7698B838
+C9D4A5299E79F2C7ECDC3BC6D881FD6CDF314ABAB39F445B2FB54A89526E9972
+7E955A258F746C744D47E85A63B16B1ABECC1142345271711158E9B51193B622
+28548E507E58295B08801010488BE6BEAEFA162AD68092071062EA0670A92B29
+C2CD6BD2FFC3DF5B300710D7A571BC93551BB084673FBA48742BE122A51E6018
+C2036085106081B41AEDB36C0D4A42528C49441AB4888D262CB08B0847A24989
+6E0B621541BC6210AF68C44A3AD18A46B4A213ADE944AA1A465DC3A80B345B43
+B3F15C8CC6FD773489146E6AB76D38D811891973A8276CCC988D1997D4D3924A
+C6A29A70A8242DEA31892D40EA2E96629BE0D405A21C45145CECC5F27C404D00
+BAF496B5547A484885897D205A493BF7BEA67A9EBE78533338FD85E25A6B5A50
+26AE0941241A239E4C134F6588279298B53A5313539C7AF57566A666B14C0BDD
+D08944DCA1358E37565E80D7567F3DB5B400A413E137FFF44B4412193EF9C94F
+F2C94F7E524C4D4DA9E7DCECF3AB2E80CAF47ED8D0B7F774C298018A50A9F575
+C53B7ABBE23BEFBC71E8D8E1B1CE5FC9C4B4832BCB25FDE2F965E6A673944B75
+1C29BD669EADC935EF25B66512894619D836C0BE430718DDB397F6AE1E0C2346
+BD5EA59CCF52C82E51CA2D63D5CA6EBAB2A67963CAC2EE876FA2AB3FC83A67DA
+7F0A5913B2E96B0D2ED49428885A0EEC2F16D52A511778A0A9A5A21D20081569
+4DE7DE9006FE317CC1A2444B1493D4D7F6CDC053B359130C3D0D844C38FA12CA
+8454516FF51C0377CFC53484863B7B5B03291C1CE1E5CE7AEF6B083429D1A457
+92EB345AC785B53F4821B17047B0D9C2ADBE940E5E534FB74B90901A9AA3B998
+8F3F90DA3B7FC771826B7794022CD9E49FB790CA8D509EB24EDC16F1CD5698E7
+AA4870FCAE5AC1F212EEF82A0146244E3CD54632DD46341EA756A93271E112E7
+CF9C6379713918E8D29C54E638924432CA1DF70CDB876EFD9FFFC1AEEB3FFAF5
+9191E1CB0B006494FFF5DF7C8E547B3700E572998F7DEC63FCE55FFEA5F0863D
+88160F95E99BDD046383CF541743E02A2313909D6DB1CC6D27FA6F7ED7B1BEF7
+8E0DB7DD5AAB983D5313AB5C3CBFC2E27C1ECBB68311DEAA591512068E3FFB4F
+924A25191DDBCDD881FD0C8D8CD2D1DD8BD0346AE532F9D579CAC52CD55236E8
+BCEACF10503B133563730AD7873E502B0D352FB2E0631BEE226A7C3D101401D3
+3B8AC90E8D612A4AE5A1BFB87C5F33485AD2C2EDC8686816C7DF6F709C864072
+0125D73C0E41754DBD18026B43D714AC41041AAFD9FA088F1A6F4811E109A356
+16853B84B5815168AEB409D071DB76BC9269E9A1E58DFBE0BB39FE311ACE83AA
+5D957BDE942EADD677043FB52008070BE57FEB715A11FA3D9A05BF6ADA8712CF
+54F74B119442D388C553C49219526D9D6886416E759599C929C6CF9C676E761E
+E9487443F73A47A15C87CBFCB665D3D691E4C3FFF0085F796CFCD79E3E137F78
+7A72FCEA05804F1313133CF0C003E26B5FFB1AA74F9FA652A9A83AC667641527
+F0D38837730D9AA30842B98E5A22A61B7D5D89EDBFF29E91DB8EEFEFFE507726
+7A606E2E678C9F5B627E264BA950434AD08DCD915DE93858B64DC4D049B765D8
+B16B1763070F31383C4ABABD03CB34A9554A54F2ABE456E62817D7B0EB75B779
+87071E062AB5C9AC131E7AAF36366DFCF00DE04F5340C8D0020A34AFBB55804F
+341502496F6640309A4B36C293418D843ADB2FA4DE09CE457AAE8EA69A9E2AEA
+2C1BD7A52EF0560354092D7C142D1476D7421CA8C2996A5F87E0F8BE8052C6E7
+29F736649528518EA0A253D1BA6EF359C7EDDEE45B212140B5A1B11B5D9FC2E7
+E46FDFEC52F902D0AF4AF5EF93263425B42C02F0B9B12AF02C0ED9C09CBC2C55
+DD88104B6648B675914866D0759DA58505DE3879920B67C729168ADE7A6F9DCB
+E076DA7248A5E20CEFE864EFA14106073397FEF62BA73EF4DC85D4C94B17CE84
+7F8DAB11002A3DF1C4137CEE739FE3AFFEEAAFFC7D34BB072A5337337DAB0842
+2BD0D0EF766903567F77A2EDF09EAEEBEFBE69E89EBD3BDAEFAC57CDEE99C955
+2E8C2FB330976BEA59D0DA49706FB883633B68BA46FFE0007B0E1E62CFA123F4
+F40FA219116CD3A45C5825BF324729B744BD5A0A426F6A659F2FB91D5BE2D8B6
+0B18068BD05F96614EF2CDC260864213FF299B06AE8110A18D43DFF74FA4D5A0
+A0400337071EFCF2671401A0EE58BAC080D0154DEC9BEE410D82A2DDBD21A7D2
+1BDFEE5B1741F195826734B0844651976A4934CE41B91EE1557BFAE6B9D23F41
+95565E5A841BCA0CDDA4A6C84C186D6BB146949BC57A8110080EDF1A10AA5056
+B6691288B03E19C8BD670E9A162199E922D5DE4D22954100CB4B8B9C3B7D9A73
+6F9CA152AA78C36BB475A63EE0CDAA94A4337146C77AD87B70908EAEE4DCECE4
+DA03E954F46FBEF9F4C4B99F9C4B70CD04804F3333333CF9E4933CF0C003E2F4
+E9D34C4F4F6F64156C8417B4B2105A0902DF45A845237A6474283D74F72D43B7
+1DDFD7FBC1C1EEC491B999AC7EFEDC227333390AB90A0802606C33B22C0BA424
+9D4933BA7B37FB8E1E6378E76ED2ED9DD89643A55CA4945B22B73C47B9B08259
+2BE339ABA17C7C35433058F8EE0D0EE2F7C142F5D64323C71F5453347853CAB0
+D655B18740F32A8D4D3C39BCAEC57A4838F8158E0DED175AFCA1E5DAD0F47EE6
+A17F223288552A7D24952884BB9DA69CB7BF69C3F76960268DC8871B51693A1E
+61B7A51543AA774F68A2E58584EFB08283B0FE3B6ECF3FD7AA08D55D6834F014
+E57AFCF355DDAAA0A5BB7A7F83C081ABFD23B104C94C27C9B66E12C9366CC766
+7E7A9A932FBFC285B3E7A994CB01E3B722BF9D5E3A1D6774AC97038706E9ED4D
+5F9C9FCB3EF0F20B537F7DEE8DC5E90FFDC3233C797291A7DF885F7B01A0D285
+0B1778F0C107F9D33FFD5351AD56B12CEB6A0441B350680E39AA160678C2A0B7
+33DE767C7FCF89BB6FDE76F7CEED6DF748CBEA9E995C63FCDC228B0B79EA750B
+4D139B0B03E96A18DBB6300C9D9EBE3EC60E1C64FFD113F40D6D438FC4B02D8B
+72214B76698ADCD21CD54A1EE97734F2FDFC4063AF5F6AA074F309799A348482
+CA20CADFC1B715C5A56A34F7B5E32DBC06D8E7775D0E017A2D308BC6C19A1841
+35EFBDF316229C6DA8E66D04A1491A9844E84483F35534A132225D3D5F15C06C
+4E9251231E6A8394C6B01AF75C7D3C2594ABA102A081E7AF600252E9A5180AF0
+F8D11BFF004DEE995FB4E54FBF0AD063E98EA2F7F66F3BEE9A89C612A43BFBC9
+74F6924866B06D8BB9C9094EBEFC3293172F52ABD6300CDDC51F5AFC54B6970D
+D8D61667E7583F070F0D906C8BCF9CBF94FFCC438F8E7FE6E2F8D2F4709BC660
+4AE703FFF0188FBD32FFD60B009F8AC522A74F9FE6CFFEECCFC497BEF4259517
+5AB9079B09025518B4721102AB40D78431BA2DD37FF7CDDBEFBCF948FFFB7BBB
+6227166673E2C2F94566A6D7C867DD34684D6F2C94560C20A5C432DDF656A954
+8ADDFBF7B1FFC87146768FD1D6D98B6E44A8968B14D616C92ECD5029AC5129E7
+702C0B84D792BB09190E169EC7608EB7A00226F3B200DD4EC7AD99665D76A0BF
+F09474E74053FB8CAEF2B90F282AE129BF590BA1AF368EA1BA29FEB9FA999402
+95F150849892E8A2EC2EB08E43E14DFF5495A849C85C0FC17181EC5233279AEF
+54C87CF7CF49DD9F8295B87EBAD6105CEB2C0C1980B6EAFBFE393A4DD5A58DDF
+D3052FC3559A0E42D389C6D3A4DABA68EF19221A4F512D17989D9CE48DD75EE5
+E2B9F3D4EB7517D8D3B4962E9D3F50A7AD3DC9DE03838CEDEBA7BD3D71E685D3
+4BFFED5B3F9C7CE0D9D716672D77788FD035B871C090FFDFFFED7ABEFBE2DCCF
+4E00A8F4831FFC808F7FFCE3E2D4A953CCCCCCF8BF66335ED02C08D4D7CD5104
+F519C249460E50EFEB4A64F6EDEC38F6C1F7EC78DFC860DB1DC2B67AE667B3C6
+C50B4B2C2F1628956A205D047513A3C013062686A1D3D9DD456FFF2007AEBB81
+D13D07C8B477613B0EB54A89627691ECE22485B505AC5AD503FCF475E65F6851
+29FEA2FFE3B67AED334073E829643128009FBF06432884EAF27ADF559B8FAA3D
+0985A215FDED830E46A2D1DD38847437B9EEC17985F2186468DFEAF9AB1ADF17
+2F7E9354DF1C572396CD82C4FFAD02335C093736322555B0AF2150D5DA8F00F4
+6B16A00A96120852C7B71CC2519BB080737D7CA14748B57591E91A24DDDE4524
+1623B7B6CA1BAFBEC2F9D3A7585E5CC2344D0CC3A0957F2FA59BBB61183AED9D
+29768DF5B177FF80148671F1D5B3CBFFEFC3DFBFF0C557CFAE4E287C223D5E90
+3AC84FFD9FB7C8674FCEF1E4E9D8CF5E00A8F41FFFE37F149FFDEC6779E59557
+94E5B8A120B89A6CC3E6FDD8B8E1447D6CA4BDFBD8BE9E83D71DEC7DEF91B1AE
+BB2AA56AE7C485652E5E5C6679318F65D95ECF022DB480155E73432AB68D74DC
+FE067D4343EC3D7484FD47AF6360FB2846348E55AF53CCAFB1B638496E698652
+7E19C74B3FF663F4EAA26F840703AE5C074E350A86D69F981A8150B5A89A2FD0
+082B35B609661A280949A17DB53888BFEFB011D2046C06A8B8EF2B6B4AF4C4FD
+529080AB98B58D68863F620D171843898D372529353C99C649356E91775D4D42
+3308EBFAD8872A1CA49B97D170ED7D2C4284859AF73FBF70ACF987F1B11FB7C9
+8744D72324DB7A69EBD94632D389611864575738FDF28BBCF2DCB3AC2C2D8110
+E8BAE185889B6EBF67A1E99ACED0F64EF61F1A6278A48BF9D5EA634FBD34F777
+2F9C5A7CEAE4B9D519EF440CDCC43C5B793880FC9FEEDF25A39AC593AFBF0D16
+4033F9B3E4FEFAAFFF5A3CF1C4139C3E7D1A2943AD7055A66E65116CE41E6C24
+101CC08C45757D74A86DF403B7EFB8EDE09EEE7B7BDAA30756970BB1F3E71698
+9E58A15CAC5E5138115C69ECD816E94C1BDB768C70E8C4CDEC3E7084F6CE5E37
+76592D53CA2D915DB84461759E7AADE4C66C75C33537A5D7B34535CFD51F85F0
+1F421510CA420FCC72FC1055383EED6B573F4C100A73796F3B4AE18180D0F056
+35092988AE79E7AD05005F232AA08E3957058F8BCA2B4E4650DCA4806E3E236B
+8DF7D4EB0F049C22E89A43798E62A2AB02572AE7898763F8DB8492BEB4B07B28
+83F3902121EBDF9FC67C4BFF9CDCE21CC38891EEECA3BD7B1BA98E6E744D6765
+699ED32FBFC0E9975F667579D9CD38D55B87F2C09D541D89E8F4F6B773E8E830
+23A33DE6A5D9C2E35F7BECE2E79E3FB5F8CC4AB69AC7ADC09534C62EFB8ACFFF
+DB019CCEB6A8BCE140871C5FE962FCDCEBA1E3FCCC0540333DF4D043FCB7FFF6
+DF78E49147549C40D5E6BE2068B60C368A22B4020D7DB3C8049C8E4C2C71CBD1
+FEEBDE73D3F6FB0FEEEABAA756A9754E5D5AE6C2F8224B8B392CCB0E125E3623
+5710B8ADCA0686B6B1E7E011F61FBF816DA36344E349777A6E31476E698ADCF2
+1485B5056CD354B46EC3D40D097F2FC5D8092E40344905023357049AB7C15CE1
+A8817753FDE41AD5040FD077F75C8467EE2A7CDF78A198D06A930A776EE1FAA4
+9B8659DEE4AF4BD669E6E0B5E60A96500AAC67568493A53C6B21182FD730CB43
+FABA49A506893E2AAAEADF81461E6F10DB0F9D9F9F9E1DDC57BF5F830C3A4F47
+6349D25D83B4F76C2391EE4408C1D2DC142F3FF3634EBFF212F95C165DD35DC6
+6F69EABB4D682286C1B6912E0E1EDA4EFF50A79C5E2C3DF6B5C72F3EF8E88FA7
+9EAA9B761537BBD64FCF571FA6F2F00582DF025A1E3A748893274F868EF9B60B
+007019E9D9679FE50FFEE00F442E97E3B5D75EDB48185C4928D1CF33D80834F4
+F75D8D457463745B66F8FEDB77DC7E644FCF7DFD9DF103CB4B85F8F8F905A627
+9729E4CB0884DBB3406C7E0D9665E1D836A9748AED3B463972C3BBD87DE8381D
+DD7DE846947AB54C31B7CCDADC38B9E519B7D7A1554713BA3B1EBDE13686134E
+68E67DA172EF3A97C5FBA42984A698E92D76DAE007018E130E5BFADF514F48B1
+06DC0044A37E20DCAB5039BED60412B6883884710D05C8086974C5740FF61F46
+E44389517E7E800F3206424F7A29C08D145CF5BC85A6C6F51B36976A3548AF17
+43349622D33D48E7C04E52E90E6CBBCEC2CC14A75E7A9E932FBD403EBB86A147
+362C6C0B183FA2B36DB887434747E8E96D2B8D4FE77EF8AD1F4E3CF8F4CB732F
+15CB660588FB2C43B84CDFE4175900A854A954F8BBBFFB3B5E7FFD75FEE22FFE
+4298A609ACB308AE3482B05965A2BF046DC0ECE94CA40EEDEE3A7CFF6D3BDE7F
+70ACFB5EAB56EF9CBCB4CC85F1799616F298A6D5C00A361006BEFF6ADB16524A
+FA0607191ADEC1D8C1A38C1DBC8EF6EE7ED074CAF935CA8565F22B33E497A6A8
+95732EF3F87508AEC5AEF279B0C8D55E043E20A56ADA86B92C83B6E4E0251E79
+9AB5F17EB39B80DF47A581DA7B775F484583B25E9A34A204CA3B0A3EE17D4CC8
+C05794B4BAC7D0F4279AF687EF6B37C0CD00146C3AAF9030F25C09DFD70E17EB
+101612EA7507C76E303D52A2E93AE98E3E3AFA7790EEE827996EC3AC5678E3B5
+1779EDF99F3079F102C54201C330BCFA92F5EBC5C5961C623183ED233D1C3C34
+4C777FBB35395F7CF4C16F9DFDBB1FBD3CF79265399286C6779487CFFCAA0050
+85808F03F866D12F860050696666867FF12FFE85F8EA57BF4AC51D5AD1CA3DD8
+28DBB0D93A50DF6BDEDE5F273543D78C3D3B3A86EEB965F83DC7F7F7BE77A837
+796C69311FBD707E9EE9C91572B95223F6DDC23457C9B50A2C0CC3A0A3BB877D
+478E73E4FA5B191EDB4F349EC4364DAAE502B9A52956E7CE53CC2E62D52B084D
+F79855F586C3305783973C8D2815304F6B6CE5C7A25B859482D7E14F3C41A67E
+2E0330BC5193EE33294A94A1C1942200CA1ACCA56922C4B0EEBE3D335CC10FFC
+08853B57D2F3BDBD58BA6A1DA90D537DA0B13974A8062A82BC01D60B1BF7B513
+B214C2199812693B68BA4E5BF7203DDBF7D2D6D54F2C9EA4522A72F6E44BBCF8
+F4134C5DBA80593731229146DF8526724BD81D6289283B467B3978683B9DDD99
+FCEB17D69EF8CED3135F7AF2F999576A75DBC2F5F17D1CCB47F65590AF9500F0
+7D7F4BD94E02FCC209009F9E7BEE39666767F9933FF91371E9D2255656565417
+A19520B89C8BD02C089AAD0207A8777726528777771FFEC01DA3F7EEDBD9752F
+96D53339B9C4F8B97996975CAB404AE955626D7CFE3E9A6B9926A9748A91DD7B
+3878FC66C60E5D4757EF20BA11A5562D53CC2D925DB8C4EADC05AAA5AC8B2FE8
+5E4C5851972113BF19B4520A5C9A438B7EC8AB99C155C5D9DC3539085228E13F
+D79850EA23140B4105FE4226742851C7C3293450479FFBF751C531029FDF965E
+3190DB9F4606614C35C4D1E4F737275585FE70FFD27C7721F450F7E7A6EAEA46
+9474E7201D7D3BC9740D128DC5C8679739FDF2F3BCF4E31F323B7909DB763022
+AD4379E027EF4862F12823233D1C3EB683CEAEB6EA6BE7961F7EE8D1F30FBF70
+6AE1A46939E06A7CFFAA54E65751FE66FF5F7DDF51B60B6ED22FAC00F0C9711C
+2CCBE2DFFDBB7FC7E73FFF79313131D18C15C07A93FF6A5D84E608421DD00FEC
+EA1A78CF8DDBEFB9F1C8C06DBD1D89BD855CB16F7E6E8DC9892516E6D7DC3907
+5E62C9465681C0C53BDCEE44828EAE1E0E1E3BC1C113B7B073DF3162C90C9669
+51AF14C82D4FB33C7D86DCCA2CB65941D734D745D0B475B9EAEA820B7527962E
+AA2F3D14DE77251C2F671FFF3584F6E95B36EB62F18A560D10F3A687BBDC64D8
+AA08A4492304A766E489C68534DC042983241A355F419D8FE86DD270D39B7193
+0D700BF55BAA920EC047FF588E4D249AA0BD6F848EFEDDA4DABA31A271F26B4B
+9C7AE1473CF7D4E3CCCF4C21254422915048553DAE9F30D4D99D61D7EE01768C
+F6914C27274F8DAF3CFBE8D3937FFFFD67265FF3CE30E66D652BCFCDE67E73A8
+2F84F8D31016FE5507A7F40B2F00549A9A9A626262823FFFF33F17DFFDEE77C9
+E7F3FEEFAE9AF5CD56417359B21A4A6C060E05EB8541ADBB3D9EECED4A0EDE77
+DBE8AD371E1EF8505726B67779291B3D777696D9E9654AC5AA170ABA7CE759C7
+7130EB3512C92423BBF670FCE6DBD97BE47ABAFAB663C412D4AB150A6BF3E497
+26C82E5CA45258C5B46AEE42D5741F1C08181B7C008DB04657B3D584674EFB25
+B6CA4835D5B7082C6A2142CCD4E0A9267F9F0656A186E8D68705C3E5AF810072
+A457B2BCBE1781508C3349C395F08FEE3FF92677C8595AE7FDB8E64A28D4A8EC
+C9F1527523F1249DBD3BE819DE475BD7209A26585D9CE3F4CBCFF0CA334F3237
+3D8510DA868D36C0D5F8006D1D290E1C1C61DFBE218A75E7CC63CF4C3DF8DD1F
+5D7A626ABE306F5A8EC0D5F83EB336FBF99B697B35DE1F32F761BD2CFAA51200
+2ABDF4D24B7CF9CB5FE6C9279FE4A9A79E52AD81E662A2AB0923B62A46F20581
+0DD86DE958EAAE9B86AFBFF5BA6DEF3D34D67DBB55AFF74F4D2E317E7E9685F9
+2CB665072133D16C9E06BF80C0B16D776CBA9474F7F6B2FBC0518677EDE3C0F1
+77D1D53F0C42A35ACE935B9E26B734C9EAFC458A6B8B2E20E5959FA26941AC5D
+9D76D40A506BD5ADB8398C1880851030A8944EC0BC0D805E45E0D7335CA3FA31
+8C97A85D9183EF78FD0C42D6847A7E5261ECE0708D63AB7179BFB18B5AA7A0F9
+C9407E42911786751CC7637C41AAA39FCEDE11DAFA46C874F4E3D82613E74E71
+FAA5673873EA25166766D0340DDDD3F8CD2E878FE80BA0ABBB8DFD07B6B36B6C
+08538A33DFFEE1C587BEF6F8F8D766178B6BDEBA6B667C1F946E66FCE6D72AC0
+A7027DCACD594FBFB402C0A752A9C4E38F3FCEBFFDB7FF56ACACAC70E9D22555
+10F8CFAD320EAFA4674173EAB1AF686AB1A8AE0DF6A6873E7CD7EE3B6E3C32F8
+A1BE8EF8FEC5856CF4FC79D72A28162B41F386CB44133DABA08EAE6B74F7F5B3
+EFC8090E9EB895D1BD4748663ABDDC822CF9E56916A7DF20BB3449BD52F4CC72
+1F2F700D6BCD47B65178CF43C343B8815A44E3FB03C11BDEF764C36D08B9DE0A
+C0A8462254004D8DABFB5086FFB7A61469096FDA53B89B8E7FA7C38537BE45E1
+4819720DFCD45CE1352DD1BC8C444D093F06B24A3AD896094223D53140DFC821
+32DDDB48A4DAB0EA3526CE9DE6D927BECDD9932F512A163022D14D93776CDBED
+E0D3DDD3CEFE8323ECDA3540B6543FF5C473D30F3EFCFDF33F585829ADE09AF9
+FEDA5199BF59AB6FA6F555817145CC0FEF0001A0D2E2E2220F3CF000FFE6DFFC
+1B51ABD560BD49DF2C0C5A5902CDE06173031368EA59D0D7954C5D77A0EFF87B
+DF3DFABE83BB7BEE70CCFAC0F4D412E7CFCFB130B7EAA61E0BB17E1E4213B99A
+C4B50C62B128A3BBF771E0BA5B387AF37BE81E1C45D7A398669D727E89B5F971
+96A7DFA0945D70D395750D4D3394C6A1C1CF1D3079387C46C0607E78CC519819
+1AEE80FF9EEAB7FB4FAE8BD1EC2AB4CE2168B80D0A88177C25FC9E6A6DF8D7D1
+700FC2BBF6BF273D0677A4C4F14C71BF8F806DD9D8B6896E4468EB19A667DB7E
+BA0676124FB651AB16183FFD322FFCF07B9C3DFD12B56A15C388A0E9AD8577A0
+F185A0BBB79D030747D83D3644A162BFF6C80FCE7DFED11F5FFAC1DC52C9CFDA
+D395535535F8468CEF67F6394D8F663FFF8AE81D25007C9A9B9BE3139FF88438
+75EA14DFFDEE7761BD7BE03F366A6916D9E4B366411060051143338607DAFADE
+7FC7AE3B6E393AF4E1C19EE4A1F9F9B5C885F3B3CCCE2E93CF9500BFB47573BB
+404A8959AFA369D0D1D5C3BEA33770E8C4AD8CEE3D4AA6B317DB9654CB790A2B
+332C4EBF4E76E122D56216046EFA71500023C20C8D625AFB713E94709F5F9126
+089A81F828BE3AD43254DEABFC2F5CCAEAB927DEC1C3CF7EC61FC826EB44FD9E
+8F61F86ABCD9AD694441083EF7B3067D8DEFD81646244E47FF4EFA460ED1D6B3
+8D583C45B594E7EC6BCFF2CC93DFE6C21B27A9D76A44A2B150BBAD66B26D1B4D
+D3E8EBEF64EFFE6176ED1A6471B5F6F2E3CF4DFEF7AF7CFFCC132BD9EA1AAEC6
+F7D7487338CF47F69B4D7DF5D9FF9EBAFD1569FC667A470A00951E7DF4511617
+17F9A33FFA2371F1E245682CCFE670E2662DCDD4F75441D09C7E1C8413FBBA92
+E9A3FBFA8EDD7FDBCEBBF6EDECBE4738F6C0CCF412E3E76758985F757B1608BC
+8CC38D8581EFAFDA965B39B67D748C4327DEC5B15BEEA67FFB6E8C5812DBB228
+6617599D3BCFF2F4698AABB338B6E9852B231E56A026C948B795400B533E2858
+0A72E485E215342C8446871E49A38B97F4FA01D014510044B831A82A1C9A9B99
+04ADDF6D1F206C1C4735FFDDA84173DCDD3D13C74BCC8AC612740CEC6670E731
+BA0776A11B114AC535CE9F7C8E9F3CF64DCE9F7ED96B1B17B96C030E4D13F4F6
+7572E4E86E4676F4B3B05A7EFA6B8F9FFFF2E3CF4E3E35BF5C2AD0607CD54C57
+19BA398EDF0AD85333F9D0344D3A9B4DB4B90C0D0F0F333939197AEF1D25007C
+AA56ABFCCDDFFC8D78EAA9A7F8D6B7BEC5DADA5A7338B159185C0E2B68D5D64C
+05231DA0AE6942DFB9ADBDE7BEDB77DD75DB89ED1FE8EF4A1E5F5A5833C6C767
+999F5B259F2B629A9617F2BB4C8F4329DD316848DA3B3A3978E266F61CBA916D
+BBF63330BC07DD8853AB14C82D4FB2327386C2CA2CF9D559AC5A1934C30B57AA
+65BADE7E094B451FA46B06F634B490D5D0F850D991F7ECC84627DD1695CEC107
+2AB6D05CC6EBBED7284B569BAFACABA2F40C313FC291C8F492E9DE4ECFF6FDB4
+F70EA3E9068BD3E39C7DF5399E7FEA51262FBC816D5918918D35BE2F8462F108
+FDFD9DECD937CC8ED10116562BCF7DFBC90B5FFCEAE3E79EC8156A45DC74DD66
+8DAF3274B396DF88F955C121FFF13FFEC7FCC66FFC86FCDBBFFDDB9620EE95D0
+F6EDDBF9F8C73F1EBEFDEF4401A0D2A953A7F8C217BEC0030F3C20161717314D
+B35514A11903B8D262A46637C3FF41EBFDDDA9F481DDDD87DF7FDBEE9BB70F66
+6EEA4819878AF972F4DCF919A626162895CA480986AE6F9A6DE867CE59F53A9A
+26E8E8EE6574CF41AEBBF57DEC397C3399CE7E1CDBA1562E905B9D6669F2348B
+93A7A995B3388E85A64710426B1D1980A0DB51A89EDF2100D4344D0F6525AA5D
+891B89474A39AF07D60589427E62928F3B2A53A1D456632EB36B4A3AB6072EEA
+1A0D07A12118354D27D5D1CFE0AE13B4F78F9148778063B3387B91671FFF3A2F
+FCE85156971640087423B2A1E525BD74DD7822C6EEB1210E1CD8811E8BADCE2C
+969E78F4E98B3FF8E10B533F595C2D9708837BAAA9DF2A9CB719AAEF6F432A95
+92F7DF7F3FBFF77BBF276FBBEDB6B764FDBFE305804ADFFBDEF7F8CC673E231E
+7CF041086BF08D6A102ED7B340151ECD02C1C64D32D232A968EC9E5B761EBFE3
+86910F1EDDD77B5BBD52ED9D9898E7E285591617D7B04C3B68B1B5AEA8C727CF
+CCB6FDF4E388C18EDDFB397AD35D1CBEE10EFA87F76244E398964925B7CCD2CC
+1996A64E935BBA84592D7B75081A0A378777AF306280E2FB5ABA2514D7089185
+3317BD6FC9F52DCBD418622B434149FF099FA604296D1CC746D374DA7B4718D8
+799C9EEDFB03C69FBA709AE79FF8262FFDF8FBE4B32B689AAE84F2D6DF4EC771
+DCEEBAC938A3BB8638707094F6CEB6EC4F5E99F9C6C38F9EFDE2B3AFCD5EF0BE
+EA6344CD4CEF6BFE564CDFECDFAF03F77EF3377F93DFF99DDF91D75F7FFD355F
+E7A1FBBA2500D6D30B2FBCC0C99327F90FFFE13F8837DE7803D6470F5A0983AB
+6969A68287FEDAAEC722BAD839DC31F2C1F78CBDFBC8BEFEFBB6F5240FAFAEE6
+E3E7CF4F333D39EF8613AF20F5185C7EB3AC3A380E1DDD3DEC183BC4895BEF65
+ECF0CD74F40C21D1A8578B1457E7589A7E9D85895729E79691D2B30AD818FCF2
+4F1A3647A136D2AACDF173A7C9FAF099BBD142446E08940ADC21305A244647DF
+4E06765E47D7C02EE2A90E1CABCEC4B95778F6F1AFF2EAB33F249F5B251289A2
+6D12CA731CB7C3733A936274D710070F8EA247E34BAF9E59F8FA17BE71EAAB27
+CF2D9DB31DA9118EE137C7F15570EF4A195FA6522979E79D77F2C77FFCC76F39
+E307F76F4B006C4E7FF6677FC6F2F2321FFFF8C79B7182E670E2468D4B54C0B0
+55B6A11A4590783E612266C4EEBE79F4BAFB6FDFFD2BFB77F5DC61D56BBD5353
+0B5C189F61716105CB6C741BBA5C1D821F4ED434C1C8E818876FBC8BA337DFC3
+D0CE034463691CC7A15C586575F60CCB33A7C92E8C63D54A1E58A707558A0DA4
+3F5C7DE8D37AE324ECD7FBEFA859786E3FFFA67DF94F321C2AF4AD10474A1CC7
+423A0E462446E7C01803BBAEA77BDB3EF4480CC7AC71E9EC4BFCE4FB0FF3E2D3
+DFA75C2A78A13CA3E5BD925E46A2E338A45209C6C64638746417D1586CE9F1E7
+26BEF48D27CE7FEDC5D3F3976824EFF8D11E15DC5381BD569A7F231FDF01F8ED
+DFFE6DF9D18F7E94B7CAD4DF88B604C015D2850B17989E9EE60FFFF00FC5534F
+3D05ADC389CD6060ABD168AD720B36C20B6AF1A8610CF6A5077EEDBDFB6FBBEE
+E0C07DDB7B534756567289F1F119A626E728E44B005EF392CBA5198165D691D2
+26DDD6C9DE83C7B9EED6FB18DE7394EEFE1D44E3696AD512A5EC3CCBD3AFB33C
+758A7261997AB5E0B5AD325C06C40961066A8760350537847A08429107759B75
+6DCFFDCEBA0A76E06F276D1BC77188A53A68EB196570F7093AFA76118B2729E6
+169938F71A4F3FFA10675F7D96523147241247D33536C2CD1CC7413A924C7B9A
+5DBBB6B17FFF0EB4486CF6D993B35FFFD2B74F7FF5B5B38B170867EDC17A937D
+23DFBE394F5F0DE9C968342AEFBEFB6EFEFCCFFF5CEEDDBBF767BEA6614B00BC
+29FAF297BFCC7FFECFFF593CFDF4D3D4EB75686D11F8AF5B95235F8D55106896
+AEF678FCD8FE81C3BF7AF7BE5F39B2A7EF6EDBACF74E4DCD333E3ECDE2E22A66
+DD4408EDB29D8C90EEF418DB361140776F3FA3FB8E71C36DEF67ECF02D64BA87
+008D6A294B616D8ED5D9D759993E4D39378F635B6EC6A1EEE6C037407C2FEEAF
+0409439F29032DFC9E7F2137424D591680DFACC34B49766CB79352AABD8F6D7B
+6FA17BF830A9B65E0C23426E659E177EF8359E7FE26BCC4C9CA75AAD60189B9B
+FAB66D23A5A4AD2DCDFE033BD9B37704A919971E7F76E2E16F3C71F69BAF9E59
+9CA6D19056D5F8CD4939ADE2F81B697CB751A7AEF3D18F7E54FE937FF24FB8EB
+AEBBDEAE65ECFE7E5B02E0CD91699AE4F3793EFDE94F8B071F7C90D3A74F4358
+10C0E5DD83E61908576215540D5D33768F740EBCFFB6B15BAF3F3C74DF8EC1B6
+632BCB6B890B17A6999C9C23972DB807F706465ECE2EB02C0BDB368946A3F40F
+0D73E4A67B3872E33DECD87B9C48BC0DDBAA532BE7585BBCC0FC8517599E7983
+5A29EB026986E11AF51E30184C1C52FD0149C3C121DCD1C717046AF9AF3FD9C7
+F1127700D29DDB19DC7D037D3B8E916CEBC1D03596E62FF1F28FBEC54F7EF015
+E6262F603B0ED16854697F16A64625A4A4BDA38DDD6323ECDF3F8A3022138FFD
+E4D2C35FFCE6C9AF5C985E5BA4B5C66F15CE6B0EE56D66EA4B40FEEAAFFE2AFF
+FEDFFF7B79E0C081B775FDFAB42500AE012D2D2DF1F0C30FF3AFFED5BF12B55A
+8D62B1B8515E41ABDE869BE516A80F757FE0651C76B62712C7F7F51FFAD57BF6
+DD7F70ACEF7D9AB4FAE66697989A5E606E669152D9AB43B802E0D04D9BB5B1CC
+1A6DED9DEC3E781DD7DFF641F61CBD95CEDE6D083D8A59AF5258996679FA34F3
+975E22BF328D5DAFA269069A3793BEA1C59BB303DD1752E90D105C9410410F44
+A47453757583CEC131B6EFB985EEED874866BA10382CCE8CF3DC630FF1DC93DF
+606E6A1C5D8FA21B1BD7E14B8937F4C5A07FA0875DBBB6B163741B558BF34F3C
+7BE9A1AF3E76E6BB6F5C5899C54DD7551BC434E7EAAB35F91BE5EA375B082412
+09F9E10F7F987FF6CFFE997CCF7BDEF3762FD7106D09806B48F57A9DC9C9493E
+FEF18F8B898909BEF7BDEFB5020E37EB6D78B90949AA30F1F7EB003540DBB3A3
+ABFFBDEFDAF5EEDD3BBA4F5C7F60E026C736B74D4CCC71617C8AF9F9656CCB76
+EB04FC9E7B1B90C035912DB38EA6EBAE5570E39D1CB9E97DEC3C7013B164078E
+6D52AB14595D1867E1E28B2C4D9DA45A5876E721683A6ADAB1DFD147E2043901
+EE0732E407388EDB6D59D30DBA87F632BCFF3606769E20964CA321999D7883E7
+9F7884677EF0F72CCDCFA2691A4634D6027CF4772F8319900383BD1C3AB49BD1
+1D438C4FAFFDE887CF4F7EF35B4F9D7F727236B74243E37B6772D90E3CAD5276
+D7A1FA80FCA7FFF49FF2FBBFFFFBF2D8B1636FF7F26CFD5B6F0980B7866CDBE6
+B1C71EE3777FF77745A150606A6A0AD6BB06CD51842B6D5ED21C8EF4C99D92A4
+6B62EF8EAE910FDEB9EF8E9B8F0D7FA0B7337E606D652D76EEEC24D333F36E92
+91579D7859F2A208965923DDD6CE8EB1C3DC74E7AFB2F7D81D74F46E2796C860
+9926F9D529D666DF6079F2158A6BD398B5B21B79D0A348A437BCD2694CEB05D7
+6DD0BCEE3E8E24124DD0B56D1FC3FB6EA57B683F894C2766B5C8C2D41B3CF383
+8778FEC96FB0343FE5E6E8EBC6A6E76CD90E914884418FF10706FAAA97E6724F
+7FF93BA71EFCE10B93CFAFE62A251A597BCDDAFE721A7FA37A7C00994EA7E5E7
+3FFF79D9D3D3C3BBDEF5AEB77B296E4A5B02E06740E572998F7DEC632C2C2CF0
+99CF7C461502FEF366E1C48D86A7AA6E82BA1F5F219A809D494513EF7DD7EEE3
+B75DBFE39EEB0F0EBE47DAD6B6C9A959C6CF4F323FBF846DDB41869DB88C8FE0
+7633AA2384A07F70981D7B8FB0E7C8BB3972D37D740FEE46E806B5529EC2EA34
+6B0BE799BFF022AB73673CE05043085D3986EB6E802491E96668EC5DF4EFBA9E
+8EDE1162F134D5729693CF7D8FE71F7B8833AFFD98ECEA0ABA6E6044A21B9E9F
+9BA76FA3EB3AC323431C39B297BEBE1EEBF4C5E5EF7CF5FB6F7CF95B4F9E7DC9
+B49C3A1B17E8A8F9FA976BBFD54AE3F35BBFF55BF2B77EEBB7B8F9E69BDFEE65
+7745B425007EC674EAD429FEE5BFFC97E2F1C71F6FD5E8F44A8A912E57830061
+CC40E256278A1D431D43FFC3BD87DE73FDA1A1F70FF5A60EAC2CAF24CE9D9F62
+667A9E62B174E55601AE4F6DD56B189108BDFDDB3871EBFD1C7DD7AF303C769C
+44A61BC7B1A995F3E4162FB034F9322B33A729E716B02C33A81D4E770E31B4E7
+160676DD44AABD0F231AA7B8B6C0EB2FFE801F7EEB739C3FF51CD56A856834BE
+696D849FEB108B45191AEAE7D0A1317AFB7A4A6727D79E7AF87BAF3FF8FD672E
+3C5F2AD76D1A2DB764D3633370AF95C6F7B70190894442DE79E79D7CE2139F90
+870E1D7ABB97D855D19600789BE889279EE0E5975FE6AFFEEAAFC46BAFBD061B
+E7155C2D4ED0EC5EA818BC05585DED89C4CD47B71FBBFFF63D771FDB377027D2
+DE3E333DC7D973132CCC2F62793D0B75ED327508F8B9F226B665114F24D873E8
+068EDD723F47DFF57EBA07C6107A14C73629E716589C7A8DF9F1E730AB4506F7
+BC8BC1DD3791EEE8436806A5EC1C2F3DF5083FFACE173977FA39A423312E9BB5
+E7B8053AD128A33B873978608CCEAECED2EB1797BEFBA56F9D7CE8B1672FBE5C
+376D49A3BB2EB44ED76D55A4D3DC65B7554D3EBFF55BBF257FFDD77F9D9F3770
+EF4A694B00BCCD542814F8FAD7BFCEA73FFD69F1F4D34FC3C63508AD7A165CAE
+0E6123E0D0B70AB4C1DE4CDF47DE7FE4AE9B8F6DBF7FB82F73787169253E7E61
+92D9E90572F9BCE7A76B97750F105E37A35A155DD7E9E91BE4E8CDF770FCB67F
+C0E8BE1B88A77B00A857F338B6493CD9014227BF32CDAB3FF9263FFCE6DF72F1
+EC2B38B643241667B3E0A59412CBB688C7E26CDF3EC8E1C37BE9EEED2ABC7266
+E1D12F7EE3D5CFFFF8E5A933B5BAE510D6F8FE73B38FEF37DD6805F23597E4FA
+717C79EFBDF7F2A94F7DEA6D4BE0B956B44E0044AC7E04317EE3635F0161FC94
+BBDFA2ABA147BEF64D262626F8D8C73E26AAD52AB9B5E5CD8A91AED64568CE2B
+F0C9016ABD5DA9D4E1B1FE431FBE7BFF5DC70E0CBED710CEF6E99979CE9FBBC8
+E2C232A6E9F614D074BD51CBBF014905384C2493ECDC779CEBDEFD018EDEF201
+7A86F6826650589DE68527BECC0FBFFD7926CEBD8AA61B184674E3501E789801
+2412718647B671E8D01ED26DEDF953E716BFF5C56FBEFAC88F5E9A7CAD5EB704
+8DE49D66537F2354FF7229BB0E4067779FFCC8473E227FF3377F939B6EB8EEED
+5E2ED7844202E0BF7FEA83CC8E0BEA55B8FD7FFCE7C41269EF5B97D9C9653350
+85FFDFA65F69F1B2D56E36DC6EC38FC4E537D8F41AC4665B5EC5356CF0A610AE
+966D6B6BA36ED6599C5FE0F4EBA7F9E4A7FE5C5C5A32D52D9BA3086FB6184975
+13FCFD3A405D0821766EEFE8F9D09D07EEBEFDC6D1FB86FB3347F3F962627676
+9E4B97A6595C7485C195F42C10F83D0EAB68BA4667771F476EBC8774473F2F3E
+F575E6A7CE21814834B1C95E6490AEDBDED1CEDE7DBB19DB3D42349658FAF1CB
+53DFFACAA3A7BEF2F44B93E71DB7A2A859E3379BEDADC03D55FB376BFCE0B1AB
+37C2FFFD877F288F1C39423299A45028D232F8285BBEDCB06A4A5EEE73EF7DC7
+B648B77771E2F6FBB8961412005FFA4F1FE2AB5F3CCBCA6219C7522A38D585EB
+33A1BAD8AFE0354D95A6CDFBD036DA4E841979B36387FE16EB0580D86C3BEDF2
+D77AB9636B9B1DFB0AEF191A18BAC08818241229A6574D2A75C97317AAA25473
+D4BDB6AA41F0B5DF664946CDBD0DD57DF824F1AC82D16D9DBBEFBC69E7A1775F
+377A6F7F77E2BA7C2E1B3D7BF6121313D3944B251CE9373BBD9C78F486A3D46B
+38D221128D7B0D3637DECEB66D04D0D1D9C1BE7D638C8DEDA05493E71E7FE6E2
+57BEF6F8EB4F9D3CBB304E235DD73FEF5671FCE60E3C9BB5DE0AFC7B4317727B
+97C1D1E1981CEC3028148B98750BAF7B79E3CA9A5FCBF5EF3BADBE2FC30220E8
+84A47ED7FBC96B55D873641FFFE53B6F702D699D8D1F891844A3118C54633D84
+9942BC090120AE8A994266E065054078015D5E008875C753FF6E2D0094FAB5CB
+0A1F719502406C28744C5B32DC150101630351F9CA6455546A92D33335E9486C
+1ACCEB2F5C81BB907D46B7585F8BE0FFED10B6047CB010EF39B1B45AB296564B
+AF3DF7DAF46BA9C44FBE72FFEDFBAEBFE3C6D17B6FBAE9FADB8E5F7778706A62
+9A0B1727595C5CC2AC9B5E4B331F2F585FD1AFEB3A7A22C9C6E4B7E9764782F5
+F67473E0E05E76EE1A215FB25FFEEFDF79FDE1871F3DF5DDA9B95CD6BB86B8B2
+F146F5F8CD69BACD1D785A697DF60C4439B82D2AFBDB0C571A5A92482C851F85
+5407A95C5E00C8D602232400646B01E0BD8EC42A24D36D5C6BDA72F27FCEC9B4
+1BD9722746E352D704078763BC3A59158B395BAE166DB5EE0E1A0544BE56B708
+5B00CD7FB7C20A82147DBC4E37A58AC9DF7FF7E48F1FF9FEE91F8FEDE81EFEE0
+9DFB6FBAF9D88EF7DF7BDFEEE3D9B56CFCECD98B4C4E4D532A95B06D1B4337AE
+A43831447E4E42774F0FFBF6ED66EFD84ED68AD6EB5FF8C6C9BFFBD2B75FFBFE
+DC5221EF9D8FEF336C548F7FB51D7824200D5DC86D9D062746E3B2A74D779BB1
+DA7223EBFC9782B604C02F10D52DB7B75E4742E78E7D2969E830BE50E78DD9BA
+9C58369BC35CBE00502D82AB198CD22A7A10B36C87372E2CCDBC7161E94B89D8
+4F1E79DF6D7B4EDC7FDBDE7BAFBFE1C47B4E9C383C383D35C3F90B97585858C2
+34DD0ABECDC2893E6028846060A08F8307F631BA6398E57CF5B9BF79F895AF7C
+E3F1D77F30359FF3DB6A270823FAADDA6E5D6D5F7D0760DF6054EE1B8AB1ADCB
+C0B22596FDCBCCF60DDA1200BF8064790EA52D61577F946D5D116A9623C7174C
+26974D960BB6AC5B52D5E4AA40B89A6CC366CBC07F448048A566F2D5EF9F7EF6
+DB4F9E796EB0B7EDAFFFA70F1CBDF98643DBEFBFEF7DBB4EACAEAD25CE8F5F62
+72728A42A18094B8C0A1E2EF5896DBEAACBFBF8F4307F7B37BD70EA6178ACFFC
+E57F7FF6EF1EF9FEE96757B2E53CAE999F44615636AFC7BF5C079E2081A7B74D
+97B188E096B1A4EC4AB9E75633256FB6E9E62F226D09805F70AA5B124D83745C
+E3F8689C1BC7E2726ECDE2CC6C5D9E9EAE09DB6FDF1F16043657164A543F6BEE
+75E03FA275D36662766DE1FFF9CC137F9F49C7BE76CBD191A3BFF6BEC3F71D3F
+7EE2AEE3C70E0FCDCCCC727EFC220B0B8B6E26A0877B0C0D0D70F8D07EB66FDF
+C6FC72E5E94F7FFE270F7DF3F1334FCCAF14FC269BBEA9DFDC4167B3D979970B
+E7492160EF6054BEF7700A4782ED481C077E8A8EDBBFB0B44E009875877ACD0E
+DD8CB70C04D408508EA0845B124C85F561A95F0C10505E7310B0F576A2C53EC2
+D7DD1117DCB8D3E0D8B02EE7B236AF4DD4582C867A70F800E0466E82FA68F559
+ABBC0203300AC59AFCDED3E75EF8C133E32FEDDCD6F9571FBEE7D0BB6F39B6E3
+FEFBEFDB75FDCACA6AE2B593A7C9E70B1C397C909DA33BCC3313AB4FFDA7CFFE
+E44B8F7CFFD473B962D5677C5FE35FAE1EBF79824E2B702F14CEDBD60137EC8A
+CBAEB44EA952C75667A306E05D3896A7162F8601BEAB050145F8FDAB0001EB35
+1BD3B4B9D6148401732B937CE953F753CC69D46BB6D77F5D5984C1426D66067F
+C137BE1C7E1D7AD17AE823E16D82BF54C653F7DD9221946D9AE3F6A1736ACC9A
+0D9D57AB5C85600A6DB3D0101B5EC73A860EB613E1EF351DB771FECDE72E36B8
+37A1BB16DAAFFFB92604BA2670244CAED82C2C1779E02B2F8BF9E52296EDA85A
+FC4ADC8356C2A155F312FFEC7C8D5BEF684BC46E3A327CE423EF3FF6BE237B7A
+3F004E67B668FDE481879EFFEC371E7FFDE97CA966B33E5D77B35CFDCB35DB54
+FD7C7A3A93F2D6EB86F9D5BBF6C8817641DD723B123B0A67074DC7428C1DE6E4
+804143DD8BA5C7B40DAE5ECFC0E1FD49454A8485840C8503517A2A9A66859E6D
+07F81F7EF7735C4B0A2C80583C4359DFC7C9E957109A704BB5430B5984357A13
+896635D6FCCA5FB01B7677152D762DC2FF6FA159D535B75EEBB63827D174762A
+536F7A4D4DD7B56102C2FAAB0F0DBADCF0182284E56F2C005ADEB5D0A534DA6E
+7ACF1A440DD7C4FA47F71F927FFDD04B2257A82ADDFA8223FB4CE4470B2E9769
+D8AA790984539713D97C457EF747679F7FFED4F4A90FDF7DF0476DE978CFF3AF
+4DBDF8F44B1397707DFC56DD775A65EE6D94B6BBE9D0CCDBAE1F918777F77269
+AEC0D949BF1D993AE1586D64D6A096024034FE0E844178AB3053877718DEAFB2
+4DF3FBA1F391E03826435A856B4D423DE89FFEFB3FE38FFEEF7F79CD0FB2453F
+D7245A3C5FCE2AB89A9666EA3EFD32658746B3549F2ED76577A3493AEB3AF010
+8E14FCD2D0CEDDFBB870FE2D4C0412B2FE765FE316FDECA999599ACD789FD17C
+8D7EA561C45669C702D7D4578F7DB571FCE67A7C757BF53A7EE92819BFF698FD
+5614608B9A494D2C729ADEF3C1433F8AB05162D1664946CD8ECCE550FD8D3AF0
+34E304F04BCCFC6F156D09802D6A459B59056A0AB11A4EDCC83DD80827F0F7AF
+B6D7DE4C0034A7F9FED26BFC9F056D09802DBA1252AD8266ADEB6B76D52A50EB
+0E8C16EFABE1C8CD0A759A4D7D872D8D7F4D694B006CD1955233B3F9B8809A65
+A81623F90CDD5C9DA88283AD427B1B86F30833FF165D03DA12005BF466A8B900
+09C20241CD386C7613D47C013595B7395DB79599BFC5FCD7984202A05AADBEDD
+E7B345BF38249B5EAB02A1B918A955C25073D38EE6383E6C317E8872B9DC35DF
+674800DC7EFBEDFCEEEFFEEEDB7D9D5BF40B48B95C4E3EF0C003CD6FFBCCDCDC
+BCA4D5779AFD7B229188FCEDDFFE6D2291085B04030303D77C9FE29D54F9B445
+6F1DADACACD0D3D3D3FCF64649462A35838AFE7B643219F2F9FCDB7D69BFD4A4
+FDF4BBD8A22D826C36DBEAED8D5A745D494C1F2925C562F1EDBEB45F6ADA0201
+B7E89A90E33897FB4A734E81FA5E4B2A168BEFA8DAFCB783B604C0165D13EAEF
+EFE7BFFED7FF7A255FBD628E8E4422C4E3F12BFDFA16BD09DAC200B6688BDEC1
+B485016CD116BD83694B006CD116BD83694B006CD116BD83694B006CD116BD83
+694B006CD116BD83694B006CD116BD83694B006CD116BD83694B006CD116BD83
+694B006CD116BD83694B006CD116BD83694B006CD116BD83694B006CD116BD83
+694B006CD116BD83694B006CD116BD83694B006CD116BD83694B006CD116BD83
+E9FF0FC9E5DC5EEC66D31A000000227A545874536F667477617265000078DA73
+4CC94F4A55F0CC4D4C4F0D4A4D4CA904002F9C05D4AE0CA94D0000000049454E
+44AE426082
+</a:Content>
+</o:PictureFile>
+</c:PictureFiles>
+<c:ObjectLanguage>
+<o:ObjectLanguage Id="o6">
+<a:ObjectID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:Code>Java</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>1202823188</a:ModificationDate>
+<a:Modifier>aelanbar</a:Modifier>
+<a:Comment>Cette définition de langage objet est basée sur la spécification de langage Java.
+Inclut la prise en charge de J2SE 1.5 Metadata ainsi que J2EE 1.4, Enterprise JavaBeans 2.1, Java Servlets 2.4 et Java Server Pages (JSP).
+
+</a:Comment>
+<a:Family>Java</a:Family>
+<a:SubFamily>J2EE</a:SubFamily>
+<a:CheckGlobalScript>&#39;******************************************************************************
+&#39;* Purpose:  This VB-Script holds global definitions shared by all the custom-
+&#39;*            checks scripts of the model extension.
+&#39;******************************************************************************
+
+Option Explicit &#39; This is to ensure all used variables are defined
+
+</a:CheckGlobalScript>
+<c:Categories>
+<o:TargetCategory Id="o7">
+<a:ObjectID>F50B262D-A51A-4ED7-A770-F8CF0756A4C5</a:ObjectID>
+<a:Name>Generation</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o8">
+<a:TypePublicName>GenerationOptionTargetItem</a:TypePublicName>
+<a:ObjectID>2F905BA5-D19B-4DDE-AFFC-35EAB0DDEA10</a:ObjectID>
+<a:Name>Options</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationOptionTargetItem Id="o9">
+<a:ObjectID>79CC46DB-EBDA-4245-B0BD-05BA698A9461</a:ObjectID>
+<a:Name>MembersPrimarySort</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Critère principal de tri des membres de classe :</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:GenerationOptionTargetItem.Value>Visibility:Visibility</a:GenerationOptionTargetItem.Value>
+<a:GenerationOptionTargetItem.ListOfValues>Visibility:Visibility
+Type:Type</a:GenerationOptionTargetItem.ListOfValues>
+<a:OptionType>L</a:OptionType>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o10">
+<a:ObjectID>9B2F8ECE-8183-4B28-84E0-32437C7C2F03</a:ObjectID>
+<a:Name>MembersTypeSort</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Tri des membres de classe par type</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:GenerationOptionTargetItem.Value>Attributes - Operations:Attributes - Operations</a:GenerationOptionTargetItem.Value>
+<a:GenerationOptionTargetItem.ListOfValues>Attributes - Operations:Attributes - Operations
+Operations - Attributes:Operations - Attributes</a:GenerationOptionTargetItem.ListOfValues>
+<a:OptionType>L</a:OptionType>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o11">
+<a:ObjectID>A8678007-4D3E-4865-95AA-09139818F979</a:ObjectID>
+<a:Name>MembersVisibilitySort</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Tri des membres de classe par visibilité</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:GenerationOptionTargetItem.Value>Private - Public:Private - Public</a:GenerationOptionTargetItem.Value>
+<a:GenerationOptionTargetItem.ListOfValues>Public - Private:Public - Private
+Private - Public:Private - Public
+None:None</a:GenerationOptionTargetItem.ListOfValues>
+<a:OptionType>L</a:OptionType>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o12">
+<a:ObjectID>B6B062D1-6821-438B-B222-D78575661D9F</a:ObjectID>
+<a:Name>PackageImports</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Génération des imports de package</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+<o:TypedCategoryTargetItem Id="o13">
+<a:ObjectID>D168BA99-16A1-4226-874D-C407B2159023</a:ObjectID>
+<a:Name>J2EE</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o14">
+<a:ObjectID>D7898F18-2BAA-4C05-87CC-7CAD64C3A10A</a:ObjectID>
+<a:Name>Enterprise JavaBeans</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationOptionTargetItem Id="o15">
+<a:ObjectID>C0DC5146-4AB2-47C0-9F11-ED92BF8F4FE2</a:ObjectID>
+<a:Name>AddSourceCodeInJAR</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>EJB : Ajout du code source des classes Java dans le fichier JAR</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o16">
+<a:ObjectID>2FA2B0F6-FEAB-4198-BB2A-3A6336079455</a:ObjectID>
+<a:Name>CMPGetSetCompInterface</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>EJB : Génération d&#39;opérations Get et Set de champ CMP dans les interfaces de composant</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:BoolValue>1</a:BoolValue>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o17">
+<a:ObjectID>890BFF7C-8400-4AB5-A9EA-C378E3510E1A</a:ObjectID>
+<a:Name>CMRGetSetCompInterface</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>EJB : Génération d&#39;opérations Get et Set de champ CMR dans les interfaces de composant</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:BoolValue>1</a:BoolValue>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o18">
+<a:ObjectID>FA1F8342-2502-42C9-A2BE-374BAD833F8A</a:ObjectID>
+<a:Name>CMRValueObject</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>EJB : Génération de la classe value object et des méthodes de navigation associées pour les beans d&#39;entité CMP.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o19">
+<a:ObjectID>4633F729-8418-4458-AFBF-731241936064</a:ObjectID>
+<a:Name>Web Application</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationOptionTargetItem Id="o20">
+<a:ObjectID>E72D7AB2-EB83-467E-B6CC-800AB55FEDFA</a:ObjectID>
+<a:Name>JarWebComponentClasses</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>J2EE : Création d&#39;un jar pour les classes de composant Web</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:GenerationOptionTargetItem Id="o21">
+<a:ObjectID>2948DFDB-0C47-42F1-B405-A6E19CCB8D2F</a:ObjectID>
+<a:Name>GenerateANT</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>ANT : Génération du fichier build.xml Ant</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o22">
+<a:ObjectID>18A13CFE-F254-47E3-BFC4-C575CE8CB059</a:ObjectID>
+<a:Name>GenerateOID</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Génération des ID d&#39;objet sous forme de balises JavaDoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:BoolValue>1</a:BoolValue>
+</o:GenerationOptionTargetItem>
+<o:GenerationOptionTargetItem Id="o23">
+<a:ObjectID>D17A1A18-A0E7-4A9E-A789-28BFA3A1BF64</a:ObjectID>
+<a:Name>GenAssocDefaultAccessors</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java : Génération d&#39;accesseurs par défaut pour des associations navigables</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationOptionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o24">
+<a:TypePublicName>GenerationCommandTargetItem</a:TypePublicName>
+<a:ObjectID>02AF8E22-552B-4D61-857E-A142368552ED</a:ObjectID>
+<a:Name>Commands</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationCommandTargetItem Id="o25">
+<a:ObjectID>A5E1C1E9-95D5-4EBE-9757-BB0CD5A0ED87</a:ObjectID>
+<a:Name>Javac</a:Name>
+<a:GenerationCommandTargetItem.Value>.ifnot (%$JAVAC%)
+   .log Warning: Undefined environment variable: JAVAC (Java compiler).  Use default command: javac.exe.
+   .log If javac.exe is not accessible from Path, please define a JAVAC variable and its executable path in Tools&gt;General Options&gt;Variables.
+   .set_value(_JAVAC, &quot;javac.exe&quot;)
+.else
+   .set_value(_JAVAC, &quot;%$JAVAC%&quot;)
+.endif
+%Javac%</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Compilation du code source Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o26">
+<a:ObjectID>2A129E1C-459C-4A63-804F-96211C9C13C5</a:ObjectID>
+<a:Name>Jar</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasSourceFiles%)
+   .ifnot (%$JAR%)
+      .log Warning: Undefined environment variable: JAR (Java archiver).  Use default command: jar.exe.
+      .log If java.exe is not accessible from Path, please define a JAR variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAR, &quot;jar.exe&quot;)
+   .else
+      .set_value(_JAR, &quot;%$JAR%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .execute_command(%_CMD%, &quot;/C echo &gt; %Code%_AllClasses.jar&quot;, cmd_PipeOutput)
+   .foreach_item(ActiveModel.GeneratedClassifierList)
+      .execute_command(%_JAR%, uvf %ActiveModel.Code%_AllClasses.jar %classFilepath%, cmd_PipeOutput)
+   .next
+.else
+   .log There is no Java class to put in the JAR.
+.endif   </a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Création d&#39;un JAR avec toutes les classes compilées</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o27">
+<a:ObjectID>DD49D5D3-6AAA-4DFB-AA3A-D130A339A558</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasSourceFiles%)
+   .ifnot (%$JAVA%)
+      .log Warning: Undefined environment variable: JAVA.  Use default command: java.exe.
+      .log If java.exe is not accessible from Path, please define a JAVA variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAVA, &quot;java.exe&quot;)
+   .else
+      .set_value(_JAVA, &quot;%$JAVA%&quot;)
+   .endif
+
+   .foreach_item(ActiveModel.GeneratedClassList)
+      .if (%isInner% == false) and (%hasMainMethod%)
+         .execute_command(%_JAVA%, [-classpath &quot;%$JAVACLASSPATH%&quot; ]%fullyQualifiedCode%, cmd_PipeOutput)
+      .endif
+   .next
+.else
+   .log There is no Java class.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution de l&#39;application Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o28">
+<a:ObjectID>6FD41C0C-376F-4639-B83B-1C71DD2029B7</a:ObjectID>
+<a:Name>Javadoc</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasSourceFiles%)
+   .ifnot (%$JAVADOC%)
+      .log Warning: Undefined environment variable: JAVADOC (Javadoc generator).  Use default command: javadoc.exe.
+      .log If javadoc.exe is not accessible from Path, please define a JAVADOC variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAVADOC, &quot;javadoc.exe&quot;)
+   .else
+      .set_value(_JAVADOC, &quot;%$JAVADOC%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+   .// remove old and create new Javadoc directory
+   .execute_command(%_CMD%, /C if exist Javadoc rd /s /q Javadoc, cmd_PipeOutput)
+   .execute_command(%_CMD%, /C md Javadoc, cmd_PipeOutput)
+   .// generate Javadoc for model/generated packages
+   .execute_command(%_JAVADOC%, [-classpath &quot;%$JAVACLASSPATH%&quot; ]-d Javadoc -sourcepath . *.java[ %generatedPackages%], cmd_PipeOutput)
+.else
+   .log There is no Java class.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Génère Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:TypedCategoryTargetItem Id="o29">
+<a:ObjectID>FBAF824D-1155-45EA-B1F8-020724A8B7ED</a:ObjectID>
+<a:Name>J2EE</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationCommandTargetItem Id="o30">
+<a:ObjectID>14C40561-6227-4C92-BEA7-D3B97668C8FF</a:ObjectID>
+<a:Name>J2EEAppEar</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%isJ2EEApplication%)
+   .ifnot (%$JAR%)
+      .log Warning: Undefined environment variable: JAR (Java archiver).  Use default command: jar.exe.
+      .log If java.exe is not accessible from Path, please define a JAR variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAR, &quot;jar.exe&quot;)
+   .else
+      .set_value(_JAR, &quot;%$JAR%&quot;)
+   .endif
+
+   .// create EAR file, add deployment descriptor
+   .execute_command(%_JAR%, cvf &quot;%earFilename%&quot; META-INF\application.xml, cmd_PipeOutput)
+   .if (%isEJBArchive%)
+      .// add model-level JAR file
+      .execute_command(%_JAR%, uvf &quot;%earFilename%&quot; %jarFilename%, cmd_PipeOutput)
+   .endif
+   .if (%isWebAppArchive%) and (%hasServletsOrJSPs%)
+      .// add model-level WAR file
+      .execute_command(%_JAR%, uvf &quot;%earFilename%&quot; %warFilename%, cmd_PipeOutput)
+   .endif
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%isEJBArchive%)
+         .// add package-level JAR file
+         .execute_command(%_JAR%, uvf &quot;%ActiveModel.earFilename%&quot; %jarFilepath%, cmd_PipeOutput)
+      .endif
+      .if (%isWebAppArchive%) and (%hasServletsOrJSPs%)
+         .// add package-level WAR file
+         .execute_command(%_JAR%, uvf &quot;%ActiveModel.earFilename%&quot; %warFilepath%, cmd_PipeOutput)
+      .endif
+   .next
+.else
+   .log There is no J2EE component to verify.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Création d&#39;une archive EAR contenant tous les fichiers JAR/WAR générés</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:TypedCategoryTargetItem Id="o31">
+<a:ObjectID>C6F6768A-2320-4E15-BAA1-1D539987B5C7</a:ObjectID>
+<a:Name>Web Application</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationCommandTargetItem Id="o32">
+<a:ObjectID>630D6ADA-1696-43BB-9BD9-36635D1708D8</a:ObjectID>
+<a:Name>WebAppWar</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasWarFile%)
+   .ifnot (%$JAR%)
+      .log Warning: Undefined environment variable: JAR (Java archiver).  Use default command: jar.exe.
+      .log If java.exe is not accessible from Path, please define a JAR variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAR, &quot;jar.exe&quot;)
+   .else
+      .set_value(_JAR, &quot;%$JAR%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .// save artifact files
+   %SaveArtifacts%
+   .change_dir(%GenOptions.GenerationPath%)
+   .// create WAR for the model
+   .if (%isWebAppArchive%)
+      .// create WAR file, add deployment descriptor
+      .execute_command(%_JAR%, cvf %warFilename% WEB-INF\*.xml, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist WEB-INF\wsdl\*.* %_JAR% uvf &quot;%warFilename%&quot; WEB-INF\wsdl\*.*, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist WEB-INF\*.properties %_JAR% uvf &quot;%warFilename%&quot; WEB-INF\*.properties, cmd_PipeOutput)
+      .if (%hasServletsOrWebServices%)
+         .// add WSDL files
+         .//%warWSDLFiles%
+         .change_dir(%GenOptions.GenerationPath%)
+         .// add *.class
+         .execute_command(%_JAR%, uvf &quot;%warFilename%&quot; WEB-INF\classes, cmd_PipeOutput)
+         .if (%GenOptions.JarWebComponentClasses%)
+            .// add *.jar
+            .execute_command(%_JAR%, uvf &quot;%warFilename%&quot; WEB-INF\lib, cmd_PipeOutput)
+         .endif
+      .endif
+      %warArtifacts%
+   .endif
+
+   .// create WAR for subpackages
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isWebAppArchive%)
+      .// cd &lt;package-directory&gt;
+      .change_dir([%GenOptions.GenerationPath%]%path%)
+      .// create WAR file, add deployment descriptor
+      .execute_command(%_JAR%, cvf &quot;%warFilename%&quot; WEB-INF\*.xml, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist WEB-INF\wsdl\*.* %_JAR% uvf &quot;%warFilename%&quot; WEB-INF\wsdl\*.*, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist WEB-INF\*.properties %_JAR% uvf &quot;%warFilename%&quot; WEB-INF\*.properties, cmd_PipeOutput)
+      .if (%hasServletsOrWebServices%)
+         .// add WSDL files
+         .//%warWSDLFiles%
+         .change_dir([%GenOptions.GenerationPath%]%path%)
+         .// add *.class
+         .execute_command(%_JAR%, uvf &quot;%warFilename%&quot; WEB-INF\classes, cmd_PipeOutput)
+         .if (%GenOptions.JarWebComponentClasses%)
+            .// add *.jar
+            .execute_command(%_JAR%, uvf &quot;%warFilename%&quot; WEB-INF\lib, cmd_PipeOutput)
+         .endif
+      .endif
+      %warArtifacts%
+   .next
+.else
+   .log There is no Servlet or JSP.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Création d&#39;un fichier WAR pour les classes de composant Web et le descripteur de déploiement</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o33">
+<a:ObjectID>B27A5BC7-79EA-4EE1-A5A0-82B25D762F63</a:ObjectID>
+<a:Name>WebAppBuild</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasWarFile%)
+   .ifnot (%$JAVAC%)
+      .log Warning: Undefined environment variable: JAVAC (Java compiler).  Use default command: javac.exe.
+      .log If java.exe is not accessible from Path, please define a JAVAC variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAVAC, &quot;javac.exe&quot;)
+   .else
+      .set_value(_JAVAC, &quot;%$JAVAC%&quot;)
+   .endif
+   .if (%GenOptions.JarWebComponentClasses%)
+      .ifnot (%$JAR%)
+         .log Warning: Undefined environment variable: JAR (Java archiver).  Use default command: jar.exe.
+         .log If java.exe is not accessible from Path, please define a JAR variable and its executable path in Tools&gt;General Options&gt;Variables.
+         .set_value(_JAR, &quot;jar.exe&quot;)
+      .else
+         .set_value(_JAR, &quot;%$JAR%&quot;)
+      .endif
+      .ifnot (%$CMD%)
+         .set_value(_CMD, &quot;cmd.exe&quot;)
+      .else
+         .set_value(_CMD, &quot;%$CMD%&quot;)
+      .endif
+   .endif
+
+   .// build model-level web components
+   .if (%isWebAppArchive%)
+      %buildWebComponents%
+   .endif
+   .// build package-level web components
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isWebAppArchive%)
+      %buildWebComponents%
+   .next
+.else
+   .log There is no Servlet or JSP to deploy.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Construction du code source de composant Web</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o34">
+<a:ObjectID>528DEEDC-6731-4F90-AEA8-1C2CFB3DC6C5</a:ObjectID>
+<a:Name>WebVerify</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasWarFile%)
+   .ifnot (%$J2EEVERIF%)
+      .log Warning: Undefined environment variable: J2EEVERIF (J2EE verifier).  Use default command: verifier.bat.
+      .log If verifier.bat is not accessible from Path, please define a J2EEVERIF variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_J2EEVERIF, &quot;verifier.bat&quot;)
+   .else
+      .set_value(_J2EEVERIF, &quot;%$J2EEVERIF%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .// verify model-level WAR
+   .if (%isWebAppArchive%)
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %warFilename%, cmd_PipeOutput)
+   .endif
+   .// verify package-level WAR
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isWebAppArchive%)
+      .change_dir(%GenOptions.GenerationPath%%path%)
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %warFilename%, cmd_PipeOutput)
+   .next
+.else
+   .log There is no Servlet or JSP.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution du vérificateur J2EE sur les fichiers WAR générés</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:GenerationCommandTargetItem Id="o35">
+<a:ObjectID>FC8C2681-BE1F-4CAE-AA79-36F9D3F2FAD2</a:ObjectID>
+<a:Name>J2EEVerify</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%isJ2EEApplication%)
+   .ifnot (%$J2EEVERIF%)
+      .log Warning: Undefined environment variable: J2EEVERIF (J2EE verifier).  Use default command: verifier.bat.
+      .log If verifier.bat is not accessible from Path, please define a J2EEVERIF variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_J2EEVERIF, &quot;verifier.bat&quot;)
+   .else
+      .set_value(_J2EEVERIF, &quot;%$J2EEVERIF%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .// verify model-level JAR/WAR/EAR
+   .if (%isEJBArchive%)
+      .// verify JAR
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %jarFilename%, cmd_PipeOutput)
+   .endif
+   .if (%isWebAppArchive%)
+      .// verify WAR
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %warFilename%, cmd_PipeOutput)
+   .endif
+   .// verify EAR
+   .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %earFilename%, cmd_PipeOutput)
+
+   .// verify package-level JAR/WAR
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%isEJBArchive%)
+         .// verify JAR
+         .change_dir(%GenOptions.GenerationPath%%path%)
+         .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %jarFilename%, cmd_PipeOutput)
+      .endif
+      .if (%isWebAppArchive%)
+         .// verify WAR
+         .change_dir(%GenOptions.GenerationPath%%path%)
+         .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %warFilename%, cmd_PipeOutput)
+      .endif
+   .next
+.else
+   .log There is no J2EE component to verify.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution du vérificateur J2EE sur les archives générées</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:TypedCategoryTargetItem Id="o36">
+<a:ObjectID>40084DED-9EF9-4B7A-BF6E-8D30CEA9D2CB</a:ObjectID>
+<a:Name>Enterprise JavaBeans</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationCommandTargetItem Id="o37">
+<a:ObjectID>426B0298-FAA7-4963-9AF0-7B37488B21D9</a:ObjectID>
+<a:Name>EJBJar</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasJarFile%)
+   .ifnot (%$JAR%)
+      .log Warning: Undefined environment variable: JAR (Java archiver).  Use default command: jar.exe.
+      .log If java.exe is not accessible from Path, please define a JAR variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAR, &quot;jar.exe&quot;)
+   .else
+      .set_value(_JAR, &quot;%$JAR%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .// create JAR for the model
+   .if (%isEJBArchive%)
+      .// create JAR file, add deployment descriptor
+      .execute_command(%_CMD%, /C if exist META-INF\application.xml move META-INF\application.xml META-INF\application.xml_, cmd_PipeOutput)
+      .execute_command(%_JAR%, cvf &quot;%jarFilename%&quot; META-INF\*.xml, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist META-INF\application.xml_ move META-INF\application.xml_ META-INF\application.xml, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist META-INF\wsdl\*.* %_JAR% uvf &quot;%jarFilename%&quot; META-INF\wsdl\*.*, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist META-INF\*.properties %_JAR% uvf &quot;%jarFilename%&quot; META-INF\*.properties, cmd_PipeOutput)
+      .// add WebSphere files
+      .if (%useWebSphere%)
+         .execute_command(%_CMD%, /C if exist META-INF\ibm-ejb-jar-bnd.xmi %_JAR% uvf &quot;%jarFilename%&quot; META-INF\ibm-ejb-jar-bnd.xmi, cmd_PipeOutput)
+         .execute_command(%_CMD%, /C if exist META-INF\Table.ddl %_JAR% uvf &quot;%jarFilename%&quot; META-INF\Table.ddl, cmd_PipeOutput)
+         .execute_command(%_CMD%, /C if exist META-INF\backends %_JAR% uvf &quot;%jarFilename%&quot; META-INF\backends, cmd_PipeOutput)
+      .endif
+      .// add WSDL files
+      .//%jarWSDLFiles%
+      .// add class files
+      .change_dir(%GenOptions.GenerationPath%)
+      .change_dir(classes)
+      .execute_command(%_JAR%, uvf &quot;..\%jarFilename%&quot; *, cmd_PipeOutput)
+      .// add source files
+      .if (%GenOptions.AddSourceCodeInJAR%)
+         .change_dir(%GenOptions.GenerationPath%)
+         .execute_command(%_JAR%, uvf &quot;%jarFilepath%&quot; %genEJBSourceFiles%, cmd_PipeOutput)
+      .endif
+   .endif
+   .// create JAR for subpackages
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isEJBArchive%)
+      .// cd &lt;package-directory&gt;
+      .change_dir([%GenOptions.GenerationPath%]%path%)
+      .// create JAR file, add deployment descriptor
+      .execute_command(%_JAR%, cvf &quot;%jarFilename%&quot; META-INF\*.xml, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist META-INF\wsdl\*.* %_JAR% uvf &quot;%jarFilename%&quot; META-INF\wsdl\*.*, cmd_PipeOutput)
+      .execute_command(%_CMD%, /C if exist META-INF\*.properties %_JAR% uvf &quot;%jarFilename%&quot; META-INF\*.properties, cmd_PipeOutput)
+      .// add WebSphere files
+      .if (%useWebSphere%)
+         .execute_command(%_CMD%, /C if exist META-INF\ibm-ejb-jar-bnd.xmi %_JAR% uvf &quot;%jarFilename%&quot; META-INF\ibm-ejb-jar-bnd.xmi, cmd_PipeOutput)
+         .execute_command(%_CMD%, /C if exist META-INF\Table.ddl %_JAR% uvf &quot;%jarFilename%&quot; META-INF\Table.ddl, cmd_PipeOutput)
+         .execute_command(%_CMD%, /C if exist META-INF\backends %_JAR% uvf &quot;%jarFilename%&quot; META-INF\backends, cmd_PipeOutput)
+      .endif
+      .// add WSDL files
+      .//%jarWSDLFiles%
+      .// add class files
+      .change_dir([%GenOptions.GenerationPath%]%path%)
+      .change_dir(classes)
+      .execute_command(%_JAR%, uvf &quot;..\%jarFilename%&quot; *, cmd_PipeOutput)
+      .// add source files
+      .if (%GenOptions.AddSourceCodeInJAR%)
+         .change_dir(%GenOptions.GenerationPath%)
+         .execute_command(%_JAR%, uvf &quot;%jarFilepath%&quot; %genEJBSourceFiles%, cmd_PipeOutput)
+      .endif
+   .next
+.else
+   .log There is no EJB.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Création du fichier JAR pour les classes Java et le descripteur de déploiement</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o38">
+<a:ObjectID>224D0A3F-4C9E-44AD-894B-3AAA0FF36FBD</a:ObjectID>
+<a:Name>EJBVerify</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasJarFile%)
+   .ifnot (%$J2EEVERIF%)
+      .log Warning: Undefined environment variable: J2EEVERIF (J2EE verifier).  Use default command: verifier.bat.
+      .log If verifier.bat is not accessible from Path, please define a J2EEVERIF variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_J2EEVERIF, &quot;verifier.bat&quot;)
+   .else
+      .set_value(_J2EEVERIF, &quot;%$J2EEVERIF%&quot;)
+   .endif
+   .ifnot (%$CMD%)
+      .set_value(_CMD, &quot;cmd.exe&quot;)
+   .else
+      .set_value(_CMD, &quot;%$CMD%&quot;)
+   .endif
+
+   .// verify model-level JAR
+   .if (%isEJBArchive%)
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %jarFilename%, cmd_PipeOutput)
+   .endif
+   .// verify package-level JAR
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isEJBArchive%)
+      .change_dir(%GenOptions.GenerationPath%%path%)
+      .execute_command(%_CMD%, /C %_J2EEVERIF% -ra %jarFilename%, cmd_PipeOutput)
+   .next
+.else
+   .log There is no EJB component to verify.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution du vérificateur J2EE sur les fichiers JAR générés</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+<o:GenerationCommandTargetItem Id="o39">
+<a:ObjectID>001E1639-C668-4E91-9686-9D9BCE0BD2D8</a:ObjectID>
+<a:Name>EJBBuild</a:Name>
+<a:GenerationCommandTargetItem.Value>.if (%hasJarFile%)
+   .ifnot (%$JAVAC%)
+      .log Warning: Undefined environment variable: JAVAC (Java compiler).  Use default command: javac.exe.
+      .log If java.exe is not accessible from Path, please define a JAVAC variable and its executable path in Tools&gt;General Options&gt;Variables.
+      .set_value(_JAVAC, &quot;javac.exe&quot;)
+   .else
+      .set_value(_JAVAC, &quot;%$JAVAC%&quot;)
+   .endif
+   
+   .// build model-level web components
+   .if (%isEJBArchive%)
+      %buildEJBComponents%
+   .endif
+   .// build package-level web components
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isEJBArchive%)
+      %buildEJBComponents%
+   .next
+.else
+   .log There is no EJB to compile.
+.endif</a:GenerationCommandTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Construction du code source de composant EJB</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:GenerationCommandTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o40">
+<a:TypePublicName>GenerationTaskTargetItem</a:TypePublicName>
+<a:ObjectID>6084275A-16AB-48D7-AA26-98F6A2F410E0</a:ObjectID>
+<a:Name>Tasks</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationTaskTargetItem Id="o41">
+<a:ObjectID>0C4FD87C-A64D-4807-85C8-D41F8AE4EDCB</a:ObjectID>
+<a:Name>Compile</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Compilation de sources Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o25"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+<o:GenerationTaskTargetItem Id="o42">
+<a:ObjectID>CF2C7663-64C1-4CE6-9978-C815796EDBAA</a:ObjectID>
+<a:Name>CompileJar</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Conditionnement des classes compilées dans un fichier JAR</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o25"/>
+<o:GenerationCommandTargetItem Ref="o26"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+<o:GenerationTaskTargetItem Id="o43">
+<a:ObjectID>A142BEBE-131B-4E04-8400-9AAFC7D38924</a:ObjectID>
+<a:Name>CompileRun</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution de l&#39;application Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o25"/>
+<o:GenerationCommandTargetItem Ref="o27"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+<o:GenerationTaskTargetItem Id="o44">
+<a:ObjectID>B6283456-ADA4-4835-ADC8-40492071AA20</a:ObjectID>
+<a:Name>GenerateJavadoc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Génération de Java Doc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o28"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+<o:TypedCategoryTargetItem Id="o45">
+<a:ObjectID>BB8355E0-DAE7-4646-AC1A-CDA85B43B0DE</a:ObjectID>
+<a:Name>J2EE</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GenerationTaskTargetItem Id="o46">
+<a:ObjectID>AD4FB40F-25D0-47CF-AEE1-F6252CE38918</a:ObjectID>
+<a:Name>JarWarEarVerify</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exécution du vérificateur J2EE</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o39"/>
+<o:GenerationCommandTargetItem Ref="o37"/>
+<o:GenerationCommandTargetItem Ref="o33"/>
+<o:GenerationCommandTargetItem Ref="o32"/>
+<o:GenerationCommandTargetItem Ref="o30"/>
+<o:GenerationCommandTargetItem Ref="o35"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+<o:GenerationTaskTargetItem Id="o47">
+<a:ObjectID>09BAC40E-B175-4D81-98D0-9CE7A2AE4772</a:ObjectID>
+<a:Name>JarWarEar</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Conditionnement de l&#39;application J2EE dans un fichier EAR</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Commands>
+<o:GenerationCommandTargetItem Ref="o39"/>
+<o:GenerationCommandTargetItem Ref="o37"/>
+<o:GenerationCommandTargetItem Ref="o33"/>
+<o:GenerationCommandTargetItem Ref="o32"/>
+<o:GenerationCommandTargetItem Ref="o30"/>
+</c:Commands>
+</o:GenerationTaskTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:TargetCategory Id="o48">
+<a:ObjectID>77EE026A-7AE0-4AFB-BDA5-FEF098834B48</a:ObjectID>
+<a:Name>Settings</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<c:Categories>
+<o:TargetCategory Id="o49">
+<a:ObjectID>820A74B1-9518-44F1-8F86-CD1514BE492C</a:ObjectID>
+<a:Name>Constants</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<c:Categories>
+<o:StringTargetItem Id="o50">
+<a:ObjectID>68ACCCAE-26EC-4973-972E-82DAD5C6565D</a:ObjectID>
+<a:Name>Null</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Constante Null (Zero)</a:Comment>
+<a:StringTargetItem.Value>0</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o51">
+<a:ObjectID>BCABFC91-55EB-401C-945B-107F80D0A086</a:ObjectID>
+<a:Name>True</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Constante True</a:Comment>
+<a:StringTargetItem.Value>true</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o52">
+<a:ObjectID>4BB36FBA-C10F-429E-8A16-659C03CDCC1E</a:ObjectID>
+<a:Name>False</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Constante False</a:Comment>
+<a:StringTargetItem.Value>false</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o53">
+<a:ObjectID>122B94B8-4897-4F8B-874B-6AECBED4CC26</a:ObjectID>
+<a:Name>void</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Constante Void</a:Comment>
+<a:StringTargetItem.Value>void</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o54">
+<a:ObjectID>DEF04B08-2D51-4049-BA7C-B24F08E6DFAA</a:ObjectID>
+<a:Name>Bool</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Constante booléenne</a:Comment>
+<a:StringTargetItem.Value>bool</a:StringTargetItem.Value>
+</o:StringTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:TargetCategory Id="o55">
+<a:ObjectID>FED2A210-25B1-4468-960F-7806A64F1B5B</a:ObjectID>
+<a:Name>DataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<c:Categories>
+<o:MapTargetItem Id="o56">
+<a:ObjectID>5EF518AB-6AE6-48F2-B21E-53D8FD3FCF10</a:ObjectID>
+<a:Name>BasicDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de données Java</a:Comment>
+<a:MapTargetItem.Value>char=A1
+boolean=BL
+byte=BT
+short=SI
+int=I
+long=LI
+float=F
+double=N
+*=TXT</a:MapTargetItem.Value>
+<a:List>char
+boolean
+byte
+short
+int
+long
+float
+double
+</a:List>
+</o:MapTargetItem>
+<o:MapTargetItem Id="o57">
+<a:ObjectID>5FFE5F45-3029-4D8D-9A4A-5C1259F5D238</a:ObjectID>
+<a:Name>AdditionalDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Types de données supplémentaires ajoutés dans la liste des types de données.
+La seconde colonne indique le type de données conceptuel utilisé pour les générations de MCD ou de MPD, mais aussi pour le changement de langage objet</a:Comment>
+<a:MapTargetItem.Value>java.lang.String=VA254
+java.util.Date=DT
+java.lang.Object=ANY
+java.lang.Boolean=BL
+java.lang.Integer=I
+java.lang.Short=SI
+java.lang.Long=LI
+java.lang.Float=F
+java.lang.Double=N
+java.lang.Character=A1
+java.lang.Byte=BT
+java.lang.Number=N
+java.lang.StringBuffer=TXT
+java.lang.Thread=ANY
+java.lang.ThreadGroup=ANY
+java.lang.Process=ANY
+String=VA254
+Date=DT
+Boolean=BL
+Integer=I
+Short=SI
+Long=LI
+Float=F
+Double=N
+Character=A1
+Byte=BT
+Number=N</a:MapTargetItem.Value>
+<a:List>java.lang.String
+java.util.Date
+java.lang.Object
+java.lang.Boolean
+java.lang.Integer
+java.lang.Short
+java.lang.Long
+java.lang.Float
+java.lang.Double
+java.lang.Character
+java.lang.Byte
+java.lang.Number
+java.lang.StringBuffer
+java.lang.Thread
+java.lang.ThreadGroup
+java.lang.Process
+String
+Date
+Boolean
+Integer
+Short
+Long
+Float
+Double
+Character
+Byte
+Number
+</a:List>
+</o:MapTargetItem>
+<o:MapTargetItem Id="o58">
+<a:ObjectID>08D5FD92-B0BF-459D-914B-05EC767F351A</a:ObjectID>
+<a:Name>ConceptualDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Types de données conceptuels</a:Comment>
+<a:MapTargetItem.Value>A%n=java.lang.String
+VA%n=java.lang.String
+LA=java.lang.String
+LA%n=java.lang.String
+LVA=java.lang.String
+LVA%n=java.lang.String
+BT=byte
+BT%n=long
+SI=short
+I=int
+LI=long
+N=double
+N%n=double
+N%s,%p=double
+DC=double
+DC%n=double
+DC%s,%p=double
+SF=float
+F=float
+F%n=float
+LF=double
+MN=double
+MN%n=double
+MN%s,%p=double
+D=java.util.Date
+T=java.util.Date
+DT=java.util.Date
+TS=java.util.Date
+BL=boolean
+NO=long
+NO%n=long
+BIN%n=java.lang.String
+LBIN=java.lang.String
+LBIN%n=java.lang.String
+TXT=java.lang.String
+TXT%n=java.lang.String
+MBT=char
+MBT%n=java.lang.String
+VMBT=java.lang.String
+VMBT%n=java.lang.String
+PIC=java.lang.Object
+PIC%n=java.lang.Object
+BMP=java.lang.Object
+BMP%n=java.lang.Object
+OLE=java.lang.Object
+OLE%n=java.lang.Object
+ANY=java.lang.Object
+*=java.lang.String</a:MapTargetItem.Value>
+<a:List>A%n
+VA%n
+LA
+LA%n
+LVA
+LVA%n
+BT
+BT%n
+SI
+I
+LI
+N
+N%n
+N%s,%p
+DC
+DC%n
+DC%s,%p
+SF
+F
+F%n
+LF
+MN
+MN%n
+MN%s,%p
+D
+T
+DT
+TS
+BL
+NO
+NO%n
+BIN%n
+LBIN
+LBIN%n
+TXT
+TXT%n
+MBT
+MBT%n
+VMBT
+VMBT%n
+PIC
+PIC%n
+BMP
+BMP%n
+OLE
+OLE%n
+ANY
+</a:List>
+</o:MapTargetItem>
+<o:StringTargetItem Id="o59">
+<a:ObjectID>6CFE5394-7F2B-4441-9930-8F6989A8DDA8</a:ObjectID>
+<a:Name>DefaultDataType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>int</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:MapTargetItem Id="o60">
+<a:ObjectID>73A7ED16-1053-4820-925B-43630E412578</a:ObjectID>
+<a:Name>Local2SoapDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MapTargetItem.Value>java.lang.String=soap:string
+boolean=soap:boolean
+byte=soap:byte
+short=soap:short
+int=soap:int
+long=soap:long
+float=soap:float
+double=soap:double
+java.util.Date=soap:date
+String=soap:string
+Date=soap:date</a:MapTargetItem.Value>
+<a:List>java.lang.String
+boolean
+byte
+short
+int
+long
+float
+double
+java.util.Date
+String
+Date
+</a:List>
+</o:MapTargetItem>
+<o:MapTargetItem Id="o61">
+<a:ObjectID>5AE46475-FC97-439C-83D0-AB540EBC3AE1</a:ObjectID>
+<a:Name>Local2XSDDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MapTargetItem.Value>String=xsd:string
+java.lang.String=xsd:string
+boolean=xsd:boolean
+Boolean=xsd:boolean
+java.lang.Boolean=xsd:boolean
+byte=xsd:byte
+Byte=xsd:byte
+java.lang.Byte=xsd:byte
+byte[]=xsd:base64Binary
+short=xsd:short
+Short=xsd:short
+java.lang.Short=xsd:short
+int=xsd:int
+Integer=xsd:int
+java.lang.Integer=xsd:int
+BigInteger=xsd:integer
+java.math.BigInteger=xsd:integer
+long=xsd:long
+Long=xsd:long
+java.lang.Long=xsd:long
+BigDecimal=xsd:decimal
+java.math.BigDecimal=xsd:decimal
+float=xsd:float
+Float=xsd:float
+java.lang.Float=xsd:float
+double=xsd:double
+Double=xsd:double
+java.lang.Double=xsd:double
+Date=xsd:date
+java.util.Date=xsd:date</a:MapTargetItem.Value>
+<a:List>String
+java.lang.String
+boolean
+Boolean
+java.lang.Boolean
+byte
+Byte
+java.lang.Byte
+byte[]
+short
+Short
+java.lang.Short
+int
+Integer
+java.lang.Integer
+BigInteger
+java.math.BigInteger
+long
+Long
+java.lang.Long
+BigDecimal
+java.math.BigDecimal
+float
+Float
+java.lang.Float
+double
+Double
+java.lang.Double
+Date
+java.util.Date
+</a:List>
+</o:MapTargetItem>
+<o:MapTargetItem Id="o62">
+<a:ObjectID>C8D7F980-B9AF-4425-8294-8EE83951CC76</a:ObjectID>
+<a:Name>WSDL2LocalDataTypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MapTargetItem.Value>xsd:string=java.lang.String
+xsd:boolean=boolean
+xsd:decimal=java.math.BigDecimal
+xsd:float=float
+xsd:double=double
+xsd:integer=java.math.BigInteger
+xsd:nonPositiveInteger=java.math.BigInteger
+xsd:negativeInteger=java.math.BigInteger
+xsd:long=long
+xsd:int=int
+xsd:short=short
+xsd:byte=byte
+xsd:nonNegativeInteger=java.math.BigInteger
+xsd:positiveInteger=java.math.BigInteger
+xsd:unsignedLong=java.math.BigInteger
+xsd:unsignedInt=long
+xsd:unsignedShort=int
+xsd:unsignedByte=short
+xsd:duration=java.util.Date
+xsd:dateTime=java.util.Date
+xsd:time=java.util.Date
+xsd:date=java.util.Date
+xsd:timeInstant=java.util.Date
+xsd:gYearMonth=java.util.Date
+xsd:gYear=java.util.Date
+xsd:gMonthDay=java.util.Date
+xsd:gDay=java.util.Date
+xsd:gMonth=java.util.Date
+xsd:hexBinary=byte[]
+xsd:base64Binary=byte[]
+xsd:anyURI=java.lang.String
+xsd:QName=java.lang.String
+xsd:NOTATION=java.lang.String
+xsd:normalizedString=java.lang.String
+xsd:token=java.lang.String
+xsd:language=java.lang.String
+xsd:Name=java.lang.String
+xsd:NCName=java.lang.String
+xsd:NMTOKEN=java.lang.String
+xsd:NMTOKENS=java.lang.String
+xsd:ID=java.lang.String
+xsd:IDREF=java.lang.String
+xsd:IDREFS=java.lang.String
+xsd:ENTITY=java.lang.String
+xsd:ENTITIES=java.lang.String
+soap:Array=java.util.Collection
+string=java.lang.String
+boolean=boolean
+decimal=java.math.BigDecimal
+float=float
+double=double
+integer=java.math.BigInteger
+nonPositiveInteger=java.math.BigInteger
+negativeInteger=java.math.BigInteger
+long=long
+int=int
+short=short
+byte=byte
+nonNegativeInteger=java.math.BigInteger
+positiveInteger=java.math.BigInteger
+unsignedLong=java.math.BigInteger
+unsignedInt=long
+unsignedShort=int
+unsignedByte=short
+duration=java.util.Date
+dateTime=java.util.Date
+time=java.util.Date
+date=java.util.Date
+timeInstant=java.util.Date
+gYearMonth=java.util.Date
+gYear=java.util.Date
+gMonthDay=java.util.Date
+gDay=java.util.Date
+gMonth=java.util.Date
+hexBinary=byte[]
+base64Binary=byte[]
+anyURI=java.lang.String
+QName=java.lang.String
+NOTATION=java.lang.String
+normalizedString=java.lang.String
+token=java.lang.String
+language=java.lang.String
+Name=java.lang.String
+NCName=java.lang.String
+NMTOKEN=java.lang.String
+NMTOKENS=java.lang.String
+ID=java.lang.String
+IDREF=java.lang.String
+IDREFS=java.lang.String
+ENTITY=java.lang.String
+ENTITIES=java.lang.String</a:MapTargetItem.Value>
+<a:List>xsd:string
+xsd:boolean
+xsd:decimal
+xsd:float
+xsd:double
+xsd:integer
+xsd:nonPositiveInteger
+xsd:negativeInteger
+xsd:long
+xsd:int
+xsd:short
+xsd:byte
+xsd:nonNegativeInteger
+xsd:positiveInteger
+xsd:unsignedLong
+xsd:unsignedInt
+xsd:unsignedShort
+xsd:unsignedByte
+xsd:duration
+xsd:dateTime
+xsd:time
+xsd:date
+xsd:timeInstant
+xsd:gYearMonth
+xsd:gYear
+xsd:gMonthDay
+xsd:gDay
+xsd:gMonth
+xsd:hexBinary
+xsd:base64Binary
+xsd:anyURI
+xsd:QName
+xsd:NOTATION
+xsd:normalizedString
+xsd:token
+xsd:language
+xsd:Name
+xsd:NCName
+xsd:NMTOKEN
+xsd:NMTOKENS
+xsd:ID
+xsd:IDREF
+xsd:IDREFS
+xsd:ENTITY
+xsd:ENTITIES
+soap:Array
+string
+boolean
+decimal
+float
+double
+integer
+nonPositiveInteger
+negativeInteger
+long
+int
+short
+byte
+nonNegativeInteger
+positiveInteger
+unsignedLong
+unsignedInt
+unsignedShort
+unsignedByte
+duration
+dateTime
+time
+date
+timeInstant
+gYearMonth
+gYear
+gMonthDay
+gDay
+gMonth
+hexBinary
+base64Binary
+anyURI
+QName
+NOTATION
+normalizedString
+token
+language
+Name
+NCName
+NMTOKEN
+NMTOKENS
+ID
+IDREF
+IDREFS
+ENTITY
+ENTITIES
+</a:List>
+</o:MapTargetItem>
+<o:MapTargetItem Id="o63">
+<a:ObjectID>D50D147A-D1C0-4A21-B8C6-E2B03A3E956A</a:ObjectID>
+<a:Name>AssocImplementations</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Conteneur d&#39;association avec classes de mise en oeuvre (séparées par des espaces)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MapTargetItem.Value>java.util.Collection=java.util.HashSet java.util.ArrayList java.util.LinkedHashSet java.util.LinkedList java.util.TreeSet java.util.Vector java.util.Stack
+java.util.List=java.util.ArrayList java.util.LinkedList java.util.Vector java.util.Stack
+java.util.Set=java.util.HashSet java.util.LinkedHashSet java.util.TreeSet
+java.util.SortedSet=java.util.TreeSet</a:MapTargetItem.Value>
+<a:List>java.util.Collection
+java.util.List
+java.util.Set
+java.util.SortedSet
+</a:List>
+</o:MapTargetItem>
+<o:StringTargetItem Id="o64">
+<a:ObjectID>E0B665E8-FAB0-43B3-976C-F2CF303520A2</a:ObjectID>
+<a:Name>Modifiers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:StringTargetItem.Value>final</a:StringTargetItem.Value>
+</o:StringTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:TargetCategory Id="o65">
+<a:ObjectID>093919C3-327A-411A-A3DB-3268BECCE543</a:ObjectID>
+<a:Name>Events</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MapTargetItem Id="o66">
+<a:ObjectID>03B59B63-BE95-481E-89F3-5C8334E9B3FD</a:ObjectID>
+<a:Name>StandardEvents</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Evénements standard</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:MapTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:TargetCategory Id="o67">
+<a:ObjectID>BC0857BB-712C-455F-9955-656F4869FF1D</a:ObjectID>
+<a:Name>Namings</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<c:Categories>
+<o:MapTargetItem Id="o68">
+<a:ObjectID>3BE621CB-934C-4A12-9284-44982C1E129F</a:ObjectID>
+<a:Name>SetterName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:MapTargetItem.Value>*=set%.FU:Code%</a:MapTargetItem.Value>
+</o:MapTargetItem>
+<o:StringTargetItem Id="o69">
+<a:ObjectID>EA744A88-559C-46AE-ACC2-E572975E84BE</a:ObjectID>
+<a:Name>EJBPrimaryKeyName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%PK</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o70">
+<a:ObjectID>DC7D43C8-5FB9-42AC-921D-4E71D6ED0D25</a:ObjectID>
+<a:Name>EJBBeanClassName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%Bean</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o71">
+<a:ObjectID>6497C7A3-C7C0-4744-8DFE-C42F12F55F6B</a:ObjectID>
+<a:Name>EJBRemoteHomeName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%Home</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o72">
+<a:ObjectID>EF5C2A35-46DB-4DA0-AE01-7F6103AED0D0</a:ObjectID>
+<a:Name>EJBRemoteName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o73">
+<a:ObjectID>E291CF8F-1944-4898-B31D-6926D1E3EC6E</a:ObjectID>
+<a:Name>EJBLocalName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%Local</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o74">
+<a:ObjectID>582F1D37-A1C5-44E5-A4CF-08F65AD78218</a:ObjectID>
+<a:Name>EJBLocalHomeName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%ejbCode%LocalHome</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o75">
+<a:ObjectID>1978C35C-FB47-48C1-81C5-F984DF7C3530</a:ObjectID>
+<a:Name>IllegalChar</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>&quot; &#39;(.)+=*/&quot;</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o76">
+<a:ObjectID>E506B55F-C9F9-4009-99DF-495BCF769505</a:ObjectID>
+<a:Name>ServletClassName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%Code%Servlet</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:MapTargetItem Id="o77">
+<a:ObjectID>BB972EE0-F0D7-47D0-A716-E103C5CB0ADC</a:ObjectID>
+<a:Name>GetterName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:MapTargetItem.Value>boolean=is%.FU:Code%
+*=get%.FU:Code%</a:MapTargetItem.Value>
+<a:List>boolean
+</a:List>
+</o:MapTargetItem>
+<o:StringTargetItem Id="o78">
+<a:ObjectID>62738C4D-89DD-4B66-9FBE-99C27E48F859</a:ObjectID>
+<a:Name>JSPFileName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%Code%JSP</a:StringTargetItem.Value>
+</o:StringTargetItem>
+<o:StringTargetItem Id="o79">
+<a:ObjectID>3B08AC42-5484-4D85-BE48-34190171DA4A</a:ObjectID>
+<a:Name>WebServiceClassName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:StringTargetItem.Value>%Code%Impl</a:StringTargetItem.Value>
+</o:StringTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:BooleanTargetItem Id="o80">
+<a:ObjectID>5C069E61-516F-4BEB-8980-72A307FA66A0</a:ObjectID>
+<a:Name>EnableGenerics</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Value>1</a:Value>
+</o:BooleanTargetItem>
+<o:BooleanTargetItem Id="o81">
+<a:ObjectID>5D4CF1D6-CD9A-4196-BAD6-91BAADC0D9C5</a:ObjectID>
+<a:Name>EnableVarArgs</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Value>1</a:Value>
+</o:BooleanTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:ProfileTargetItem Id="o82">
+<a:ObjectID>83DAD793-F8A0-4419-98F6-76F17A68F9C7</a:ObjectID>
+<a:Name>Profile</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MetaClassTargetItem Id="o83">
+<a:ObjectID>E14A3398-33F0-432A-A17C-4D35D4D88679</a:ObjectID>
+<a:Name>Class</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<a:CodeConvention>FirstUpperChar</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o84">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>1F2316AD-33DC-4D32-B757-6C4A33E13356</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o85">
+<a:ObjectID>FE93A953-D1A5-4B55-A553-58A0B4702438</a:ObjectID>
+<a:Name>javaDoc</a:Name>
+<a:TemplateTargetItem.Value>[%ActualComment%\n\n]\
+[%@since%\n]\
+[%@deprecated%\n]\
+[%@author%\n]\
+[%@version%\n]\
+[%@see%\n]\
+.if (%GenOptions.GenerateOID%)
+[@pdOid %.L:ObjectID%\n]\
+.endif
+[%@misc%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o86">
+<a:ObjectID>6F3344FF-3443-4452-BBC4-1D120F713C5A</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o87">
+<a:ObjectID>5997E30C-B535-4650-8917-3F0F019C48D8</a:ObjectID>
+<a:Name>visibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEnumInner% == false)
+.if (%Visibility% == +)
+public
+.elsif (%Visibility% == #)
+protected
+.elsif (%Visibility% == -)
+private
+.endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o88">
+<a:ObjectID>CB05DCA7-6397-4035-9DEC-5F95308889BE</a:ObjectID>
+<a:Name>flags</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?[%Static%?static ]][%Abstract%?abstract ][%Final%?final ][%strictfp%?strictfp ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o89">
+<a:ObjectID>F64D155C-89B8-4AB2-8B30-4240E510251B</a:ObjectID>
+<a:Name>hasMainMethod</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasMainMethod, false, new)
+.foreach_item(Operations)
+   .if (%Code% == main)
+      .set_value(_hasMainMethod, true)
+      .break
+   .endif
+.next
+%_hasMainMethod%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o90">
+<a:ObjectID>F409E21B-24E4-4A4D-ABA8-CA5428875FC5</a:ObjectID>
+<a:Name>hasClassMap</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Mappings.IsEmpty% == false)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o91">
+<a:ObjectID>E6B1590D-C8DB-4796-B627-75DF033EF299</a:ObjectID>
+<a:Name>associationAttributes</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(AssociationsA)
+   .if (%RoleBNavigability%) and ((%@1% == all) or (%RoleBVisibility% == %@1%))
+[%roleBMigrateFromAssoc%\n]
+   .endif
+.next
+.foreach_item(AssociationsB)
+   .if (%RoleANavigability%) and ((%@1% == all) or (%RoleAVisibility% == %@1%))
+[%roleAMigrateFromAssoc%\n]
+   .endif
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o92">
+<a:ObjectID>09A1920E-B7E3-47D6-A653-F7DA47226115</a:ObjectID>
+<a:Name>attributes</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::attributes%\n\n]\
+[%associationAttributes%\n\n]
+.if (%Association% != null) and ((%@1% == all) or (%Visibility% == %@1%))
+%Association.asscClassDefinition%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>overrides Classifier::attributes
+@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o93">
+<a:ObjectID>94E84892-1CFC-45F5-AAF2-584B33097066</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>[%javaDocComment%\n]\
+[%visibility% ][%flags% ]class %Code%[ %genericTypeParameters%][ %extends%][ %implements%] \
+{
+[   %innerEnums%\n\n]\
+[   %members%\n\n]\
+[   %innerClasses%\n\n]\
+[   %innerInterfaces%\n\n]\
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o94">
+<a:ObjectID>652CF9F0-4A04-4374-B5AF-4A7194AA86D1</a:ObjectID>
+<a:Name>implements</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Realizations, &quot;implements &quot;)
+   .if (%Interface.actualPackage.ObjectID% == %Package.ObjectID%)
+%Interface.qualifiedCode%
+   .else
+%Interface.fullyQualifiedCode%
+   .endif
+.next(&quot;, &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o95">
+<a:ObjectID>F7816C9C-7D63-4003-A42B-FB0804163724</a:ObjectID>
+<a:Name>imports</a:Name>
+<a:TemplateTargetItem.Value>.unique
+.//.foreach_item(Realizations)
+.//[%import%\n]
+.//.next
+.foreach_item(AssociationsA,,,%RoleBNavigability%)
+[%roleBImport%\n]
+.next
+.foreach_item(AssociationsB,,,%RoleANavigability%)
+[%roleAImport%\n]
+.next
+.if (%Association%)
+[%Association.asscClassImport%\n]
+.endif
+%Classifier::imports%
+.endunique</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>overrides Classifier::imports</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o96">
+<a:ObjectID>3AE4461C-13DF-4B78-9445-2A29BF45ACCE</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o97">
+<a:ObjectID>B4C26A17-4BFB-4B03-8ECF-F69948F777DA</a:ObjectID>
+<a:Name>isWebAppListener</a:Name>
+<a:TemplateTargetItem.Value>false</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o98">
+<a:ObjectID>50305B62-C2F4-4607-B88E-20BA1DBF1C4C</a:ObjectID>
+<a:Name>isClass</a:Name>
+<a:TemplateTargetItem.Value>true</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o99">
+<a:ObjectID>2D1533FD-E1E2-40F1-8354-808A3BBCCC64</a:ObjectID>
+<a:Name>isEnumConstantClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == EnumConstantClass)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o100">
+<a:ObjectID>FC28ABFC-269E-4552-8FF4-938BCA109C73</a:ObjectID>
+<a:Name>isEnumInner</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ContainerClassifier% != null) and (%ContainerClassifier.Stereotype% == EnumConstantClass)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o101">
+<a:ObjectID>C21E82C2-F091-4774-BA1C-CE11AA3EB54D</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%ChildGeneralizations.IsEmpty%)
+   .if (%ChildGeneralizations.First.ParentObject.actualPackage.ObjectID% == %Package.ObjectID%)
+extends %ChildGeneralizations.First.ParentObject.qualifiedCode%
+   .else
+extends %ChildGeneralizations.First.ParentObject.fullyQualifiedCode%
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o102">
+<a:ObjectID>3D2F7349-545A-4055-B875-7AAE0A5A9F1D</a:ObjectID>
+<a:Name>associationAccessors</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(AssociationsA)
+   .if (%RoleBNavigability%) and ((%@1% == all) or (%RoleBVisibility% == %@1%))
+[%roleBMigrateAccessors%\n]
+   .endif
+.next
+.foreach_item(AssociationsB)
+   .if (%RoleANavigability%) and ((%@1% == all) or (%RoleAVisibility% == %@1%))
+[%roleAMigrateAccessors%\n]
+   .endif
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o103">
+<a:ObjectID>7E35234D-9029-454A-A55A-28075DD8E235</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::operations%\n\n]
+[%associationAccessors%\n\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o104">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>2F3BB9F0-A46A-4CAB-949B-68FEBD69751F</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o105">
+<a:ObjectID>7B3AB266-B809-4E50-A3B2-F506BDD2ECBB</a:ObjectID>
+<a:Name>EJBEntity</a:Name>
+<a:Code>EJBEntity</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes de bean d&#39;entité EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o106">
+<a:ObjectID>67340C8B-86BA-4E90-AB70-64C1A2B81E59</a:ObjectID>
+<a:Name>EJBMessageDriven</a:Name>
+<a:Code>EJBMessageDriven</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes de bean commandé par message EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o107">
+<a:ObjectID>BDFB7653-358B-4412-92C1-80FE320443E2</a:ObjectID>
+<a:Name>EJBPrimaryKey</a:Name>
+<a:Code>EJBPrimaryKey</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes de clé primaire de bean d&#39;entité EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o108">
+<a:ObjectID>5539FC30-1735-4B78-8AC5-F8D60C5863C5</a:ObjectID>
+<a:Name>EJBSession</a:Name>
+<a:Code>EJBSession</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes de bean de session EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o109">
+<a:ObjectID>B325B8D4-7DA2-436C-8317-E129C5898167</a:ObjectID>
+<a:Name>WebAppListener</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les détecteurs d&#39;événement d&#39;application web.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o110">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>75A6C12C-3EF1-46B6-8062-81A6975B2B95</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o111">
+<a:ObjectID>22CD0BCB-B361-4371-884A-F5FC5F162B28</a:ObjectID>
+<a:Name>isWebAppListener</a:Name>
+<a:TemplateTargetItem.Value>true</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o112">
+<a:ObjectID>8B0CC607-34FC-490F-B988-43E7438D6E78</a:ObjectID>
+<a:Name>AnnotationType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableTool>1</a:EnableTool>
+<a:ToolIcon>0D0000000800000008000000424D7E000000000000003E000000280000001000
+0000100000000100010000000000400000000000000000000000000000000000
+000000000000FFFFFF0000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000424D3605000000000000360400002800000010000000
+1000000001000800000000000001000000000000000000000000000069000000
+5A5A5A006D6D6D007C5447007E270C007E655E007E7E7E007F7F7F00804D3C00
+806E690081584B0086534100875E50008C3B20008D6355008E58470091919100
+944A330094685A00955E4C00964226009A553F009A6E5F009C645100A0492D00
+A1736400A36A5700A4A4A400A7786900A9503300AA6F5C00AD766400AE7E6E00
+B1756200B3573A00B4827100B4837300B6B6B600B87B6700BA867500BB897900
+BC5E4000BF816D00C08A7900C18E7E00C58E7C00C6664700C6877200C7938300
+C79E9000C8C8C800CB938000CBACA300CCA19300CD8C7700CE998800CFA99D00
+D06E4D00D0978400D0A59600D4927D00D49E8D00D5A89900D69B8800D9755400
+D9AB9C00DB978200DB9F8C00DBDBDB00DEAF9F00E19C8700E1A38F00E29D8700
+E2B2A300E37C5A00E39E8800E6A79300E7B6A500EBAB9700EBB9A800EC836100
+EDEDED00EFBCAC00F0E6E300F1B09A00F1E7E300F3E8E400F4C0AF00F4E9E500
+F5EAE600F68A6700F6B49E00F6EBE700F7ECE800F8856100F8C3B200F99D8000
+F9ECE800FAA58B00FAEDE900FBEEEA00FCEFEB00FDF0EC00FEBFAB00FFC8B600
+FFFFFF0000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+37413B352E2925201D1916120E0A070447615E56514E4C4844403D3A34301402
+4A6750011A1A0F5068686868686822024A671A1A314324013131434331312202
+4A67240F00060101310F3168051A22024A6750061A0F0F1A0668062400312202
+4A67681A312401010068500F003122024A6768681A1A43430168683100502202
+4A6768686850313150686868316822024A6665646362605C5B58575554521E02
+4A5D594F493F382D28211C17130C03024A676868686868686868686868682202
+4A6768686868686868686868686822024A676868686868686868686868682202
+455F5A534D4B46423E39322C2A261002333C362F2B27231F1B1815110D0B0908
+0E0000000100000005000000424DBE000000000000003E000000280000002000
+0000200000000100010000000000800000000000000000000000000000000000
+000000000000FFFFFF0000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000424D3610000000000000360000002800000020000000
+2000000001002000000000000010000000000000000000000000000000000000
+C0C0C000BDBDBD00BDBDBD00B8B8B800B5B5B500B5B5B500B5B5B500B0B0B000
+ADADAD00ADADAD00ADADAD00A7A7A700A5A5A500A5A5A500A5A5A5009F9F9F00
+9D9D9D009D9D9D009A9A9A00959595009595950095959500929292008D8D8D00
+8D8D8D008D8D8D0089898900858585008585850085858500827F7E00807A7800
+C0C0C000E28C7200EA846400E9836300E9836300E07D5D00DC7A5900D9775700
+D6755500D1715100CC6D4E00C76A4B00C5684900BF644500B95F4100B65D3F00
+B35A3D00AE563900A9533600A6503300A04C2F009C482C0099472A0093412700
+903F24008A3B200087391E0082351B007F311800792C14007A45360081808000
+C0C0C000F18A6900F0755100F87F5A00F47B5700ED785300E9765000E5724D00
+E16F4A00D96A4500D6674300CF623F00CC5F3C00C85C3900C1573400BC543200
+B74F2E00B24A2A00AF4A2900A5422100A4422100A03F1E009837190095351700
+923315008E31120084290B0082280A00791F0300771C0000793B29007F797700
+C0C0C000F38C6A00FC825C00FCDACF00FCEAE400FBEAE300FCEAE400F9E7E200
+F8E6E100F8E6E100F7E6E100F7E6E000F7E6E000F4E4DF00F4E3DE00F4E3DE00
+F3E3DE00F3E3DD00F0E1DC00F2E2DD00EFE0DB00EEDFDA00EEDFDA00EDDEDA00
+ECDED900EBDDD800EBDDD800EBDDD800C7A29600781E0100793B290081818100
+C0C0C000F38C6A00FC835D00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F797700
+C0C0C000F38C6A00FD845E00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290081818100
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FDFDFD00F5F5F500
+CECECE00C1C1C100C1C1C100D5D5D500F1F1F100FCFCFC00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00F4F4F400A1A09F00
+D4D4D400F0F0F000EDEDED00D6D6D600B7B7B700AEACAB00F4F4F400FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F02007C3D2A007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00AAAAAA00CDCBCB00
+F7F7F700EEEEEE00F7F7F700EFEFEF00EFEFEF00D2D2D20078787800EBEBEB00
+EEEEEE00EAEAEA00FAFAFA00FFFFFF00F6F6F600EFEFEF00E0E0E000ECECEC00
+FBFBFB00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF008D8D8D00D3D3D300
+A7A7A700828282009999990064646400A5A5A500A2A2A200B7B7B700C6C6C600
+C8C8C80061616100F3F3F300FFFFFF00EAEAEA00ADADAD001E1E1E00BBBBBB00
+F8F8F800FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00A8A8A800CECECE00
+CCCCCC0070707000ECECEC007474740070707000EEEEEE0079797900E2E2E200
+FFFFFF00B4B4B400B3B3B300F3F3F300F2F2F200B7B7B7001F1F1F00E1E1E100
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00E4E4E400A2A2A200
+F7F7F7007D7D7D0097979700ECECEC005D5D5D00C5C5C500DCDCDC007A7A7A00
+FFFFFF00FFFFFF009C9C9C00B2B2B200E6E6E6007979790035353500E9E9E900
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00F9F9F90094949400
+DCDCDC00F4F4F40079797900C4C4C400CDCDCD0057575700F1F1F10081808000
+C2C2C200FFFFFF00EDEDED006E6E6E00F2F2F2008383830039393900EBEBEB00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290083818100
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00E9E9E900
+8F8F8F00DFDFDF00F2F2F200B0B0B0009E9D9D006F6E6D00B0B0B0009B9A9A00
+99999900FFFFFF00FFFFFF00D1D1D100848484007D7D7D004E4E4E00F3F3F300
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7D7C00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+F3F3F30095959500E0E0E000F7F7F700FFFFFF00FFFFFF00FAFAFA008E8B8B00
+A8A8A800FFFFFF00FFFFFF00FFFFFF00ABABAB002828280053535300F5F5F500
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290082818100
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00F0F0F000D2D2D20099999900A5A5A500B9B9B900989493009B9B9B00
+F4F4F400FFFFFF00FFFFFF00FFFFFF00F3F3F3006060600066666600FBFBFB00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7D7C00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00EEEEEE00DADADA00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290082828200
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F02007C3D2A007F7F7F00
+C0C0C000F38C6A00FE845E00FBCDBF00FBDBD000FBDBD000FADBD000F7D8CD00
+F7D8CD00F5D5CC00F6D7CC00F1D3C900F1D3C900EDD0C700ECCFC500ECCFC500
+EBCFC500EACEC400E9CDC300E5CAC100E5C9C000E2C7BF00E2C7BF00E0C6BE00
+E0C6BD00DCC3BB00DCC3BB00DCC3BB00BC908200781E0100793B29007F7F7F00
+C0C0C000F38C6A00FD825B00F5795400F77C5600F57A5500EA744E00E6714B00
+E16C4700E06C4600D6643F00D2623D00CB5C3800C7593500C1553100BA502D00
+B34A2800AE462500AD462400A5401E00A03C1A009836160096331400912F1000
+8B2C0C00832708007F230500781D0000781D0000781D0000793B29007F7F7F00
+C0C0C000F38C6A00FC815A00F5987C00F7A08400F59D8200F39C8000ED987C00
+EA957A00E5927600E08D7200DE8A7000D7886D00D7886D00CE816700CE816700
+C97C6400C7775D00C2775F00BE745C00BB6F5600B56E5600B36C5500AE695200
+AA664F00A6634C00A25F49009F5D480090463000771C0000793B29007F7F7F00
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5B9B000791F0200793B290080808000
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7A7800
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290080808000
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7A7800
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B290081818100
+C0C0C000F38C6A00FE855F00FEEBE500FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+FFFFFF00FFFFFF00FFFFFF00FFFFFF00D5BAB100791F0200793B29007F7F7F00
+C0C0C000F38C6A00F9805A00FBC9BA00FAD6CA00F9D5CA00F9D5CA00F6D2C700
+F5D1C600F1CFC400F1CFC300F0CDC200EDCCC100EDCCC100EACABF00EACABF00
+E9C8BD00E8C7BD00E5C6BB00E5C6BB00E2C3B800E2C2B800DFC1B800DDBFB600
+DCBFB600DCBFB600D8BCB200D8BCB200B98B7C00781E01007B3C29007F7F7F00
+C0C0C000ED876700F0755100F67B5600F47A5500EC765000E5714B00E46F4900
+E16D4800DF6C4600D6654100D0623D00CB5D3A00C3583400C1563300BA502E00
+B64D2C00B34B2A00AE482700A4401F00A3401E009F3D1C009735160094331400
+913112008D2F0F0084290A00812607007C210300771C0000793B29007F7F7F00
+C0C0C000DA937F00E5927700E08D7300DD8B7000D8886E00D4846A00D0816700
+CE806500C87B6200C5795F00C0745C00BE735A00BA705700B66D5400B36B5300
+AE664E00AB644C00A5604800A45F47009F5A43009A56400097553E0094513B00
+8E4C37008C4B3500884732008445300080412D007F412C007B51450081818100
+C0C0C000BCBBBB00BBBABA00B8B7B700B8B7B700B4B3B300B4B3B300B0AFAF00
+ACABAB00ACABAB00ACABAB00A8A7A700A7A6A600A4A3A300A2A1A1009F9E9E00
+9C9B9B009C9B9B009A99990094939300949393009493930092919100908F8F00
+8C8B8B008C8B8B008887870084838300838383007F7E7E008181810084848400
+</a:ToolIcon>
+<a:UseAsMetaClass>1</a:UseAsMetaClass>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o113">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>3AFC93FD-1ED6-4083-A02B-20216F463FA1</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o114">
+<a:ObjectID>CD13BD37-F709-4A83-83C0-13657335D7DC</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>[%javaDocComment%\n]\
+[%visibility% ][%flags% ]@interface %Code% \
+{
+[\
+   %members%
+]\
+[
+   %innerEnums%
+]\
+[
+   %innerClasses%
+]\
+[
+   %innerInterfaces%
+]\
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o115">
+<a:ObjectID>E23C0B7B-B0AF-4EE0-920C-D0C59F2E99C8</a:ObjectID>
+<a:Name>members</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes)
+   .if (%Static%) and (%isFrozen%)
+      .// constant declaration
+%definition%
+   .else
+      .// annotation member
+[%javaDocComment%\n]\
+%DataType%[%Multiple%?\[\]] %Code%()[ default %.A:InitialValue%];
+   .endif(\n)
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o116">
+<a:ObjectID>C4194641-C665-4B9B-851B-682A911CCDAE</a:ObjectID>
+<a:Name>annotationImports</a:Name>
+<a:TemplateTargetItem.Value>.unique
+.foreach_item(Annotations)
+[%import%\n]
+.next
+.endunique</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o117">
+<a:ObjectID>96F21A80-7FC2-45E4-A9B4-6FE6A54AFA1E</a:ObjectID>
+<a:Name>Enum</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Classe d&#39;énumération</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o118">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>13B0F9C4-9AE9-4E4F-B66A-296D29C7D5D1</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o119">
+<a:ObjectID>7E9D3C29-880D-4284-9138-596763EA9B6F</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>[%javaDocComment%\n]\
+[%visibility% ][%flags% ]enum %Code%[ %implements%] \
+{
+[   %enumConstants%\n\n]\
+[   %innerEnums%\n\n]\
+[   %members%\n\n]\
+[   %innerClasses%\n\n]\
+[   %innerInterfaces%\n\n]\
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o120">
+<a:ObjectID>B8B94F97-E1CF-4D89-AE00-1679A1B16756</a:ObjectID>
+<a:Name>enumConstants</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes,,;)
+   .if (%isEnumConstant%)
+[%enumDefinition%]
+   .endif
+.next(,\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o121">
+<a:TypePublicName>CustomCheckTargetItem</a:TypePublicName>
+<a:ObjectID>AAC8E79E-F868-438F-B18F-1738A1513858</a:ObjectID>
+<a:Name>Custom Checks</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CustomCheckTargetItem Id="o122">
+<a:ObjectID>D1716BEB-61BA-4DC1-BB01-FA3FFAA0F93D</a:ObjectID>
+<a:Name>Enumération finale</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Enumération finale</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:HelpMessage>Cette vérification s&#39;assure que la classe d&#39;énumération ne peut pas être finale.</a:HelpMessage>
+<a:OutputMessage>Les classes d&#39;énumération suivantes ne peuvent pas être finales :</a:OutputMessage>
+<a:CheckScript>Function %Check%(obj)
+   If obj.Final Then
+      %Check% = False
+   Else
+      %Check% = True
+   End If
+End Function</a:CheckScript>
+<a:AutoFixScrpt>Function %Fix%(obj, outmsg)
+   outmsg = &quot;La classe d&#39;énumération est définie comme non finale&quot;
+   obj.Final = False
+
+   %Fix% = True
+End Function</a:AutoFixScrpt>
+<a:DefaultAutoFixExecution>1</a:DefaultAutoFixExecution>
+<a:EnableAutoFix>1</a:EnableAutoFix>
+</o:CustomCheckTargetItem>
+<o:CustomCheckTargetItem Id="o123">
+<a:ObjectID>4A455FCB-1175-4B76-8772-B370F6FF0351</a:ObjectID>
+<a:Name>Enumération abstraite</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Enumération abstraite</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:HelpMessage>Cette vérification s&#39;assure que la classe d&#39;énumération ne peut pas être abstraite.</a:HelpMessage>
+<a:OutputMessage>Les classes d&#39;énumération suivantes ne peuvent pas être abstraites :</a:OutputMessage>
+<a:CheckScript>Function %Check%(obj)
+   If obj.Abstract Then
+      %Check% = False
+   Else
+      %Check% = True
+   End If
+End Function</a:CheckScript>
+<a:AutoFixScrpt>Function %Fix%(obj, outmsg)
+   outmsg = &quot;La classe d&#39;énumération est définie comme non abstraite&quot;
+   obj.Abstract = False
+
+   %Fix% = True
+End Function</a:AutoFixScrpt>
+<a:DefaultAutoFixExecution>1</a:DefaultAutoFixExecution>
+<a:EnableAutoFix>1</a:EnableAutoFix>
+</o:CustomCheckTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o124">
+<a:ObjectID>01433934-ADAF-4C7C-9890-AD9E2C047ADE</a:ObjectID>
+<a:Name>JavaBean</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes Bean Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o125">
+<a:ObjectID>DF525B67-710B-44BC-8C11-1A8957445717</a:ObjectID>
+<a:Name>EJBInterceptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes d&#39;interception d&#39;EJB.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o126">
+<a:ObjectID>AEE3EA2F-AF48-4AA3-9A65-D29513A6E970</a:ObjectID>
+<a:Name>EJBEntityListener</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les classes d&#39;écoute d&#39;entité EJB.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o127">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>671CBFED-9AD1-4B8C-B125-C2E9347EA139</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o128">
+<a:ObjectID>76EB4158-D81F-40AB-AD54-43CCC387EECB</a:ObjectID>
+<a:Name>Bean Class</a:Name>
+<a:CriterionTargetItem.Value>(%isBeanClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o129">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>98E1678E-C55C-496C-8BFC-AEB8236AF231</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o130">
+<a:ObjectID>7582C3E3-4D57-4C35-9B6D-C0EE4B77E971</a:ObjectID>
+<a:Name>associations</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(AssociationsA)
+   .if (%RoleBMigratedAttribute% == null) and ((%@1% == all) or (%RoleBVisibility% == %@1%))
+[%isCMRField%?%roleBCMRDefinition%\n:%roleBMigrateDefinition%]
+   .endif(\n)
+.next
+.foreach_item(AssociationsB)
+   .if (%RoleAMigratedAttribute% == null) and ((%@1% == all) or (%RoleAVisibility% == %@1%))
+[%isCMRField%?%roleACMRDefinition%\n:%roleAMigrateDefinition%]
+   .endif(\n)
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o131">
+<a:ObjectID>7C09B78E-CB5C-49D0-93BD-B870A5C3A286</a:ObjectID>
+<a:Name>attributes</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes)
+   .if (%@1% == all) or (%Visibility% == %@1%)
+[%isCMPField%?%cmpDefinition%\n\n:%definition%\n]
+   .endif
+.next
+[%associations%\n]
+.if (%Association% != null)
+   .warning a Bean class cannot be used as an association class.
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o132">
+<a:ObjectID>5168BD8B-C748-48CA-9B34-8053E47384C8</a:ObjectID>
+<a:Name>implements&lt;%isWebService%==false&gt;</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEntity%)
+implements javax.ejb.EntityBean
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != EntityBean)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.elsif (%isSession%)
+implements javax.ejb.SessionBean
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != SessionBean)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.elsif (%isMessageDriven%)
+implements javax.ejb.MessageDrivenBean, javax.jms.MessageListener
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != MessageDrivenBean) and (%Interface.Code% != MessageListener)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.else
+   .foreach_item(Realizations, &quot;implements &quot;)
+%Interface.qualifiedCode%
+   .next(&quot;, &quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o133">
+<a:ObjectID>2B90865E-1914-4E95-9664-E387FF1D8314</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o134">
+<a:ObjectID>6A669C83-6232-4AFC-BD4E-38FA792D37ED</a:ObjectID>
+<a:Name>primaryKeyClass</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_done, false, new)
+.foreach_item(Attributes)
+   .if (%_done% == false) and (%isPrimaryKeyField%)
+%qualifiedDataType%
+.set_value(_done, true)
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o135">
+<a:ObjectID>8536BB3A-26AA-4697-BC09-51AB26690A4A</a:ObjectID>
+<a:Name>valueObjectCode</a:Name>
+<a:TemplateTargetItem.Value>%Components.First.Code%ValueObject</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o136">
+<a:ObjectID>C5269616-D4C9-4D49-A409-60A0BCFEF9DE</a:ObjectID>
+<a:Name>valueObjectFilename</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%@1?%) and (%@1%) and (%isValueObjectClassGenerated% == false)
+%valueObjectCode%.java
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o137">
+<a:ObjectID>F3E53D02-DB4E-472C-A26B-260F0F14FF7F</a:ObjectID>
+<a:Name>primaryKeyType</a:Name>
+<a:TemplateTargetItem.Value>[%Components.First.PrimaryKeyClass%?%Components.First.PrimaryKeyClass.Code%:%primaryKeyClass%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o138">
+<a:ObjectID>DC2170C0-68A3-4AC0-9945-151BCBEA4A3A</a:ObjectID>
+<a:Name>ejbCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%Components.First%)
+%Components.First.ejbCode%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o139">
+<a:ObjectID>CE48E467-A9BD-4A42-A3FE-D109CDB3D726</a:ObjectID>
+<a:Name>isValueObjectClassGenerated</a:Name>
+<a:TemplateTargetItem.Value>.bool (%GenOptions.CMRValueObject%) and (%isCMP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o140">
+<a:ObjectID>02EC0DE8-A230-4C76-8BE9-587447161E63</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o141">
+<a:ObjectID>7DCB35CC-EB83-452F-9D99-EE43AEA6C6D1</a:ObjectID>
+<a:Name>cmp-fields</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes)
+   .if (%isCMPField%)
+&lt;cmp-field[ id=&quot;%CMPAttributeID%&quot;]&gt;\
+[%Comment%?
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+ &lt;field-name&gt;%.FL:Code%&lt;/field-name&gt;
+:&lt;field-name&gt;%.FL:Code%&lt;/field-name&gt;]\
+&lt;/cmp-field&gt;
+   .endif(\n)
+.next
+.// bean class inheritance
+.if (%ChildGeneralizations.IsEmpty% == false) and (%ChildGeneralizations.First.ParentObject% != null) and (%ChildGeneralizations.First.ParentObject.isBeanClass%)
+%ChildGeneralizations.First.ParentObject.cmp-fields%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o142">
+<a:ObjectID>D47D5C6F-945C-4DED-9432-85B211F7FF28</a:ObjectID>
+<a:Name>primkey-field</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_done, false, new)
+.foreach_item(Attributes)
+   .if (%_done% == false) and (%isPrimaryKeyField%)
+&lt;primkey-field&gt;%.FL:Code%&lt;/primkey-field&gt;
+.set_value(_done, true)
+   .endif
+.next
+.// bean class inheritance
+.if (%_done% == false) and (%ChildGeneralizations.IsEmpty% == false) and (%ChildGeneralizations.First.ParentObject% != null) and (%ChildGeneralizations.First.ParentObject.isBeanClass%)
+%ChildGeneralizations.First.ParentObject.primkey-field%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o143">
+<a:ObjectID>4FA92605-12A3-4CF7-BEB5-10087AE5A641</a:ObjectID>
+<a:Name>queries</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Operations)
+   .if (%isSelect%) and (%Query%)
+%query%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o144">
+<a:ObjectID>153D25D6-A03E-4F5E-ACF1-6344F70A854D</a:ObjectID>
+<a:Name>ValueObject</a:Name>
+<a:TemplateTargetItem.Value>.if (%isValueObjectClassGenerated%)
+.// header and package declaration
+/***********************************************************************
+ * Module:   %valueObjectCode%
+ * Author:   %Modifier%
+ * Purpose:  Defines the value object class %valueObjectCode%
+ *           for the bean class %Code%
+ ***********************************************************************/
+ 
+[%Package.package%\n\n]
+.// imports
+.unique
+%imports%
+.endunique(\n)
+.// definition
+public class %valueObjectCode% implements java.io.Serializable {
+[\
+   %valueObjectAttributes%
+]\
+}
+.//[%sourceFooter%\n]
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o145">
+<a:ObjectID>F0830AA1-ECA4-459E-BBD2-B2EFB9808342</a:ObjectID>
+<a:Name>valueObjectAttributes</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes,,,%isCMPField%)
+%definition%
+.next(\n)
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o146">
+<a:ObjectID>3F2E52EF-8C4A-4227-B532-A61ED396C39F</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::operations%\n\n]
+.if ((%@1% == +) or (%@1% == all)) and (%GenOptions.CMRValueObject%) and (%isCMP%)
+public [%primaryKeyType%?%primaryKeyType%:void] ejbCreateByValue(%valueObjectCode% valObj) throws javax.ejb.CreateException \
+{
+   .foreach_item(Attributes,\n,\n,%isCMPField%)
+   set%.FU:Code%(valObj.%fieldCode%);
+   .next(\n)
+
+
+   .if (%Components.First.PrimaryKeyClass% != null)
+   %Components.First.PrimaryKeyClass.Code% pk = new %Components.First.PrimaryKeyClass.Code%();
+
+      .foreach_item(Attributes)
+         .if (%isPrimaryKeyField%)
+   pk.%.FL:Code% = valObj.%fieldCode%;
+         .endif(\n)
+      .next   
+   return pk;
+   .else
+      .set_value(_done, false, new)
+      .foreach_item(Attributes)
+         .if (%_done% == false) and (%isPrimaryKeyField%)
+            .set_value(_done, true)
+   return valObj.%fieldCode%;
+         .endif(\n)
+      .next   
+   .endif(\n)
+}
+
+public void ejbPostCreateByValue(%valueObjectCode% valObj) \
+{
+   // TODO: Implement
+}
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o147">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>20959901-C130-42EB-B255-2A879B5028D0</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o148">
+<a:ObjectID>FF42E2D7-C648-4A4D-A9EF-EA891CD02943</a:ObjectID>
+<a:Name>ValueObject Class</a:Name>
+<a:TemplateTargetItem.Value>%ValueObject%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>%valueObjectFilename(true)%</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o149">
+<a:ObjectID>B544B399-D4F3-4E4A-86E3-797819614194</a:ObjectID>
+<a:Name>Primary-Key Class</a:Name>
+<a:CriterionTargetItem.Value>(%isPrimaryKeyClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o150">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>69E4FDED-6640-4974-B4A4-CDF14B448980</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o151">
+<a:ObjectID>BB213519-17A9-4DBD-9E3A-0EB106FC4A12</a:ObjectID>
+<a:Name>implements</a:Name>
+<a:TemplateTargetItem.Value>implements java.io.Serializable
+.foreach_item(Realizations, &quot;, &quot;)
+   .if (%Interface.Code% != Serializable)
+%Interface.qualifiedCode%
+   .endif
+.next(&quot;, &quot;)
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o152">
+<a:ObjectID>D4028A27-6124-4BBC-B561-6CDBB279AFF8</a:ObjectID>
+<a:Name>Servlet Class</a:Name>
+<a:CriterionTargetItem.Value>(%isServletClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o153">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>EFB7CFBA-51C0-4995-AEBD-577C72129FD2</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o154">
+<a:ObjectID>645BB3C4-428C-4AF9-995F-22773BA45040</a:ObjectID>
+<a:Name>implements&lt;%isUserDefined%&gt;</a:Name>
+<a:TemplateTargetItem.Value>implements javax.servlet.Servlet
+.foreach_item(Realizations, &quot;, &quot;)
+   .if (%Interface.Code% != Servlet)
+%Interface.qualifiedCode%
+   .endif
+.next(&quot;, &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o155">
+<a:ObjectID>B4954A0D-B744-4020-8B6E-A1C444D374AA</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o156">
+<a:ObjectID>E525C5D6-FCB5-478D-8D17-F7687AFBF344</a:ObjectID>
+<a:Name>isGenericServlet</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.First.ServletType% == GenericServlet)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o157">
+<a:ObjectID>D326B63F-4DB2-4080-8904-83CA0DA164D6</a:ObjectID>
+<a:Name>isHttpServlet</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.First.ServletType% == HttpServlet)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o158">
+<a:ObjectID>22410E0A-8D61-4983-B3A9-391B823EE078</a:ObjectID>
+<a:Name>isUserDefined</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.First.ServletType% == User-Defined)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o159">
+<a:ObjectID>70E396D4-74CA-4243-9C24-C370678FF34F</a:ObjectID>
+<a:Name>isJAXMServlet</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.First.ServletType% == JAXMServlet)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o160">
+<a:ObjectID>EBFD286B-62F6-4096-9476-842297275A19</a:ObjectID>
+<a:Name>extends&lt;%isGenericServlet%&gt;</a:Name>
+<a:TemplateTargetItem.Value>extends javax.servlet.GenericServlet</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o161">
+<a:ObjectID>78172946-4264-49C0-A5E7-DBCEA14575A9</a:ObjectID>
+<a:Name>extends&lt;%isHttpServlet%&gt;</a:Name>
+<a:TemplateTargetItem.Value>extends javax.servlet.http.HttpServlet</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o162">
+<a:ObjectID>38F77B6D-F393-4834-988F-8C88C655858F</a:ObjectID>
+<a:Name>implements&lt;%isJAXMServlet%&gt;</a:Name>
+<a:TemplateTargetItem.Value>implements javax.xml.messaging.ReqRespListener
+.foreach_item(Realizations, &quot;, &quot;)
+   .if (%Interface.Code% != ReqRespListener)
+%Interface.qualifiedCode%
+   .endif
+.next(&quot;, &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o163">
+<a:ObjectID>7420400E-414C-4813-AC93-7593629C4B7C</a:ObjectID>
+<a:Name>extends&lt;%isJAXMServlet%&gt;</a:Name>
+<a:TemplateTargetItem.Value>extends javax.xml.messaging.JAXMServlet</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o164">
+<a:ObjectID>306F27BC-87CE-440A-A243-BED5228D2881</a:ObjectID>
+<a:Name>J2EE WebService Class</a:Name>
+<a:CriterionTargetItem.Value>(%isJ2EEWebService%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o165">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>16488C9D-C1F6-46A5-89AB-4119CBEEC6EB</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o166">
+<a:ObjectID>A4732B9C-0A79-4E10-B758-0CED064380AD</a:ObjectID>
+<a:Name>SEICode</a:Name>
+<a:TemplateTargetItem.Value>%WSComponent.Code%IF</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o167">
+<a:ObjectID>42D307C2-332F-4325-A282-07D892AF0617</a:ObjectID>
+<a:Name>SEIFilename</a:Name>
+<a:TemplateTargetItem.Value>%SEICode%.java</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o168">
+<a:ObjectID>46DB7994-9275-43DC-893E-D0D26EB754C9</a:ObjectID>
+<a:Name>SEI</a:Name>
+<a:TemplateTargetItem.Value>.// header and package declaration
+/***********************************************************************
+ * Module:  %SEICode%
+ * Author:  %Modifier%
+ * Purpose: Defines the Web Service interface %SEICode%
+ *          of the class %Code%
+ ***********************************************************************/
+ 
+[%Package.package%\n\n]
+.// imports
+.unique
+%imports%
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+.endunique(\n)
+.// definition
+public interface %SEICode% extends Remote {
+[\
+   %webMethods%
+]\
+}
+.//[%sourceFooter%\n]
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o169">
+<a:ObjectID>0987F870-A35D-4BC2-8343-57B0ABF30928</a:ObjectID>
+<a:Name>webMethods</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Operations,,,%isWebMethod%)
+public [%returnType% ]%Code%(%parameters%) throws RemoteException[, %Throws%];
+.next(\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o170">
+<a:ObjectID>919AF1B3-56CE-4EB2-AE10-0F6B2AA4DBC5</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::genSourceFiles% ]%SEIFilepath%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o171">
+<a:ObjectID>FE285B3B-4CA1-42F0-B80B-6A8D590D1B2C</a:ObjectID>
+<a:Name>SEIFilepath</a:Name>
+<a:TemplateTargetItem.Value>[%Package.path%\\]%SEIFilename%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o172">
+<a:ObjectID>264A2437-C078-47D4-981D-5A44FEF50EA2</a:ObjectID>
+<a:Name>SEIFullyQualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>[%Package.qualifiedCode%.]%SEICode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o173">
+<a:ObjectID>433537E2-E986-46CE-9E8B-BD3FC82423DF</a:ObjectID>
+<a:Name>remoteInterfaceCode</a:Name>
+<a:TemplateTargetItem.Value>%SEICode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o174">
+<a:ObjectID>3A5BBA26-6F7D-463E-87EB-0DCB737741CB</a:ObjectID>
+<a:Name>implements</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEntity%)
+implements javax.ejb.EntityBean, %SEICode%
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != EntityBean) and (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.elsif (%isSession%)
+implements javax.ejb.SessionBean, %SEICode%
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != SessionBean) and (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.elsif (%isMessageDriven%)
+implements javax.ejb.MessageDrivenBean, javax.jms.MessageListener, %SEICode%
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != MessageDrivenBean) and (%Interface.Code% != MessageListener) and (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.elsif (%isServletClass%) and (%isJAXMServlet%)
+implements javax.xml.messaging.ReqRespListener, %SEICode%
+.foreach_item(Realizations, &quot;, &quot;)
+   .if (%Interface.Code% != ReqRespListener) and (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+   .endif
+.next(&quot;, &quot;)
+.elsif (%isServletClass%) and (%isUserDefined%)
+implements javax.servlet.Servlet, %SEICode%
+.foreach_item(Realizations, &quot;, &quot;)
+   .if (%Interface.Code% != Servlet) and (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+   .endif
+.next(&quot;, &quot;)
+.else
+implements %SEICode%
+   .foreach_item(Realizations, &quot;, &quot;)
+      .if (%Interface.Code% != %Class.SEICode%)
+%Interface.qualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o175">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>FCA2176B-3265-422C-8325-2DC51445EEE4</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o176">
+<a:ObjectID>EB527ED3-0B2B-4E5E-A29F-833A90E7AA9E</a:ObjectID>
+<a:Name>Service Endpoint Interface</a:Name>
+<a:TemplateTargetItem.Value>%SEI%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>%SEIFilename%</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o177">
+<a:ObjectID>3F411D4B-85D5-4EB0-ACA7-FF96DDE12EF7</a:ObjectID>
+<a:Name>JWS WebService Class</a:Name>
+<a:CriterionTargetItem.Value>(%isJWSWebService%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o178">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>C507D28E-F7D3-4FAA-B669-71832E150A9F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o179">
+<a:ObjectID>638976D9-E7A6-43DB-945F-2F30FB2F0610</a:ObjectID>
+<a:Name>sourceFilename</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?:%Code%.jws]
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o180">
+<a:ObjectID>9AC31C6D-ED17-44ED-9F59-29B526D9AE00</a:ObjectID>
+<a:Name>EnumConstantClass</a:Name>
+<a:CriterionTargetItem.Value>(%isEnumConstantClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o181">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>A23A7230-1982-453D-9898-76D1BA5AE2A0</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o182">
+<a:ObjectID>BAB4D652-584D-469F-BB08-8766139C16EE</a:ObjectID>
+<a:Name>enumConstantClassBody</a:Name>
+<a:TemplateTargetItem.Value>{
+.foreach_item(Attributes,,&quot; &quot;)
+[%enumDefinition%]
+.next(&quot; &quot;)
+.foreach_item(Operations,&quot;\n&quot;,&quot;\n&quot;)
+[   %enumDefinition%]
+.next(&quot;\n&quot;)
+[   %innerClasses%\n\n]\
+[   %innerInterfaces%\n\n]\
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o183">
+<a:ObjectID>3A7C606A-9F1E-43D5-85D6-1C633A1ED3F5</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.// No definition for EnumConstantClass</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o184">
+<a:ObjectID>1FC694B5-9F3F-4799-9706-D5F98B624691</a:ObjectID>
+<a:Name>EJB3BeanClass</a:Name>
+<a:CriterionTargetItem.Value>(%isEJB3BeanClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o185">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>6A42F07E-1887-4990-BE9C-26E02E409F10</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o186">
+<a:ObjectID>3CAC7998-584F-43CC-AACF-F8FA4D076D91</a:ObjectID>
+<a:Name>EntityBean</a:Name>
+<a:CriterionTargetItem.Value>(%isEntityBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o184"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o187">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>71317229-A84B-4AB3-AB06-42ABFB717CF6</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o188">
+<a:ObjectID>AAF2EB6A-371F-4356-80C1-81E9410E0B72</a:ObjectID>
+<a:Name>ExcludeSuperclassListeners</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Spécifie que l&#39;appel des listeners de la classe parent doit être exclu de la classe d&#39;entité (et de ses sous-classes).</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o189">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>502214EC-CA4B-4823-9A9D-C0DFA70A6591</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o190">
+<a:ObjectID>AF02E704-3B5E-41CF-93A4-3108F438C51A</a:ObjectID>
+<a:Name>ejb3@Type</a:Name>
+<a:TemplateTargetItem.Value>@Entity</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o191">
+<a:ObjectID>7124B583-265C-431D-9E18-AF4207517999</a:ObjectID>
+<a:Name>ejb3@Classifiers</a:Name>
+<a:TemplateTargetItem.Value>[%ejb3@Remote%\n]\
+[%ejb3@Local%\n]\
+[%ejb3@Interceptors%\n]\
+[%ejb3@EntityListeners%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o192">
+<a:ObjectID>533E667F-D6AA-40B2-AEB3-54664F091A56</a:ObjectID>
+<a:Name>ejb3@EntityListeners</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@EntityListeners%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o193">
+<a:ObjectID>C5285B00-5DEB-49BB-8635-24C7FD231FFA</a:ObjectID>
+<a:Name>ejb3@ExcludeSuperclassListeners</a:Name>
+<a:TemplateTargetItem.Value>.if (%ExcludeSuperclassListeners%)
+@ExcludeSuperclassListeners
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o194">
+<a:ObjectID>D66DF2AE-21E1-495E-8C12-A31D35B8273C</a:ObjectID>
+<a:Name>SessionBean</a:Name>
+<a:CriterionTargetItem.Value>(%isSessionBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o184"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o195">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>CFB052BD-385F-4A09-BE52-EC742669AD83</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o196">
+<a:ObjectID>1BF7FD10-7D40-492E-9D9A-36C1769D8A77</a:ObjectID>
+<a:Name>Stateful</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Bean de session avec état</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o197">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>8C66A08A-F378-46A7-8728-113BEB620284</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o198">
+<a:ObjectID>1B95619C-DC5D-4850-ACB3-C7C7A12D0229</a:ObjectID>
+<a:Name>ejb3@Type</a:Name>
+<a:TemplateTargetItem.Value>.if (%Stateful%)
+@Stateful
+.else
+@Stateless
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o199">
+<a:ObjectID>91B96197-5436-4CEE-9FEB-28F064C3B3EA</a:ObjectID>
+<a:Name>ejb3@Classifiers</a:Name>
+<a:TemplateTargetItem.Value>[%ejb3@Remote%\n]\
+[%ejb3@Local%\n]\
+[%ejb3@RemoteHome%\n]\
+[%ejb3@LocalHome%\n]\
+[%ejb3@Interceptors%\n]\
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o200">
+<a:ObjectID>284C5869-B4DC-4F0E-BE48-BF0D2A5F3F76</a:ObjectID>
+<a:Name>ejb3@RemoteHome</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@RemoteHome%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o201">
+<a:ObjectID>D10CB569-9214-4B92-852F-F34E1C5626E1</a:ObjectID>
+<a:Name>ejb3@LocalHome</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@LocalHome%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o202">
+<a:ObjectID>1EEACF42-030C-45E2-BE07-31CAD8DD486D</a:ObjectID>
+<a:Name>MessageDrivenBean</a:Name>
+<a:CriterionTargetItem.Value>(%isMessageDrivenBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o184"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o203">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9B474D75-D343-4D09-8D78-C4F649B2F814</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o204">
+<a:ObjectID>F86B437C-AF2E-4FE7-805C-6BF869874083</a:ObjectID>
+<a:Name>ejb3@Type</a:Name>
+<a:TemplateTargetItem.Value>@MessageDriven</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o205">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>8D090863-B825-455C-8D8E-BCB8BDE28CF7</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o206">
+<a:ObjectID>596F7F43-707F-443B-9FF0-EFD7E5F9D298</a:ObjectID>
+<a:Name>EJB3Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o207">
+<a:ObjectID>134936CB-4830-4C13-9185-BB5E59A4D501</a:ObjectID>
+<a:Name>isEntityBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == EJBEntity)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o208">
+<a:ObjectID>BB4BB52B-7D83-436B-A82E-62832BA3FE3C</a:ObjectID>
+<a:Name>isSessionBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == EJBSession)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o209">
+<a:ObjectID>91F6B6B3-D651-410B-AAB9-EA2C82392779</a:ObjectID>
+<a:Name>isMessageDrivenBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == EJBMessageDriven)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o210">
+<a:ObjectID>8F150041-1F89-4308-AE0D-8FAE381DCAEE</a:ObjectID>
+<a:Name>javaDocComment</a:Name>
+<a:TemplateTargetItem.Value>[%NamedObject::javaDocComment%\n]\
+%ejb3Annotations%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o211">
+<a:ObjectID>53C585C9-CC4F-41AE-B27C-F1F7DDE6E1AD</a:ObjectID>
+<a:Name>ejb3Annotations</a:Name>
+<a:TemplateTargetItem.Value>%ejb3@Type%
+[%ejb3@TransactionManagement%\n]\
+[%ejb3@TransactionAttribute%\n]\
+[%ejb3@ExcludeDefaultInterceptors%\n]\
+[%ejb3@ExcludeSuperclassListeners%\n]\
+[%ejb3@RunAs%\n]\
+[%ejb3@DeclareRoles%\n]\
+[%ejb3@RolesAllowed%\n]\
+[%ejb3@PermitAll%\n]\
+[%ejb3@Classifiers%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o212">
+<a:ObjectID>D1F66FDB-8A43-4729-B40E-8A2FE358914C</a:ObjectID>
+<a:Name>EJB3Annotations</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o213">
+<a:ObjectID>47DC404C-58BD-4BD2-981C-80DF1E503CC9</a:ObjectID>
+<a:Name>ejb3@TransactionManagement</a:Name>
+<a:TemplateTargetItem.Value>.if (%TransactionManagement%) and (%.L:TransactionManagement% != &quot;&lt;default&gt;&quot;)
+@TransactionManagement(%TransactionManagement%)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o214">
+<a:ObjectID>2489D9C1-14B0-4B18-A038-B75E8EF3E071</a:ObjectID>
+<a:Name>ejb3@TransactionAttribute</a:Name>
+<a:TemplateTargetItem.Value>.if (%TransactionAttributeType%) and (%.L:TransactionAttributeType% != &quot;&lt;default&gt;&quot;)
+@TransactionAttribute(%TransactionAttributeType%)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o215">
+<a:ObjectID>2CE28A49-057C-4FBE-8730-614EBE22A6CE</a:ObjectID>
+<a:Name>ejb3@RunAs</a:Name>
+<a:TemplateTargetItem.Value>.if (%RunAs%)
+@RunAs(&quot;%RunAs%&quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o216">
+<a:ObjectID>FDAD79F7-3C1C-4A33-9AF9-59DF0278BDFA</a:ObjectID>
+<a:Name>ejb3@DeclareRoles</a:Name>
+<a:TemplateTargetItem.Value>.if (%DeclareRoles%)
+@DeclareRoles({
+ .foreach_line(%DeclareRoles%)
+&quot;%CurrentLine%&quot;
+ .next(&quot;,&quot;)
+})
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o217">
+<a:ObjectID>FBD1F6D7-F2F4-48D1-B52D-D2D8E61789B6</a:ObjectID>
+<a:Name>ejb3@RolesAllowed</a:Name>
+<a:TemplateTargetItem.Value>.if (%RolesAllowed%)
+@RolesAllowed({
+ .foreach_line(%RolesAllowed%)
+&quot;%CurrentLine%&quot;
+ .next(&quot;,&quot;)
+})
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o218">
+<a:ObjectID>FB7039A4-1706-4DA0-A04A-785046F28335</a:ObjectID>
+<a:Name>ejb3@PermitAll</a:Name>
+<a:TemplateTargetItem.Value>.if (%PermitAll%)
+@PermitAll
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o219">
+<a:ObjectID>9B23AB13-63A6-4C9D-B560-C9341A6CBD3C</a:ObjectID>
+<a:Name>ejb3@Classifiers</a:Name>
+<a:TemplateTargetItem.Value>[%ejb3@Remote%\n]\
+[%ejb3@Local%\n]\
+[%ejb3@Interceptors%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o220">
+<a:ObjectID>7BF927CF-BDBB-4E58-A64E-A00EA0D6978A</a:ObjectID>
+<a:Name>ejb3@Type</a:Name>
+<a:TemplateTargetItem.Value>.// defined in sub criteria</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o221">
+<a:ObjectID>CE0AFE78-8EAD-4A7A-837B-A3BF3B99D7B8</a:ObjectID>
+<a:Name>ejb3@Remote</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@Remote%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o222">
+<a:ObjectID>39DF42B4-1148-416F-B4EB-180453219BA4</a:ObjectID>
+<a:Name>ejb3@Local</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@Local%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o223">
+<a:ObjectID>0F9DE4F5-FFAA-4D51-B25D-C5FD939B1CE3</a:ObjectID>
+<a:Name>ejb3@Interceptors</a:Name>
+<a:TemplateTargetItem.Value>.if (%ejbComponent% != null)
+%ejbComponent.ejb3@Interceptors%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o224">
+<a:ObjectID>38BCE3AE-6E90-43E7-9C7C-C85B86CB810D</a:ObjectID>
+<a:Name>ejb3@ExcludeDefaultInterceptors</a:Name>
+<a:TemplateTargetItem.Value>.if (%ExcludeDefaultInterceptors%)
+@ExcludeDefaultInterceptors
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o225">
+<a:ObjectID>1B0121DA-BFB9-44A3-93CC-900EA144B6C3</a:ObjectID>
+<a:Name>ejb3@ExcludeSuperclassListeners</a:Name>
+<a:TemplateTargetItem.Value>.// Entity specific</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o226">
+<a:ObjectID>FEA7D96B-9C2B-4BC2-B801-7F348EBFF2C5</a:ObjectID>
+<a:Name>ejbComponent</a:Name>
+<a:TemplateTargetItem.Value>.object (Components, %isEJB3%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o227">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>28AF55D1-DEE6-49CF-BB52-ABD532D1EA64</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o228">
+<a:ObjectID>196824D3-F51A-4761-AA24-4A29A0073568</a:ObjectID>
+<a:Name>TransactionManagement</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Gestion de transaction pour un bean de session ou un bean commandé par message</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>Container</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o229"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o230">
+<a:ObjectID>6C8023BD-625B-4D20-AFCA-8C7801D8DFB5</a:ObjectID>
+<a:Name>TransactionAttributeType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type d&#39;attribut de transaction pour la classe Bean</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>Required</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o231"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o232">
+<a:ObjectID>A509D6FD-8A96-4CE2-9BCB-219719242703</a:ObjectID>
+<a:Name>ExcludeDefaultInterceptors</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exclut l&#39;appel des méthodes de l&#39;intercepteur par défaut</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o233">
+<a:ObjectID>4904ADD9-A7E1-40D6-8D17-05CEEBAB42F9</a:ObjectID>
+<a:Name>DeclareRoles</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Références aux rôles de sécurité</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o234">
+<a:ObjectID>B6BD3CDA-DFA1-4238-86DA-EA32BC89D648</a:ObjectID>
+<a:Name>RolesAllowed</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Rôles admis pour toutes les méthodes du Bean</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o235">
+<a:ObjectID>223F89D2-1397-4B55-BDCA-34925EDDE7EB</a:ObjectID>
+<a:Name>PermitAll</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Permet d&#39;utiliser tous les rôles pour toutes les méthodes métier du bean business</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o236">
+<a:ObjectID>F3E2F13D-541A-4387-BE60-F5C5DD62EB05</a:ObjectID>
+<a:Name>RunAs</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Propriété run-as du bean (rôle de sécurité)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o237">
+<a:ObjectID>624A1DF0-C362-48C6-BF27-420C4AD26B23</a:ObjectID>
+<a:Name>MappedName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Nom spécifique du produit</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o238">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>DFE5246A-6DDF-4332-A899-ADFB77D7281B</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o239">
+<a:ObjectID>6E55F451-FA25-4EF2-8E1E-A6B27C2F4220</a:ObjectID>
+<a:Name>EJB 3</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;ExtendedAttribute Name=&quot;TransactionManagement&quot; Caption=&quot;Gestion des transactions&quot; Attribute=&quot;TransactionManagement&quot; AttributeID=&quot;{196824D3-F51A-4761-AA24-4A29A0073568}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;TransactionAttributeType&quot; Caption=&quot;Type d&#39;attribut de transaction&quot; Attribute=&quot;TransactionAttributeType&quot; AttributeID=&quot;{6C8023BD-625B-4D20-AFCA-8C7801D8DFB5}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;ExcludeDefaultInterceptors&quot; Caption=&quot;Exclure les intercepteurs par défaut&quot; Attribute=&quot;ExcludeDefaultInterceptors&quot; AttributeID=&quot;{A509D6FD-8A96-4CE2-9BCB-219719242703}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;ExcludeSuperclassListeners&quot; Caption=&quot;Exclure les listeners de classe parent&quot; Attribute=&quot;ExcludeSuperclassListeners&quot; AttributeID=&quot;{AAF2EB6A-371F-4356-80C1-81E9410E0B72}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;MappedName&quot; Caption=&quot;Nom mis en correspondance&quot; Attribute=&quot;MappedName&quot; AttributeID=&quot;{624A1DF0-C362-48C6-BF27-420C4AD26B23}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;RunAs&quot; Caption=&quot;Run-As&quot; Attribute=&quot;RunAs&quot; AttributeID=&quot;{F3E2F13D-541A-4387-BE60-F5C5DD62EB05}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;DeclareRoles&quot; Caption=&quot;Déclarer les rôles&quot; Attribute=&quot;DeclareRoles&quot; AttributeID=&quot;{4904ADD9-A7E1-40D6-8D17-05CEEBAB42F9}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;RolesAllowed&quot; Caption=&quot;Rôles admis&quot; Attribute=&quot;RolesAllowed&quot; AttributeID=&quot;{B6BD3CDA-DFA1-4238-86DA-EA32BC89D648}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;PermitAll&quot; Caption=&quot;Permettre tout&quot; Attribute=&quot;PermitAll&quot; AttributeID=&quot;{223F89D2-1397-4B55-BDCA-34925EDDE7EB}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o240">
+<a:TypePublicName>CustomCheckTargetItem</a:TypePublicName>
+<a:ObjectID>9E88EDFA-6499-4B2C-8CB7-0212CDA68125</a:ObjectID>
+<a:Name>Custom Checks</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CustomCheckTargetItem Id="o241">
+<a:ObjectID>3F218D26-77AB-43A6-92C6-D9697E2DBC0D</a:ObjectID>
+<a:Name>Composant EJB manquant</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Composant EJB manquant</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:HelpMessage>Cette vérification s&#39;assure qu&#39;une classe EJB est liée à un composant EJB</a:HelpMessage>
+<a:OutputMessage>Cette classe est stéréotypée comme EJB et n&#39;est liée à aucun composant. Elle sera générée sous forme de classe de bean EJB3 Bean.</a:OutputMessage>
+<a:DefaultSeverity>W</a:DefaultSeverity>
+<a:CheckScript>Function %Check%(obj)
+   Dim comp
+   %Check% = False
+   For Each comp In obj.Components
+      If Not comp.IsShortcut() Then
+         If Mid(comp.Type, 3, 1) = &quot;3&quot; Then
+            %Check% = True
+            Exit For
+         End If
+      End If
+   Next
+End Function</a:CheckScript>
+<a:AutoFixScrpt>Function %Fix%(obj, outmsg)
+   %Fix% = True
+End Function</a:AutoFixScrpt>
+</o:CustomCheckTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o242">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>1E0014F8-4ADC-4D06-A3D6-2DCB63F2BE34</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o243">
+<a:ObjectID>8D5602D1-E43D-431E-9A39-5EEDD7C97C87</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;GroupBox Name=&quot;Javadoc&quot; Caption=&quot;Javadoc&quot;   ControlAsLabel=&quot;No&quot; &gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@author&quot; Caption=&quot;Javadoc author&quot; Attribute=&quot;Javadoc@author&quot; AttributeID=&quot;{BCE16AEA-6699-4EBE-A32C-82226C6E17D0}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@version&quot; Caption=&quot;Javadoc version&quot; Attribute=&quot;Javadoc@version&quot; AttributeID=&quot;{F33BF047-BD1C-44CD-A853-1089AA1FE408}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@since&quot; Caption=&quot;Javadoc since&quot; Attribute=&quot;Javadoc@since&quot; AttributeID=&quot;{B511FB91-964D-4A1E-98D2-2BD0FE0B63EA}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@deprecated&quot; Caption=&quot;Javadoc deprecated&quot; Attribute=&quot;Javadoc@deprecated&quot; AttributeID=&quot;{4454CC1A-F991-44CD-8A1F-0987C73A1E09}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@see&quot; Caption=&quot;Javadoc see&quot; Attribute=&quot;Javadoc@see&quot; AttributeID=&quot;{61049F1E-F465-49E7-8B5F-751C248596D1}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@misc&quot; Caption=&quot;Javadoc misc&quot; Attribute=&quot;Javadoc@misc&quot; AttributeID=&quot;{1C02BB16-95D8-462A-A7D5-A82FD60511FC}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/GroupBox&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout1&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;strictfp&quot; Caption=&quot;Strictfp&quot; Attribute=&quot;strictfp&quot; AttributeID=&quot;{87476C5B-36D9-4442-8949-CFCE40EDA02C}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Static&quot; Caption=&quot;Statique&quot; Attribute=&quot;Static&quot; AttributeID=&quot;{24486CC8-780B-4B82-B172-638E638F2C06}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o244">
+<a:ObjectID>E108FEC4-3DAC-42D5-A242-C50ACBFA4C6E</a:ObjectID>
+<a:Name>Interface</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<a:CodeConvention>FirstUpperChar</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o245">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>55C422A8-648E-4F44-BFAD-C0AAD9E733D4</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o246">
+<a:ObjectID>6E97929B-ADBB-4994-A16E-075ED1BF9F1C</a:ObjectID>
+<a:Name>javaDoc</a:Name>
+<a:TemplateTargetItem.Value>[%ActualComment%\n\n]\
+[%@since%\n]\
+[%@deprecated%\n]\
+[%@author%\n]\
+[%@version%\n]\
+[%@see%\n]\
+.if (%GenOptions.GenerateOID%)
+[@pdOid %.L:ObjectID%\n]\
+.endif
+[%@misc%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o247">
+<a:ObjectID>D4E33935-C3CF-4C54-AA46-35751735DC24</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o248">
+<a:ObjectID>F82A8702-A3DF-43A1-9A7C-599D7E472996</a:ObjectID>
+<a:Name>visibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%Visibility% == +)
+public
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o249">
+<a:ObjectID>996AE12E-457F-4878-8AE0-FBE5F8DFE7DD</a:ObjectID>
+<a:Name>flags</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?[%Static%?static ]][%strictfp%?strictfp ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o250">
+<a:ObjectID>E320B51F-AE02-4E21-A93A-CA9A1F6DDB71</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o251">
+<a:ObjectID>9A5B21F4-0248-4F8B-8C2D-D214DC5A0FD3</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o252">
+<a:ObjectID>F6CB42D3-4554-4DF2-9823-ECBA1DFC70FD</a:ObjectID>
+<a:Name>queries</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Operations)
+   .if (%isFinder%) and (%Code% != findByPrimaryKey)
+      .set_value(_generate_query, true, new)
+      .if (%Parent.isLocalHomeInterface%) and (%Parent.Components.First.RemoteHomeInterface% != null)
+         .foreach_item(Parent.Components.First.RemoteHomeInterface.Operations)
+            .if (%Code% == %Outer.Code%) and (%method-params% == %Outer.method-params%)
+               .set_value(_generate_query, false)
+               .warning query method %Parent.qualifiedCode%.%Code% appears in both the local and remote interfaces. Using remote interface definition in EJB Deployment descriptor.
+            .endif
+         .next
+      .endif
+[%_generate_query%?%query%\n]
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o253">
+<a:ObjectID>21EE6360-3772-458E-AE63-E9036052F214</a:ObjectID>
+<a:Name>methods</a:Name>
+<a:TemplateTargetItem.Value>.set_object(intf,,new)
+.set_object(ejb,Components.First,new)
+.// interface operations
+.foreach_item(Operations,,\n,%transactionType% != &lt;Default&gt;)
+&lt;container-transaction&gt;
+ &lt;method&gt;
+[\
+  &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+  &lt;ejb-name&gt;%ejb.ejbName%&lt;/ejb-name&gt;
+  &lt;method-intf&gt;%intf.type%&lt;/method-intf&gt;
+  &lt;method-name&gt;%Code%&lt;/method-name&gt;
+  %method-params%
+ &lt;/method&gt;
+ &lt;trans-attribute&gt;
+      .if (%transactionType% == &quot;Not Supported&quot;)
+NotSupported
+      .elsif (%transactionType% == &quot;Requires New&quot;)
+RequiresNew
+      .else
+%transactionType%
+      .endif
+&lt;/trans-attribute&gt;
+&lt;/container-transaction&gt;
+.next(\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o254">
+<a:ObjectID>9AE1EC8E-0D8B-4A49-AA02-E524F1C8468B</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o255">
+<a:ObjectID>A067CF0D-A317-42F2-9FF6-508F934E3A3F</a:ObjectID>
+<a:Name>type</a:Name>
+<a:TemplateTargetItem.Value>.if (%Stereotype% == EJBLocal)
+Local
+.elsif (%Stereotype% == EJBLocalHome)
+LocalHome
+.elsif (%Stereotype% == EJBRemote)
+Remote
+.else
+Home
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o256">
+<a:ObjectID>B422E051-418E-4358-9A86-62B515B52424</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>[%javaDocComment%\n]\
+[%visibility% ][%flags% ]interface %Code%[ %genericTypeParameters%][ %extends%] \
+{
+[   %innerEnums%\n\n]\
+[   %members%\n\n]\
+[   %innerClasses%\n\n]\
+[   %innerInterfaces%\n\n]\
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o257">
+<a:ObjectID>333261D0-DB74-48CC-8044-0EDCD23C6451</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(ChildGeneralizations, &quot;extends &quot;)
+   .if (%ParentObject.Package.ObjectID% == %Package.ObjectID%)
+%ParentObject.qualifiedCode%
+   .else
+%ParentObject.fullyQualifiedCode%
+   .endif
+.next(&quot;, &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o258">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>790211AC-5763-4457-B679-CCD0B12A4235</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o259">
+<a:ObjectID>E85C238F-E4FE-4D62-AF27-2015B3BE740E</a:ObjectID>
+<a:Name>EJBLocal</a:Name>
+<a:Code>EJBLocal</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les interfaces Local d&#39;EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o260">
+<a:ObjectID>896F50AE-A1A7-4ACB-8FEE-C5062240C8D9</a:ObjectID>
+<a:Name>EJBLocalHome</a:Name>
+<a:Code>EJBLocalHome</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les interfaces Local Home d&#39;EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o261">
+<a:ObjectID>15DADF01-D29C-4FB7-8F7C-4ABC9036B5BC</a:ObjectID>
+<a:Name>EJBRemote</a:Name>
+<a:Code>EJBRemote</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les interfaces Remote d&#39;EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o262">
+<a:ObjectID>45D17B02-290E-4C11-9777-022E62060EED</a:ObjectID>
+<a:Name>EJBRemoteHome</a:Name>
+<a:Code>EJBRemoteHome</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les interfaces Remote Home d&#39;EJB.</a:Comment>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o263">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>EC8EC8FA-425C-405F-BABE-E3F27E986594</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o264">
+<a:ObjectID>86F290DC-179E-49D6-B002-B62A18ACB877</a:ObjectID>
+<a:Name>EJB Component Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isComponentInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o265">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9621442D-A0D5-4767-BE6D-5DB81EE7D56F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o266">
+<a:ObjectID>7B9A1231-9D97-4623-ACB7-A3009CC703C8</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::operations%\n\n]
+.if ((%@1% == all) or (%Visibility% == %@1%))
+   .// generate CMP field accessors
+   .if (%GenOptions.CMPGetSetCompInterface%)
+      .set_object(interface)
+      .set_object(ejb, Components.First)
+      .if (%ejb%) and (%ejb.isCMP%) and (%ejb.BeanClass%)
+         .foreach_item(ejb.BeanClass.Attributes)
+            .if (%isCMPField%)
+public %dataType% get%.FU:Code%()[%interface.isRemoteInterface%? throws java.rmi.RemoteException];
+            .endif(\n)
+            .if (%isCMPField%) and (%PrimaryIdentifier% == false)
+public void set%.FU:Code%(%dataType% %Code%)[%interface.isRemoteInterface%? throws java.rmi.RemoteException];
+            .endif(\n)
+         .next
+      .endif
+   .endif
+   .// generate CMR field accessors [local interface]
+   .if (%GenOptions.CMRGetSetCompInterface%)
+      .set_object(interface)
+      .set_object(ejb, Components.First)
+      .if (%ejb%) and (%ejb.isCMP%) and (%ejb.BeanClass%)
+         .foreach_item(ejb.BeanClass.AssociationsA,,,%isCMRField%)
+            .if (%RoleBMigratedAttribute% == null) and ((%@1% == all) or (%RoleBVisibility% == %@1%))
+%roleBCMRDefinition%
+            .endif(\n)
+         .next
+         .foreach_item(ejb.BeanClass.AssociationsB,,,%isCMRField%)
+            .if (%RoleAMigratedAttribute% == null) and ((%@1% == all) or (%RoleAVisibility% == %@1%))
+%roleACMRDefinition%
+            .endif(\n)
+         .next
+      .endif
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (input parameter, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o267">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>0C65FB02-63F7-4270-A897-B58AAB498EF7</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o268">
+<a:ObjectID>6D8935D3-8BF6-444D-AE67-3EAE22FA941C</a:ObjectID>
+<a:Name>EJB Local Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isLocalInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o264"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o269">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>B0B6BF13-5624-4D7F-8282-34CA5E699663</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o270">
+<a:ObjectID>FEAC26E1-0105-4A1E-8576-45E032D5318A</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::extends%?%Classifier::extends%:extends javax.ejb.EJBLocalObject]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o271">
+<a:ObjectID>BC32DE87-7359-4FB7-9915-6A69EAB07CF8</a:ObjectID>
+<a:Name>EJB Remote Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isRemoteInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o264"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o272">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>25255DF5-3059-48C2-BD8A-8B95FEDA0D0D</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o273">
+<a:ObjectID>5944F576-A586-4CDE-9D75-E451391907D5</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::extends%?%Classifier::extends%:extends javax.ejb.EJBObject]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o274">
+<a:ObjectID>8554DC47-C39B-477C-90DF-BD6D41358FA4</a:ObjectID>
+<a:Name>EJB Home Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isHomeInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o275">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>89E1675D-D07B-4F42-8E4C-9F2E3EC76073</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o276">
+<a:ObjectID>F7D9AF43-32ED-4EF7-A88D-0E1D20F62A1D</a:ObjectID>
+<a:Name>EJB Local Home Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isLocalHomeInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o274"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o277">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>EB00A65E-3D3E-4410-9C92-949BD5357ECD</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o278">
+<a:ObjectID>9A206FDC-237D-4052-89AD-C5AA7A6A12BA</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::extends%?%Classifier::extends%:extends javax.ejb.EJBLocalHome]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o279">
+<a:ObjectID>9F6618ED-21EE-4671-B885-3C1C353D87D8</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::operations%\n]
+.if ((%@1% == +) or (%@1% == all)) and (%GenOptions.CMRValueObject%) and (%isCMP%)
+   .if (%Components.First.BeanClass% != null) and (%Components.First.LocalInterface% != null)
+%Components.First.LocalInterface.Code% createByValue(%Components.First.BeanClass.valueObjectCode% valObj) throws javax.ejb.CreateException;
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o280">
+<a:ObjectID>3E7FA656-8ADF-413D-B4E7-0FBCF8717EE5</a:ObjectID>
+<a:Name>EJB Remote Home Interface</a:Name>
+<a:CriterionTargetItem.Value>(%isRemoteHomeInterface%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o274"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o281">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>C1BE9CB3-1380-4902-9318-9F0B92999D57</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o282">
+<a:ObjectID>F3054749-E5F7-48E8-9804-C679F2E45284</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::extends%?%Classifier::extends%:extends javax.ejb.EJBHome]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o283">
+<a:ObjectID>7AB8BE24-7822-4246-B79C-D885F0043AD5</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>[%Classifier::operations%\n]
+.if ((%@1% == +) or (%@1% == all)) and (%GenOptions.CMRValueObject%) and (%isCMP%)
+   .if (%Components.First.BeanClass% != null) and (%Components.First.RemoteInterface% != null)
+%Components.First.RemoteInterface.Code% createByValue(%Components.First.BeanClass.valueObjectCode% valObj) throws javax.ejb.CreateException, java.rmi.RemoteException;
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o284">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>255312C4-869A-4C78-8300-BC1071E7E626</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o285">
+<a:ObjectID>1E9131A8-036E-47F1-A38F-9AE8A5240D82</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;GroupBox Name=&quot;Javadoc&quot; Caption=&quot;Javadoc&quot;   ControlAsLabel=&quot;No&quot; &gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@author&quot; Caption=&quot;Javadoc author&quot; Attribute=&quot;Javadoc@author&quot; AttributeID=&quot;{BCE16AEA-6699-4EBE-A32C-82226C6E17D0}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@version&quot; Caption=&quot;Javadoc version&quot; Attribute=&quot;Javadoc@version&quot; AttributeID=&quot;{F33BF047-BD1C-44CD-A853-1089AA1FE408}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@since&quot; Caption=&quot;Javadoc since&quot; Attribute=&quot;Javadoc@since&quot; AttributeID=&quot;{B511FB91-964D-4A1E-98D2-2BD0FE0B63EA}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@deprecated&quot; Caption=&quot;Javadoc deprecated&quot; Attribute=&quot;Javadoc@deprecated&quot; AttributeID=&quot;{4454CC1A-F991-44CD-8A1F-0987C73A1E09}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@see&quot; Caption=&quot;Javadoc see&quot; Attribute=&quot;Javadoc@see&quot; AttributeID=&quot;{61049F1E-F465-49E7-8B5F-751C248596D1}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@misc&quot; Caption=&quot;Javadoc misc&quot; Attribute=&quot;Javadoc@misc&quot; AttributeID=&quot;{1C02BB16-95D8-462A-A7D5-A82FD60511FC}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/GroupBox&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout1&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;strictfp&quot; Caption=&quot;Strictfp&quot; Attribute=&quot;strictfp&quot; AttributeID=&quot;{87476C5B-36D9-4442-8949-CFCE40EDA02C}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Static&quot; Caption=&quot;Statique&quot; Attribute=&quot;Static&quot; AttributeID=&quot;{24486CC8-780B-4B82-B172-638E638F2C06}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o286">
+<a:ObjectID>D187EF85-667A-431C-9A9A-672ABD11D95E</a:ObjectID>
+<a:Name>Attribute</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o287">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>D8E489D8-01F8-41FB-8348-3E5B17C0354B</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o288">
+<a:ObjectID>36D5E599-1946-4985-8BA7-395291DB7B46</a:ObjectID>
+<a:Name>Javadoc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Javadoc attributes are used for the round-trip engineering of Javadoc comment tags. Their value is multiline and contains all occurrences of the corresponding tag in the actual comment.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o289">
+<a:ObjectID>DBBBB2F9-B522-4AF4-88BD-15D4B32A28AB</a:ObjectID>
+<a:Name>Javadoc@deprecated</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @deprecated. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o290">
+<a:ObjectID>36D9A3FD-E39D-450E-B146-257F0FF6F310</a:ObjectID>
+<a:Name>Javadoc@see</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @see. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o291">
+<a:ObjectID>733BB6EF-AD5C-409E-A167-6AF3B1DA7446</a:ObjectID>
+<a:Name>Javadoc@serial</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @serial. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o292">
+<a:ObjectID>DD5AB0EA-F790-432B-83A3-8EB4E8763BB7</a:ObjectID>
+<a:Name>Javadoc@serialField</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @serialField. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o293">
+<a:ObjectID>8D31D20B-B33C-455B-A1A4-C22CA3C1F81E</a:ObjectID>
+<a:Name>Javadoc@since</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @since. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o294">
+<a:ObjectID>4ECE6E0C-2AC7-4883-ACDF-DC487D07FB41</a:ObjectID>
+<a:Name>Javadoc@misc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>diverses balises javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o295">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>F929DB75-779B-4C22-BB3C-5F1CE8B1F5E8</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o296">
+<a:ObjectID>ED17B6A0-86E3-4243-BFA1-BCAFAAE06084</a:ObjectID>
+<a:Name>javaDoc</a:Name>
+<a:TemplateTargetItem.Value>[%ActualComment%\n\n]\
+[%@since%\n]\
+[%@deprecated%\n]\
+[%@serial%\n]\
+[%@serialField%\n]\
+[%@see%\n]\
+.if (%GenOptions.GenerateOID%)
+[@pdOid %.L:ObjectID%\n]\
+.endif
+[%@misc%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o297">
+<a:ObjectID>D603A177-4698-4546-8364-907B3D21954B</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o298">
+<a:ObjectID>22F87991-02FF-47B2-AB0B-CE0B82754F8C</a:ObjectID>
+<a:Name>visibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%Visibility% == +)
+public
+.elsif (%Visibility% == #)
+protected
+.elsif (%Visibility% == -)
+private
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o299">
+<a:ObjectID>48313753-4AFD-41DB-B39C-96FFCDAFB1B4</a:ObjectID>
+<a:Name>flags</a:Name>
+<a:TemplateTargetItem.Value>[%Static%?static ][%isFrozen%?final ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o300">
+<a:ObjectID>7D3D4548-965F-481B-9A51-10D5C0D11896</a:ObjectID>
+<a:Name>dataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataTypeObject%)
+%DataTypeObject.qualifiedCode%
+.else
+%DataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o301">
+<a:ObjectID>5D1DE0CA-6A42-4174-BD70-13E44C73F0CA</a:ObjectID>
+<a:Name>hasBasicDataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataType% == int) or (%DataType% == short) or (%DataType% == long)
+true
+.elsif (%DataType% == boolean) or (%DataType% == char) or (%DataType% == byte)
+true
+.elsif (%DataType% == float) or (%DataType% == double)
+true
+.else 
+false
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o302">
+<a:ObjectID>E2DDEF48-E61E-4E58-945F-A207F91C900C</a:ObjectID>
+<a:Name>fullyQualifiedDataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataTypeObject%)
+%DataTypeObject.fullyQualifiedCode%
+.else
+%qualifiedDataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o303">
+<a:ObjectID>D02C721A-CD0A-4D4A-AB55-E9E42DB56AE2</a:ObjectID>
+<a:Name>qualifiedDataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataType% == Boolean)
+java.lang.Boolean
+.elsif (%DataType% == Byte)
+java.lang.Byte
+.elsif (%DataType% == Character)
+java.lang.Character
+.elsif (%DataType% == Double)
+java.lang.Double
+.elsif (%DataType% == Float)
+java.lang.Float
+.elsif (%DataType% == Integer)
+java.lang.Integer
+.elsif (%DataType% == Long)
+java.lang.Long
+.elsif (%DataType% == Number)
+java.lang.Number
+.elsif (%DataType% == Object)
+java.lang.Object
+.elsif (%DataType% == Short)
+java.lang.Short
+.elsif (%DataType% == String)
+java.lang.String
+.elsif (%DataType% == Date)
+java.util.Date
+.elsif (%DataType% == Collection)
+java.util.Collection
+.elsif (%DataType% == Enumeration)
+java.util.Enumeration
+.elsif (%DataType% == List)
+java.util.List
+.elsif (%DataType% == Map)
+java.util.Map
+.elsif (%DataType% == Set)
+java.util.Set
+.elsif (%DataType% == SortedMap)
+java.util.SortedMap
+.elsif (%DataType% == SortedSet)
+java.util.SortedSet
+.else
+%DataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o304">
+<a:ObjectID>705F7D26-1C10-467B-9EC4-F279183F1F19</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>[%annotationImports%\n]
+.if (%DataTypeObject%) and (%DataTypeObject.Package.isTopPackage% == false) and (%DataTypeObject.Package.ObjectID% != %Parent.Package.ObjectID%)
+%DataTypeObject.import%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o305">
+<a:ObjectID>8E13F278-12A0-4C2A-9BA7-6574EA5AAB75</a:ObjectID>
+<a:Name>fieldCode</a:Name>
+<a:TemplateTargetItem.Value>%Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o306">
+<a:ObjectID>64C9AEE4-43F1-4987-AB61-980D771D3E77</a:ObjectID>
+<a:Name>isFrozen</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Frozen% == &quot;F&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o307">
+<a:ObjectID>3C9DDDE3-63CD-49CA-8814-25093F65F643</a:ObjectID>
+<a:Name>isPrimaryKeyField</a:Name>
+<a:TemplateTargetItem.Value>.bool (%PrimaryIdentifier%) and (%Persistent%) and (%Visibility% == +) and (%Parent.isBeanClass%) and (%Parent.isEntity%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o308">
+<a:ObjectID>7BF18155-5971-4B51-AC89-FD81D7002D48</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o309">
+<a:ObjectID>45893A09-B438-4F91-A64D-AE12EEFDEF1C</a:ObjectID>
+<a:Name>isCMPField</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Persistent%) and (%Visibility% == +) and (%Parent.isBeanClass%) and (%Parent.isCMP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o310">
+<a:ObjectID>7563B142-560F-4C85-8D14-D1F3446CADE5</a:ObjectID>
+<a:Name>WebSphere</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o311">
+<a:ObjectID>630DC078-86B7-443F-9A02-EB5ED0D480EA</a:ObjectID>
+<a:Name>CMPAttributeID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+CMPAttribute_%uniqueID%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o312">
+<a:ObjectID>6A281B94-BDF1-47F3-8C0C-F6D7199B73D1</a:ObjectID>
+<a:Name>isEjbJarUseTagId</a:Name>
+<a:TemplateTargetItem.Value>%Model.isEjbJarUseTagId%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o313">
+<a:ObjectID>1CF7D73D-C975-49D5-9BE5-A06C7AD298FD</a:ObjectID>
+<a:Name>ejbCode</a:Name>
+<a:TemplateTargetItem.Value>%Parent.ejbCode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o314">
+<a:ObjectID>4CBE5244-3D6A-4538-8962-1221B8C5200B</a:ObjectID>
+<a:Name>isRoleAMigrated</a:Name>
+<a:TemplateTargetItem.Value>.if (%MigratedAssociation% != null) and (%MigratedAssociation.RoleAMigratedAttribute% != null) and (%MigratedAssociation.RoleAMigratedAttribute.ObjectID% == %ObjectID%)
+true
+.else
+false
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o315">
+<a:ObjectID>851EA0A8-75AF-4412-8CB8-56DC172C8846</a:ObjectID>
+<a:Name>isRoleBMigrated</a:Name>
+<a:TemplateTargetItem.Value>.if (%MigratedAssociation% != null) and (%MigratedAssociation.RoleBMigratedAttribute% != null) and (%MigratedAssociation.RoleBMigratedAttribute.ObjectID% == %ObjectID%)
+true
+.else
+false
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o316">
+<a:ObjectID>07C1CC4D-064F-41AB-A0C8-C6702B65D34E</a:ObjectID>
+<a:Name>isEnumConstant</a:Name>
+<a:TemplateTargetItem.Value>.bool (%DataType% == EnumConstant)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o317">
+<a:ObjectID>D7D9AF92-6F03-43A3-89C3-CD097DFE8023</a:ObjectID>
+<a:Name>isEnumConstantAttribute</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isEnumConstant% == false) and (%Classifier.isEnumConstantClass%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o318">
+<a:ObjectID>18C1B29B-184D-4DEF-BA2C-BB666B147613</a:ObjectID>
+<a:Name>initialValue</a:Name>
+<a:TemplateTargetItem.Value>.if (%InitialValue% != &quot;&quot;)
+%.A:InitialValue%
+.elsif (%DefaultValue% != &quot;&quot;)
+   .// Don&#39;t use database specific default values like sysdate
+   .if (%.1:DefaultValue% == &quot;\&quot;&quot;) or (%.1:DefaultValue% == &quot;&#39;&quot;) or (%.1:DefaultValue% == 0) or (%.1:DefaultValue% == 1) or (%.1:DefaultValue% == 2) or (%.1:DefaultValue% == 3) or (%.1:DefaultValue% == 4) or (%.1:DefaultValue% == 5) or (%.1:DefaultValue% == 6) or (%.1:DefaultValue% == 7) or (%.1:DefaultValue% == 8) or (%.1:DefaultValue% == 9)
+      .replace(&quot;&#39;&quot;, &quot;\&quot;&quot;)
+%DefaultValue%
+      .endreplace
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o319">
+<a:ObjectID>85796033-2914-4D2A-8E49-298F42686014</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.if (%Multiple%)
+[%javaDocComment%\n]\
+[%Parent.isClass%?[%visibility% ]][%flags% ]%dataType%\[\] %fieldCode%[ = %initialValue%];
+.else
+[%javaDocComment%\n]\
+[%Parent.isClass%?[%visibility% ]][%flags% ]%dataType% %fieldCode%[ = %initialValue%];
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o320">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>E9B28111-D408-48DD-A4AA-C08EE6F97565</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o321">
+<a:ObjectID>E0DDC519-549D-4CEC-9625-E57B22E73086</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o322">
+<a:ObjectID>222116BA-38E5-4EB1-B4A4-CDF8DEBB4DC2</a:ObjectID>
+<a:Name>Bean Class CMP Field</a:Name>
+<a:CriterionTargetItem.Value>(%isCMPField%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o323">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9EC5755B-4889-4C5D-A5EB-AC78EDBA98CC</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o324">
+<a:ObjectID>4B23E1B4-F48C-4655-846C-8C661ED4F0FB</a:ObjectID>
+<a:Name>cmpDefinition</a:Name>
+<a:TemplateTargetItem.Value>[%javaDocComment%\n]\
+public abstract %dataType% get%.FU:Code%();
+public abstract void set%.FU:Code%(%dataType% %Code%);</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o325">
+<a:ObjectID>B66F2B02-4CC6-43C1-B005-2D85C88FFDA3</a:ObjectID>
+<a:Name>Primary-Key Class Attribute</a:Name>
+<a:CriterionTargetItem.Value>(%Parent.isPrimaryKeyClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o326">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>24DCF802-B5D9-4924-B441-D423F2678C96</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o327">
+<a:ObjectID>999AB5FD-442F-47D2-87F2-A11415917958</a:ObjectID>
+<a:Name>fieldCode</a:Name>
+<a:TemplateTargetItem.Value>%.FL:Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:CriterionTargetItem Id="o328">
+<a:ObjectID>B6E4F840-D149-4DB4-80C2-95A8A0353D5B</a:ObjectID>
+<a:Name>EnumConstant</a:Name>
+<a:CriterionTargetItem.Value>%isEnumConstant%</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o329">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>EEF5B77E-5654-49F7-91A8-26F54A0CDC83</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o330">
+<a:ObjectID>BB1B2FAF-03B4-4A01-BB0D-F73F97A6A1D9</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.// no definition for enum values</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o331">
+<a:ObjectID>21566B95-0089-4F2B-B528-B575A710F373</a:ObjectID>
+<a:Name>enumDefinition</a:Name>
+<a:TemplateTargetItem.Value>[%annotations%\n]\
+[%enumComment%\n]\
+%Code%[(%InitialValue%)][ %enumConstantClassBody%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o332">
+<a:ObjectID>33696A84-F32E-423E-A815-AFDFB0F94741</a:ObjectID>
+<a:Name>enumConstantClassBody</a:Name>
+<a:TemplateTargetItem.Value>.if (%InfluentObject%) and (%InfluentObject.isEnumConstantClass%)
+[%InfluentObject.enumConstantClassBody%]
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o333">
+<a:ObjectID>26C81DCB-1518-46BA-9D0F-DF4BEBE5FA38</a:ObjectID>
+<a:Name>enumComment</a:Name>
+<a:TemplateTargetItem.Value>.foreach_line(%Comment%,&quot;/*&quot;,&quot; */&quot;)
+* %CurrentLine%
+.next(&quot;\n &quot;)
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o334">
+<a:ObjectID>28911943-2FBD-42E9-B429-FE51AF0880C4</a:ObjectID>
+<a:Name>EnumConstantAttribute</a:Name>
+<a:CriterionTargetItem.Value>(%isEnumConstantAttribute%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o335">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>043952E2-B667-4CA0-B400-E7ECEEF31739</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o336">
+<a:ObjectID>4B03F95D-41BA-4570-BEF1-50B27B0E921F</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.// no definition for EnumConstantAttribute</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o337">
+<a:ObjectID>B041A178-CE69-4C0E-9758-0883EC6A039C</a:ObjectID>
+<a:Name>enumDefinition</a:Name>
+<a:TemplateTargetItem.Value>[%annotations%\n]\
+%dataType% %fieldCode%[ = %.A:InitialValue%];</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o338">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>916065E6-7AE1-4D54-B950-6661C5FB7E59</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o339">
+<a:ObjectID>12F875E5-98DF-44F4-83DE-35B25EEC9974</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;GroupBox Name=&quot;Javadoc&quot; Caption=&quot;Javadoc&quot;   ControlAsLabel=&quot;No&quot; &gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@since&quot; Caption=&quot;Javadoc since&quot; Attribute=&quot;Javadoc@since&quot; AttributeID=&quot;{8D31D20B-B33C-455B-A1A4-C22CA3C1F81E}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@see&quot; Caption=&quot;Javadoc see&quot; Attribute=&quot;Javadoc@see&quot; AttributeID=&quot;{36D9A3FD-E39D-450E-B146-257F0FF6F310}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@serial&quot; Caption=&quot;Javadoc serial&quot; Attribute=&quot;Javadoc@serial&quot; AttributeID=&quot;{733BB6EF-AD5C-409E-A167-6AF3B1DA7446}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@serialField&quot; Caption=&quot;Champ série Javadoc&quot; Attribute=&quot;Javadoc@serialField&quot; AttributeID=&quot;{DD5AB0EA-F790-432B-83A3-8EB4E8763BB7}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@deprecated&quot; Caption=&quot;Javadoc deprecated&quot; Attribute=&quot;Javadoc@deprecated&quot; AttributeID=&quot;{DBBBB2F9-B522-4AF4-88BD-15D4B32A28AB}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@misc&quot; Caption=&quot;Javadoc misc&quot; Attribute=&quot;Javadoc@misc&quot; AttributeID=&quot;{4ECE6E0C-2AC7-4883-ACDF-DC487D07FB41}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/GroupBox&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o340">
+<a:ObjectID>13B226C7-95CC-4984-A1EA-BB645EF50E2E</a:ObjectID>
+<a:Name>Association</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o341">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>B59C5B5F-8930-4987-BC72-D17676CCB1B0</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o342">
+<a:ObjectID>78C31404-0EE5-4FD0-9038-EE396B305F05</a:ObjectID>
+<a:Name>roleBContainer</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Conteneur du rôle B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>java.util.Collection</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o343"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o344">
+<a:ObjectID>72FA5C48-5524-4DF7-8187-ABB19AB5AF9E</a:ObjectID>
+<a:Name>roleAContainer</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Conteneur du rôle A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>java.util.Collection</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o343"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o345">
+<a:ObjectID>F6FFC71C-C472-4261-A710-B0BCC0BF4D58</a:ObjectID>
+<a:Name>roleAImplementationClass</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Mise en oeuvre du conteneur du rôle A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>java.util.HashSet</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o346"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o347">
+<a:ObjectID>C11C9F66-6453-43A2-8824-6654518CF65A</a:ObjectID>
+<a:Name>roleBImplementationClass</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Mise en oeuvre du conteneur du rôle B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>java.util.HashSet</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o346"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o348">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>711F9C8C-D873-4EFB-B534-9673AD1D4DEF</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o349">
+<a:ObjectID>C3B2B9A0-F083-4B1E-8907-2FC102B3CB5C</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o350">
+<a:ObjectID>58070825-43A2-4595-A8A3-E83B47A55D39</a:ObjectID>
+<a:Name>roleAVisibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAVisibility% == +)
+public
+.elsif (%RoleAVisibility% == #)
+protected
+.elsif (%RoleAVisibility% == -)
+private
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>visibility of association end A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o351">
+<a:ObjectID>8B98D866-F4F5-4B27-9C94-0CF1FB8C3722</a:ObjectID>
+<a:Name>roleBVisibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBVisibility% == +)
+public
+.elsif (%RoleBVisibility% == #)
+protected
+.elsif (%RoleBVisibility% == -)
+private
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>visibility of association end B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o352">
+<a:ObjectID>4F3F3EE7-3F62-47B1-8B79-40196A74D3E5</a:ObjectID>
+<a:Name>isBidirectional</a:Name>
+<a:TemplateTargetItem.Value>.bool (%RoleANavigability%) and (%RoleBNavigability%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>returns true if the association is bidirectional, false otherwise</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o353">
+<a:ObjectID>599E8F82-EC98-4A93-985F-46588829B8B7</a:ObjectID>
+<a:Name>isReflexive</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ClassA.ObjectID% == %ClassB.ObjectID%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>returns true if the association is reflexive, false otherwise</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o354">
+<a:ObjectID>ACAC252B-294F-43E0-A762-C5BD85B8B113</a:ObjectID>
+<a:Name>samePackage</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ClassA.Package.ObjectID% == %ClassB.Package.ObjectID%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o355">
+<a:ObjectID>2D8BE9A1-009E-48F8-BFF2-AC79B753E65B</a:ObjectID>
+<a:Name>roleBImport</a:Name>
+<a:TemplateTargetItem.Value>.if (%AssociationClass%)
+   .if (%AssociationClass.Package.isTopPackage% == false) and (%ClassA.Package.ObjectID% != %AssociationClass.Package.ObjectID%)
+%AssociationClass.import%
+   .endif
+.elsif (%ClassB.actualPackage.isTopPackage% == false) and (%ClassB.actualPackage.ObjectID% != %ClassA.Package.ObjectID%)
+%ClassB.import%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o356">
+<a:ObjectID>69B2EDB1-C26D-4BDC-9026-8F6B1C3626F0</a:ObjectID>
+<a:Name>roleAImport</a:Name>
+<a:TemplateTargetItem.Value>.if (%AssociationClass%)
+   .if (%AssociationClass.Package.isTopPackage% == false) and (%ClassB.Package.ObjectID% != %AssociationClass.Package.ObjectID%)
+%AssociationClass.import%
+   .endif
+.elsif (%ClassA.actualPackage.isTopPackage% == false) and (%ClassA.actualPackage.ObjectID% != %ClassB.Package.ObjectID%)
+%ClassA.import%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o357">
+<a:ObjectID>46817F08-D2D5-41A9-B18E-7D352C0001F2</a:ObjectID>
+<a:Name>asscClassImport</a:Name>
+<a:TemplateTargetItem.Value>.if (%ClassA.Package.isTopPackage% == false) and (%ClassA.Package.ObjectID% != %Package.ObjectID%)
+%ClassA.import%
+.endif(\n)
+.if (%ClassB.Package.isTopPackage% == false) and (%ClassB.Package.ObjectID% != %Package.ObjectID%)
+%ClassB.import%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o358">
+<a:ObjectID>0B7548BA-ED15-4AC9-98DD-B98B982BDBC0</a:ObjectID>
+<a:Name>roleACode</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleANavigability%)
+   .if (%RoleAName%)
+%RoleAName%
+   .else
+%.FL:ClassA.Code%[%isReflexive%?A:[%AssociationClass%?A]]
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute code for association end B (roleAContainer)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o359">
+<a:ObjectID>ABF3BBD3-CDF8-4E2B-B721-DD896AB27123</a:ObjectID>
+<a:Name>roleBCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBNavigability%)
+   .if (%RoleBName%)
+%RoleBName%
+   .else
+%.FL:ClassB.Code%[%isReflexive%?B:[%AssociationClass%?B]]
+   .endif
+.endif
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute code for association end A (roleBContainer)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o360">
+<a:ObjectID>810297C4-0B6C-4E0B-BD46-8852FDF2AB10</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o361">
+<a:ObjectID>BA312579-AD9B-4912-8C17-D3E35B27F9AF</a:ObjectID>
+<a:Name>isCMRField</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ClassA.isBeanClass%) and (%ClassB.isBeanClass%) and (%ClassA.isCMP%) and (%ClassB.isCMP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o362">
+<a:ObjectID>24185758-7094-4BA0-A55E-E9ADB4188511</a:ObjectID>
+<a:Name>roleAAssociationType</a:Name>
+<a:TemplateTargetItem.Value>.if (%Container% == B)
+ .if (%Indicator% == A)
+Aggregation
+ .elsif (%Indicator% == C)
+Composition
+ .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o363">
+<a:ObjectID>91E2810C-4DC3-415F-8639-5EC1F002DBAF</a:ObjectID>
+<a:Name>roleBAssociationType</a:Name>
+<a:TemplateTargetItem.Value>.if (%Container% == A)
+ .if (%Indicator% == A)
+Aggregation
+ .elsif (%Indicator% == C)
+Composition
+ .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o364">
+<a:ObjectID>091941F3-73D8-4C33-BA53-F2A913B6261A</a:ObjectID>
+<a:Name>Migrate</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o365">
+<a:ObjectID>76403E8A-4F8C-4D84-8CB0-2E9E67590196</a:ObjectID>
+<a:Name>roleBMigratedAttributeMany</a:Name>
+<a:TemplateTargetItem.Value>[%roleBTags%\n]\
+.if (%roleBContainerType%)
+[%roleBVisibility% ]%roleBContainerType%%roleBCollectionType% %roleBCode%[ = %.A:RoleBInitialValue%];
+.else
+[%roleBVisibility% ][%roleBFlags% ]%ClassB.qualifiedCode%\[\] %roleBCode%[ = %.A:RoleBInitialValue%];
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o366">
+<a:ObjectID>8290B18C-A396-4006-9DFD-1C75EA98FCF9</a:ObjectID>
+<a:Name>roleAMigratedAttributeMany</a:Name>
+<a:TemplateTargetItem.Value>[%roleATags%\n]\
+.if (%roleAContainerType%)
+[%roleAVisibility% ]%roleAContainerType%%roleACollectionType% %roleACode%[ = %.A:RoleAInitialValue%];
+.else
+[%roleAVisibility% ][%roleAFlags% ]%ClassA.qualifiedCode%\[\] %roleACode%[ = %.A:RoleAInitialValue%];
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o367">
+<a:ObjectID>8B953E9D-61F9-4750-9FC8-305EB2670188</a:ObjectID>
+<a:Name>roleATags</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenOptions.GenerateOID%)
+/** [%RoleAMigratedAttribute%?@pdOid %.L:RoleAMigratedAttribute.ObjectID%\n    ]\
+@pdRoleInfo\
+[ migr=%roleAMigrate%]\
+[ name=%ClassA.QualifiedCode%]\
+[ assc=%Code%]\
+[ coll=%roleAContainerEx%]\
+[ impl=%roleAImplementationClassEx%]\
+[ mult=%RoleAMultiplicity%]\
+[ type=%roleAAssociationType%]\
+ side=A */
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o368">
+<a:ObjectID>D9823358-D089-4CCB-9E18-3C3FE52FC63A</a:ObjectID>
+<a:Name>roleBTags</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenOptions.GenerateOID%)
+/** [%RoleBMigratedAttribute%?@pdOid %.L:RoleBMigratedAttribute.ObjectID%\n    ]\
+@pdRoleInfo\
+[ migr=%roleBMigrate%]\
+[ name=%ClassB.QualifiedCode%]\
+[ assc=%Code%]\
+[ coll=%roleBContainerEx%]\
+[ impl=%roleBImplementationClassEx%]\
+[ mult=%RoleBMultiplicity%]\
+[ type=%roleBAssociationType%] */
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o369">
+<a:ObjectID>AAA641A2-29DF-4B9E-AEAF-A8AA3DD6FC6C</a:ObjectID>
+<a:Name>accessorsMany</a:Name>
+<a:TemplateTargetItem.Value>.if (%implInterface%)
+.// Get collection
+.set_value(_operationName, get%.FU:roleName%, new)
+.set_value(_operationSignature, get%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default getter */
+public %implInterface% %_operationName%() \
+{
+   if (%_memberName% == null)
+      %_memberName% = new %implClass%();
+   return %_memberName%;
+}
+ .endif(\n\n)
+.// Get iterator
+.set_value(_operationName, getIterator%.FU:roleName%, new)
+.set_value(_operationSignature, getIterator%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default iterator getter */
+public java.util.Iterator %_operationName%() \
+{
+   if (%_memberName% == null)
+      %_memberName% = new %implClass%();
+   return %_memberName%.iterator();
+}
+ .endif(\n\n)
+.// Set collection
+.set_value(_operationName, set%.FU:roleName%, new)
+.set_value(_operationSignature, set%.FU:roleName%@%implInterface%, new)
+.set_value(_paramName, new%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default setter
+  * @param %_paramName% */
+public void %_operationName%(%implInterface% %_paramName%) \
+{
+   removeAll%.FU:roleName%();
+   for (java.util.Iterator iter = %_paramName%.iterator(); iter.hasNext();)
+      add%.FU:roleName%((%Classifier.qualifiedCode%)iter.next());
+}
+ .endif(\n\n)
+.// Add object
+.set_value(_operationName, add%.FU:roleName%, new)
+.set_value(_operationSignature, add%.FU:roleName%@%Classifier.qualifiedCode%, new)
+.set_value(_paramName, new%.FU:Classifier.Code%, new)
+.set_value(_memberName, %roleName%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default add
+  * @param %_paramName% */
+public void %_operationName%(%Classifier.qualifiedCode% %_paramName%) \
+{
+   if (%_paramName% == null)
+      return;
+   if (this.%_memberName% == null)
+      this.%_memberName% = new %implClass%();
+   if (!this.%_memberName%.contains(%_paramName%))\n
+  .if (%endNavigability%) and (%endMultiple% == false)
+   {
+      this.%_memberName%.add(%_paramName%);
+      %_paramName%.set%.FU:endRoleName%(this);      
+   }
+  .elsif (%endNavigability%) and (%endMultiple%) and (%endClassHasImplementation%)
+   {
+      this.%_memberName%.add(%_paramName%);
+      %_paramName%.add%.FU:endRoleName%(this);      
+   }
+  .else
+      this.%_memberName%.add(%_paramName%);
+  .endif(\n)
+}
+ .endif(\n\n)
+.// Remove object
+.set_value(_operationName, remove%.FU:roleName%, new)
+.set_value(_operationSignature, remove%.FU:roleName%@%Classifier.qualifiedCode%, new)
+.set_value(_paramName, old%.FU:Classifier.Code%, new)
+.set_value(_memberName, %roleName%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default remove
+  * @param %_paramName% */
+public void %_operationName%(%Classifier.qualifiedCode% %_paramName%) \
+{
+   if (%_paramName% == null)
+      return;
+   if (this.%_memberName% != null)
+      if (this.%_memberName%.contains(%_paramName%))\n
+  .if (%endNavigability%) and (%endMultiple% == false)
+      {
+         this.%_memberName%.remove(%_paramName%);
+         %_paramName%.set%.FU:endRoleName%((%EndClassifier.qualifiedCode%)null);
+      }
+  .elsif (%endNavigability%) and (%endMultiple%) and (%endClassHasImplementation%)
+      {
+         this.%_memberName%.remove(%_paramName%);
+         %_paramName%.remove%.FU:endRoleName%(this);
+      }
+  .else
+         this.%_memberName%.remove(%_paramName%);
+  .endif(\n)     
+}
+ .endif(\n\n)
+.// Remove all objects
+.set_value(_operationName, removeAll%.FU:roleName%, new)
+.set_value(_operationSignature, removeAll%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+.set_value(_tempObjName, old%.FU:Classifier.Code%, new)
+ .if (%endClassHasOperation% == false)
+/** @pdGenerated default removeAll */
+public void %_operationName%() \
+{
+   if (%_memberName% != null)\n
+  .if (%endNavigability%) and (%endMultiple% == false)
+   {
+      %Classifier.qualifiedCode% %_tempObjName%;
+      for (java.util.Iterator iter = getIterator%.FU:roleName%(); iter.hasNext();)
+      {
+         %_tempObjName% = (%Classifier.qualifiedCode%)iter.next();
+         iter.remove();
+         %_tempObjName%.set%.FU:endRoleName%((%EndClassifier.qualifiedCode%)null);
+      }
+   }
+  .elsif (%endNavigability%) and (%endMultiple%) and (%endClassHasImplementation%)
+   {
+      %Classifier.qualifiedCode% %_tempObjName%;
+      for (java.util.Iterator iter = getIterator%.FU:roleName%(); iter.hasNext();)
+      {
+         %_tempObjName% = (%Classifier.qualifiedCode%)iter.next();
+         iter.remove();
+         %_tempObjName%.remove%.FU:endRoleName%(this);
+      }
+   }
+  .else
+      %_memberName%.clear();
+  .endif(\n)
+}
+ .endif(\n)
+.else
+ .if (%isGenAssocDefaultAccessors%)
+.// Default accessors
+.// Get array
+.set_value(_operationName, get%.FU:roleName%, new)
+.set_value(_operationSignature, get%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+  .if (%endClassHasOperation% == false)
+/** @pdGenerated default getter */
+public %Classifier.qualifiedCode%\[\] %_operationName%() \
+{
+   return %_memberName%;
+}
+  .endif(\n\n)
+.// Set array
+.set_value(_operationName, set%.FU:roleName%, new)
+.set_value(_operationSignature, set%.FU:roleName%@%Classifier.qualifiedCode%#, new)
+.set_value(_paramName, new%.FU:roleName%, new)
+.set_value(_memberName, %roleName%, new)
+  .if (%endClassHasOperation% == false)
+/** @pdGenerated default setter
+  * @param %_paramName% */
+public void %_operationName%(%Classifier.qualifiedCode%\[\] %_paramName%) \
+{
+   this.%_memberName% = %_paramName%;
+}
+  .endif(\n\n)
+ .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o370">
+<a:ObjectID>43632D07-77AB-4ED8-9A34-70CA2D4B4A23</a:ObjectID>
+<a:Name>implClass</a:Name>
+<a:TemplateTargetItem.Value>.if (%ImplementationClass%) and (%.L:ImplementationClass% != &lt;none&gt;)
+%ImplementationClass%%endCollectionType%
+.else
+   .if (%ContainerType% == java.util.Set)
+java.util.HashSet%endCollectionType%
+   .else
+java.util.Vector%endCollectionType%
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o371">
+<a:ObjectID>0088DA65-0585-4DDB-B944-211A68B37FEA</a:ObjectID>
+<a:Name>endClassHasOperation</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_endClassHasOperation, false, new)
+.foreach_item(EndClassifier.Operations)
+   .if (%_endClassHasOperation% == false) and (%InternalSignature% == %_operationSignature%)
+      .set_value(_endClassHasOperation, true)
+   .endif
+.next
+%_endClassHasOperation%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o372">
+<a:ObjectID>5F2CEA95-2B75-46B1-875D-7FA73C810116</a:ObjectID>
+<a:Name>roleVisibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%Visibility% == +)
+public
+.elsif (%Visibility% == #)
+protected
+.elsif (%Visibility% == -)
+private
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o373">
+<a:ObjectID>231C67F9-5DD6-4F9E-8084-4017DD88CEFD</a:ObjectID>
+<a:Name>accessorsOne</a:Name>
+<a:TemplateTargetItem.Value>.if ((%endNavigability%) and(%endContainerType%) and (%endMultiple%)) or (%isGenAssocDefaultAccessors%)
+.// Parent getter
+.set_value(_operationName, get%.FU:roleName%, new)
+.set_value(_operationSignature, get%.FU:roleName%, new)
+.if (%endClassHasOperation% == false)
+/** @pdGenerated default parent getter */
+public %Classifier.qualifiedCode% get%.FU:roleName%() \
+{
+   return %roleName%;
+}
+.endif(\n\n)
+.// Parent setter
+.set_value(_operationName, set%.FU:roleName%)
+.set_value(_operationSignature, set%.FU:roleName%@%Classifier.qualifiedCode%)
+.if (%endClassHasOperation% == false)
+/** @pdGenerated default parent setter
+  * @param new%.FU:Classifier.Code% */
+public void set%.FU:roleName%(%Classifier.qualifiedCode% new%.FU:Classifier.Code%) \
+{\n
+   .if (%endNavigability%)
+      .if (%endContainerType%) and (%endMultiple%)
+   if (this.%roleName% == null || !this.%roleName%.equals(new%.FU:Classifier.Code%))
+   {
+      if (this.%roleName% != null)
+      {
+         %Classifier.qualifiedCode% old%.FU:Classifier.Code% = this.%roleName%;
+         this.%roleName% = null;
+         old%.FU:Classifier.Code%.remove%.FU:endRoleName%(this);
+      }
+      if (new%.FU:Classifier.Code% != null)
+      {
+         this.%roleName% = new%.FU:Classifier.Code%;
+         this.%roleName%.add%.FU:endRoleName%(this);
+      }
+   }
+      .elsif (%endMultiple% == false)
+   if (this.%roleName% == null || !this.%roleName%.equals(new%.FU:Classifier.Code%))
+   {
+      if (this.%roleName% != null)
+         this.%roleName%.set%.FU:endRoleName%(null);
+      this.%roleName% = new%.FU:Classifier.Code%;
+      if (this.%roleName% != null)
+         this.%roleName%.set%.FU:endRoleName%(this);
+   }
+      .else
+   this.%roleName% = new%.FU:Classifier.Code%;
+      .endif(\n)
+   .else
+   this.%roleName% = new%.FU:Classifier.Code%;
+   .endif(\n)
+}
+.endif(\n\n)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o374">
+<a:ObjectID>CA0E73AD-14FA-431E-BD96-10920A1287BF</a:ObjectID>
+<a:Name>roleAMigratedAttributeOne</a:Name>
+<a:TemplateTargetItem.Value>[%roleATags%\n]\
+[%roleAVisibility% ][%roleAFlags% ]%ClassA.qualifiedCode% %roleACode%[ = %.A:RoleAInitialValue%];
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o375">
+<a:ObjectID>50A157C9-6229-443B-93F0-1F661EA403D4</a:ObjectID>
+<a:Name>roleBMigratedAttributeOne</a:Name>
+<a:TemplateTargetItem.Value>[%roleBTags%\n]\
+[%roleBVisibility% ][%roleBFlags% ]%ClassB.qualifiedCode% %roleBCode%[ = %.A:RoleBInitialValue%];
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o376">
+<a:ObjectID>29DEE5EC-574D-4BC1-9A76-FB357FD1C98F</a:ObjectID>
+<a:Name>endNavigability</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+%RoleBNavigability%
+.else
+%RoleANavigability%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o377">
+<a:ObjectID>1D31F059-902F-4549-9D0C-FF83894C3A2C</a:ObjectID>
+<a:Name>implInterface</a:Name>
+<a:TemplateTargetItem.Value>.if (%ContainerType%) and (%.L:ContainerType% != &lt;none&gt;)
+%ContainerType%%endCollectionType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o378">
+<a:ObjectID>6FEC5BCA-48A3-41FA-B85C-91D6AB258761</a:ObjectID>
+<a:Name>endRoleName</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+%roleBCode%
+.else
+%roleACode%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o379">
+<a:ObjectID>52CE7EC7-C09C-49D7-B1AD-6E6C4FEBD4A3</a:ObjectID>
+<a:Name>endContainerType</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+%roleBContainerType%
+.else
+%roleAContainerType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o380">
+<a:ObjectID>62B6B544-0D73-4099-8899-D56AC74D960A</a:ObjectID>
+<a:Name>roleAContainerEx</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAContainer%) and (%.L:RoleAContainer% != &lt;none&gt;)
+%RoleAContainer%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o381">
+<a:ObjectID>3EC474CB-02FB-4819-8780-7DBC574D79D8</a:ObjectID>
+<a:Name>roleBContainerEx</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBContainer%) and (%.L:RoleBContainer% != &lt;none&gt;)
+%RoleBContainer%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o382">
+<a:ObjectID>FF37BA43-B7A2-4DCF-AD5C-4AB86AEF011E</a:ObjectID>
+<a:Name>roleBImplementationClassEx</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBImplementationClass%) and (%.L:RoleBImplementationClass% != &lt;none&gt;)
+%RoleBImplementationClass%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o383">
+<a:ObjectID>F06B1EEC-2A15-4EA3-BE56-7C1FEA559118</a:ObjectID>
+<a:Name>roleAImplementationClassEx</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAImplementationClass%) and (%.L:RoleAImplementationClass% != &lt;none&gt;)
+%RoleAImplementationClass%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o384">
+<a:ObjectID>E5FDDB49-2340-4799-BEE5-121D5677B418</a:ObjectID>
+<a:Name>roleAMigrate</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAMigratedAttribute%)
+yes
+.else
+no
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o385">
+<a:ObjectID>87BFD460-3106-435F-A737-A4A150186F73</a:ObjectID>
+<a:Name>roleBMigrate</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBMigratedAttribute%)
+yes
+.else
+no
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o386">
+<a:ObjectID>179FC46E-099F-4A49-A557-EDB156040ACF</a:ObjectID>
+<a:Name>endMultiple</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+%RoleBMultiple%
+.else
+%RoleAMultiple%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o387">
+<a:ObjectID>04BA4EF6-EBAD-43A1-9A36-737762FFBE76</a:ObjectID>
+<a:Name>roleAFlags</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAMigratedAttribute%)
+%RoleAMigratedAttribute.flags%
+.elsif (%RoleAChangeability% == &quot;F&quot;)
+final
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o388">
+<a:ObjectID>EB375564-2F46-4F2A-B08D-4E822537EB89</a:ObjectID>
+<a:Name>roleBFlags</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBMigratedAttribute%)
+%RoleBMigratedAttribute.flags%
+.elsif (%RoleBChangeability% == &quot;F&quot;)
+final
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o389">
+<a:ObjectID>45FEA1BA-E7BF-4574-B132-635C31052BC2</a:ObjectID>
+<a:Name>roleName</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+%roleACode%
+.else
+%roleBCode%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o390">
+<a:ObjectID>15093381-4D2F-4E72-ABE3-A7E8329FEC9D</a:ObjectID>
+<a:Name>endClassHasImplementation</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+.bool (%roleBImplementationClassEx% != &quot;&quot;)
+.else
+.bool (%roleAImplementationClassEx% != &quot;&quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o391">
+<a:ObjectID>29352A58-E916-48CD-93FE-BCA42B6AEDFB</a:ObjectID>
+<a:Name>endCollectionType</a:Name>
+<a:TemplateTargetItem.Value>.if (%_isRoleAActive%)
+&lt;%ClassA.qualifiedCode%&gt;
+.else
+&lt;%ClassB.qualifiedCode%&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o392">
+<a:ObjectID>44E5A528-5D97-41A3-9DF6-39E20467DCDB</a:ObjectID>
+<a:Name>roleACollectionType</a:Name>
+<a:TemplateTargetItem.Value>&lt;%ClassA.qualifiedCode%&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o393">
+<a:ObjectID>6912DF30-72E1-4D9A-9C07-3664974EF6D7</a:ObjectID>
+<a:Name>roleBCollectionType</a:Name>
+<a:TemplateTargetItem.Value>&lt;%ClassB.qualifiedCode%&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o394">
+<a:ObjectID>A773C970-632F-4643-B218-2A4991B6C693</a:ObjectID>
+<a:Name>roleBMigratedAsscClassOne</a:Name>
+<a:TemplateTargetItem.Value>[%roleBVisibility% ][%roleBFlags% ]%AssociationClass.qualifiedCode% %Code%[%isReflexive%?B];
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o395">
+<a:ObjectID>CDB3EAFA-D137-4E47-8018-BD0FECEE4A07</a:ObjectID>
+<a:Name>roleBMigratedAsscClassMany</a:Name>
+<a:TemplateTargetItem.Value>.if (%roleBContainerType%)
+[%roleBVisibility% ][%roleBFlags% ]%roleBContainerType% %Code%[%isReflexive%?B];
+.else
+[%roleBVisibility% ][%roleBFlags% ]%AssociationClass.qualifiedCode%\[\] %Code%[%isReflexive%?B];
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o396">
+<a:ObjectID>5F007460-29AE-498C-B7B5-464FE8C48017</a:ObjectID>
+<a:Name>roleAMigratedAsscClassOne</a:Name>
+<a:TemplateTargetItem.Value>[%roleAVisibility% ][%roleAFlags% ]%AssociationClass.qualifiedCode% %Code%[%isReflexive%?A];
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o397">
+<a:ObjectID>BE5B1DD9-60E9-4FA0-8202-AC5B1B927316</a:ObjectID>
+<a:Name>roleAMigratedAsscClassMany</a:Name>
+<a:TemplateTargetItem.Value>.if (%roleAContainerType%)
+[%roleAVisibility% ][%roleAFlags% ]%roleAContainerType% %Code%[%isReflexive%?A];
+.else
+[%roleAVisibility% ][%roleAFlags% ]%AssociationClass.qualifiedCode%\[\] %Code%[%isReflexive%?A];
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o398">
+<a:ObjectID>9EF56D99-659D-4E7E-ACD6-BBE73C052696</a:ObjectID>
+<a:Name>roleAContainerType</a:Name>
+<a:TemplateTargetItem.Value>.if (%roleAContainer%) and (%.L:roleAContainer% != &lt;none&gt;)
+%roleAContainer%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o399">
+<a:ObjectID>186F2D71-EB1C-47BE-9ABE-72594D93F16E</a:ObjectID>
+<a:Name>roleBContainerType</a:Name>
+<a:TemplateTargetItem.Value>.if (%roleBContainer%) and (%.L:roleBContainer% != &lt;none&gt;)
+%roleBContainer%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o400">
+<a:ObjectID>AE4BF3F3-22D8-45AD-AE50-AD1DAF25F6F8</a:ObjectID>
+<a:Name>hasAttribute</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasAttribute, false, new)
+.foreach_item(_class.Attributes)
+   .if (%Code% == %_attributeCode%) or ((%_association.RoleAMigratedAttribute%) and (%_association.RoleAMigratedAttribute.ObjectID% == %ObjectID%)) or ((%_association.RoleBMigratedAttribute%) and (%_association.RoleBMigratedAttribute.ObjectID% == %ObjectID%))
+      .set_value(_hasAttribute, true)
+      .break
+   .endif
+.next
+%_hasAttribute%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o401">
+<a:ObjectID>561006BA-E4F1-40DB-9A3C-2C141272CC8D</a:ObjectID>
+<a:Name>asscClassDefinition</a:Name>
+<a:TemplateTargetItem.Value>.// see roleADefinition
+.if (%RoleANavigability%) and (%RoleAMigratedAttribute% == null)
+[%roleAVisibility% ]%ClassA.qualifiedCode% %roleACode%;
+.endif(\n)
+.// see roleBDefinition
+.if (%RoleBNavigability%) and (%RoleBMigratedAttribute% == null)
+[%roleBVisibility% ]%ClassB.qualifiedCode% %roleBCode%;
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute definition for association class</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o402">
+<a:ObjectID>3B469AE6-DD0F-434E-83EF-BF5CCBF5547A</a:ObjectID>
+<a:Name>roleAMigrateFromAssoc</a:Name>
+<a:TemplateTargetItem.Value>.// Migrate from an association
+.if (%RoleANavigability%)
+   .set_value(_attributeCode, %roleACode%, new)
+   .set_object(_association, , new) 
+   .set_object(_class, ClassB, new) 
+   .set_value(_migrateAttributeCode, false, new)
+   .if (%hasAttribute% == false)
+%roleAMigrateDefinition%
+   .endif(\n)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute definition for association end B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o403">
+<a:ObjectID>964E5ADC-4AFF-4A25-9FAD-DEB464187969</a:ObjectID>
+<a:Name>roleBMigrateFromAssoc</a:Name>
+<a:TemplateTargetItem.Value>.// Migrate from an association
+.if (%RoleBNavigability%)
+   .set_value(_attributeCode, %roleBCode%, new)
+   .set_object(_association, , new)   
+   .set_object(_class, ClassA, new) 
+   .set_value(_migrateAttributeCode, false, new)
+   .if (%hasAttribute% == false)
+%roleBMigrateDefinition%
+   .endif(\n)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute definition for association end A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o404">
+<a:ObjectID>65C75A03-030E-4280-AB9A-4351A68888DA</a:ObjectID>
+<a:Name>javaDoc</a:Name>
+<a:TemplateTargetItem.Value>[%ActualComment%\n\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o405">
+<a:ObjectID>2A34B283-2881-4ED9-AD7A-47838E5BC42B</a:ObjectID>
+<a:Name>roleAMigrateDefinition</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleANavigability%) and ((%ClassA.IsSelected%) or (%ClassA.isBoundClassifier%))
+.// Migrate from an attribute
+[%javaDocComment%\n]
+   .if (%AssociationClass%)
+      .if (%RoleAMultiple%)
+%roleAMigratedAsscClassMany%
+      .else
+%roleAMigratedAsscClassOne%
+      .endif
+   .else
+      .if (%RoleAMultiple%)
+%roleAMigratedAttributeMany%
+      .else
+%roleAMigratedAttributeOne%
+      .endif
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute definition for association end B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o406">
+<a:ObjectID>286CABA3-32CF-41A7-B25B-C789A2FAF6C4</a:ObjectID>
+<a:Name>roleBMigrateDefinition</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBNavigability%) and ((%ClassB.IsSelected%) or (%ClassB.isBoundClassifier%))
+.// Migrate from an attribute
+[%javaDocComment%\n]
+   .if (%AssociationClass%)
+      .if (%RoleBMultiple%)
+%roleBMigratedAsscClassMany%
+      .else
+%roleBMigratedAsscClassOne%
+      .endif
+   .else
+      .if (%RoleBMultiple%)
+%roleBMigratedAttributeMany%
+      .else
+%roleBMigratedAttributeOne%
+      .endif
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>attribute definition for association end A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o407">
+<a:ObjectID>BE91D392-0F74-4AEB-B6F0-0B64577CEBA0</a:ObjectID>
+<a:Name>roleAMigrateAccessors</a:Name>
+<a:TemplateTargetItem.Value>.// Migrate from an association
+.if (%AssociationClass% == null) and (%RoleANavigability%) and ((%ClassA.IsSelected%) or (%ClassA.isBoundClassifier%))
+.set_value(_isRoleAActive, true, new)
+.set_value(_activeRole, %RoleAActive%)
+   .if (%RoleAMultiple%)
+%accessorsMany%
+   .else
+%accessorsOne%
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o408">
+<a:ObjectID>4987EAD4-7E8F-48DE-A00D-3EF7F88F86BC</a:ObjectID>
+<a:Name>roleBMigrateAccessors</a:Name>
+<a:TemplateTargetItem.Value>.// Migrate from an association
+.if (%AssociationClass% == null) and (%RoleBNavigability%) and ((%ClassB.IsSelected%) or (%ClassB.isBoundClassifier%))
+.set_value(_isRoleAActive, false, new)
+.set_value(_activeRole, %RoleBActive%)
+   .if (%RoleBMultiple%)
+%accessorsMany%
+   .else
+%accessorsOne%
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o409">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>D1244122-16D2-46D1-8F80-F1F298D4352E</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o410">
+<a:ObjectID>FB8030D8-4CBA-45E4-B594-7F7EAA38C56F</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o411">
+<a:ObjectID>7F423FA1-A80A-4F36-89CC-C12E34F6589C</a:ObjectID>
+<a:Name>Bean Class CMR Field</a:Name>
+<a:CriterionTargetItem.Value>(%isCMRField%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o412">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>8D1C08ED-0AD7-4A09-B18F-168351D441BF</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o413">
+<a:ObjectID>33525DFA-5490-496D-B96E-1445F312361A</a:ObjectID>
+<a:Name>roleACMRDefinition</a:Name>
+<a:TemplateTargetItem.Value>.// if association is navigable B-&gt;A and A has a local interface
+.if (%isSameJAR%) and (%RoleANavigability%) and (%ClassA.Components.First.LocalInterface%)
+   .if (%GenClassifier.isLocalInterface%) or (%GenClassifier.isBeanClass%)
+[%roleATags%\n]\
+public abstract %roleACMRFieldType% get%.FU:roleACode%();
+public abstract void set%.FU:roleACode%(%roleACMRFieldType% %.FL:roleACode%);
+   .endif(\n)
+.// ValueObject accessors
+   .if (%GenOptions.CMRValueObject%)
+      .if (%RoleAMultiple% == false)
+[%GenClassifier.isBeanClass%?\n]\
+public %ClassA.valueObjectCode% get%.FU:roleACode%ByValue()[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n
+   %roleACMRFieldType% %.FL:roleACode% = get%.FU:roleACode%();
+   %ClassA.valueObjectCode% valObj = new %ClassA.valueObjectCode%();
+
+            .foreach_item(ClassA.Attributes,,,%isCMPField%)
+   valObj.%fieldCode% = %.FL:Outer.roleACode%.get%.FU:Code%();
+            .next(\n)
+
+   return valObj;
+}
+         .else
+;
+         .endif(\n)
+      .else
+[%GenClassifier.isBeanClass%?\n]\
+public java.util.Collection get%.FU:roleACode%ByValue()[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n
+   java.util.Collection valObjs = new java.util.Vector();
+   %roleACMRFieldType% %.FL:roleACode% = get%.FU:roleACode%();
+   for (java.util.Iterator it = %.FL:roleACode%.iterator(); it.hasNext(); )
+   {
+      %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)it.next();
+      %ClassA.valueObjectCode% valObj = new %ClassA.valueObjectCode%();
+
+            .foreach_item(ClassA.Attributes,,,%isCMPField%)
+      valObj.%fieldCode% = obj.get%.FU:Code%();
+            .next(\n)
+
+      valObjs.add(valObj);
+   }
+   return valObjs;
+}
+         .else
+;
+         .endif(\n)
+      .endif
+
+      .if (%RoleAMultiple% == false)
+[%GenClassifier.isBeanClass%?\n]\
+public void set%.FU:roleACode%ByValue(%ClassA.valueObjectCode% valObj) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassA.Components.First.LocalHomeInterface% != null)
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassA.Components.First.LocalHomeInterface.Code% home = (%ClassA.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassA.Components.First.Parent.Code%/%ClassA.Components.First.Code%&quot;);
+
+   %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+   set%.FU:roleACode%(obj);
+            .endif(\n)
+}
+         .else
+;         
+         .endif(\n)
+      .else
+[%GenClassifier.isBeanClass%?\n]\
+public void set%.FU:roleACode%ByValue(java.util.Collection valObjs) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassA.Components.First.LocalHomeInterface% != null)
+   java.util.Collection %.FL:roleACode% = new java.util.Vector();
+
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassA.Components.First.LocalHomeInterface.Code% home = (%ClassA.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassA.Components.First.Parent.Code%/%ClassA.Components.First.Code%&quot;);
+
+   for (java.util.Iterator it = valObjs.iterator(); it.hasNext(); )
+   {
+      %ClassA.valueObjectCode% valObj = (%ClassA.valueObjectCode%)it.next();
+      %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+      %.FL:roleACode%.add(obj);
+   }
+   set%.FU:roleACode%(%.FL:roleACode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)
+      .endif
+      .if (%RoleAMultiple%)
+[%GenClassifier.isBeanClass%?\n]\
+public void add%.FU:ClassA.Components.First.Code%ByValue(%ClassA.valueObjectCode% valObj) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassA.Components.First.LocalHomeInterface% != null)
+   %roleACMRFieldType% %.FL:roleACode% = get%.FU:roleACode%();
+
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassA.Components.First.LocalHomeInterface.Code% home = (%ClassA.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassA.Components.First.Parent.Code%/%ClassA.Components.First.Code%&quot;);
+   %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+
+   %.FL:roleACode%.add(obj);
+   set%.FU:roleACode%(%.FL:roleACode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)
+[%GenClassifier.isBeanClass%?\n]\
+public void modify%.FU:ClassA.Components.First.Code%ByValue(%ClassA.valueObjectCode% valObj)[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassA.Components.First.LocalHomeInterface% != null)
+   %roleACMRFieldType% %.FL:roleACode% = get%.FU:roleACode%();
+   for (java.util.Iterator it = %.FL:roleACode%.iterator(); it.hasNext(); )
+   {
+      %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)it.next();
+      if (
+               .foreach_item(ClassA.Attributes,,,%isPrimaryKeyField%)
+                  .if (%hasBasicDataType%)
+(valObj.%fieldCode% == obj.get%.FU:Code%())
+                  .else
+((valObj.%fieldCode% != null) &amp;&amp; (valObj.%fieldCode%.equals(obj.get%.FU:Code%())))
+                  .endif
+               .next(&quot; &amp;&amp;\n&quot;)
+)
+      {
+               .foreach_item(ClassA.Attributes,\n,,%isCMPField%)
+                  .if (%isPrimaryKeyField% == false)
+         obj.set%.FU:Code%(valObj.%fieldCode%);
+                  .endif(\n)
+               .next
+               
+         break;
+      }
+            .endif(\n)
+   }
+}
+         .else
+;
+         .endif(\n)
+[%GenClassifier.isBeanClass%?\n]\
+public void remove%.FU:ClassA.Components.First.Code%ByValue(%ClassA.valueObjectCode% valObj)[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassA.Components.First.LocalHomeInterface% != null)
+   %roleACMRFieldType% %.FL:roleACode% = get%.FU:roleACode%();
+   for (java.util.Iterator it = %.FL:roleACode%.iterator(); it.hasNext(); )
+   {
+      %ClassA.Components.First.LocalInterface.Code% obj = (%ClassA.Components.First.LocalInterface.Code%)it.next();
+      if (
+               .foreach_item(ClassA.Attributes,,,%isPrimaryKeyField%)
+                  .if (%hasBasicDataType%)
+(valObj.%fieldCode% == obj.get%.FU:Code%())
+                  .else
+((valObj.%fieldCode% != null) &amp;&amp; (valObj.%fieldCode%.equals(obj.get%.FU:Code%())))
+                  .endif
+               .next(&quot; &amp;&amp;\n&quot;)
+)
+      {
+         it.remove();
+         break;
+      }
+   }
+   set%.FU:roleACode%(%.FL:roleACode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)
+      .endif
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o414">
+<a:ObjectID>26BBBA03-93A5-414F-9284-3D9A5B83A875</a:ObjectID>
+<a:Name>roleBCMRDefinition</a:Name>
+<a:TemplateTargetItem.Value>.// if association is navigable A-&gt;B and B has a local interface
+.if (%isSameJAR%) and (%RoleBNavigability%) and (%ClassB.Components.First.LocalInterface%)
+   .if (%GenClassifier.isLocalInterface%) or (%GenClassifier.isBeanClass%)
+[%roleBTags%\n]\
+public abstract %roleBCMRFieldType% get%.FU:roleBCode%();
+public abstract void set%.FU:roleBCode%(%roleBCMRFieldType% %.FL:roleBCode%);
+   .endif(\n)
+.// ValueObject accessors
+   .if (%GenOptions.CMRValueObject%)
+      .if (%RoleBMultiple% == false)
+[%GenClassifier.isBeanClass%?\n]\
+public %ClassB.valueObjectCode% get%.FU:roleBCode%ByValue()[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n
+   %roleBCMRFieldType% %.FL:roleBCode% = get%.FU:roleBCode%();
+   %ClassB.valueObjectCode% valObj = new %ClassB.valueObjectCode%();
+
+            .foreach_item(ClassB.Attributes,,,%isCMPField%)
+   valObj.%fieldCode% = %.FL:Outer.roleBCode%.get%.FU:Code%();
+            .next(\n)
+   
+   return valObj;
+}
+         .else
+;
+         .endif(\n)
+      .else
+[%GenClassifier.isBeanClass%?\n]\
+public java.util.Collection get%.FU:roleBCode%ByValue()[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n
+   java.util.Collection valObjs = new java.util.Vector();
+   %roleBCMRFieldType% %.FL:roleBCode% = get%.FU:roleBCode%();
+   for (java.util.Iterator it = %.FL:roleBCode%.iterator(); it.hasNext(); )
+   {
+      %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)it.next();
+      %ClassB.valueObjectCode% valObj = new %ClassB.valueObjectCode%();
+
+            .foreach_item(ClassB.Attributes,,,%isCMPField%)
+      valObj.%fieldCode% = obj.get%.FU:Code%();
+            .next(\n)
+
+      valObjs.add(valObj);
+   }
+   return valObjs;
+}
+         .else
+;
+         .endif(\n)
+      .endif
+      .if (%RoleBMultiple% == false)
+[%GenClassifier.isBeanClass%?\n]\
+public void set%.FU:roleBCode%ByValue(%ClassB.valueObjectCode% valObj) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassB.Components.First.LocalHomeInterface% != null)
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassB.Components.First.LocalHomeInterface.Code% home = (%ClassB.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassB.Components.First.Parent.Code%/%ClassB.Components.First.Code%&quot;);
+
+   %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+   set%.FU:roleBCode%(obj);
+            .endif(\n)
+}
+         .else
+;         
+         .endif(\n)
+      .else
+[%GenClassifier.isBeanClass%?\n]\
+public void set%.FU:roleBCode%ByValue(java.util.Collection valObjs) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassB.Components.First.LocalHomeInterface% != null)
+   %roleBCMRFieldType% %.FL:roleBCode% = new java.util.Vector();
+
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassB.Components.First.LocalHomeInterface.Code% home = (%ClassB.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassB.Components.First.Parent.Code%/%ClassB.Components.First.Code%&quot;);
+
+   for (java.util.Iterator it = valObjs.iterator(); it.hasNext(); )
+   {
+      %ClassB.valueObjectCode% valObj = (%ClassB.valueObjectCode%)it.next();
+      %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+      %.FL:roleBCode%.add(obj);
+   }
+   set%.FU:roleBCode%(%.FL:roleBCode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)      
+      .endif
+      .if (%RoleBMultiple%)
+[%GenClassifier.isBeanClass%?\n]\
+public void add%.FU:ClassB.Components.First.Code%ByValue(%ClassB.valueObjectCode% valObj) throws javax.naming.NamingException, javax.ejb.CreateException[%GenClassifier.isRemoteInterface%?, java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassB.Components.First.LocalHomeInterface% != null)
+   %roleBCMRFieldType% %.FL:roleBCode% = get%.FU:roleBCode%();
+
+   javax.naming.InitialContext ctx = new javax.naming.InitialContext();
+   %ClassB.Components.First.LocalHomeInterface.Code% home = (%ClassB.Components.First.LocalHomeInterface.Code%)\
+ctx.lookup(&quot;java:comp/env/%ClassB.Components.First.Parent.Code%/%ClassB.Components.First.Code%&quot;);
+   %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)home.createByValue(valObj);
+
+   %.FL:roleBCode%.add(obj);
+   set%.FU:roleBCode%(%.FL:roleBCode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)
+[%GenClassifier.isBeanClass%?\n]\
+public void modify%.FU:ClassB.Components.First.Code%ByValue(%ClassB.valueObjectCode% valObj)[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassB.Components.First.LocalHomeInterface% != null)
+   %roleBCMRFieldType% %.FL:roleBCode% = get%.FU:roleBCode%();
+   for (java.util.Iterator it = %.FL:roleBCode%.iterator(); it.hasNext(); )
+   {
+      %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)it.next();
+      if (
+               .foreach_item(ClassB.Attributes,,,%isPrimaryKeyField%)
+                  .if (%hasBasicDataType%)
+(valObj.%fieldCode% == obj.get%.FU:Code%())
+                  .else
+((valObj.%fieldCode% != null) &amp;&amp; (valObj.%fieldCode%.equals(obj.get%.FU:Code%())))
+                  .endif
+               .next(&quot; &amp;&amp;\n&quot;)
+)
+      {
+               .foreach_item(ClassB.Attributes,\n,,%isCMPField%)
+                  .if (%isPrimaryKeyField% == false)
+         obj.set%.FU:Code%(valObj.%fieldCode%);
+                  .endif(\n)
+               .next
+               
+         break;
+      }
+            .endif(\n)
+   }
+}
+         .else
+;
+         .endif(\n)
+[%GenClassifier.isBeanClass%?\n]\
+public void remove%.FU:ClassB.Components.First.Code%ByValue(%ClassB.valueObjectCode% valObj)[%GenClassifier.isRemoteInterface%? throws java.rmi.RemoteException]
+         .if ((%GenClassifier% != null) and (%GenClassifier.isBeanClass%))
+ {\n\n
+            .if (%ClassB.Components.First.LocalHomeInterface% != null)
+   %roleBCMRFieldType% %.FL:roleBCode% = get%.FU:roleBCode%();
+   for (java.util.Iterator it = %.FL:roleBCode%.iterator(); it.hasNext(); )
+   {
+      %ClassB.Components.First.LocalInterface.Code% obj = (%ClassB.Components.First.LocalInterface.Code%)it.next();
+      if (
+               .foreach_item(ClassB.Attributes,,,%isPrimaryKeyField%)
+                  .if (%hasBasicDataType%)
+(valObj.%fieldCode% == obj.get%.FU:Code%())
+                  .else
+((valObj.%fieldCode% != null) &amp;&amp; (valObj.%fieldCode%.equals(obj.get%.FU:Code%())))
+                  .endif
+               .next(&quot; &amp;&amp;\n&quot;)
+)
+      {
+         it.remove();
+         break;
+      }
+   }
+   set%.FU:roleBCode%(%.FL:roleBCode%);
+            .endif(\n)
+}
+         .else
+;
+         .endif(\n)
+      .endif
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o415">
+<a:ObjectID>B3A000CF-1B5F-4B6F-803D-5B982D085800</a:ObjectID>
+<a:Name>roleACMRFieldType</a:Name>
+<a:TemplateTargetItem.Value>.if (%ClassA.Components.First.LocalInterface%)
+.if (%RoleAMultiple% == false)
+%ClassA.Components.First.LocalInterface.Code%
+.else
+   .if (%.L:roleAContainer% == &lt;none&gt;)
+java.util.Collection
+   .else
+%roleAContainer%
+   .endif
+.endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>CMR field type for association end B (roleAContainer)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o416">
+<a:ObjectID>6EE1D2E4-F711-43A0-8AEB-FC58DE6C5F13</a:ObjectID>
+<a:Name>roleACMRMultiplicity</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleAMultiple%)
+Many
+.else
+One
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>CMR multiplicity of association end A</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o417">
+<a:ObjectID>0E34864F-8B52-47C4-99B2-C52FAAC175BF</a:ObjectID>
+<a:Name>roleBCMRFieldType</a:Name>
+<a:TemplateTargetItem.Value>.if (%ClassB.Components.First.LocalInterface%)
+   .if (%RoleBMultiple% == false)
+%ClassB.Components.First.LocalInterface.Code%
+   .else
+      .if (%.L:roleBContainer% == &lt;none&gt;)
+java.util.Collection
+      .else
+%roleBContainer%
+      .endif
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>CMR field type for association end A (roleBContainer)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o418">
+<a:ObjectID>5983FE67-9321-468B-945D-7925929249A5</a:ObjectID>
+<a:Name>roleBCMRMultiplicity</a:Name>
+<a:TemplateTargetItem.Value>.if (%RoleBMultiple%)
+Many
+.else
+One
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>CMR multiplicity of association end B</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o419">
+<a:ObjectID>943F1A32-28AD-4E14-8FE6-994735DBAC3A</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o420">
+<a:ObjectID>D07C21CF-226A-4C52-BE6D-FF30C8F7ED3F</a:ObjectID>
+<a:Name>roleB-cmr-field</a:Name>
+<a:TemplateTargetItem.Value>.// if association is navigable A-&gt;B and B has a local interface
+.if (%RoleBNavigability%) and (%ClassB.Components.First.LocalInterface%)
+&lt;cmr-field&gt;
+ .// description?
+ &lt;cmr-field-name&gt;%.FL:roleBCode%&lt;/cmr-field-name&gt;
+
+   .if (%RoleBMultiple%)
+ &lt;cmr-field-type&gt;%roleBCMRFieldType%&lt;/cmr-field-type&gt;
+   .endif(\n)
+&lt;/cmr-field&gt;
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o421">
+<a:ObjectID>B364E51A-80FF-4751-8A0D-C79BA5A1C0DF</a:ObjectID>
+<a:Name>roleA-cmr-field</a:Name>
+<a:TemplateTargetItem.Value>.// if association is navigable B-&gt;A and A has a local interface
+.if (%RoleANavigability%) and (%ClassA.Components.First.LocalInterface%)
+&lt;cmr-field&gt;
+ .// description?
+ &lt;cmr-field-name&gt;%.FL:roleACode%&lt;/cmr-field-name&gt;
+
+   .if (%RoleAMultiple%)
+ &lt;cmr-field-type&gt;%roleACMRFieldType%&lt;/cmr-field-type&gt;
+   .endif(\n)
+&lt;/cmr-field&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o422">
+<a:ObjectID>9CB45196-DDC3-4C08-8B55-B71F3D8411A6</a:ObjectID>
+<a:Name>ejb-relation</a:Name>
+<a:TemplateTargetItem.Value>.// generate relation if both classes belong to the same archive
+.if (%isSameJAR%)
+&lt;ejb-relation&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;ejb-relation-name&gt;%ejbRelationName%&lt;/ejb-relation-name&gt;
+.//
+.// (role A)
+.//
+ &lt;ejb-relationship-role[ id=&quot;%ejbRelationshipRoleAID%&quot;]&gt;
+  .// description?
+  &lt;ejb-relationship-role-name&gt;[%roleACode%?%roleACode%:RoleA]&lt;/ejb-relationship-role-name&gt;
+  &lt;multiplicity&gt;%roleACMRMultiplicity%&lt;/multiplicity&gt;
+
+   .if (%roleACMRCascadeDelete%)
+  &lt;cascade-delete/&gt;
+   .endif(\n)
+  &lt;relationship-role-source&gt;
+   .// description?
+   &lt;ejb-name&gt;%ClassA.Components.First.ejbName%&lt;/ejb-name&gt;
+  &lt;/relationship-role-source&gt;
+
+   .if (%roleB-cmr-field%)
+  %roleB-cmr-field%
+   .endif(\n)
+ &lt;/ejb-relationship-role&gt;
+.//
+.// (role B)
+.//
+ &lt;ejb-relationship-role[ id=&quot;%ejbRelationshipRoleBID%&quot;]&gt;
+  .// description?
+  &lt;ejb-relationship-role-name&gt;[%roleBCode%?%roleBCode%:RoleB]&lt;/ejb-relationship-role-name&gt;
+  &lt;multiplicity&gt;%roleBCMRMultiplicity%&lt;/multiplicity&gt;
+
+   .if (%roleBCMRCascadeDelete%)
+  &lt;cascade-delete/&gt;
+   .endif(\n)
+  &lt;relationship-role-source&gt;
+   .// description?
+   &lt;ejb-name&gt;%ClassB.Components.First.ejbName%&lt;/ejb-name&gt;
+  &lt;/relationship-role-source&gt;
+
+   .if (%roleA-cmr-field%)
+  %roleA-cmr-field%
+   .endif(\n)
+ &lt;/ejb-relationship-role&gt;
+&lt;/ejb-relation&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o423">
+<a:ObjectID>9C1FB208-63A7-43DF-B795-B501270ED2B8</a:ObjectID>
+<a:Name>ejbRelationName</a:Name>
+<a:TemplateTargetItem.Value>%ClassA.Components.First.ejbName%-%ClassB.Components.First.ejbName%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Relationship name.  This template could be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o424">
+<a:ObjectID>F9410672-E5D6-4676-A5C5-E80BB3AB6BAA</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o425">
+<a:ObjectID>91E2226F-B0FC-4EBB-B3CE-F36F5F69DA0C</a:ObjectID>
+<a:Name>isSameJAR</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ClassA.Package.jarFilepath% == %ClassB.Package.jarFilepath%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o426">
+<a:ObjectID>1CCD2A99-A78C-4AD5-BE2B-A2E16EBC71AD</a:ObjectID>
+<a:Name>isEjbJarUseTagId</a:Name>
+<a:TemplateTargetItem.Value>%Model.isEjbJarUseTagId%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o427">
+<a:ObjectID>C4F1E8E3-820D-4706-8116-73EB9149E847</a:ObjectID>
+<a:Name>ejbRelationshipRoleAID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+EJBRelationshipRole_%uniqueID%_A
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o428">
+<a:ObjectID>86DA13A7-7DF0-4466-951A-F275D40E2926</a:ObjectID>
+<a:Name>ejbRelationshipRoleBID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+EJBRelationshipRole_%uniqueID%_B
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o429">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>A82DBE6D-F0CB-4F9F-98B3-1C89F1444BD5</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o430">
+<a:ObjectID>D1D0D3D1-075E-4042-8B2F-A650F3C11054</a:ObjectID>
+<a:Name>roleACMRCascadeDelete</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut utilisé pour activer un comportement de type suppression en cascade sur le rôle A de l&#39;association.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o431">
+<a:ObjectID>867BAF2E-4C4D-4098-8E71-1649C9C0C780</a:ObjectID>
+<a:Name>roleBCMRCascadeDelete</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut utilisé pour activer un comportement de type suppression en cascade sur le rôle B de l&#39;association.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o432">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>DEED20B7-B794-4223-B7DD-48EAC67B670D</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o433">
+<a:ObjectID>F106D1EF-C7D2-4C43-8355-6501AA889B39</a:ObjectID>
+<a:Name>implicit</a:Name>
+<a:Code>implicit</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>implicit</a:Comment>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o434">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>92E21C96-84B0-4BE3-BDDD-D705E09EDE17</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o435">
+<a:ObjectID>307FBCF4-4C2A-49AC-939C-B1D0017A87D4</a:ObjectID>
+<a:Name>HiddenForm</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;ExtendedAttribute Name=&quot;roleAImplementationClass&quot; Caption=&quot;roleAImplementationClass&quot; Attribute=&quot;roleAImplementationClass&quot; AttributeID=&quot;{F6FFC71C-C472-4261-A710-B0BCC0BF4D58}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;roleBImplementationClass&quot; Caption=&quot;roleBImplementationClass&quot; Attribute=&quot;roleBImplementationClass&quot; AttributeID=&quot;{C11C9F66-6453-43A2-8824-6654518CF65A}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;roleBContainer&quot; Caption=&quot;roleBContainer&quot; Attribute=&quot;roleBContainer&quot; AttributeID=&quot;{78C31404-0EE5-4FD0-9038-EE396B305F05}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;roleAContainer&quot; Caption=&quot;roleAContainer&quot; Attribute=&quot;roleAContainer&quot; AttributeID=&quot;{72FA5C48-5524-4DF7-8187-ABB19AB5AF9E}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Utilisé pour cacher les attributs</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:FormType>Dialog</a:FormType>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o436">
+<a:ObjectID>F7456367-40AD-443F-8C3B-0250ECFD5DA6</a:ObjectID>
+<a:Name>Operation</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o437">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>9FF127CC-D7B1-4272-A64B-4DB6B8D8409E</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o438">
+<a:ObjectID>009E1342-086F-4CEF-B6FD-758F33323467</a:ObjectID>
+<a:Name>native</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut orienté génération utilisé pour spécifier le modificateur native.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o439">
+<a:ObjectID>974CB4C7-4E83-4A28-8572-1D6332912398</a:ObjectID>
+<a:Name>synchronized</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut orienté génération utilisé pour spécifier le modificateur synchronized.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o440">
+<a:ObjectID>4168CC5F-D128-42E0-B562-8F92D95651C4</a:ObjectID>
+<a:Name>strictfp</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut orienté génération utilisé pour spécifier le modificateur strictfp.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:TypedCategoryTargetItem Id="o441">
+<a:ObjectID>745FD9C8-3C5C-408D-9E4A-CD9F40E1FB6F</a:ObjectID>
+<a:Name>Javadoc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Javadoc attributes are used for the round-trip engineering of Javadoc comment tags. Their value is multiline and contains all occurrences of the corresponding tag in the actual comment.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o442">
+<a:ObjectID>59042AB5-0236-4025-BEAF-54BBAF23A556</a:ObjectID>
+<a:Name>Javadoc@deprecated</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @deprecated. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o443">
+<a:ObjectID>DE592A3A-9B46-4694-86E3-F34EE2B2EDB4</a:ObjectID>
+<a:Name>Javadoc@exception</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @exception. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o444">
+<a:ObjectID>1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC</a:ObjectID>
+<a:Name>Javadoc@return</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @return. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o445">
+<a:ObjectID>D3985CCA-FAD4-47B4-8A43-91728C8FCD9D</a:ObjectID>
+<a:Name>Javadoc@see</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @see. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o446">
+<a:ObjectID>DD9FF1E3-8AAD-4A58-9C78-30F41D94C22D</a:ObjectID>
+<a:Name>Javadoc@serialData</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @serialData. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o447">
+<a:ObjectID>28AFA057-2A8B-4CA3-B145-5C4D606E9E56</a:ObjectID>
+<a:Name>Javadoc@since</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @since. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o448">
+<a:ObjectID>F03653A9-9917-45E2-8F4E-2713C1F58F40</a:ObjectID>
+<a:Name>Javadoc@throws</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @throws. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o449">
+<a:ObjectID>BEC3A951-BBCE-43EF-8425-51CEAE519A17</a:ObjectID>
+<a:Name>Javadoc@misc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>diverses balises javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o450">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>F57FE003-60E7-4B5B-959A-187412ACED98</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o451">
+<a:ObjectID>35397B55-A6E0-4195-88BD-E1D4893C2274</a:ObjectID>
+<a:Name>javaDoc</a:Name>
+<a:TemplateTargetItem.Value>[%ActualComment%\n\n]\
+[%@since%\n]\
+[%@deprecated%\n]\
+[%@param%\n]\
+[%@return%\n]\
+[%@exception%\n]\
+[%@serialData%\n]\
+[%@see%\n]\
+.if (%GenOptions.GenerateOID%)
+[@pdOid %.L:ObjectID%\n]\
+.endif
+[%@misc%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o452">
+<a:ObjectID>FE5F1607-B09C-4D75-86A2-13A09FB244DE</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o453">
+<a:ObjectID>C765A2D5-600B-4C80-A39B-7330643D5A97</a:ObjectID>
+<a:Name>visibility</a:Name>
+<a:TemplateTargetItem.Value>.if (%Visibility% == +)
+public
+.elsif (%Visibility% == #)
+protected
+.elsif (%Visibility% == -)
+private
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o454">
+<a:ObjectID>5BA4E4B5-F531-42EA-BE92-550FE59CCC5A</a:ObjectID>
+<a:Name>flags</a:Name>
+<a:TemplateTargetItem.Value>[%extendedFlags% ][%standardFlags% ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o455">
+<a:ObjectID>458FB9A2-3348-44A0-8976-A819A738F6CF</a:ObjectID>
+<a:Name>returnType</a:Name>
+<a:TemplateTargetItem.Value>.if (%ReturnTypeObject%)
+%ReturnTypeObject.qualifiedCode%[%Array%?\[\]]
+.else
+%ReturnType%[%Array%?\[\]]
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o456">
+<a:ObjectID>3FB1EBE5-7CEF-4932-8E39-8A30012457AD</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>[%annotationImports%\n]
+.if (%ReturnTypeObject%) and (%ReturnTypeObject.Package.isTopPackage% == false) and (%ReturnTypeObject.Package.ObjectID% != %Parent.Package.ObjectID%)
+%ReturnTypeObject.import%
+.endif
+.foreach_item(Parameters,\n)
+   .if (%DataTypeObject%) and (%DataTypeObject.Package.isTopPackage% == false) and (%DataTypeObject.Package.ObjectID% != %Parent.Parent.Package.ObjectID%)
+%DataTypeObject.import%
+   .endif(\n)
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o457">
+<a:ObjectID>571BA26B-46C0-433F-8165-08629E76B0AE</a:ObjectID>
+<a:Name>standardFlags</a:Name>
+<a:TemplateTargetItem.Value>[%Static%?static ][%Final%?final ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o458">
+<a:ObjectID>443640A8-C766-4E28-8B2D-8D7E79C0AF43</a:ObjectID>
+<a:Name>extendedFlags</a:Name>
+<a:TemplateTargetItem.Value>[%native%?native ][%synchronized%?synchronized ][%strictfp%?strictfp ][%isAbstractClass%?abstract ]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o459">
+<a:ObjectID>E3C3A7BE-BEE2-4D32-B0ED-22A27365A3E0</a:ObjectID>
+<a:Name>genericTypeParameters</a:Name>
+<a:TemplateTargetItem.Value>.if (%Generic%)
+   .foreach_item(TypeParameters,&quot;&lt;&quot;,&quot;&gt;&quot;)
+%Code%[ extends %DerivationConstraint%]
+   .next(,)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o460">
+<a:ObjectID>AE568B23-C26D-48B9-AE8B-89B2E311C523</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o461">
+<a:ObjectID>56B70591-F259-4F73-B0B6-3C004656E566</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o462">
+<a:ObjectID>4B5D0289-045B-489B-8569-35A6F8D360BC</a:ObjectID>
+<a:Name>query</a:Name>
+<a:TemplateTargetItem.Value>&lt;query&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;query-method&gt;
+  &lt;method-name&gt;%Code%&lt;/method-name&gt;
+  %method-params%
+ &lt;/query-method&gt;\n
+.if (%isSelect%)
+ &lt;result-type-mapping&gt;%Java::resultTypeMapping%&lt;/result-type-mapping&gt;
+.endif(\n)
+ &lt;ejb-ql&gt;\n
+.if (%Query%)
+  %Query%
+.else
+   .warning An EJB-QL query should be specified for query method %Parent.qualifiedCode%.%Code%.
+.endif(\n)
+ &lt;/ejb-ql&gt;
+&lt;/query&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o463">
+<a:ObjectID>4FE6D649-BE1B-442B-A5E5-2C9EC8159B1A</a:ObjectID>
+<a:Name>method-params</a:Name>
+<a:TemplateTargetItem.Value>&lt;method-params&gt;\n
+.foreach_item(Parameters,,\n)
+ %method-param%
+.next(\n)
+&lt;/method-params&gt;
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o464">
+<a:ObjectID>304D579F-F54C-4DC9-863F-5AD70BB5A790</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o465">
+<a:ObjectID>47A0F932-C9B7-4CD0-97A6-5F96E68CC115</a:ObjectID>
+<a:Name>isFinder</a:Name>
+<a:TemplateTargetItem.Value>.bool (%.4:Code% == find) and (%Parent.ObjectType% == Interface) and (%Parent.isHomeInterface%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o466">
+<a:ObjectID>AE9BB629-8A44-4AF0-AD70-25D34F37F78E</a:ObjectID>
+<a:Name>isEJBInterfaceMethod</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Parent.ObjectType% == Interface) and ((%Parent.isHomeInterface%) or (%Parent.isComponentInterface%))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o467">
+<a:ObjectID>8136ED1D-4F40-477B-AB95-92FDC66E5E32</a:ObjectID>
+<a:Name>isCreateInitialize</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Code% == create) and (%Parent.ObjectType% == Interface) and (%Parent.isHomeInterface%) and (%InfluentObject% != null) and (%InfluentObject.ObjectType% == Class)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o468">
+<a:ObjectID>2055C3AC-1C75-4EE7-B883-58B5E2BAEFE3</a:ObjectID>
+<a:Name>isSelect</a:Name>
+<a:TemplateTargetItem.Value>.bool (%.9:Code% == ejbSelect) and (%Parent.ObjectType% == Class) and (%Parent.isBeanClass%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o469">
+<a:ObjectID>2A739C4A-FE99-432B-9F25-B4FB196E5AAF</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.if (%isAbstract%) or (%isNative%)
+[%javaDocComment%\n]\
+   .if (%Parent% != null) &amp;&amp; (%Parent.ObjectType% != Interface)
+[%visibility% ]
+   .endif
+[%extendedFlags% ][%genericTypeParameters% ][%returnType% ]%Code%(%parameters%)[ throws %Throws%];
+.else
+[%javaDocComment%\n]\
+[%visibility% ][%flags% ][%genericTypeParameters% ][%returnType% ]%Code%(%parameters%)[ throws %Throws%] \
+[%Body%]
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o470">
+<a:ObjectID>4AF8619E-06D7-4295-AB75-5D78FAE3A76D</a:ObjectID>
+<a:Name>parameters</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Parameters)
+%definition%
+.next(&quot;, &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o471">
+<a:ObjectID>F04E0A73-9DF9-4E75-8CD4-09A8BDD7BC68</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o472">
+<a:ObjectID>7BADE247-4234-4324-A86E-B041E9D73977</a:ObjectID>
+<a:Name>isCopyConstructor</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isConstructor%) and (%Stereotype% == &quot;Copy constructor&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o473">
+<a:ObjectID>91611039-E041-4560-9DF3-C4F5F6BF6BA6</a:ObjectID>
+<a:Name>isDefaultConstructor</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Parent% != null) and (%Code% == %Parent.Code%) and (%Parameters.IsEmpty%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o474">
+<a:ObjectID>38D474D5-B26E-477B-A5C9-2BF44B05EF73</a:ObjectID>
+<a:Name>isGetter</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == Getter) and (%GetSetAttribute% != null)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o475">
+<a:ObjectID>5A081DE7-625C-43C4-91FC-8CBDFDBAFF9D</a:ObjectID>
+<a:Name>isSetter</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == Setter) and (%GetSetAttribute% != null)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o476">
+<a:ObjectID>26D639E5-0604-45F8-85B6-3CD3E9B5801A</a:ObjectID>
+<a:Name>isStaticInitializer</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Code% == _STATIC_INITIALIZER) and (%Stereotype% == staticInitializer)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o477">
+<a:ObjectID>A2384175-C2BC-4810-8D0D-72AE56963D65</a:ObjectID>
+<a:Name>isConstructor</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Parent% != null) and (%Code% == %Parent.Code%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o478">
+<a:ObjectID>9106C27C-25E7-4612-B931-83EC4B5431A3</a:ObjectID>
+<a:Name>isWebMethod</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Classifier.ObjectType% == Class) and (%Classifier.isWebService%) and (%WebMethod%) and (%Visibility% == +)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o479">
+<a:ObjectID>3F12E7A1-8170-4034-ABC2-E934804DD397</a:ObjectID>
+<a:Name>isNative</a:Name>
+<a:TemplateTargetItem.Value>.bool (%native%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o480">
+<a:ObjectID>1B72C51B-FC65-4186-BA44-090F8EC488B4</a:ObjectID>
+<a:Name>isAbstract</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Abstract%) or (%Parent.ObjectType% == Interface)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o481">
+<a:ObjectID>6C919BEA-8BFC-4B2D-BBA7-A0CE30D2EF52</a:ObjectID>
+<a:Name>isAbstractClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Abstract%) and (%Parent.ObjectType% == Class) and ((%Parent.Abstract%) or (%Parent.Stereotype% == Enum))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o482">
+<a:ObjectID>B726E44D-5C53-4E82-BA05-7EB9A48A1B90</a:ObjectID>
+<a:Name>isInitializer</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Code% == _INITIALIZER) and (%Stereotype% == initializer)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o483">
+<a:ObjectID>1204B0DD-04A7-4317-B4AC-6C56996D95DB</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+
+.if (%ReturnType% == void) or (%ReturnType% == &quot;&quot;)
+.elsif (%Array%)
+   return null;
+.elsif (%ReturnType% == int) or (%ReturnType% == short) or (%ReturnType% == long) 
+   return 0;
+.elsif (%ReturnType% == char) or (%ReturnType% == byte)
+   return 0;
+.elsif (%ReturnType% == float) or (%ReturnType% == double)
+   return 0;
+.elsif (%ReturnType% == boolean)
+   return false;
+.else
+   return null;
+.endif(\n)
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Default body for other functions</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o484">
+<a:ObjectID>3D9FA73F-0749-40E4-B897-FE3E97498C47</a:ObjectID>
+<a:Name>InternalSignature</a:Name>
+<a:TemplateTargetItem.Value>%Code%
+.foreach_item(Parameters)
+@%DataType%
+ .if (%Array%)
+# 
+ .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o485">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>23DC5CC9-CA51-4CF6-816E-E00734025FB6</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o486">
+<a:ObjectID>C301EF82-1DAD-4C03-B72A-2011C8C92E41</a:ObjectID>
+<a:Name>EJBCreateMethod</a:Name>
+<a:Code>EJBCreateMethod</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les méthodes EJB create.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o487">
+<a:ObjectID>AE882A21-ED72-463E-84AC-044174DDDB73</a:ObjectID>
+<a:Name>EJBFinderMethod</a:Name>
+<a:Code>EJBFinderMethod</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les méthodes EJB finder.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o488">
+<a:ObjectID>7C076A70-5C96-4BFB-86B1-20F9A7F65B68</a:ObjectID>
+<a:Name>EJBSelectMethod</a:Name>
+<a:Code>EJBSelectMethod</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Identifie les méthodes EJB.</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o489">
+<a:ObjectID>FCC2E400-BE42-4774-9975-33868A55EC72</a:ObjectID>
+<a:Name>storedFunction</a:Name>
+<a:Code>storedFunction</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Fonction stockée</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o490">
+<a:ObjectID>803F19A4-1280-4D72-BAED-839AD6348A0C</a:ObjectID>
+<a:Name>storedProcedure</a:Name>
+<a:Code>storedProcedure</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Procédure stockée</a:Comment>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o491">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>C0E49E49-96F5-4ECB-9E8A-9917A21CE0EE</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o492">
+<a:ObjectID>3075FC04-C971-4DD8-A39F-07A80A14AEB4</a:ObjectID>
+<a:Name>Copy Constructor</a:Name>
+<a:CriterionTargetItem.Value>(%isCopyConstructor%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o493">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>3B19EF84-16DC-4A21-8593-F865CF3C1D96</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o494">
+<a:ObjectID>227785EC-45D4-4E7A-9D2C-035CBEEF0DD1</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+.foreach_item(Parent.Attributes,\n)
+   .if (%Static% == false)
+   %Code% = old%Parent.Code%.%Code%;
+   .endif(\n)
+.next
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o495">
+<a:ObjectID>53380986-80A1-4821-9428-0F13C69921AF</a:ObjectID>
+<a:Name>Getter</a:Name>
+<a:CriterionTargetItem.Value>(%isGetter%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o496">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>0D17FC4F-0CA9-4888-ABE6-5E5DF1E5C666</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o497">
+<a:ObjectID>18521861-0DC4-4FC5-9AF0-D0EC79BF2343</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   return %GetSetAttribute.Code%;
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Default body for getter function</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o498">
+<a:ObjectID>91CC1E53-0297-47BD-9546-42EF588226D6</a:ObjectID>
+<a:Name>Setter</a:Name>
+<a:CriterionTargetItem.Value>(%isSetter%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o499">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>45001466-06FF-44BD-ADC7-B078A0BEA257</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o500">
+<a:ObjectID>58CA4D5F-3499-47D4-B7C7-F9E5BE816C62</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   %GetSetAttribute.Code% = new%.FU:GetSetAttribute.Code%;
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Default body for setter function</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o501">
+<a:ObjectID>D67F2A2B-63B7-49D7-992A-7306D023DC81</a:ObjectID>
+<a:Name>Static Initializer</a:Name>
+<a:CriterionTargetItem.Value>(%isStaticInitializer%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o502">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>DEC4CBD1-15E0-4F1C-B588-C294FA47A68A</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o503">
+<a:ObjectID>8B68148E-0B42-4707-B0D3-AB5D3AB8E098</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>static \
+[%Body%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:TypedCategoryTargetItem Id="o504">
+<a:ObjectID>7D6E4FEB-1D42-4D23-8AD1-03AEBA15B8AA</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o505">
+<a:ObjectID>8A50802E-5D89-41B4-B3E6-D68850E2D307</a:ObjectID>
+<a:Name>EJB Interface Method</a:Name>
+<a:CriterionTargetItem.Value>(%isEJBInterfaceMethod%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o506">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>3E4E15A2-389F-4487-934D-9508A8955F3A</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o507">
+<a:ObjectID>8467DBF1-67E7-483F-B520-95DB1D19EB3B</a:ObjectID>
+<a:Name>transactionType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de transaction d&#39;opération. &lt;Default&gt; utilise la valeur du composant.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>&lt;Default&gt;</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o231"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o508">
+<a:ObjectID>BEC0BD79-AED4-4C74-B0F7-B87468D8A5A3</a:ObjectID>
+<a:Name>Bean Class Method</a:Name>
+<a:CriterionTargetItem.Value>(%Parent.isBeanClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o509">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>A52AAB30-0165-4670-8444-F8675DDA3BCE</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o510">
+<a:ObjectID>13491E8D-C200-4F24-988E-870DDAECCFDB</a:ObjectID>
+<a:Name>ejbCreateInitialize</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == ejbCreate) and (%InfluentObject% != null) and (%InfluentObject.isCreateInitialize%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o508"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o511">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>70435CC3-5FA8-408B-BD2D-7C39FE25D11A</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o512">
+<a:ObjectID>A9E39505-313B-45F9-AC9E-824B4C01D814</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+.foreach_item(Parent.Attributes,\n)
+   .if (%isCMPField%)
+   set%.FU:Code%(%Code%);
+   .endif(\n)
+.next
+   return null;
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o513">
+<a:ObjectID>870725F5-E5A8-4A55-927B-606B5C84370F</a:ObjectID>
+<a:Name>setEjbContext</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == setEntityContext) or (%Code% == setSessionContext) or (%Code% == setMessageDrivenContext)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o508"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o514">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>C836EFC7-2967-4B4B-90AC-33F4BC1E29AA</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o515">
+<a:ObjectID>1AF6B44D-49D3-4FFD-AABC-7E13F2F979CD</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+
+.if (%Parameters.First%)
+   this.ejbContext = %Parameters.First.Code%;
+.endif(\n)
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o516">
+<a:ObjectID>8829D2BA-BC31-41D4-AE69-7CDD5B07E9B1</a:ObjectID>
+<a:Name>unsetEjbContext</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == unsetEntityContext) or (%Code% == unsetSessionContext) or (%Code% == unsetMessageDrivenContext)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o508"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o517">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9BC8DC61-9E9F-4804-8C57-BF41FA31F1C0</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o518">
+<a:ObjectID>00CEF4B0-6028-4AB9-B8D1-2C492667A868</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   this.ejbContext = null;
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o519">
+<a:ObjectID>49C8D666-BF4A-4644-8C26-98C20A1BF1D5</a:ObjectID>
+<a:Name>ejbSelect</a:Name>
+<a:CriterionTargetItem.Value>(%.9:Code% == ejbSelect)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o508"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o520">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>BABE6FA6-7993-4315-8E42-B82052253CB4</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o521">
+<a:ObjectID>1CAF1617-5AD8-49A3-AE4C-791892609392</a:ObjectID>
+<a:Name>resultTypeMapping</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Cet attribut est utilisé pour spécifier si le type de schema abstrait renvoyé par la méthode select doit être mis en correspondance avec un type EJBLocalObject ou EJBObject.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>EJBObject</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o522"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o523">
+<a:ObjectID>32CB4D5E-DC86-4303-B4A5-70053D79EEC4</a:ObjectID>
+<a:Name>Primary-Key Class Method</a:Name>
+<a:CriterionTargetItem.Value>(%Parent.isPrimaryKeyClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o524">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>797D7780-D4CA-4AFE-84D9-A3906475BC3A</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o525">
+<a:ObjectID>61ED52F9-DB5E-4846-B249-71C2C0A442CC</a:ObjectID>
+<a:Name>equals</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == equals)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o523"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o526">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>C8A0C282-A818-4CD2-8A47-BC6A937ED8CA</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o527">
+<a:ObjectID>A9DC8670-385D-422D-88EC-D1D111EEA46B</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+
+.if (%Parameters.First%)
+   if (!(%Parameters.First.Code% instanceof %Parent.Code%)) 
+      return false;
+
+
+   .ifnot (%Parent.Attributes.IsEmpty%)
+   %Parent.Code% other%Parent.Code% = (%Parent.Code%)%Parameters.First.Code%;
+   .endif(\n)
+
+   boolean bEqual = true;
+
+   .foreach_item(Parent.Attributes, &quot;\n   bEqual = (&quot;,&quot;);\n&quot;)
+      .if (%hasBasicDataType%)
+this.%fieldCode% == other%Parent.Code%.%fieldCode%
+      .else
+(this.%fieldCode% != null) &amp;&amp; (this.%fieldCode%.equals(other%Parent.Code%.%fieldCode%))
+      .endif
+   .next(&quot;) &amp;&amp;\n            (&quot;)
+
+   return bEqual;
+.else
+   return false;
+.endif(\n)
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o528">
+<a:ObjectID>4C16ABF2-E84A-449E-A250-175DA83B64D3</a:ObjectID>
+<a:Name>hashCode</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == hashCode)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o523"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o529">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>BCAF89E0-F93B-4615-B0A2-C0115A7F8E63</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o530">
+<a:ObjectID>1BFB171C-FA35-4484-848A-E344947EBBE9</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   String str = this.getClass().getName();
+
+  .foreach_item(Parent.Attributes,\n,\n)
+   str = str + &quot;%fieldCode% = &quot; + %fieldCode%;
+  .next(\n)   
+
+   return str.hashCode();
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o531">
+<a:ObjectID>3CD2855F-87B4-43DC-85C7-473EE9EA5D71</a:ObjectID>
+<a:Name>EJB3 Method</a:Name>
+<a:CriterionTargetItem.Value>(%Parent.isEJB3BeanClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o532">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>32CB5606-D952-4A0F-9EAF-0C04CE7FE85C</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o533">
+<a:ObjectID>2A890D6D-7D59-4B71-88F5-3A76944D0B5C</a:ObjectID>
+<a:Name>Init</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Initialize</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o534">
+<a:ObjectID>3EB7C846-BF1B-4194-A332-FE397F31BFAC</a:ObjectID>
+<a:Name>Remove</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Remove</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o535">
+<a:ObjectID>D697904B-4BA7-4A50-A6B6-75F2174D0A9E</a:ObjectID>
+<a:Name>AroundInvoke</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode interceptrice</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o536">
+<a:ObjectID>B22FF233-36FF-43D3-BA93-DB52064F226C</a:ObjectID>
+<a:Name>TransactionAttributeType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type d&#39;attribut de transaction pour la méthode</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>&lt;Default&gt;</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o231"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o537">
+<a:ObjectID>2545AB16-61D4-4F07-8471-8EE29293FA16</a:ObjectID>
+<a:Name>ExcludeDefaultInterceptors</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exclut l&#39;appel de l&#39;intercepteur par défaut pour la méthode</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o538">
+<a:ObjectID>FC8E16F3-9450-4580-A3BA-0B53D44F6990</a:ObjectID>
+<a:Name>ExcludeClassInterceptors</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Exclut l&#39;appel des intercepteurs de niveau classe pour la méthode</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o539">
+<a:ObjectID>ADEBAF20-B226-4C72-A094-40ABD137CEB6</a:ObjectID>
+<a:Name>PostConstruct</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Post-Construct</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o540">
+<a:ObjectID>11526241-1EEF-41FA-9496-1E2084E4E088</a:ObjectID>
+<a:Name>PreDestroy</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Pre-Destroy</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o541">
+<a:ObjectID>91319C8B-770B-4AEC-A6F3-9939692BF0DD</a:ObjectID>
+<a:Name>PostActivate</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Post-Activate</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o542">
+<a:ObjectID>5779F456-6648-4D8C-8B9C-A979B61A293F</a:ObjectID>
+<a:Name>PrePassivate</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Pre-Passivate</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o543">
+<a:ObjectID>E9BA8FC6-3A5B-49F3-B3CB-CCB8BB03CA79</a:ObjectID>
+<a:Name>Timeout</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Méthode Timeout</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o544">
+<a:ObjectID>E0737694-E9C0-4831-8835-E7F3AB6884F5</a:ObjectID>
+<a:Name>RolesAllowed</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Rôles admis pour la méthode</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o545">
+<a:ObjectID>D5ACC981-7AB3-46F9-98DF-6AC0E4F7C5CA</a:ObjectID>
+<a:Name>PermitAll</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Permet d&#39;utiliser tous les rôles pour la méthode métier</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o546">
+<a:ObjectID>4C98F9A2-E596-485E-B606-1AEAC4B23FEF</a:ObjectID>
+<a:Name>DenyAll</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Interdit l&#39;appel de la méthode par tous les rôles de sécurité</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o547">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>96969869-89C2-448C-BB7E-DA9086B244B4</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o548">
+<a:ObjectID>CE6E4ACB-3DBB-40A7-8DFD-18F70156F970</a:ObjectID>
+<a:Name>EJB 3</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout1&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;Init&quot; Caption=&quot;Méthode Initialize&quot; Attribute=&quot;Init&quot; AttributeID=&quot;{2A890D6D-7D59-4B71-88F5-3A76944D0B5C}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Remove&quot; Caption=&quot;Méthode Remove&quot; Attribute=&quot;Remove&quot; AttributeID=&quot;{3EB7C846-BF1B-4194-A332-FE397F31BFAC}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout2&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;PostConstruct&quot; Caption=&quot;Post-Construct&quot; Attribute=&quot;PostConstruct&quot; AttributeID=&quot;{ADEBAF20-B226-4C72-A094-40ABD137CEB6}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;PostActivate&quot; Caption=&quot;Post-activate&quot; Attribute=&quot;PostActivate&quot; AttributeID=&quot;{91319C8B-770B-4AEC-A6F3-9939692BF0DD}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;PrePassivate&quot; Caption=&quot;Pre-Passivate&quot; Attribute=&quot;PrePassivate&quot; AttributeID=&quot;{5779F456-6648-4D8C-8B9C-A979B61A293F}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;PreDestroy&quot; Caption=&quot;Pre-Destroy&quot; Attribute=&quot;PreDestroy&quot; AttributeID=&quot;{11526241-1EEF-41FA-9496-1E2084E4E088}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout3&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;AroundInvoke&quot; Caption=&quot;Méthode Interceptor&quot; Attribute=&quot;AroundInvoke&quot; AttributeID=&quot;{D697904B-4BA7-4A50-A6B6-75F2174D0A9E}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Timeout&quot; Caption=&quot;Méthode Timeout&quot; Attribute=&quot;Timeout&quot; AttributeID=&quot;{E9BA8FC6-3A5B-49F3-B3CB-CCB8BB03CA79}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout5&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;ExcludeDefaultInterceptors&quot; Caption=&quot;Exclure les intercepteurs par défaut&quot; Attribute=&quot;ExcludeDefaultInterceptors&quot; AttributeID=&quot;{2545AB16-61D4-4F07-8471-8EE29293FA16}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;ExcludeClassInterceptors&quot; Caption=&quot;Exclure les intercepteurs de classe&quot; Attribute=&quot;ExcludeClassInterceptors&quot; AttributeID=&quot;{FC8E16F3-9450-4580-A3BA-0B53D44F6990}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+   &lt;ExtendedAttribute Name=&quot;TransactionAttributeType&quot; Caption=&quot;Type d&#39;attribut de transaction&quot; Attribute=&quot;TransactionAttributeType&quot; AttributeID=&quot;{B22FF233-36FF-43D3-BA93-DB52064F226C}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout4&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;PermitAll&quot; Caption=&quot;Permettre tous les rôles&quot; Attribute=&quot;PermitAll&quot; AttributeID=&quot;{D5ACC981-7AB3-46F9-98DF-6AC0E4F7C5CA}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;DenyAll&quot; Caption=&quot;Refuser tous les rôles&quot; Attribute=&quot;DenyAll&quot; AttributeID=&quot;{4C98F9A2-E596-485E-B606-1AEAC4B23FEF}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+   &lt;ExtendedAttribute Name=&quot;RolesAllowed&quot; Caption=&quot;Rôles admis&quot; Attribute=&quot;RolesAllowed&quot; AttributeID=&quot;{E0737694-E9C0-4831-8835-E7F3AB6884F5}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o549">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>16DF2B0B-196F-4D54-8405-EF4DF281CD8F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o550">
+<a:ObjectID>4D36694F-1369-4ADB-9D00-F8386929D1CE</a:ObjectID>
+<a:Name>javaDocComment</a:Name>
+<a:TemplateTargetItem.Value>[%NamedObject::javaDocComment%\n]\
+%ejb3Annotations%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o551">
+<a:ObjectID>84759077-7EAA-48E0-8316-A386EEBB8513</a:ObjectID>
+<a:Name>ejb3Annotations</a:Name>
+<a:TemplateTargetItem.Value>[%ejb3@Init%\n]\
+[%ejb3@Remove%\n]\
+[%ejb3@PostConstruct%\n]\
+[%ejb3@PostActivate%\n]\
+[%ejb3@PrePassivate%\n]\
+[%ejb3@PrePassivate%\n]\
+[%ejb3@PreDestroy%\n]\
+[%ejb3@AroundInvoke%\n]\
+[%ejb3@Timeout%\n]\
+[%ejb3@ExcludeDefaultInterceptors%\n]\
+[%ejb3@ExcludeClassInterceptors%\n]\
+[%ejb3@TransactionAttribute%\n]\
+[%ejb3@PermitAll%\n]\
+[%ejb3@DenyAll%\n]\
+[%ejb3@RolesAllowed%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o552">
+<a:ObjectID>0DAC4847-9E25-4D45-A84A-F21899A0364D</a:ObjectID>
+<a:Name>EJB3Annotations</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o553">
+<a:ObjectID>1B9BB8A1-83A1-42DA-BBFB-69CC81BE3999</a:ObjectID>
+<a:Name>ejb3@ExcludeDefaultInterceptors</a:Name>
+<a:TemplateTargetItem.Value>.if (%ExcludeDefaultInterceptors%)
+@ExcludeDefaultInterceptors
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o554">
+<a:ObjectID>83CEBF4D-25E3-425B-9C9A-183904D3F4E4</a:ObjectID>
+<a:Name>ejb3@PermitAll</a:Name>
+<a:TemplateTargetItem.Value>.if (%PermitAll%)
+@PermitAll
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o555">
+<a:ObjectID>141B96F5-2942-4C2C-BDE3-40A734BBE51E</a:ObjectID>
+<a:Name>ejb3@RolesAllowed</a:Name>
+<a:TemplateTargetItem.Value>.if (%RolesAllowed%)
+@RolesAllowed({
+ .foreach_line(%RolesAllowed%)
+&quot;%CurrentLine%&quot;
+ .next(&quot;,&quot;)
+})
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o556">
+<a:ObjectID>9E9D55A8-7208-433E-8627-0E7005A59915</a:ObjectID>
+<a:Name>ejb3@TransactionAttribute</a:Name>
+<a:TemplateTargetItem.Value>.if (%TransactionAttributeType%) and (%.L:TransactionAttributeType% != &quot;&lt;default&gt;&quot;)
+@TransactionAttribute(%TransactionAttributeType%)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o557">
+<a:ObjectID>2A93743C-8CEC-4176-B0F7-0736573D6B9A</a:ObjectID>
+<a:Name>ejb3@PrePassivate</a:Name>
+<a:TemplateTargetItem.Value>.if (%PrePassivate%)
+@PrePassivate
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o558">
+<a:ObjectID>444C306C-1B9F-4310-B7E8-90B8937D7985</a:ObjectID>
+<a:Name>ejb3@PreDestroy</a:Name>
+<a:TemplateTargetItem.Value>.if (%PreDestroy%)
+@PreDestroy
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o559">
+<a:ObjectID>6F851FC2-5178-489A-B032-30007F4FD52D</a:ObjectID>
+<a:Name>ejb3@Timeout</a:Name>
+<a:TemplateTargetItem.Value>.if (%Timeout%)
+@Timeout
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o560">
+<a:ObjectID>AC11CBA6-E4F4-4CCC-ADE4-31D2750FE147</a:ObjectID>
+<a:Name>ejb3@DenyAll</a:Name>
+<a:TemplateTargetItem.Value>.if (%DenyAll%)
+@DenyAll
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o561">
+<a:ObjectID>217955EA-BBBB-40E8-AF32-9AAAC60DA757</a:ObjectID>
+<a:Name>ejb3@ExcludeClassInterceptors</a:Name>
+<a:TemplateTargetItem.Value>.if (%ExcludeClassInterceptors%)
+@ExcludeClassInterceptors
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o562">
+<a:ObjectID>2AF90DBC-DAA4-46F9-B521-FEAF763A462D</a:ObjectID>
+<a:Name>ejb3@Init</a:Name>
+<a:TemplateTargetItem.Value>.if (%Init%)
+@Init
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o563">
+<a:ObjectID>F45EAA24-D450-4A80-8B68-F9ABF5E773DD</a:ObjectID>
+<a:Name>ejb3@Remove</a:Name>
+<a:TemplateTargetItem.Value>.if (%Remove%)
+@Remove
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o564">
+<a:ObjectID>5C6D1DBD-A28B-4A07-ADAC-4C23E67B9106</a:ObjectID>
+<a:Name>ejb3@AroundInvoke</a:Name>
+<a:TemplateTargetItem.Value>.if (%AroundInvoke%)
+@AroundInvoke
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o565">
+<a:ObjectID>9D6A842E-FD25-4668-BDE3-355F9BD6AD5D</a:ObjectID>
+<a:Name>ejb3@PostConstruct</a:Name>
+<a:TemplateTargetItem.Value>.if (%PostConstruct%)
+@PostConstruct
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o566">
+<a:ObjectID>2EDE0350-5C49-4C4D-B383-D18F5B1903E1</a:ObjectID>
+<a:Name>ejb3@PostActivate</a:Name>
+<a:TemplateTargetItem.Value>.if (%PostActivate%)
+@PostActivate
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o567">
+<a:ObjectID>BCC54AB2-9C31-4F34-9E06-62D313572A37</a:ObjectID>
+<a:Name>Servlet</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o568">
+<a:ObjectID>CC65FD99-A10F-4896-BEA6-3E13ED4CF6D0</a:ObjectID>
+<a:Name>Servlet Class Method</a:Name>
+<a:CriterionTargetItem.Value>(%Parent.isServletClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o569">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>3AAD5A7B-1502-4382-891E-B77FFA61A1CD</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o570">
+<a:ObjectID>C625D1EF-9599-49A6-98D0-623D09F3F0DF</a:ObjectID>
+<a:Name>destroy</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == destroy)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o571">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>075066A2-69FE-4690-A70F-9E7B8E476F50</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o572">
+<a:ObjectID>7EB78416-0614-4EDD-A86D-68849261EC34</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+   super.destroy();  
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o573">
+<a:ObjectID>257802A7-5108-4741-AECD-0336A0395C49</a:ObjectID>
+<a:Name>doGet</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == doGet)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o574">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>78DEFD26-D66A-4E91-B2D9-7662235CE45D</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o575">
+<a:ObjectID>658FFF63-3311-4FC7-A2F9-07B59F4D3E0D</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+   res.setContentType(&quot;text/html&quot;);
+   PrintWriter out = res.getWriter();
+
+   out.println(&quot;&lt;HTML&gt;&quot;);   
+   out.println(&quot;&lt;HEAD&gt;&quot;);   
+   out.println(&quot;&lt;TITLE&gt;Add the title here&lt;/TITLE&gt;&quot;);   
+   out.println(&quot;&lt;/HEAD&gt;&quot;);   
+   out.println(&quot;&lt;BODY&gt;&quot;);   
+   out.println(&quot;HTTP servlet: doGet()&quot;);
+   out.println(&quot;&lt;/BODY&gt;&quot;);   
+   out.println(&quot;&lt;/HTML&gt;&quot;);   
+   
+   out.close();
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o576">
+<a:ObjectID>AE75951C-71D9-45CB-A3BD-50DC825F7785</a:ObjectID>
+<a:Name>doPost</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == doPost)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o577">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>302085B3-6121-40A6-AFA2-9022F59CAA3F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o578">
+<a:ObjectID>9D2BD4F5-FF9E-4ECE-B440-790772AB01C0</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+   res.setContentType(&quot;text/html&quot;);
+   PrintWriter out = res.getWriter();
+
+   out.println(&quot;&lt;HTML&gt;&quot;);   
+   out.println(&quot;&lt;HEAD&gt;&quot;);   
+   out.println(&quot;&lt;TITLE&gt;Add the title here&lt;/TITLE&gt;&quot;);   
+   out.println(&quot;&lt;/HEAD&gt;&quot;);   
+   out.println(&quot;&lt;BODY&gt;&quot;);   
+   out.println(&quot;HTTP servlet: doPost()&quot;);
+   out.println(&quot;&lt;/BODY&gt;&quot;);   
+   out.println(&quot;&lt;/HTML&gt;&quot;);   
+   
+   out.close();
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o579">
+<a:ObjectID>0761777F-5A00-4801-97D6-3BF46C4450D4</a:ObjectID>
+<a:Name>doPut</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == doPut)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o580">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9D16B891-1D52-4D28-8C0D-FFFAB40E127F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o581">
+<a:ObjectID>4A2ED568-3FD5-4312-9355-A4A4C5A59B1A</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+   res.setContentType(&quot;text/html&quot;);
+   PrintWriter out = res.getWriter();
+
+   out.println(&quot;&lt;HTML&gt;&quot;);   
+   out.println(&quot;&lt;HEAD&gt;&quot;);   
+   out.println(&quot;&lt;TITLE&gt;Add the title here&lt;/TITLE&gt;&quot;);   
+   out.println(&quot;&lt;/HEAD&gt;&quot;);   
+   out.println(&quot;&lt;BODY&gt;&quot;);   
+   out.println(&quot;HTTP servlet: doPut()&quot;);
+   out.println(&quot;&lt;/BODY&gt;&quot;);   
+   out.println(&quot;&lt;/HTML&gt;&quot;);   
+   
+   out.close();
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o582">
+<a:ObjectID>66125CA6-3A20-453B-A4E7-8EF1C130DB84</a:ObjectID>
+<a:Name>init</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == init)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o583">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>40271CB1-BE14-4594-AE8C-8E5C734EEEA5</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o584">
+<a:ObjectID>937627E3-549D-4879-AAD7-B819EC9488D4</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   // TODO: implement
+   super.init(config);
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o585">
+<a:ObjectID>DCCC5478-CB27-4981-A76F-D4C349B64B2B</a:ObjectID>
+<a:Name>onMessage</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == onMessage)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o586">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>DA474466-C67D-4EAB-9865-89365F5CE231</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o587">
+<a:ObjectID>BE37675E-19F8-4F73-8B9B-B9940FB8A0C5</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   try {
+      // TODO: implement
+      SOAPMessage msg = msgFactory.createMessage();
+      
+      SOAPEnvelope env = msg.getSOAPPart().getEnvelope();
+      
+      env.getBody()
+          \.addChildElement(env.createName(&quot;Response&quot;))
+          \.addTextNode(&quot;This is a response.&quot;);
+          
+      return msg;
+   } catch (java.lang.Exception ex) {
+      ex.printStackTrace();
+      return null;
+   }
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o588">
+<a:ObjectID>209A3CC0-E4E7-42A5-A50A-582A24617F2F</a:ObjectID>
+<a:Name>service</a:Name>
+<a:CriterionTargetItem.Value>(%Code% == service)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o568"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o589">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>E4CDB941-0D60-415A-8451-F964651E5929</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o590">
+<a:ObjectID>8649FE7C-B821-458C-B68A-D6F9EF016238</a:ObjectID>
+<a:Name>DefaultBody</a:Name>
+<a:TemplateTargetItem.Value>{
+   try {
+         // TODO: implement
+         res.setContentType(&quot;text/html&quot;);
+         PrintWriter out = res.getWriter();
+   
+         out.println(&quot;&lt;HTML&gt;&quot;);   
+         out.println(&quot;&lt;HEAD&gt;&quot;);   
+         out.println(&quot;&lt;TITLE&gt;Add the title here&lt;/TITLE&gt;&quot;);   
+         out.println(&quot;&lt;/HEAD&gt;&quot;);   
+         out.println(&quot;&lt;BODY&gt;&quot;);   
+         out.println(&quot;Generic servlet: service()&quot;);
+         out.println(&quot;&lt;/BODY&gt;&quot;);   
+         out.println(&quot;&lt;/HTML&gt;&quot;);   
+   
+         out.close();
+   } catch (java.lang.Exception ex) {
+      ex.printStackTrace();
+   }
+}</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:CriterionTargetItem Id="o591">
+<a:ObjectID>CC66D1B0-186B-4103-A667-F1218CCB5A01</a:ObjectID>
+<a:Name>Initializer</a:Name>
+<a:CriterionTargetItem.Value>(%isInitializer%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o592">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>55DCBC43-C56C-49D1-A8D2-3207C8603648</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o593">
+<a:ObjectID>E19E1FDD-2614-4206-9489-40DA27854AD5</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>%Body%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o594">
+<a:ObjectID>52AFCBC6-FC5A-421A-AE11-1735AB7B52C9</a:ObjectID>
+<a:Name>EnumConstantMethod</a:Name>
+<a:CriterionTargetItem.Value>(%Classifier.isEnumConstantClass%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o595">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>90066F61-F6D8-47DC-90C6-856B99D76D82</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o596">
+<a:ObjectID>264321F8-4D02-4BDC-8F42-4FD0E7010F9F</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.// no definition for EnumConstantMethod</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o597">
+<a:ObjectID>6A21A990-6638-43C3-97E3-A3DE0A2795F5</a:ObjectID>
+<a:Name>enumDefinition</a:Name>
+<a:TemplateTargetItem.Value>[%annotations%\n]\
+[%returnType% ]%Code%(%parameters%)[%Body%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o598">
+<a:TypePublicName>CustomCheckTargetItem</a:TypePublicName>
+<a:ObjectID>21E6A690-2EB5-4F16-B94C-D14D790CD958</a:ObjectID>
+<a:Name>Custom Checks</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CustomCheckTargetItem Id="o599">
+<a:ObjectID>CE053A2A-FCFD-472E-AE3E-0D99C6C8AB12</a:ObjectID>
+<a:Name>Paramètre d&#39;argument variable</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:HelpMessage>Cette vérification s&#39;assure que seul le dernier paramètre peut être variable.</a:HelpMessage>
+<a:OutputMessage>Les opérations suivantes ont des paramètres d&#39;argument de variable incorrects</a:OutputMessage>
+<a:CheckScript>Function %Check%(obj)
+   %Check% = True
+   
+   Dim bGeneric
+   bGeneric = False
+   
+   Dim param
+   For Each param In obj.Parameters
+      If bGeneric Then
+         %Check% = False
+      Else
+         bGeneric = param.VariableArgument
+      End If
+   Next
+End Function</a:CheckScript>
+<a:AutoFixScrpt>Function %Fix%(obj, outmsg)
+   outmsg = &quot;Correction automatique non mise en oeuvre&quot;
+
+   %Fix% = False
+End Function</a:AutoFixScrpt>
+</o:CustomCheckTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o600">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>69A52059-2FB4-4A5D-B747-6787F4B46287</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o601">
+<a:ObjectID>ED7A49F2-EB5A-4544-A018-80D76B8C90CD</a:ObjectID>
+<a:Name>Java</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;GroupBox Name=&quot;Javadoc&quot; Caption=&quot;Javadoc&quot;   ControlAsLabel=&quot;No&quot; &gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@return&quot; Caption=&quot;Javadoc return&quot; Attribute=&quot;Javadoc@return&quot; AttributeID=&quot;{1D4C2EF4-615A-4148-85BD-47ECAC4BD1CC}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@exception&quot; Caption=&quot;Javadoc exception&quot; Attribute=&quot;Javadoc@exception&quot; AttributeID=&quot;{DE592A3A-9B46-4694-86E3-F34EE2B2EDB4}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@throws&quot; Caption=&quot;Javadoc throws&quot; Attribute=&quot;Javadoc@throws&quot; AttributeID=&quot;{F03653A9-9917-45E2-8F4E-2713C1F58F40}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@since&quot; Caption=&quot;Javadoc since&quot; Attribute=&quot;Javadoc@since&quot; AttributeID=&quot;{28AFA057-2A8B-4CA3-B145-5C4D606E9E56}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@serialData&quot; Caption=&quot;Données série Javadoc&quot; Attribute=&quot;Javadoc@serialData&quot; AttributeID=&quot;{DD9FF1E3-8AAD-4A58-9C78-30F41D94C22D}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@deprecated&quot; Caption=&quot;Javadoc deprecated&quot; Attribute=&quot;Javadoc@deprecated&quot; AttributeID=&quot;{59042AB5-0236-4025-BEAF-54BBAF23A556}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@see&quot; Caption=&quot;Javadoc see&quot; Attribute=&quot;Javadoc@see&quot; AttributeID=&quot;{D3985CCA-FAD4-47B4-8A43-91728C8FCD9D}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;Javadoc@misc&quot; Caption=&quot;Javadoc misc&quot; Attribute=&quot;Javadoc@misc&quot; AttributeID=&quot;{BEC3A951-BBCE-43EF-8425-51CEAE519A17}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/GroupBox&gt;
+   &lt;ExtendedAttribute Name=&quot;transactionType&quot; Caption=&quot;Type de transaction&quot; Attribute=&quot;transactionType&quot; AttributeID=&quot;{8467DBF1-67E7-483F-B520-95DB1D19EB3B}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;resultTypeMapping&quot; Caption=&quot;Correspondance de type de résultat&quot; Attribute=&quot;resultTypeMapping&quot; AttributeID=&quot;{1CAF1617-5AD8-49A3-AE4C-791892609392}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;HorizontalLayout Name=&quot;HorizontalLayout1&quot;   &gt;
+      &lt;ExtendedAttribute Name=&quot;native&quot; Caption=&quot;Natif&quot; Attribute=&quot;native&quot; AttributeID=&quot;{009E1342-086F-4CEF-B6FD-758F33323467}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;synchronized&quot; Caption=&quot;Synchronisé&quot; Attribute=&quot;synchronized&quot; AttributeID=&quot;{974CB4C7-4E83-4A28-8572-1D6332912398}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+      &lt;ExtendedAttribute Name=&quot;strictfp&quot; Caption=&quot;Strictfp&quot; Attribute=&quot;strictfp&quot; AttributeID=&quot;{4168CC5F-D128-42E0-B562-8F92D95651C4}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;/HorizontalLayout&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Java</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o602">
+<a:ObjectID>7BE4F625-6D15-477B-9010-F70D40BDB86E</a:ObjectID>
+<a:Name>Component</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<a:CodeConvention>FirstUpperChar</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o603">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>0FFACA9B-708A-4A08-B553-71CAA4109C3F</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o604">
+<a:ObjectID>C305F28A-0160-4473-A6D2-06EEDA1AE8DD</a:ObjectID>
+<a:Name>Enterprise JavaBean</a:Name>
+<a:CriterionTargetItem.Value>(%isEJB%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o605">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>51C0E891-AED5-4124-A73B-AD01F80C1439</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o606">
+<a:ObjectID>89216068-9A8A-4CAB-BD1A-A3E70C62C497</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o607">
+<a:ObjectID>6C9AD16D-C6EF-4343-9EE7-C1BFDFDC8E6D</a:ObjectID>
+<a:Name>session</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass% != null) and (%Interfaces.IsEmpty% == false)
+&lt;session[ id=&quot;%ejbID%&quot;]&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ .// small-icon?
+ .// large-icon?
+ &lt;ejb-name&gt;%ejbName%&lt;/ejb-name&gt;\n
+   .if (%RemoteHomeInterface% != null)
+ &lt;home&gt;%RemoteHomeInterface.fullyQualifiedCode%&lt;/home&gt;
+   .endif(\n)
+   .if (%RemoteInterface% != null)
+ &lt;remote&gt;%RemoteInterface.fullyQualifiedCode%&lt;/remote&gt;
+   .endif(\n)
+   .if (%LocalHomeInterface% != null)
+ &lt;local-home&gt;%LocalHomeInterface.fullyQualifiedCode%&lt;/local-home&gt;
+   .endif(\n)
+   .if (%LocalInterface% != null)
+ &lt;local&gt;%LocalInterface.fullyQualifiedCode%&lt;/local&gt;
+   .endif(\n)
+   .if (%isJ2EEWebService%) and (%WSClass%)
+ &lt;service-endpoint&gt;%WSClass.SEIFullyQualifiedCode%&lt;/service-endpoint&gt;
+   .endif(\n)
+ &lt;ejb-class&gt;%BeanClass.fullyQualifiedCode%&lt;/ejb-class&gt;
+ &lt;session-type&gt;[%isStatefulSessionBean%?Stateful:Stateless]&lt;/session-type&gt;
+ &lt;transaction-type&gt;%transactionType%&lt;/transaction-type&gt;
+ .// env-entry*
+[\
+ %ejb-refs%
+]\
+[\
+ %service-refs%
+]\
+ .// security-role-ref*
+ .// security-identity?
+ .// resource-ref*
+ .// resource-env-ref*
+&lt;/session&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o608">
+<a:ObjectID>33B561B8-7F2D-47EF-AE79-7AFB4C61BC8D</a:ObjectID>
+<a:Name>message-driven</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass% != null)
+&lt;message-driven[ id=&quot;%ejbID%&quot;]&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ .// small-icon?
+ .// large-icon?
+ &lt;ejb-name&gt;%ejbName%&lt;/ejb-name&gt;
+ &lt;ejb-class&gt;%BeanClass.fullyQualifiedCode%&lt;/ejb-class&gt;
+[ &lt;messagingType&gt;%MessagingType%&lt;/messagingType&gt;\n]\
+ &lt;transaction-type&gt;%transactionType%&lt;/transaction-type&gt;
+[ &lt;message-destination-type&gt;%MessageDestinationType%&lt;/message-destination-type&gt;\n]\
+[ &lt;message-destination-link&gt;%MessageDestinationLink%&lt;/message-destination-link&gt;\n]\
+[\
+ &lt;activationConfig&gt;
+  %activationConfigProperties%
+ &lt;/activationConfig&gt;
+]\
+[\
+ %ejb-refs%
+]\
+[\
+ %service-refs%
+]\
+ .// security-role-ref*
+ .// security-identity?
+ .// resource-ref*
+ .// resource-env-ref*
+&lt;/message-driven&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o609">
+<a:ObjectID>E0488221-F909-4B14-8015-EF6C43415D8D</a:ObjectID>
+<a:Name>entity</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass% != null) and (%Interfaces.IsEmpty% == false)
+&lt;entity[ id=&quot;%ejbID%&quot;]&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ .// small-icon?
+ .// large-icon?
+ &lt;ejb-name&gt;%ejbName%&lt;/ejb-name&gt;\n
+   .if (%RemoteHomeInterface% != null)
+ &lt;home&gt;%RemoteHomeInterface.fullyQualifiedCode%&lt;/home&gt;
+   .endif(\n)
+   .if (%RemoteInterface% != null)
+ &lt;remote&gt;%RemoteInterface.fullyQualifiedCode%&lt;/remote&gt;
+   .endif(\n)
+   .if (%LocalHomeInterface% != null)
+ &lt;local-home&gt;%LocalHomeInterface.fullyQualifiedCode%&lt;/local-home&gt;
+   .endif(\n)
+   .if (%LocalInterface% != null)
+ &lt;local&gt;%LocalInterface.fullyQualifiedCode%&lt;/local&gt;
+   .endif(\n)
+ &lt;ejb-class&gt;%BeanClass.fullyQualifiedCode%&lt;/ejb-class&gt;
+ &lt;persistence-type&gt;[%isCMP%?Container:Bean]&lt;/persistence-type&gt;\n
+   .if (%PrimaryKeyClass% != null)
+ &lt;prim-key-class&gt;%PrimaryKeyClass.fullyQualifiedCode%&lt;/prim-key-class&gt;
+   .elsif (%BeanClass.primkey-field%)
+ &lt;prim-key-class&gt;%BeanClass.primaryKeyClass%&lt;/prim-key-class&gt;
+   .endif(\n)
+ &lt;reentrant&gt;[%reentrant%?True:False]&lt;/reentrant&gt;\n
+.if (%isCMP%)
+[ &lt;cmp-version&gt;%cmp-version%&lt;/cmp-version&gt;\n]\
+.endif
+ &lt;abstract-schema-name&gt;%Code%&lt;/abstract-schema-name&gt;
+[\
+ %BeanClass.cmp-fields%
+]\
+   .if (%PrimaryKeyClass% == null)
+      .if (%BeanClass.primkey-field%)
+ %BeanClass.primkey-field%
+      .else
+         .warning no primary-key class or primary-key field for entity bean %ejbName%
+      .endif(\n)
+   .endif
+ .// env-entry*
+[\
+ %ejb-refs%
+]\
+[\
+ %service-refs%
+]\
+ .// security-role-ref*
+ .// security-identity?
+ .// resource-ref*
+ .// resource-env-ref*
+   .if (%isCMP%)
+      .if (%RemoteHomeInterface%)
+[ %RemoteHomeInterface.queries%\n]
+      .endif
+      .if (%LocalHomeInterface%)
+[ %LocalHomeInterface.queries%\n]
+      .endif
+[ %BeanClass.queries%\n]
+   .endif
+&lt;/entity&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o610">
+<a:ObjectID>A1B3BA60-DE7D-44C9-8F3B-A6E5485FC35B</a:ObjectID>
+<a:Name>container-transaction</a:Name>
+<a:TemplateTargetItem.Value>&lt;container-transaction&gt;
+ &lt;method&gt;
+  &lt;ejb-name&gt;%ejbName%&lt;/ejb-name&gt;
+  &lt;method-name&gt;*&lt;/method-name&gt;
+ &lt;/method&gt;
+ %trans-attribute%
+&lt;/container-transaction&gt;
+%methods%
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o611">
+<a:ObjectID>DE2B10C8-58B5-40EF-A77D-5F2F070E85EA</a:ObjectID>
+<a:Name>trans-attribute</a:Name>
+<a:TemplateTargetItem.Value>&lt;trans-attribute&gt;
+.if (%TransactionSupport% == NS)
+NotSupported
+.elsif (%TransactionSupport% == SP)
+Supports
+.elsif (%TransactionSupport% == RQ)
+Required
+.elsif (%TransactionSupport% == RN)
+RequiresNew
+.elsif (%TransactionSupport% == MN)
+Mandatory
+.elsif (%TransactionSupport% == NV)
+Never
+.else
+Supports
+.endif
+&lt;/trans-attribute&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o612">
+<a:ObjectID>3D7DE23D-8FCA-4A49-88F0-57465DACA8B7</a:ObjectID>
+<a:Name>methods</a:Name>
+<a:TemplateTargetItem.Value>.if (%RemoteHomeInterface% != null)
+%RemoteHomeInterface.methods%
+.endif(\n)
+.if (%LocalHomeInterface% != null)
+%LocalHomeInterface.methods%
+.endif(\n)
+.if (%RemoteInterface% != null)
+%RemoteInterface.methods%
+.endif(\n)
+.if (%LocalInterface% != null)
+%LocalInterface.methods%
+.endif(\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o613">
+<a:ObjectID>30B9E514-2EEE-4749-8BD9-C998CD311571</a:ObjectID>
+<a:Name>ejb-refs</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(ChildDependencies,,\n,%isEjbRef%)
+%ejb-ref%
+.next(\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o614">
+<a:ObjectID>0EF8B22E-0425-4A6C-B6F8-570E28095EB3</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o615">
+<a:ObjectID>DAC954B5-5012-490B-8FA8-D94E737F7C3A</a:ObjectID>
+<a:Name>useDefaultCT</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_retVal, true, new)
+.if (%RemoteHomeInterface% != null)
+   .foreach_item(RemoteHomeInterface.Operations,,,%_retVal%==true)
+      .if (%transactionType% != &lt;Default&gt;)
+         .set_value(_retVal, false)
+      .endif
+   .next
+.endif
+.if (%LocalHomeInterface% != null)
+   .foreach_item(LocalHomeInterface.Operations,,,%_retVal%==true)
+      .if (%transactionType% != &lt;Default&gt;)
+         .set_value(_retVal, false)
+      .endif
+   .next
+.endif
+.if (%RemoteInterface% != null)
+   .foreach_item(RemoteInterface.Operations,,,%_retVal%==true)
+      .if (%transactionType% != &lt;Default&gt;)
+         .set_value(_retVal, false)
+      .endif
+   .next
+.endif
+.if (%LocalInterface% != null)
+   .foreach_item(LocalInterface.Operations,,,%_retVal%==true)
+      .if (%transactionType% != &lt;Default&gt;)
+         .set_value(_retVal, false)
+      .endif
+   .next
+.endif
+%_retVal%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o616">
+<a:ObjectID>76DC0CA8-236D-4186-B0D8-C8862E29B3CE</a:ObjectID>
+<a:Name>WebSphere</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o617">
+<a:ObjectID>DDD580DF-558D-48F7-8574-44437A17BE93</a:ObjectID>
+<a:Name>ejbID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+   .if (%isCMP%)
+ContainerManagedEntity_%ejbCode%
+   .elsif (%isBMP%)
+Entity_%ejbCode%
+   .elsif (%isMessageDrivenBean%)
+MessageDriven_%ejbCode%
+   .elsif (%isStatefulSessionBean%)
+Session_%ejbCode%
+   .elsif (%isStatelessSessionBean%)
+Session_%ejbCode%
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o618">
+<a:ObjectID>1E645523-BA70-4ADA-BAD8-FDD56C9A14E2</a:ObjectID>
+<a:Name>isEjbJarUseTagId</a:Name>
+<a:TemplateTargetItem.Value>%Model.isEjbJarUseTagId%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o619">
+<a:ObjectID>D56CA814-3421-4836-86A3-A01E854C5AE0</a:ObjectID>
+<a:Name>ejbType</a:Name>
+<a:TemplateTargetItem.Value>.if (%isCMP%)
+ContainerManagedEntity
+.elsif (%isBMP%)
+Entity
+.elsif (%isMessageDrivenBean%)
+MessageDriven
+.elsif (%isStatefulSessionBean%)
+Session
+.elsif (%isStatelessSessionBean%)
+Session
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o620">
+<a:ObjectID>D08D52D9-CCBC-4F52-8212-E27A8C63912E</a:ObjectID>
+<a:Name>service-refs</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(ChildDependencies,,\n,%isServiceRef%)
+%service-ref%
+.next(\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o621">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>168B697E-82A3-456B-B39F-54DDA58CF84A</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o622">
+<a:ObjectID>A9BABC69-27C6-4BFD-83AB-840947065167</a:ObjectID>
+<a:Name>reentrant</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut utilisé pour spécifier si un EJB supporte ou non reentrance.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o623">
+<a:ObjectID>37FBCF80-D8A3-414A-8EB5-D65D5CD5FD35</a:ObjectID>
+<a:Name>transactionType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de transaction (pour les beans de session et les beans commandés par message)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>Container</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o229"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o624">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>A371B089-A48F-417A-A9D6-AAB499912DD2</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o625">
+<a:ObjectID>18235F76-CC91-46D1-B7FD-14705E032511</a:ObjectID>
+<a:Name>Entity Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isEntityBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o604"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o626">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>68B9E160-F2DC-4AD6-AFFE-71D80CFC650F</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o627">
+<a:ObjectID>6513A392-E90C-45B7-B7C0-E25DB9A2E82C</a:ObjectID>
+<a:Name>Bean Class</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass%)
+%BeanClass.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o628">
+<a:ObjectID>35E47EB7-2E1A-4E20-A90F-A886ED5502D5</a:ObjectID>
+<a:Name>Local Home Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%LocalHomeInterface%)
+%LocalHomeInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o629">
+<a:ObjectID>FCB0E66D-BA5D-4C2C-A90B-7EA201367EFA</a:ObjectID>
+<a:Name>Local Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%LocalInterface%)
+%LocalInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o630">
+<a:ObjectID>995949F1-2F82-4C75-9151-882850169815</a:ObjectID>
+<a:Name>Primary Key Class</a:Name>
+<a:TemplateTargetItem.Value>.if (%PrimaryKeyClass%)
+%PrimaryKeyClass.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o631">
+<a:ObjectID>74B4EC19-C76C-4644-BE81-37B663E7B893</a:ObjectID>
+<a:Name>Remote Home Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%RemoteHomeInterface%)
+%RemoteHomeInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o632">
+<a:ObjectID>16D0B93C-284B-4DAC-9CBD-F395246FBC35</a:ObjectID>
+<a:Name>Remote Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%RemoteInterface%)
+%RemoteInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o633">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>0C166493-0676-4F50-8B86-D88A5EA681BF</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o634">
+<a:ObjectID>E49BAAAB-D287-46B5-A700-7A3A10D42ADD</a:ObjectID>
+<a:Name>BMP Entity Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isBMP%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o625"/>
+</c:ParentCriterion>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o635">
+<a:ObjectID>8E154EC7-6E42-4A10-8ABB-BDDDF3409D1F</a:ObjectID>
+<a:Name>CMP Entity Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isCMP%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o625"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o636">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>763D2884-E522-4DD2-94C4-D62DC9C9FCC8</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o637">
+<a:ObjectID>3D279AFA-3C7F-47F5-A9C2-7A0787BB2451</a:ObjectID>
+<a:Name>cmp-version</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Version CMP à spécifier dans le descripteur de déploiement EJB</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>2.x</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o638">
+<a:ObjectID>840A1EE0-2843-4E05-9900-351CCB3E5D72</a:ObjectID>
+<a:Name>Message-Driven Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isMessageDrivenBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o604"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o639">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>FC72D6EF-E866-4DB8-9473-7521A7B16439</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o640">
+<a:ObjectID>629BB903-889E-4DB9-A0DD-614EE7B90E3B</a:ObjectID>
+<a:Name>JMS Message-Driven Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isJMS%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o638"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o641">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>BDAF4927-6FA6-429B-8B41-2E9B44DD5532</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o642">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>C881B188-A08B-4095-A9A2-F8F84787C06B</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o643">
+<a:ObjectID>6D26D542-A923-4082-8432-5DA11DA735A4</a:ObjectID>
+<a:Name>activationConfigProperties</a:Name>
+<a:TemplateTargetItem.Value>[\
+&lt;activation-config-property&gt;
+ &lt;activation-config-property-name&gt;acknowledgeMode&lt;/activation-config-property-name&gt;
+ &lt;activation-config-property-value&gt;%JMSAcknowledgeMode%&lt;/activation-config-property-value&gt;
+&lt;/activation-config-property&gt;
+]\
+[\
+&lt;activation-config-property&gt;
+ &lt;activation-config-property-name&gt;messageSelector&lt;/activation-config-property-name&gt;
+ &lt;activation-config-property-value&gt;%JMSMessageSelector%&lt;/activation-config-property-value&gt;
+&lt;/activation-config-property&gt;
+]\
+[\
+&lt;activation-config-property&gt;
+ &lt;activation-config-property-name&gt;destinationType&lt;/activation-config-property-name&gt;
+ &lt;activation-config-property-value&gt;%MessageDestinationType%&lt;/activation-config-property-value&gt;
+&lt;/activation-config-property&gt;
+]\
+[\
+&lt;activation-config-property&gt;
+ &lt;activation-config-property-name&gt;subscriptionDurability&lt;/activation-config-property-name&gt;
+ &lt;activation-config-property-value&gt;%JMSSubscriptionDurability%&lt;/activation-config-property-value&gt;
+&lt;/activation-config-property&gt;
+]\
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o644">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>2D7EF7AC-807C-4120-9D61-B873D188DEE2</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o645">
+<a:ObjectID>60CD8D93-2BA3-4E31-B273-F637AB960C03</a:ObjectID>
+<a:Name>Bean Class</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass%)
+%BeanClass.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o646">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>E933C445-993E-4642-974A-354AEB4236F6</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o647">
+<a:ObjectID>FB4DD3C5-6ED8-4591-BE80-15344F6A8096</a:ObjectID>
+<a:Name>JMSMessageSelector</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Sélection d&#39;un message JMS</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o648">
+<a:ObjectID>C7BA956C-1C09-4328-8AA5-F9363524C2CF</a:ObjectID>
+<a:Name>MessageDestinationLink</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Permet de lier une référence de destination de message ou un bean commandé par message à une destination de message.
+La valeur doit être le nom de destination de message d&#39;une destination de message dans le même fichier de déploiement ou dans un autre fichier de déploiement de la même unité d&#39;application J2EE.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o649">
+<a:ObjectID>FBF97FB0-F7C3-4BF4-8B4A-F15821A7F535</a:ObjectID>
+<a:Name>MessagingType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Spécifie l&#39;interface d&#39;écoute de message du bean commandé par message. Si l&#39;élément de type de messagerie n&#39;est pas spécifié, c&#39;est  javax.jms.MessageListener qui est utilisé par défaut.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o650"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o651">
+<a:ObjectID>3A2AB296-A90B-4699-BDC8-C4792B9F70C1</a:ObjectID>
+<a:Name>JMSAcknowledgeMode</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Mode de notification d&#39;un message JMS</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o652"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o653">
+<a:ObjectID>60188109-A726-4EF1-9606-6BF9461366A2</a:ObjectID>
+<a:Name>MessageDestinationType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Spécifie le type de destination. Le type est spécifié par l&#39;interface Java qui doit être mise en oeuvre par la destination.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o654"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o655">
+<a:ObjectID>C669E279-6A2D-47DE-9D67-AFC701B4C4F9</a:ObjectID>
+<a:Name>JMSSubscriptionDurability</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Durabilité de souscription JMS</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o656"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o657">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>347DC0E7-67AD-485F-BC75-57EFE3204AD3</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o658">
+<a:ObjectID>F303F960-7541-4BF5-B0DC-5995E6A66307</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o659">
+<a:ObjectID>3EECBEAA-3172-4001-AA07-ABCF97B7664E</a:ObjectID>
+<a:Name>isJMS</a:Name>
+<a:TemplateTargetItem.Value>.bool (%MessagingType% == &quot;&quot;) or (%MessagingType% == javax.jms.MessageListener)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o660">
+<a:ObjectID>255F23A0-2AEC-47AB-934B-897BE436F0EC</a:ObjectID>
+<a:Name>activationConfigProperties</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o661">
+<a:ObjectID>F65DA28E-315D-4851-881D-966F222B068E</a:ObjectID>
+<a:Name>Session Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isSessionBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o604"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o662">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>5011BB02-471B-4A5C-877A-9FC849C3E87B</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o663">
+<a:ObjectID>DC3A56AC-E92B-4465-9E15-279984AD854A</a:ObjectID>
+<a:Name>Bean Class</a:Name>
+<a:TemplateTargetItem.Value>.if (%BeanClass%)
+%BeanClass.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o664">
+<a:ObjectID>4A82E694-4F5E-4328-8652-B297FE883885</a:ObjectID>
+<a:Name>Local Home Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%LocalHomeInterface%)
+%LocalHomeInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o665">
+<a:ObjectID>ACF3A831-FDDE-422B-AA83-0688BF516643</a:ObjectID>
+<a:Name>Local Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%LocalInterface%)
+%LocalInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o666">
+<a:ObjectID>8A9B044E-4A65-4A8B-B616-C82C678955A6</a:ObjectID>
+<a:Name>Remote Home Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%RemoteHomeInterface%)
+%RemoteHomeInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o667">
+<a:ObjectID>08751C45-E49E-4CA7-9F12-586509D9BA70</a:ObjectID>
+<a:Name>Remote Interface</a:Name>
+<a:TemplateTargetItem.Value>.if (%RemoteInterface%)
+%RemoteInterface.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o668">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>BF5A2C3C-526F-44A7-BEFF-589AA5C592EA</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o669">
+<a:ObjectID>DC1C4DB9-E791-4C03-A1E5-28CFFFE0A92C</a:ObjectID>
+<a:Name>Stateful Session Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isStatefulSessionBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o661"/>
+</c:ParentCriterion>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o670">
+<a:ObjectID>390AF066-1388-4F75-82E8-3470EDC710EA</a:ObjectID>
+<a:Name>Stateless Session Bean</a:Name>
+<a:CriterionTargetItem.Value>(%isStatelessSessionBean%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o661"/>
+</c:ParentCriterion>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o671">
+<a:ObjectID>19A33A58-01D5-401D-A93C-F386551A6F41</a:ObjectID>
+<a:Name>Web Component</a:Name>
+<a:CriterionTargetItem.Value>(%isServlet%) or (%isJSP%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o672">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>BB77DA0F-7EDD-41F6-A27E-5A9D338EFC3E</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o673">
+<a:ObjectID>5B34927E-E247-4056-9A58-030570872105</a:ObjectID>
+<a:Name>servletName</a:Name>
+<a:TemplateTargetItem.Value>%Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o674">
+<a:ObjectID>447236CC-5358-4644-94A0-228B08861834</a:ObjectID>
+<a:Name>servletUrlPattern</a:Name>
+<a:TemplateTargetItem.Value>[%urlPattern%?%urlPattern%:%servletName%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o675">
+<a:ObjectID>BDD71A79-FA9E-46A7-BA27-52616B5BA1D8</a:ObjectID>
+<a:Name>serverContext</a:Name>
+<a:TemplateTargetItem.Value>%Parent.serverContext%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o676">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>0747D133-40C9-4138-8087-020E551B2D58</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o677">
+<a:ObjectID>789A9FB2-235C-400B-9C86-918A3C3A79AC</a:ObjectID>
+<a:Name>loadOnStartup</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément load-on-startup indique que ce servlet doit être chargé (il doit être instancié  et son init() doit être appelé) au démarrage de l&#39;application web. La valeur de cet élément est un entier indiquant l&#39;ordre dans lequel le servlet doit être chargé. Si la valeur est un entier négatif, ou si l&#39;élément est absent, le conteneur est libre de charger le servlet lorsque bon lui semble. Si la valeur est un entier positif ou 0, le conteneur doit charger et initialiser le servlet lors du déploiement de l&#39;application.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>10</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>-1</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o678">
+<a:ObjectID>70A425BE-8823-4237-9C4A-EC18CD8E1E4E</a:ObjectID>
+<a:Name>urlPattern</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément url-pattern contient le motif d&#39;URL du mapping.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o679">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>7BDB7C55-DBC0-4042-ADD9-942661DE0329</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o680">
+<a:ObjectID>FC0885FC-3116-47B2-A573-2AF8E43D5797</a:ObjectID>
+<a:Name>JSP</a:Name>
+<a:CriterionTargetItem.Value>(%isJSP%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o671"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o681">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>8312B675-B5B3-4394-8E19-19D889AC235F</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o682">
+<a:ObjectID>2EE7F664-FCAF-4AA6-B52E-BB5CE8F45596</a:ObjectID>
+<a:Name>JSP Source</a:Name>
+<a:TemplateTargetItem.Value>.if (%ServerPageFile%)
+%ServerPageFile.GeneratedContent%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Component preview only</a:Comment>
+<a:FileType>.jsp</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o683">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>9987100E-1D2B-4469-A508-0B8E9F6D1398</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o684">
+<a:ObjectID>CC34E1A0-0956-4DB4-9150-927F406637CF</a:ObjectID>
+<a:Name>TemplateContent</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut utilisé pour choisir un template de contenu par défaut pour un fichier JSP.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>DefaultTemplate</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o685"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o686">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>999DA271-68BC-47E6-BA28-6031263EAA56</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o687">
+<a:ObjectID>0AF3F7BC-DAC7-476E-9967-3A3DCCC4944A</a:ObjectID>
+<a:Name>jspFilePath</a:Name>
+<a:TemplateTargetItem.Value>.if (%ServerPageFile% != null)
+[%Parent.path%/]%ServerPageFile.fileName%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o688">
+<a:ObjectID>56D0604C-0248-4F1B-9E48-0BD325ECC541</a:ObjectID>
+<a:Name>Servlet</a:Name>
+<a:CriterionTargetItem.Value>(%isServlet%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o671"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o689">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>D4CA3D31-C182-4F81-AE7E-A0CEB8F84E74</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o690">
+<a:ObjectID>398C1F8D-9BCF-464C-96B9-B5BD1DBE69A6</a:ObjectID>
+<a:Name>ServletType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de Servlet : HttpServlet ou GenericServlet.
+Utilisez User-Defined uniquement si la classe servlet hérite d&#39;une classe qui n&#39;a pas HttpServlet ou GenericServlet comme ancêtre. </a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>-1</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>HttpServlet</a:ExtendedAttributeTargetItem.Value>
+<c:ExtendedAttributeType>
+<o:ExtendedAttributeTypeTargetItem Ref="o691"/>
+</c:ExtendedAttributeType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o692">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>8B60192E-A82E-4BFA-A67C-E21D3F6512D3</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o693">
+<a:ObjectID>8AAF5FEF-20A2-45E6-B8D6-4A7FF9646989</a:ObjectID>
+<a:Name>Servlet Class</a:Name>
+<a:TemplateTargetItem.Value>.if (%ServletClass%)
+%ServletClass.source%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o694">
+<a:ObjectID>647D235E-FA6C-4625-BE16-9FB38479B2B0</a:ObjectID>
+<a:Name>J2EE Web Service</a:Name>
+<a:CriterionTargetItem.Value>(%isJ2EEWebService%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o695">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>E72119D8-A6C7-4252-8610-82EBA607D7A2</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o696">
+<a:ObjectID>97269B42-0143-42B6-9AFB-EF5BC32BBB59</a:ObjectID>
+<a:Name>WebService Class</a:Name>
+<a:TemplateTargetItem.Value>.// preview only
+%WSClass.source%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+<o:GeneratedFileTargetItem Id="o697">
+<a:ObjectID>4DF2AB5F-CAE6-40B4-AD7F-25BF5BA47CE5</a:ObjectID>
+<a:Name>WebService Interface</a:Name>
+<a:TemplateTargetItem.Value>.// preview only
+%WSClass.SEI%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:FileType>.java</a:FileType>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o698">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>DE629983-9275-4586-ACAE-CE84216A8605</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o699">
+<a:ObjectID>D95D817E-B65B-4219-9BE2-B4BA272EC7E4</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classes)
+   .if (%IsSelected%) and (%isInner% == false) and (%WSComponent% == null)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next
+.foreach_item(Interfaces)
+   .if (%IsSelected%) and (%isInner% == false)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next
+.if (%WSClass% != null)
+%WSClass.genSourceFiles%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o700">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>A6AA1306-5608-496B-8FC6-EC321029B9EC</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o701">
+<a:ObjectID>61EC8362-1BDA-4D4E-8AD1-70445B4BA0EE</a:ObjectID>
+<a:Name>JAX-RPC Web service</a:Name>
+<a:CriterionTargetItem.Value>(%isJAXRPCWebService%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o694"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o702">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>97F40093-B3FD-4718-85CB-916E0F86A1CB</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o703">
+<a:ObjectID>1133C87A-07F9-479D-8E92-23E80918EF0B</a:ObjectID>
+<a:Name>loadOnStartup</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément load-on-startup indique que ce servlet doit être chargé (il doit être instancié  et son init() doit être appelé) au démarrage de l&#39;application web. La valeur de cet élément est un entier indiquant l&#39;ordre dans lequel le servlet doit être chargé. Si la valeur est un entier négatif, ou si l&#39;élément est absent, le conteneur est libre de charger le servlet lorsque bon lui semble. Si la valeur est un entier positif ou 0, le conteneur doit charger et initialiser le servlet lors du déploiement de l&#39;application.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>10</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>-1</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o704">
+<a:ObjectID>015FBAE5-B49F-41A3-861D-BCF0A7A265BF</a:ObjectID>
+<a:Name>urlPattern</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément url-pattern contient le motif d&#39;URL du mapping.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o705">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>8131A226-8C6E-4711-A25B-2C574DCFA2BA</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o706">
+<a:ObjectID>E1FEA66F-FDC3-4261-8DFC-E95D2A903B41</a:ObjectID>
+<a:Name>servletUrlPattern</a:Name>
+<a:TemplateTargetItem.Value>[%urlPattern%?%urlPattern%:%servletName%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o707">
+<a:ObjectID>494C36DA-A362-4F30-B5B6-EED0D3C396DC</a:ObjectID>
+<a:Name>servletName</a:Name>
+<a:TemplateTargetItem.Value>%Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o708">
+<a:ObjectID>82A2957F-EE91-4E8C-90B8-DEA38FE7FC25</a:ObjectID>
+<a:Name>serverContext</a:Name>
+<a:TemplateTargetItem.Value>%Parent.serverContext%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o709">
+<a:ObjectID>21BD147C-0488-43DE-8AF3-4314FEF0C6FC</a:ObjectID>
+<a:Name>serviceName</a:Name>
+<a:TemplateTargetItem.Value>%servletName%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o710">
+<a:ObjectID>908CEF6F-32E3-4978-93BE-E2E1F61B5350</a:ObjectID>
+<a:Name>AxisWebService</a:Name>
+<a:CriterionTargetItem.Value>(%isAxisWebService%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o711">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>138B7695-BC8B-4F93-9164-C6270D26A485</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o712">
+<a:ObjectID>A1E0FF2A-87BE-4720-BE5A-D99C82ED441B</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classes)
+   .if (%IsSelected%) and (%isInner% == false) and (%WSComponent% == null)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next
+.foreach_item(Interfaces)
+   .if (%IsSelected%) and (%isInner% == false)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next
+.if (%WSClass% != null)
+%WSClass.genSourceFiles%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o713">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>FFE41AF0-C2CA-43DA-AB93-A9C6509322E6</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o714">
+<a:ObjectID>10C53630-2335-4DCD-AD42-9AB4679253B7</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o715">
+<a:ObjectID>D965597D-22BE-4C38-A178-79961E9694B7</a:ObjectID>
+<a:Name>isBMP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == BMP)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o716">
+<a:ObjectID>8A28DA56-3130-4A51-BE07-D8994F2D2D4B</a:ObjectID>
+<a:Name>isCMP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == CMP)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o717">
+<a:ObjectID>572C6978-9E59-4D82-86ED-6FECAE3CAFEE</a:ObjectID>
+<a:Name>isEJB</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isEntityBean%) or (%isSessionBean%) or (%isMessageDrivenBean%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o718">
+<a:ObjectID>30DF54AB-D124-4484-A4A4-5E2FC4C262EE</a:ObjectID>
+<a:Name>isEntityBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == CMP) or (%Type% == BMP)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o719">
+<a:ObjectID>105435B4-8788-413B-B018-1B7ECB0A6FE6</a:ObjectID>
+<a:Name>isJAXRPCWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and (%Type% == STD)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o720">
+<a:ObjectID>D9B50F92-C1C8-42F7-A636-6A7C8E62740D</a:ObjectID>
+<a:Name>isJSP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == JSP)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o721">
+<a:ObjectID>443A51CA-BA83-4555-A1E0-76834CAD1DCC</a:ObjectID>
+<a:Name>isMessageDrivenBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == MDB)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o722">
+<a:ObjectID>6CF3EA6D-C84F-4821-BC63-D817B544313A</a:ObjectID>
+<a:Name>isServlet</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == SVL)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o723">
+<a:ObjectID>4461AB81-FDA0-4645-9D1A-F6B1CCF010AC</a:ObjectID>
+<a:Name>isSessionBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == SFL) or (%Type% == SLS) or (%Type% == AXE)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o724">
+<a:ObjectID>7AFE6A4D-3221-49AC-9F44-B194E6D6F542</a:ObjectID>
+<a:Name>isSessionBeanWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and (%Type% == SLS)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o725">
+<a:ObjectID>72F69913-EA11-418B-845B-C9AA1CAB571C</a:ObjectID>
+<a:Name>isStatefulSessionBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == SFL)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o726">
+<a:ObjectID>43C2AAE4-58BB-4EDF-A1B4-6A58AC04C05F</a:ObjectID>
+<a:Name>isStatelessSessionBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == SLS)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o727">
+<a:ObjectID>F097B564-BF3F-4C04-B5CA-638F0C134D35</a:ObjectID>
+<a:Name>isWebComponent</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isServlet%) or (%isJSP%) or (%isJAXRPCWebService%) or (%isAxisWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o728">
+<a:ObjectID>8FDA727A-B565-44D9-9B72-B49512DD26BF</a:ObjectID>
+<a:Name>isWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSClass%) and (%WebService%) and ((%Type% == STD) or (%Type% == SVL) or (%Type% == SLS) or (%Type% == AXR) or (%Type% == AXE) or (%Type% == JWS))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o729">
+<a:ObjectID>802FD936-BA9D-4990-932B-9F4C83C48570</a:ObjectID>
+<a:Name>isJ2EEWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and ((%Type% == STD) or (%Type% == SLS))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o730">
+<a:ObjectID>C70F3D07-BD45-46CF-AD7E-C5C60EA5A721</a:ObjectID>
+<a:Name>isJWSWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and (%Type% == JWS)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o731">
+<a:ObjectID>5CF21010-F555-4BDC-94B5-7DA05B8C81D4</a:ObjectID>
+<a:Name>isAxisRPCWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and (%Type% == AXR)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o732">
+<a:ObjectID>4E929E78-ECFC-41BD-BF17-873E8C867495</a:ObjectID>
+<a:Name>isAxisEJBWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isWebService%) and (%Type% == AXE)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o733">
+<a:ObjectID>BDB8468A-E1D5-47F1-86EA-6CEEC788810C</a:ObjectID>
+<a:Name>isAxisWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isAxisRPCWebService%) or (%isAxisEJBWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o734">
+<a:ObjectID>7269D5BE-1782-44C2-9636-B6A26A9DC844</a:ObjectID>
+<a:Name>isServletOrJSP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isServlet%) or (%isJSP%) or (%isJAXRPCWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o735">
+<a:ObjectID>803BD945-07C6-44F1-A0C9-68CD55508106</a:ObjectID>
+<a:Name>isEJB3</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isEJB3EntityBean%) or (%isEJB3SessionBean%) or (%isEJB3MessageDrivenBean%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o736">
+<a:ObjectID>657C8162-8ED3-4592-9261-4D7DA0B7BA0E</a:ObjectID>
+<a:Name>isEJB3EntityBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == EN3)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o737">
+<a:ObjectID>26BAD689-8C04-4719-A0FC-7405E632F3D8</a:ObjectID>
+<a:Name>isEJB3SessionBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == SF3) or (%Type% == SL3)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o738">
+<a:ObjectID>2606490C-A891-48F9-A56E-0612EC3824F8</a:ObjectID>
+<a:Name>isEJB3MessageDrivenBean</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Type% == MD3)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o739">
+<a:ObjectID>1D823053-44BF-4BD4-B515-549CBFE213F9</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o740">
+<a:ObjectID>E6C44F7B-0E9A-4B9D-80B4-E8DA8532A2A5</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classes)
+   .if (%IsSelected%) and (%isInner% == false)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next
+.foreach_item(Interfaces)
+   .if (%IsSelected%) and (%isInner% == false)
+%sourceFilepath%
+   .endif(&quot; &quot;)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o741">
+<a:ObjectID>96DDBB0E-95D2-4D18-A27A-AE73EC959615</a:ObjectID>
+<a:Name>jarFilename</a:Name>
+<a:TemplateTargetItem.Value>%Code%.jar</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o742">
+<a:ObjectID>64656085-CF69-45F7-84A4-C6819CD993AA</a:ObjectID>
+<a:Name>ejbCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%Code% != &quot;EJB&quot;) and (%.-3:Code% == &quot;EJB&quot;)
+ .delete (&quot;EJB&quot;)
+%Code%
+ .enddelete
+.else
+%Code%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o743">
+<a:ObjectID>B1DF50F3-5FAD-4875-9E43-460F2C182BF5</a:ObjectID>
+<a:Name>ejbName</a:Name>
+<a:TemplateTargetItem.Value>%Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o744">
+<a:ObjectID>DBF010D4-DE6E-4E8D-A1E3-B9B07F4B59CE</a:ObjectID>
+<a:Name>serviceName</a:Name>
+<a:TemplateTargetItem.Value>%Code%
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o745">
+<a:ObjectID>83A553B7-BFF5-4B86-B60A-CAE6FC457D09</a:ObjectID>
+<a:Name>EJB3Annotations</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o746">
+<a:ObjectID>7DDC7B35-3BDC-4CF2-A634-BF879C972AA6</a:ObjectID>
+<a:Name>ejb3@Remote</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Interfaces,&quot;@Remote({&quot;,&quot;})&quot;,%Stereotype%==EJBRemote)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o747">
+<a:ObjectID>0981B531-5116-4970-97A8-C2A85FF115C8</a:ObjectID>
+<a:Name>ejb3@Local</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Interfaces,&quot;@Local({&quot;,&quot;})&quot;,%Stereotype%==EJBLocal)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o748">
+<a:ObjectID>4358F972-4C7C-4D3E-A2CC-EB03C744D172</a:ObjectID>
+<a:Name>ejb3@LocalHome</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Interfaces,&quot;@LocalHome(&quot;,&quot;)&quot;,%Stereotype%==EJBLocalHome)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o749">
+<a:ObjectID>D71DF7CC-6BEE-437C-97EA-082BF2D0C1E9</a:ObjectID>
+<a:Name>ejb3@RemoteHome</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Interfaces,&quot;@RemoteHome(&quot;,&quot;)&quot;,%Stereotype%==EJBRemoteHome)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o750">
+<a:ObjectID>E525E684-A1FF-4685-A65D-D55C28C6404C</a:ObjectID>
+<a:Name>ejb3@EntityListeners</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classes,&quot;@EntityListeners({&quot;,&quot;})&quot;,%Stereotype%==EJBEntityListener)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o751">
+<a:ObjectID>355D7044-73F7-4162-A9CA-9743C9A4B9B6</a:ObjectID>
+<a:Name>ejb3@Interceptors</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classes,&quot;@Interceptors({&quot;,&quot;})&quot;,%Stereotype%==EJBInterceptor)
+%Code%
+.next(&quot;,&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o752">
+<a:ObjectID>C10141C8-BE16-4149-8330-F3188F4DCFE6</a:ObjectID>
+<a:Name>BasePackage</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o753">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>6DEACB47-C6D7-47D1-94B4-957AB5E9D465</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o754">
+<a:ObjectID>184A2D43-0F4D-40D8-866B-3B864C74BBE3</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o755">
+<a:ObjectID>D5ED201A-34CE-48AC-81F6-6279A1F1C238</a:ObjectID>
+<a:Name>isTopPackage</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Parent% == null)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o756">
+<a:ObjectID>5C18EB2F-B11D-4A5D-944A-C339082D5C63</a:ObjectID>
+<a:Name>qualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%isTopPackage%)
+[%Parent.qualifiedCode%.]%Code%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o757">
+<a:ObjectID>44134313-E47B-4BAE-AF09-32DBC2556E5B</a:ObjectID>
+<a:Name>hasServlets</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasServlets, false, new)
+.// test whether this package contains servlets
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isServlet%) and (%IsSelected%)
+      .set_value(_hasServlets, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasServlets% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false)
+         .if (%hasServlets%)
+            .set_value(_hasServlets, true)      
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasServlets%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o758">
+<a:ObjectID>27B9EAFB-C344-4E25-8154-52FEE82EFC17</a:ObjectID>
+<a:Name>path</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%isTopPackage%)
+[%Parent.path%\\]%Code%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o759">
+<a:ObjectID>C9EF57A7-A40E-452A-B1F7-72F7F2548B71</a:ObjectID>
+<a:Name>rootRelativePath</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%isTopPackage%)
+[%Parent.rootRelativePath%\\]..
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o760">
+<a:ObjectID>CE933ED5-5CE0-46D2-9181-46D845752419</a:ObjectID>
+<a:Name>hasServletsOrWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasServletsOrWebServices, false, new)
+.// test whether this package contains web components
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if ((%isServlet%) or (%isJAXRPCWebService%) or (%isAxisWebService%)) and (%IsSelected%)
+      .set_value(_hasServletsOrWebServices, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasServletsOrWebServices% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false)
+         .if (%hasServletsOrWebServices%)
+            .set_value(_hasServletsOrWebServices, true)
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasServletsOrWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o761">
+<a:ObjectID>CC9D0E1B-A3F3-4659-8105-98DA0877CF9B</a:ObjectID>
+<a:Name>jarFilename</a:Name>
+<a:TemplateTargetItem.Value>.if (%isArchive%)
+%JarFileName%
+.elsif (%Parent%)
+%Parent.jarFilename%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o762">
+<a:ObjectID>D4E9D652-176E-4AE2-9919-3F0FD858C120</a:ObjectID>
+<a:Name>package</a:Name>
+<a:TemplateTargetItem.Value>[package %qualifiedCode%;]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o763">
+<a:ObjectID>6DF1A011-B457-47BA-8B42-DB76414A9CBA</a:ObjectID>
+<a:Name>hasWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasWebServices, false, new)
+.// test whether this package contains web services
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isWebService%) and (%IsSelected%)
+      .set_value(_hasWebServices, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasWebServices% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false)
+         .if (%hasWebServices%)
+            .set_value(_hasWebServices, true)
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o764">
+<a:ObjectID>B8E8A71D-2B5F-42A0-AA84-EFE058C404E1</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Classifiers,,,%IsShortcut% == false)
+   .if (%IsSelected%) and (%isInner% == false)
+%genSourceFiles%
+   .endif(&quot; &quot;)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o765">
+<a:ObjectID>7BE65760-8ABC-40D9-8FBB-AB2FFA637BFF</a:ObjectID>
+<a:Name>jarFilepath</a:Name>
+<a:TemplateTargetItem.Value>.if (%isArchive%)
+[%path%\\]%JarFileName%
+.elsif (%Parent%)
+%Parent.jarFilepath%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o766">
+<a:ObjectID>8716B9FB-6589-4B8A-9826-7DA672BDD2EF</a:ObjectID>
+<a:Name>hasEJBs</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasEJBs, false, new)
+.// test whether this package contains EJBs
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isEJB%) and (%IsSelected%)
+      .set_value(_hasEJBs, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasEJBs% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false) and (%hasEJBs%)
+         .set_value(_hasEJBs, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasEJBs%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>returns true if this package or one of its non-archive subpackages contains a selected EJB component, false otherwise.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o767">
+<a:ObjectID>566B91DA-A4C8-4789-B595-B66E69F5DA58</a:ObjectID>
+<a:Name>hasWebComponents</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasWebComponents, false, new)
+.// test whether this package contains web components
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isWebComponent%) and (%IsSelected%)
+      .set_value(_hasWebComponents, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasWebComponents% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false) and (%hasWebComponents%)
+         .set_value(_hasWebComponents, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasWebComponents%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>returns true if this package or one of its non-archive subpackages contains a selected web component (servlet, JSP or standard web service), false otherwise.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o768">
+<a:ObjectID>415F24B4-3254-4EA5-B136-DA8891533B01</a:ObjectID>
+<a:Name>warFilename</a:Name>
+<a:TemplateTargetItem.Value>.if (%isWebAppArchive%)
+%WarFileName%
+.elsif (%Parent%)
+%Parent.warFilename%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o769">
+<a:ObjectID>86BEF396-718F-41B2-8AEE-A63A3D4FB1A7</a:ObjectID>
+<a:Name>warFilepath</a:Name>
+<a:TemplateTargetItem.Value>.if (%isWebAppArchive%)
+[%path%\\]%WarFileName%
+.elsif (%Parent%)
+%Parent.warFilepath%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o770">
+<a:ObjectID>3ECEBD5B-60C2-442A-87AF-FA32D30755AF</a:ObjectID>
+<a:Name>hasSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasSourceFiles, false)
+.// test whether this package contains source files
+.if (%genSourceFiles%)
+.set_value(_hasSourceFiles, true)
+.// recurse on sub-packages
+.else
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false) and (%genSourceFiles%)
+         .set_value(_hasSourceFiles, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasSourceFiles%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>This template should not be called directly but only through Model::hasSourceFile</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o771">
+<a:ObjectID>B592FDB3-B4E9-458B-96BB-FBD7A4FA10C2</a:ObjectID>
+<a:Name>hasCMPs</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasCMPs, false, new)
+.// test whether this package contains CMP Entity Beans
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isCMP%) and (%IsSelected%)
+      .set_value(_hasCMPs, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasCMPs% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false) and (%hasCMPs%)
+         .set_value(_hasCMPs, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasCMPs%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o772">
+<a:ObjectID>198A6751-29B6-49B0-A8D3-2567BE6C3B4E</a:ObjectID>
+<a:Name>hasORMap</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasClassMap, false, new)
+.// Test the current package
+.foreach_item(Classes,,,%IsShortcut% == false)
+   .if (%hasClassMap%)
+      .set_value(_hasClassMap, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive subpackages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false) and (%hasORMap%)
+      .set_value(_hasClassMap, true)
+      .break
+   .endif
+.next
+%_hasClassMap%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>returns true if an O/R mapping is defined for at least one class in the package, false otherwise</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o773">
+<a:ObjectID>5E5FAA3E-D214-4C20-B388-2C071260406E</a:ObjectID>
+<a:Name>ownWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasWebServices, false, new)
+.// test whether this package contains web services
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isWebService%) and (%IsSelected%)
+.set_value(_hasWebServices, true)
+   .endif
+.next
+%_hasWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o774">
+<a:ObjectID>B0C53259-06E1-45E3-9BD9-3989DDAE2BE9</a:ObjectID>
+<a:Name>ejbJarTagId</a:Name>
+<a:TemplateTargetItem.Value>[%isEjbJarUseTagId%?ejb-jar_ID]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o775">
+<a:ObjectID>46CEEEC4-130C-4ADB-BB89-BC47225EB9AB</a:ObjectID>
+<a:Name>useEclipse</a:Name>
+<a:TemplateTargetItem.Value>%Model.useEclipse%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o776">
+<a:ObjectID>9114A9EC-9A74-4B74-B29A-2815C79DD9D5</a:ObjectID>
+<a:Name>hasAxisWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasAxisWebServices, false, new)
+.// test whether this package contains web components
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isAxisWebService%) and (%IsSelected%)
+      .set_value(_hasAxisWebServices, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasAxisWebServices% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%@1% == true) or (%isArchive% == false)
+         .if (%hasAxisWebServices%)
+            .set_value(_hasAxisWebServices, true)
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasAxisWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1: include all subpackages</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o777">
+<a:ObjectID>A73B5211-C7F4-4932-97C1-F5759FC84B53</a:ObjectID>
+<a:Name>archivePackage</a:Name>
+<a:TemplateTargetItem.Value>[%isArchive%?%Code%:%Parent.archivePackage%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o778">
+<a:ObjectID>728EE616-D9BA-489E-80E2-C47BF41A3BF4</a:ObjectID>
+<a:Name>hasAxisEJBWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasAxisEJBWebServices, false, new)
+.// test whether this package contains web components
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isAxisEJBWebService%) and (%IsSelected%)
+      .set_value(_hasAxisEJBWebServices, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasAxisEJBWebServices% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%@1% == true) or (%isArchive% == false)
+         .if (%hasAxisEJBWebServices%)
+            .set_value(_hasAxisEJBWebServices, true)
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasAxisEJBWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1: include all subpackages</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o779">
+<a:ObjectID>D778B40E-D1A8-42B6-AFDC-C569523FFA9A</a:ObjectID>
+<a:Name>hasAxisRPCWebServices</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasAxisRPCWebServices, false, new)
+.// test whether this package contains web components
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%isAxisRPCWebService%) and (%IsSelected%)
+      .set_value(_hasAxisRPCWebServices, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasAxisRPCWebServices% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%@1% == true) or (%isArchive% == false)
+         .if (%hasAxisRPCWebServices%)
+            .set_value(_hasAxisRPCWebServices, true)
+            .break
+         .endif
+      .endif
+   .next
+.endif
+%_hasAxisRPCWebServices%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1: include all subpackages</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o780">
+<a:ObjectID>D6408BD6-C643-427F-8EE5-ADA32B2C1390</a:ObjectID>
+<a:Name>hasServletsOrJSPs</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasServletsOrJSPs, false, new)
+.// test whether this package contains servlets
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if ((%isServlet%) or (%isJSP%) or (%isJAXRPCWebService%)) and (%IsSelected%)
+      .set_value(_hasServletsOrJSPs, true)
+      .break
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.if (%_hasServletsOrJSPs% == false)
+   .foreach_item(Packages,,,%IsShortcut%==false)
+      .if (%isArchive% == false) and (%hasServletsOrJSPs%)
+         .set_value(_hasServletsOrJSPs, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasServletsOrJSPs%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o781">
+<a:ObjectID>1A6D8FAE-50AA-49B8-ACE3-D2C4CD549450</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o782">
+<a:ObjectID>86DFA372-8FB3-4665-AC2F-F8B56C10E9DA</a:ObjectID>
+<a:Name>isOOMFolder</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Model) or (%ObjectType% == Package)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o783">
+<a:ObjectID>4D51AD26-7F7C-493A-A59D-58D4C547DCD9</a:ObjectID>
+<a:Name>isJ2EEApplication</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_isJ2EEApplication, false, new)
+.// look for EJB/WebApp archive
+.if (%isEJBArchive%) or (%isWebAppArchive%)
+   .set_value(_isJ2EEApplication, true)
+.endif
+.// recurse
+.if (%_isJ2EEApplication% == false)
+   .foreach_item(Packages,,,%IsShortcut% == false)
+      .if (%_isJ2EEApplication% == false) and (%isJ2EEApplication%)
+         .set_value(_isJ2EEApplication, true)
+      .endif
+   .next
+.endif
+%_isJ2EEApplication%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o784">
+<a:ObjectID>3DE101FE-006C-4419-AF44-4F7E1D2C96D4</a:ObjectID>
+<a:Name>isDataSourceOpened</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent% != null)
+%Parent.isDataSourceOpened%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o785">
+<a:ObjectID>41CEA58D-22B3-42C5-A514-6AB5DEFF53A3</a:ObjectID>
+<a:Name>isArchive</a:Name>
+<a:TemplateTargetItem.Value>.// Model objects are considered to be stereotyped as &lt;&lt;Archive&gt;&gt; by default.
+.bool (%ObjectType% == Model) or ((%ObjectType% == Package) and (%Stereotype% == Archive))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o786">
+<a:ObjectID>C190B4A2-2715-4546-810F-90A708A0BA7E</a:ObjectID>
+<a:Name>isWebAppArchive</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isArchive%) and (%hasWebComponents%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o787">
+<a:ObjectID>FBB8FF53-2482-47D2-AF52-84D9725017C5</a:ObjectID>
+<a:Name>isEJBArchive</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isArchive%) and (%hasEJBs%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o788">
+<a:ObjectID>42D95D52-94C4-47DE-913F-CA47EAD4197F</a:ObjectID>
+<a:Name>Commands</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o789">
+<a:ObjectID>9934306C-1592-4B57-8FCC-949B2DCBE1B8</a:ObjectID>
+<a:Name>Javac</a:Name>
+<a:TemplateTargetItem.Value>.if (%genSourceFiles%)
+   .execute_command(%_JAVAC%, [-classpath &quot;%$JAVACLASSPATH%&quot; ]%genSourceFiles%, cmd_PipeOutput)
+.endif
+.foreach_item(Packages,,,%IsShortcut% == false)
+%Javac%
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o790">
+<a:ObjectID>44E418B5-14E2-4846-98FF-148F2C53790A</a:ObjectID>
+<a:Name>Enterprise JavaBeans</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o791">
+<a:ObjectID>722CCC55-3F5D-4889-8049-E069B54388A0</a:ObjectID>
+<a:Name>buildEJBComponents</a:Name>
+<a:TemplateTargetItem.Value>.if (%genEJBSourceFiles%)
+   .create_path([%path%\]classes)
+   .execute_command(%_JAVAC%, -d [%path%\]classes -classpath &quot;[%$JAVACLASSPATH%;][%path%\]_stubs&quot; %genEJBSourceFiles%, cmd_PipeOutput)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o792">
+<a:ObjectID>97C218DF-37C5-44B1-A7EF-C2FAE2F4D87A</a:ObjectID>
+<a:Name>genEJBSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.// compile EJB classes
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%isEJB%)
+%genSourceFiles%
+   .endif
+.next(&quot; &quot;)
+.// compile helper classes (classes that are not attached to any component)
+.//.foreach_item(Classifiers, &quot; &quot;)
+.//   .if (%IsSelected%) and (%isInner% == false) and (%Components.IsEmpty%) and ((%ObjectType% == Interface) or (%WSComponent% == null))
+.//%sourceFilepath%
+.//   .endif
+.//.next(&quot; &quot;)
+.// recurse on non-archive sub-packages
+.foreach_item(Packages, &quot; &quot;,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%genEJBSourceFiles%
+   .endif
+.next(&quot; &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o793">
+<a:ObjectID>2DB790D5-D3B6-444F-805F-2E75589B7BFB</a:ObjectID>
+<a:Name>jarWSDLFiles</a:Name>
+<a:TemplateTargetItem.Value>.// add generated WSDL files, if any
+.if (%ownWebServices%)
+.change_dir([%GenOptions.GenerationPath%]%path%)
+.execute_command(%_CMD%, /C if exist *.wsdl %_JAR% uvf &quot;[%GenOptions.GenerationPath%]%jarFilepath%&quot; *.wsdl, cmd_PipeOutput)
+.endif
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%jarWSDLFiles%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o794">
+<a:ObjectID>3D0C7767-40E6-4922-A0CE-BA4BBCB91848</a:ObjectID>
+<a:Name>Web Application</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o795">
+<a:ObjectID>C307D824-16B0-4DDD-ABA8-244313AF4970</a:ObjectID>
+<a:Name>buildWebComponents</a:Name>
+<a:TemplateTargetItem.Value>.if (%genWebSourceFiles%)
+   .create_path([%path%\]WEB-INF)
+   .if (%GenOptions.JarWebComponentClasses%)
+      .create_path([%path%\]tmp)
+      .create_path([%path%\]WEB-INF\lib)
+      .execute_command(%_JAVAC%, -d [%path%\]tmp [-classpath &quot;%$JAVACLASSPATH%&quot; ]%genWebSourceFiles%, cmd_PipeOutput)
+      .change_dir([%path%\]tmp)
+      .execute_command(%_JAR%, cvf &quot;..\WEB-INF\lib\%warFilename%&quot; *, cmd_PipeOutput)
+      .change_dir(%GenOptions.GenerationPath%)
+      .execute_command(%_CMD%, /C rd /S /Q [%path%\]tmp, cmd_PipeOutput)
+   .else
+      .create_path([%path%\]WEB-INF\classes)
+      .execute_command(%_JAVAC%, -d [%path%\]WEB-INF\classes [-classpath &quot;%$JAVACLASSPATH%&quot; ]%genWebSourceFiles%, cmd_PipeOutput)
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o796">
+<a:ObjectID>FDEC2920-3115-4656-A40E-65516BECD3E6</a:ObjectID>
+<a:Name>genWebSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.// compile servlet classes
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%isServlet%) or (%isJAXRPCWebService%) or (%isAxisWebService%)
+%genSourceFiles%
+   .endif
+.next(&quot; &quot;)
+.// compile helper classes (classes that are not attached to any component)
+.//.foreach_item(Classifiers, &quot; &quot;)
+.//   .if (%IsSelected%) and (%isInner% == false) and (%Components.IsEmpty%) and ((%ObjectType% == Interface) or (%WSComponent% == null))
+.//%sourceFilepath%
+.//   .endif
+.//.next(&quot; &quot;)
+.// recurse on non-archive sub-packages
+.foreach_item(Packages, &quot; &quot;,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%genWebSourceFiles%
+   .endif
+.next(&quot; &quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o797">
+<a:ObjectID>DB4328F3-A508-40A0-95AE-1BD450E80008</a:ObjectID>
+<a:Name>warWSDLFiles</a:Name>
+<a:TemplateTargetItem.Value>.// add generated WSDL files, if any
+.if (%ownWebServices%)
+.change_dir([%GenOptions.GenerationPath%]%path%)
+.execute_command(%_CMD%, /C if exist *.wsdl %_JAR% uvf &quot;[%GenOptions.GenerationPath%]%warFilepath%&quot; *.wsdl, cmd_PipeOutput)
+.endif
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%warWSDLFiles%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o798">
+<a:ObjectID>256F1014-E730-4A0C-B326-2ACE5CBD3D26</a:ObjectID>
+<a:Name>warArtifacts</a:Name>
+<a:TemplateTargetItem.Value>.change_dir(%GenOptions.GenerationPath%)
+.// add *.jsp
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%isJSP%) and (%ServerPageFile%)
+      .execute_command(%_CMD%, /C if exist [%Parent.path%\]%ServerPageFile.fileName% %_JAR% uvf &quot;[%GenOptions.GenerationPath%]%Parent.warFilepath%&quot; [%Parent.path%\]%ServerPageFile.fileName%, cmd_PipeOutput)
+   .endif
+.next
+.// add artifacts that are not referenced by any components
+.foreach_item(Files)
+   .if (%IsSelected%) and (%Artifact%) and (%ReferencingObjects.IsEmpty%)
+      .execute_command(%_CMD%, /C if exist [%Parent.path%\]%fileName% %_JAR% uvf &quot;[%GenOptions.GenerationPath%]%Parent.warFilepath%&quot; [%Parent.path%\]%fileName%, cmd_PipeOutput)
+   .endif
+.next(&quot; &quot;)      
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%warArtifacts%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o799">
+<a:ObjectID>AD571DC9-7E84-4645-908F-29F9FD787425</a:ObjectID>
+<a:Name>EJB DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o800">
+<a:ObjectID>11A47CFA-809D-42A0-BE14-2B2A2A0BB8CE</a:ObjectID>
+<a:Name>relationships-definition</a:Name>
+<a:TemplateTargetItem.Value>.// Define tag id counters
+.set_value(_nbCmpRelation, 1, new)
+.set_value(_nbCmpRelationRole, 1, new)
+.set_value(_nbCmpRoleSource, 1, new)
+.set_value(_nbCmpField, 1, new)
+.// enumerate CMR associations
+.foreach_item(Associations,,,%IsShortcut%==false)
+   .if (%isCMRField%)
+%ejb-relation%
+   .endif(\n)
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%relationships-definition%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o801">
+<a:ObjectID>DF270058-0448-43F4-9863-C63F7E2B4913</a:ObjectID>
+<a:Name>assembly-descriptor-definition</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected EJBs
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%IsSelected%) and (%isEJB%)
+%container-transaction%
+   .endif(\n)
+.next
+[%message-destination%\n]\
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%assembly-descriptor-definition%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o802">
+<a:ObjectID>6CB0D987-0C5A-402F-8F05-892F8DC4B0B0</a:ObjectID>
+<a:Name>enterprise-beans-definition</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected EJBs
+.foreach_item(Components,,,%IsShortcut% == false)
+   .if (%IsSelected%)
+      .if (%isEntityBean%)
+%entity%
+      .elsif (%isSessionBean%)
+%session%
+      .elsif (%isMessageDrivenBean%)
+%message-driven%
+      .endif(\n)
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%enterprise-beans-definition%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o803">
+<a:ObjectID>DE93B5CD-C624-4CCF-8FEF-EA836290D398</a:ObjectID>
+<a:Name>WebSphere</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o804">
+<a:ObjectID>0B2777CD-3C72-40EF-B31F-9DE9821F9F33</a:ObjectID>
+<a:Name>isEjbJarUseTagId</a:Name>
+<a:TemplateTargetItem.Value>.bool (%useWebSphere%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o805">
+<a:ObjectID>EDAE8E30-B05D-47F4-AEB2-4D64F906C6BC</a:ObjectID>
+<a:Name>ejbModuleID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+EjbModule_%uniqueID%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o806">
+<a:ObjectID>274475D3-D7B9-4F0C-A259-77C3150BD6DB</a:ObjectID>
+<a:Name>useWebSphere</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent% == null)
+   .set_value(_useWebSphere, false, new)
+   .foreach_item(ExtendedModelDefinitions)
+      .if (%Code% == WebSphere)
+         .set_value(_useWebSphere, true)
+      .endif
+   .next
+%_useWebSphere%
+.else
+%Parent.useWebSphere%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o807">
+<a:ObjectID>D4C4D8AB-AA66-4363-8F59-62D07403062F</a:ObjectID>
+<a:Name>Ant</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o808">
+<a:ObjectID>8631520A-F17C-4FEC-AB23-1E23693E3C0B</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o809">
+<a:ObjectID>B5BAF449-70C9-4C59-8F07-AC72C6142BAC</a:ObjectID>
+<a:Name>antWarClassFiles</a:Name>
+<a:TemplateTargetItem.Value>.replace(.java, .class)
+   .replace(&quot;.java &quot;, &quot;.java,&quot;)
+      .replace(\\, /)
+%.T:genWebSourceFiles%
+      .endreplace
+   .endreplace
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o810">
+<a:ObjectID>D3414688-E065-418C-A815-91200656CAA1</a:ObjectID>
+<a:Name>antHomePath</a:Name>
+<a:TemplateTargetItem.Value>.replace(\\, /)
+%GenOptions.GenerationPath%
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o811">
+<a:ObjectID>6DBC34AF-2E3C-4F46-8304-89EF43D3828D</a:ObjectID>
+<a:Name>antPath</a:Name>
+<a:TemplateTargetItem.Value>.replace(\\, /)
+%path%
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o812">
+<a:ObjectID>C770BE15-A0D3-4F30-9BAA-3D99812E4906</a:ObjectID>
+<a:Name>antWarArtifacts</a:Name>
+<a:TemplateTargetItem.Value>.change_dir([%GenOptions.GenerationPath%]%path%)
+.// add *.jsp
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%isJSP%) and (%ServerPageFile%)
+&lt;zipfileset dir=&quot;%Parent.antFullPath%&quot; includes=&quot;%ServerPageFile.fileName%&quot;/&gt;\n
+   .endif
+.next
+.// add artifacts that are not referenced by any components
+.foreach_item(Files)
+   .if (%IsSelected%) and (%Artifact%) and (%ReferencingObjects.IsEmpty%)
+&lt;zipfileset dir=&quot;%Parent.antFullPath%&quot; includes=&quot;%fileName%&quot;/&gt;\n
+   .endif
+.next(&quot; &quot;)      
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%antWarArtifacts%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o813">
+<a:ObjectID>0160D1A7-82DB-4734-9A4D-E6F44679A51C</a:ObjectID>
+<a:Name>antFullPath</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%isTopPackage%)
+%antHomePath%%antPath%/
+.else
+%antHomePath%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o814">
+<a:ObjectID>EF1E0DB6-0D61-4624-A7B3-D7E4399C22FD</a:ObjectID>
+<a:Name>antWarWSDLFiles</a:Name>
+<a:TemplateTargetItem.Value>.// Add generated WSDL files, if any
+.if (%ownWebServices%)
+&lt;zipfileset dir=&quot;%antFullPath%&quot; includes=&quot;**/*.wsdl&quot;/&gt;\n
+.endif
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%antWarWSDLFiles%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o815">
+<a:ObjectID>AFDB4E2C-8DB2-4275-B1ED-987C4FCADE37</a:ObjectID>
+<a:Name>antJarClassFiles</a:Name>
+<a:TemplateTargetItem.Value>.replace(.java, .class)
+   .replace(&quot;.java &quot;, &quot;.java,&quot;)
+      .replace(\\, /)
+%.T:genEJBSourceFiles%
+      .endreplace
+   .endreplace
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o816">
+<a:ObjectID>C24CD4BD-F895-4B6D-958C-C00CEDBF96B3</a:ObjectID>
+<a:Name>antJarWSDLFiles</a:Name>
+<a:TemplateTargetItem.Value>.// Add generated WSDL files, if any
+.if (%ownWebServices%)
+&lt;zipfileset dir=&quot;%antFullPath%&quot; includes=&quot;**/*.wsdl&quot;/&gt;\n
+.endif
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%antJarWSDLFiles%
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o817">
+<a:ObjectID>0BD8F734-CA26-4F4D-B571-A698FF7DC6F1</a:ObjectID>
+<a:Name>antJarClassSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>.replace(&quot;.java &quot;, &quot;.java,&quot;)
+   .replace(\\, /)
+%.T:genEJBSourceFiles%
+   .endreplace
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o818">
+<a:ObjectID>9C489244-B273-465B-83C8-B8BDB9EA7EDA</a:ObjectID>
+<a:Name>classesPath</a:Name>
+<a:TemplateTargetItem.Value>.if (%Model.useEclipse%)
+bin
+.else
+classes
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o819">
+<a:ObjectID>AB30F558-3A04-4796-9A36-EA88417D95F7</a:ObjectID>
+<a:Name>sourcePath</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o820">
+<a:ObjectID>180B27ED-0EF4-4CC2-9836-7D6B1B001598</a:ObjectID>
+<a:Name>WebApp DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o821">
+<a:ObjectID>CF536562-A84F-4687-9107-6FCF8655638B</a:ObjectID>
+<a:Name>listeners</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate webapp listeners
+.foreach_item(Classes,,,%IsShortcut%==false)
+   .if (%isWebAppListener%)
+&lt;listener&gt;
+ &lt;listener-class&gt;%qualifiedCode%&lt;/listener-class&gt;
+&lt;/listener&gt;
+   .endif(\n)
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%listeners%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o822">
+<a:ObjectID>83312CC9-43B8-426C-A1BE-05AB9649604F</a:ObjectID>
+<a:Name>servlet-mappings</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected web components
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%IsSelected%) and (%isServletOrJSP%)
+&lt;servlet-mapping&gt;
+ &lt;servlet-name&gt;%servletName%&lt;/servlet-name&gt;
+ &lt;url-pattern&gt;%servletUrlPattern%&lt;/url-pattern&gt;
+&lt;/servlet-mapping&gt;
+   .endif(\n)
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%servlet-mappings%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o823">
+<a:ObjectID>F22EC6B1-E469-4C54-AE87-77E55FBB8EFC</a:ObjectID>
+<a:Name>servlets</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected web components
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%IsSelected%)
+      .if ((%isServlet%) or (%isJSP%))
+.// standard servlet or JSP
+&lt;servlet&gt;
+[ &lt;description&gt;%.X:Comment%&lt;/description&gt;\n]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ .// icon?
+ &lt;servlet-name&gt;%servletName%&lt;/servlet-name&gt;
+         .if (%isServlet%) 
+            .if (%ServletClass% != null)
+ &lt;servlet-class&gt;%ServletClass.fullyQualifiedCode%&lt;/servlet-class&gt;
+            .endif(\n)
+         .else
+            .if (%ServerPageFile% != null)
+ &lt;jsp-file&gt;%jspFilePath%&lt;/jsp-file&gt;
+            .endif(\n)
+         .endif
+ .// init-param?
+ &lt;load-on-startup&gt;%loadOnStartup%&lt;/load-on-startup&gt;
+ .// run-as?
+ .// security-role-ref*
+&lt;/servlet&gt;
+      .elsif (%isJAXRPCWebService%) and (%WSClass%)
+.// JAX RPC Web service
+&lt;servlet&gt;
+[ &lt;description&gt;%.X:Comment%&lt;/description&gt;\n]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ &lt;servlet-name&gt;%servletName%&lt;/servlet-name&gt;
+ &lt;servlet-class&gt;%WSClass.fullyQualifiedCode%&lt;/servlet-class&gt;
+  &lt;init-param&gt;
+   &lt;param-name&gt;configuration.file&lt;/param-name&gt;
+   &lt;param-value&gt;/WEB-INF/%Code%_Config.properties&lt;/param-value&gt;
+  &lt;/init-param&gt;
+  &lt;load-on-startup&gt;%loadOnStartup%&lt;/load-on-startup&gt;
+ .// run-as?
+ .// security-role-ref*
+&lt;/servlet&gt;
+      .endif(\n)
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%servlets%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o824">
+<a:ObjectID>5394572B-AA5A-4D49-BCCD-F4940D6DFA6E</a:ObjectID>
+<a:Name>serverContext</a:Name>
+<a:TemplateTargetItem.Value>.if (%isArchive%)
+   .if (%contextRoot%)
+%contextRoot%
+   .else
+      .if (%ObjectType% == Model)
+/
+      .else
+/%Code%
+      .endif
+   .endif
+.else
+%Parent.serverContext%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o825">
+<a:ObjectID>0B0EA6EE-DB71-4023-86D4-F52C1C775A20</a:ObjectID>
+<a:Name>WebSphere</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o826">
+<a:ObjectID>ACDC9B47-C683-4365-88CE-5C165393F071</a:ObjectID>
+<a:Name>webModuleID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+WebModule_%uniqueID%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o827">
+<a:ObjectID>E200B031-F4A6-4575-92F1-100E3F1076A3</a:ObjectID>
+<a:Name>webAppID</a:Name>
+<a:TemplateTargetItem.Value>.if (%isEjbJarUseTagId%)
+WebApp
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o828">
+<a:ObjectID>AB20F6E4-AD56-4624-AF31-6E4387D73660</a:ObjectID>
+<a:Name>welcome-file-list</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o829">
+<a:ObjectID>4644D358-3FB5-41C7-B126-08B08C53169C</a:ObjectID>
+<a:Name>taglibs</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o830">
+<a:ObjectID>DD02AFAB-6E7B-43A2-8AD3-B34BE92AA784</a:ObjectID>
+<a:Name>service-refs</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected web components
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%IsSelected%) and (%isServlet%) or (%isJSP%)
+      .foreach_item(ChildDependencies,,\n,%Stereotype%==service-ref)
+%service-ref%
+      .next(\n)
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%service-refs%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o831">
+<a:ObjectID>BFA8FD8E-C5E2-4B4C-8FB9-C9B08C7E3FEF</a:ObjectID>
+<a:Name>ejb-refs</a:Name>
+<a:TemplateTargetItem.Value>.// enumerate selected web components
+.foreach_item(Components,,,%IsShortcut%==false)
+   .if (%IsSelected%) and (%isServlet%) or (%isJSP%)
+      .foreach_item(ChildDependencies,,\n,%Stereotype%==ejb-ref)
+%ejb-ref%
+      .next(\n)
+   .endif
+.next
+.// recurse on non-archive sub-packages
+.foreach_item(Packages,,,%IsShortcut%==false)
+   .if (%isArchive% == false)
+%ejb-refs%
+   .endif(\n)
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o832">
+<a:ObjectID>15B3BC45-09C0-454E-8686-E984F6414E7D</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o833">
+<a:ObjectID>76E6428F-7189-4473-8BD1-4EA96AAD0F14</a:ObjectID>
+<a:Name>message-destination</a:Name>
+<a:TemplateTargetItem.Value>.// virtual template</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o834">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>29D4FD1F-A4D4-4E08-B777-7D8658FA90CA</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o835">
+<a:ObjectID>0DD1D405-DAF0-4DF2-9C77-5632ABDBF2BA</a:ObjectID>
+<a:Name>Standard Archive</a:Name>
+<a:CriterionTargetItem.Value>(%isArchive%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o836">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>73C7108F-5752-4758-9046-83D6DFF8EFED</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o837">
+<a:ObjectID>1FE0703C-6C95-48D8-A3ED-C578D9251881</a:ObjectID>
+<a:Name>MessageDestinations</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Répertorie toutes les destinations de message à spécifier dans le fichier de déploiement.
+Chaque nom de message doit apparaître sur une ligne distincte.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o838">
+<a:ObjectID>842C1C2A-D2A6-4388-A2EF-509FA22215BD</a:ObjectID>
+<a:Name>JarFileName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Nom de fichier JAR</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>%Code%.jar</a:ExtendedAttributeTargetItem.Value>
+<a:Template>1</a:Template>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o839">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>8A3340B5-646E-4FCC-838C-550C2A81DDDC</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o840">
+<a:ObjectID>9A2FEEDA-BA13-4D9D-AE13-25BF5579846A</a:ObjectID>
+<a:Name>EJB archive</a:Name>
+<a:CriterionTargetItem.Value>(%isEJBArchive%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o835"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o841">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>820791C5-EEFA-4B73-9DCA-456A77FE4FB4</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o842">
+<a:ObjectID>799FEF8E-C3D8-47BE-B9E9-E6FF230093DA</a:ObjectID>
+<a:Name>ejbDeploymentDescriptor</a:Name>
+<a:TemplateTargetItem.Value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!-- EJB 2.1 deployment descriptor --&gt;
+&lt;!-- Author: %Modifier% --&gt;
+&lt;!-- Modified: %ModificationDate% --&gt;
+&lt;ejb-jar[ id=&quot;%ejbJarTagId%&quot;] xmlns=&quot;http://java.sun.com/xml/ns/j2ee&quot; version=&quot;2.1&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd&quot;&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+ .// small-icon?
+ .// large-icon?
+[\
+ &lt;enterprise-beans&gt;
+  %enterprise-beans-definition%
+ &lt;/enterprise-beans&gt;
+]\
+[\
+ &lt;relationships&gt;
+  %relationships-definition%
+ &lt;/relationships&gt;
+]\
+[\
+ &lt;assembly-descriptor&gt;
+  %assembly-descriptor-definition%
+ &lt;/assembly-descriptor&gt; 
+]\
+ .// ejb-client-jar?
+&lt;/ejb-jar&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o843">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>981E2CF3-162A-4501-BD6A-73430DFEF962</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o844">
+<a:ObjectID>008B755D-A92A-4B22-B9B7-1F4B95479BB2</a:ObjectID>
+<a:Name>EJB Deployment Descriptor</a:Name>
+<a:TemplateTargetItem.Value>%ejbDeploymentDescriptor%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>META-INF\ejb-jar.xml</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o845">
+<a:ObjectID>341D369A-B206-47E6-882A-367E1D5F69BD</a:ObjectID>
+<a:Name>Web application archive</a:Name>
+<a:CriterionTargetItem.Value>(%isWebAppArchive%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:ParentCriterion>
+<o:CriterionTargetItem Ref="o835"/>
+</c:ParentCriterion>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o846">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>ECA86A41-E53B-4E30-8D18-16A27A9A7975</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o847">
+<a:ObjectID>5DE8E1DD-7950-488B-BBC3-1A7C56B9DDCA</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o848">
+<a:ObjectID>16B407DB-4D47-460E-A0E6-6709834E162D</a:ObjectID>
+<a:Name>context-params</a:Name>
+<a:TemplateTargetItem.Value>
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o849">
+<a:ObjectID>1024423E-E17A-451D-90B6-9987C6E2441F</a:ObjectID>
+<a:Name>session-config</a:Name>
+<a:TemplateTargetItem.Value>.if (%sessionTimeout% != &quot;&quot;)
+&lt;session-config&gt;
+ &lt;session-timeout&gt;%sessionTimeout%&lt;/session-timeout&gt;
+&lt;/session-config&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o850">
+<a:ObjectID>AF0A6BA0-349D-4A74-B220-F9DB9F1CC3BF</a:ObjectID>
+<a:Name>webDeploymentDescriptor</a:Name>
+<a:TemplateTargetItem.Value>.replace(\\, /)
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!-- Web application 2.4 deployment descriptor --&gt;
+&lt;!-- Author: %Modifier% --&gt;
+&lt;!-- Modified: %ModificationDate% --&gt;
+&lt;web-app[ id=&quot;%webAppID%&quot;] xmlns=&quot;http://java.sun.com/xml/ns/j2ee&quot; version=&quot;2.4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd&quot;&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+   .if (%distributable%)
+ &lt;distributable /&gt;
+   .endif(\n)
+[ %context-params%\n]\
+ .// filter*
+ .// filter-mapping*
+[ %listeners%\n]\
+[ %servlets%\n]\
+[ %servlet-mappings%\n]\
+[ %session-config%\n]\
+ .// mime-mapping*
+ .// welcome-file-list?
+[ %welcome-file-list%\n]\
+ .// error-page*
+ .// taglib*
+[ %taglibs%\n]\
+ .// resource-env-ref*
+ .// resource-ref*
+ .// security-constraint*
+ .// login-config?
+ .// security-role*
+ .// env-entry*
+[ %ejb-refs%\n]\
+[ %service-refs%\n]\
+[ %message-destination%\n]\
+&lt;/web-app&gt;
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o851">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>E80C5AF0-5302-4F6E-947B-8704A5287504</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o852">
+<a:ObjectID>D109854A-2477-484B-923B-BE175C4DD1EF</a:ObjectID>
+<a:Name>Web Deployment Descriptor</a:Name>
+<a:TemplateTargetItem.Value>%webDeploymentDescriptor%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>WEB-INF\web.xml</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o853">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>55CB2F7E-1CDB-4B20-BFDB-3953278B44F5</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o854">
+<a:ObjectID>E8E08B18-F8F0-4990-92C9-D2C547A49698</a:ObjectID>
+<a:Name>distributable</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément distribuable, par sa présence dans le descripteur de déploiement de l&#39;application web, indique que cette application web est programmée de façon à être déployée sur un conteneur de servlet distribué.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>true</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o855">
+<a:ObjectID>AD368BFF-C3ED-47DB-A342-2C4884339887</a:ObjectID>
+<a:Name>sessionTimeout</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>L&#39;élément session-timeout définit le délai par défaut de session pour l&#39;ensemble des sessions créées dans cette application web. Le délai spécifié doit être exprimé sous la forme d&#39;un nombre de minutes. Si le délai est 0 ou inférieur à 0, le conteneur s&#39;assure que le comportement par défaut des sessions ne dépasse jamais le délai défini.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>10</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>0</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o856">
+<a:ObjectID>366266D4-8CA5-423D-A5DF-54ACFD26DB7F</a:ObjectID>
+<a:Name>contextRoot</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Le contexte racine définit le chemin de contexte relatif au sein du serveur web pour l&#39;application web (servlets et JSPs).</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o857">
+<a:ObjectID>82D7D77C-ABD1-482C-B0BD-7E0015ED7937</a:ObjectID>
+<a:Name>WarFileName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Nom du fichier .WAR de l&#39;application Web</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>%Code%.war</a:ExtendedAttributeTargetItem.Value>
+<a:Template>1</a:Template>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o858">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>7268D761-9523-4859-9DC4-C70B958D479A</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o859">
+<a:ObjectID>13D9DC7F-1803-471C-B055-1755B8874457</a:ObjectID>
+<a:Name>message-destination</a:Name>
+<a:TemplateTargetItem.Value>.foreach_line(%MessageDestinations%)
+[\
+&lt;message-destination&gt;
+ &lt;message-destination-name&gt;%CurrentLine%&lt;/message-destination-name&gt;
+&lt;/message-destination&gt;
+]\
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o860">
+<a:ObjectID>917A039A-A13D-447E-AA91-BB15CF96F848</a:ObjectID>
+<a:Name>Classifier</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o861">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>0F3589F6-687C-484D-B439-C567816B6D45</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o862">
+<a:ObjectID>6FAAAFA9-B377-44BA-96F1-7F8EAC13EFE7</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o863">
+<a:ObjectID>0F310C2B-5FCB-482D-A94B-3C73582B0E9C</a:ObjectID>
+<a:Name>isInner</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ContainerClassifier%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o864">
+<a:ObjectID>0A9D11C8-D3FC-4809-BCC4-80D811E0F16B</a:ObjectID>
+<a:Name>topContainerCode</a:Name>
+<a:TemplateTargetItem.Value>[%ContainerClassifier%?%ContainerClassifier.topContainerCode%:%Code%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o865">
+<a:ObjectID>AA9CE8DA-9EB3-40F8-AE8B-262FB626E29D</a:ObjectID>
+<a:Name>qualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%ContainerClassifier% != null) and (%ContainerClassifier.Type% == &quot;G&quot;)
+%ContainerClassifier.importCode%.%CodeGeneric%
+.else
+%QualifiedCode%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o866">
+<a:ObjectID>9315C07B-B4C5-431E-9781-7EA3112869A1</a:ObjectID>
+<a:Name>fullyQualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>[%actualPackage.qualifiedCode%.]%qualifiedCode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o867">
+<a:ObjectID>AF515F85-DA82-46C5-8B35-C317B31A63B3</a:ObjectID>
+<a:Name>sourceFilename</a:Name>
+<a:TemplateTargetItem.Value>.if (%isSourceGenerated%)
+%Code%.java
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o868">
+<a:ObjectID>0BDFF2EA-6D5A-4839-B387-5EDF12481070</a:ObjectID>
+<a:Name>sourceFilepath</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?:[%Package.path%\\]%sourceFilename%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o869">
+<a:ObjectID>F6FE9D95-F842-4822-9F10-5A6336257757</a:ObjectID>
+<a:Name>classFilepath</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?:[%Package.path%\\]%classFilename%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o870">
+<a:ObjectID>7E3B8807-E54D-494C-B46C-EB63FDE2F64F</a:ObjectID>
+<a:Name>classFilename</a:Name>
+<a:TemplateTargetItem.Value>[%isInner%?:%Code%.class]
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o871">
+<a:ObjectID>019C63A5-7E55-41A5-85A5-4415283C6554</a:ObjectID>
+<a:Name>genSourceFiles</a:Name>
+<a:TemplateTargetItem.Value>%sourceFilepath%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o872">
+<a:ObjectID>12BD1A95-00C1-4279-83BF-1A4DD76EB110</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenOptions.PackageImports%)
+[import %Package.qualifiedCode%.*;]
+.else
+[import %importQualifiedCode%;]
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o873">
+<a:ObjectID>902B5247-A7A7-489F-87E0-C4465D6A176D</a:ObjectID>
+<a:Name>isSourceGenerated</a:Name>
+<a:TemplateTargetItem.Value>.// only toplevel classes with public or package visibility are generated
+.if (%isInner%) or ((%Visibility% != +) and (%Visibility% != *))
+false
+.else
+   .set_value(compUnitOwner, true, new)
+   .foreach_item(ParentDependencies)
+      .if (%isSameFile%)
+         .set_value(compUnitOwner, false)
+         .break
+      .endif
+   .next
+%compUnitOwner%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o874">
+<a:ObjectID>C54F49C3-FB0A-4683-A7D6-A71B679499A6</a:ObjectID>
+<a:Name>genericTypeParameters</a:Name>
+<a:TemplateTargetItem.Value>.if (%Generic%)
+   .foreach_item(TypeParameters,&quot;&lt;&quot;,&quot;&gt;&quot;)
+%Code%[ extends %DerivationConstraint%]
+   .next(,)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o875">
+<a:ObjectID>F5CD52A7-FFFE-41C5-B102-60D3C8B77247</a:ObjectID>
+<a:Name>actualPackage</a:Name>
+<a:TemplateTargetItem.Value>%Package.ObjectID%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o876">
+<a:ObjectID>D68CADAA-7B96-46F3-8598-91D40E7E19D8</a:ObjectID>
+<a:Name>importQualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>[%Package.qualifiedCode%.]%importCode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o877">
+<a:ObjectID>C0311669-6AF0-4025-B759-F6B7815DD94A</a:ObjectID>
+<a:Name>importCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%ContainerClassifier%)
+%ContainerClassifier.importCode%.%Code%
+.else
+%Code%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o878">
+<a:ObjectID>2F4C4DA6-233E-4E5C-9D43-FA55451F80A8</a:ObjectID>
+<a:Name>source</a:Name>
+<a:TemplateTargetItem.Value>.if (%isSourceGenerated%)
+.set_object(GenClassifier,,new)
+.// header and package declaration
+[%sourceHeader%\n\n]\
+[%package%\n\n]
+.// imports
+.unique
+%imports%
+.endunique(\n)
+.// definition
+[%definition%\n\n]
+.// classifiers with protected or private visibility referenced by this classifier through
+.// a &lt;&lt;sameFile&gt;&gt; dependency will be generated here.
+.foreach_item(ChildDependencies)
+[%isSameFile%?%InfluentObject.definition%\n\n]
+.next
+[%sourceFooter%\n]
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o879">
+<a:ObjectID>C6810588-80DE-46BB-9016-7D9A605E2C2B</a:ObjectID>
+<a:Name>attributes</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Attributes)
+   .if ((%@1% == all) or (%Visibility% == %@1%)) and (%Derived% == false)
+      .if (%isRoleAMigrated%)
+[%MigratedAssociation.roleAMigrateDefinition%\n]
+      .elsif (%isRoleBMigrated%)
+[%MigratedAssociation.roleBMigrateDefinition%\n]
+      .else
+[%definition%\n]
+      .endif
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o880">
+<a:ObjectID>736CFD08-6E29-41E7-831B-6D5E0533339C</a:ObjectID>
+<a:Name>members</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenOptions.MembersPrimarySort% == &quot;Visibility&quot;)
+  .if (%GenOptions.MembersVisibilitySort% == &quot;Public - Private&quot;)
+     .if (%GenOptions.MembersTypeSort% == &quot;Attributes - Operations&quot;)
+[%attributes(+)%\n\n]\
+[%operations(+)%\n\n]\
+[%attributes(*)%\n\n]\
+[%operations(*)%\n\n]\
+[%attributes(#)%\n\n]\
+[%operations(#)%\n\n]\
+[%attributes(-)%\n\n]\
+[%operations(-)%\n\n]\
+[%initializers%]
+     .else
+[%operations(+)%\n\n]\
+[%attributes(+)%\n\n]\
+[%operations(*)%\n\n]\
+[%attributes(*)%\n\n]\
+[%operations(#)%\n\n]\
+[%attributes(#)%\n\n]\
+[%operations(-)%\n\n]\
+[%attributes(-)%\n\n]\
+[%initializers%]
+     .endif
+  .else
+     .if (%GenOptions.MembersTypeSort% == &quot;Attributes - Operations&quot;)
+[%attributes(-)%\n\n]\
+[%operations(-)%\n\n]\
+[%attributes(#)%\n\n]\
+[%operations(#)%\n\n]\
+[%attributes(*)%\n\n]\
+[%operations(*)%\n\n]\
+[%attributes(+)%\n\n]\
+[%operations(+)%\n\n]\
+[%initializers%]
+     .else
+[%operations(-)%\n\n]\
+[%attributes(-)%\n\n]\
+[%operations(#)%\n\n]\
+[%attributes(#)%\n\n]\
+[%operations(*)%\n\n]\
+[%attributes(*)%\n\n]\
+[%operations(+)%\n\n]\
+[%attributes(+)%\n\n]\
+[%initializers%]
+     .endif
+  .endif
+.else
+  .if (%GenOptions.MembersVisibilitySort% == &quot;Public - Private&quot;)
+     .if (%GenOptions.MembersTypeSort% == &quot;Attributes - Operations&quot;)
+[%attributes(+)%\n\n]\
+[%attributes(*)%\n\n]\
+[%attributes(#)%\n\n]\
+[%attributes(-)%\n\n]\
+[%initializers%\n\n]\
+[%operations(+)%\n\n]\
+[%operations(*)%\n\n]\
+[%operations(#)%\n\n]\
+[%operations(-)%]
+     .else
+[%operations(+)%\n\n]\
+[%operations(*)%\n\n]\
+[%operations(#)%\n\n]\
+[%operations(-)%\n\n]\
+[%attributes(+)%\n\n]\
+[%attributes(*)%\n\n]\
+[%attributes(#)%\n\n]\
+[%attributes(-)%\n\n]\
+[%initializers%]
+     .endif
+  .elsif (%GenOptions.MembersVisibilitySort% == &quot;Private - Public&quot;)
+     .if (%GenOptions.MembersTypeSort% == &quot;Attributes - Operations&quot;)
+[%attributes(-)%\n\n]\
+[%attributes(#)%\n\n]\
+[%attributes(*)%\n\n]\
+[%attributes(+)%\n\n]\
+[%initializers%\n\n]\
+[%operations(-)%\n\n]\
+[%operations(#)%\n\n]\
+[%operations(*)%\n\n]\
+[%operations(+)%]
+     .else
+[%operations(-)%\n\n]\
+[%operations(#)%\n\n]\
+[%operations(*)%\n\n]\
+[%operations(+)%\n\n]\
+[%attributes(-)%\n\n]\
+[%attributes(#)%\n\n]\
+[%attributes(*)%\n\n]\
+[%attributes(+)%\n\n]\
+[%initializers%]
+     .endif
+  .else
+     .if (%GenOptions.MembersTypeSort% == &quot;Attributes - Operations&quot;)
+[%attributes(all)%\n\n]\
+[%initializers%\n\n]\
+[%operations(all)%]
+     .else
+[%operations(all)%\n\n]\
+[%attributes(all)%\n\n]\
+[%initializers%]
+     .endif
+  .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o881">
+<a:ObjectID>6FABCC91-B29C-4395-BD8E-58B3C9EDDFBA</a:ObjectID>
+<a:Name>imports</a:Name>
+<a:TemplateTargetItem.Value>.unique
+.//.foreach_item(ChildGeneralizations)
+.//[%import%\n]
+.//.next
+.foreach_item(Attributes)
+[%import%\n]
+.next
+.foreach_item(Operations)
+[%import%\n]
+.next
+.foreach_item(InnerClassifiers,,,%IsShortcut% == false)
+[%imports%\n]
+.next
+.// &lt;&lt;sameFile&gt;&gt; classifiers imports
+.foreach_item(ChildDependencies)
+[%isSameFile%?%InfluentObject.imports%\n]
+.next
+[%annotationImports%\n]
+%Imports%
+.endunique</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o882">
+<a:ObjectID>B0170C92-465C-458D-9592-C1249A1F9872</a:ObjectID>
+<a:Name>innerClasses</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(InnerClasses,,,%IsShortcut% == false)
+ .if (%Stereotype% != Enum)
+%definition%
+ .endif
+.next(\n\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o883">
+<a:ObjectID>ADA1F30B-F0C7-4DB1-9E49-F9CD9F6C2EAD</a:ObjectID>
+<a:Name>innerInterfaces</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(InnerInterfaces,,,%IsShortcut% == false)
+%definition%
+.next(\n\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o884">
+<a:ObjectID>8DECAD4B-2FCC-480E-BDC3-8DFCB53EBA6F</a:ObjectID>
+<a:Name>operations</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Operations)
+   .if ((%@1% == all) or (%Visibility% == %@1%)) and (%isInitializer% == false) and (%isStaticInitializer% == false)
+[%definition%\n[%isAbstract%?:\n]]
+   .endif
+.next
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>@1 : visibility filter (INPUT PARAM, values = {all,+,*,#,-} )</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o885">
+<a:ObjectID>9E3E7E93-9499-4696-B936-F6B7522FB0C0</a:ObjectID>
+<a:Name>sourceHeader</a:Name>
+<a:TemplateTargetItem.Value>%Header%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o886">
+<a:ObjectID>439DC280-8451-4357-841D-633E7C6C1474</a:ObjectID>
+<a:Name>sourceFooter</a:Name>
+<a:TemplateTargetItem.Value>%Footer%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o887">
+<a:ObjectID>8C79DBD8-481C-46ED-841E-13A5D0EF3F00</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o888">
+<a:ObjectID>A0AEB74D-9D66-42C0-A503-3C9B2C1F9055</a:ObjectID>
+<a:Name>isEJB</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o889">
+<a:ObjectID>09E55E94-07B2-4EF6-8934-795FAF3B784B</a:ObjectID>
+<a:Name>isEntity</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isEntityBean%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o890">
+<a:ObjectID>5C0DE47D-04CB-4B3F-A0BE-B3739CC6EB6B</a:ObjectID>
+<a:Name>isMessageDriven</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isMessageDrivenBean%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o891">
+<a:ObjectID>2A9E6FBC-D048-4A4D-8742-BBB19EDCFC1C</a:ObjectID>
+<a:Name>isPrimaryKeyClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Class) and (%Stereotype% == EJBPrimaryKey) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o892">
+<a:ObjectID>F85C3A48-55D6-488C-A974-0DE85C891D60</a:ObjectID>
+<a:Name>isSession</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isSessionBean%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o893">
+<a:ObjectID>80FE1314-3137-4E55-B30B-5C5570AC0594</a:ObjectID>
+<a:Name>isBMP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isBMP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o894">
+<a:ObjectID>F14179CB-1FED-45DB-90F0-CB8D494B3432</a:ObjectID>
+<a:Name>isBeanClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Class) and ((%Stereotype% == EJBEntity) or (%Stereotype% == EJBSession) or (%Stereotype% == EJBMessageDriven) or (%Stereotype% == BeanClass)) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o895">
+<a:ObjectID>C4FC8E63-4C75-4D58-8B3D-6271F09A34D7</a:ObjectID>
+<a:Name>isCMP</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty% == false) and (%Components.First.isCMP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o896">
+<a:ObjectID>424F0226-A75C-4C83-BC46-642CECDD50DD</a:ObjectID>
+<a:Name>isServletClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Class) and (%Stereotype% == ServletClass) and (%Components.IsEmpty% == false) and (%Components.First.isServlet%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o897">
+<a:ObjectID>296BDF34-C2E8-4893-A1CE-B8BA7F5A7855</a:ObjectID>
+<a:Name>isComponentInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isLocalInterface%) or (%isRemoteInterface%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o898">
+<a:ObjectID>100F4192-3027-498F-A9DC-B2F137662000</a:ObjectID>
+<a:Name>isHomeInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%isLocalHomeInterface%) or (%isRemoteHomeInterface%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o899">
+<a:ObjectID>7AD3D1AD-2AFA-4BD9-BF97-AC3E9D8A8DD9</a:ObjectID>
+<a:Name>isLocalHomeInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Interface) and (%Stereotype% == EJBLocalHome) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o900">
+<a:ObjectID>D27A0197-9FB8-4347-B02A-2EF162297EBB</a:ObjectID>
+<a:Name>isLocalInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Interface) and (%Stereotype% == EJBLocal) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o901">
+<a:ObjectID>8BD113A8-86DD-4759-BEEF-1C9E0C757DCE</a:ObjectID>
+<a:Name>isRemoteHomeInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Interface) and (%Stereotype% == EJBRemoteHome) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o902">
+<a:ObjectID>62D2CD8B-138D-4A7A-84B1-C886AF734750</a:ObjectID>
+<a:Name>isRemoteInterface</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Interface) and (%Stereotype% == EJBRemote) and (%isEJB%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o903">
+<a:ObjectID>1516E957-4805-4F3A-82E2-0B65F857B600</a:ObjectID>
+<a:Name>isWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o904">
+<a:ObjectID>634AFF9C-1C8C-41C3-B3B8-BD57647AA171</a:ObjectID>
+<a:Name>isJ2EEWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isJ2EEWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o905">
+<a:ObjectID>F65D68E9-898C-400F-9F28-94C0AF966A15</a:ObjectID>
+<a:Name>isJWSWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isJWSWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o906">
+<a:ObjectID>7C6A9DE2-A787-4463-B65C-2A01FAAF92FA</a:ObjectID>
+<a:Name>isJAXRPCWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isJAXRPCWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o907">
+<a:ObjectID>6367478E-29C4-4509-8403-4AC45723BF80</a:ObjectID>
+<a:Name>isAxisWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isAxisWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o908">
+<a:ObjectID>5413D9D4-7DB6-473B-8625-A24FFB5E8A39</a:ObjectID>
+<a:Name>isAxisRPCWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isAxisRPCWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o909">
+<a:ObjectID>E17FDA24-8A4F-4803-9C13-B8F790827AA1</a:ObjectID>
+<a:Name>isAxisEJBWebService</a:Name>
+<a:TemplateTargetItem.Value>.bool (%WSComponent%) and (%WSComponent.isAxisEJBWebService%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o910">
+<a:ObjectID>A1B6B41B-8497-48CA-9365-A620A4E465E5</a:ObjectID>
+<a:Name>isClass</a:Name>
+<a:TemplateTargetItem.Value>false</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o911">
+<a:ObjectID>34427617-DCC1-4F62-8EF7-E71A05259AE1</a:ObjectID>
+<a:Name>isEnumConstantClass</a:Name>
+<a:TemplateTargetItem.Value>false</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o912">
+<a:ObjectID>E622DA73-6C1F-44C1-AC30-2EA4C85203DF</a:ObjectID>
+<a:Name>isBoundClassifier</a:Name>
+<a:TemplateTargetItem.Value>.bool (%GenericClassifier%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o913">
+<a:ObjectID>20E5AB67-A321-40CD-BB42-B0F94F8B7C45</a:ObjectID>
+<a:Name>isEJB3BeanClass</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ObjectType% == Class) and ((%Stereotype% == EJBEntity) or (%Stereotype% == EJBSession) or (%Stereotype% == EJBMessageDriven) or (%Stereotype% == BeanClass)) and (%isEJB3%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o914">
+<a:ObjectID>C38DD9BA-97FD-403B-850E-0E1DA12DB57B</a:ObjectID>
+<a:Name>isEJB3</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Components.IsEmpty%) or (%Components.First.isEJB3%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o915">
+<a:ObjectID>B28FF4BD-B35B-4A3D-9A2E-ACD8088F732D</a:ObjectID>
+<a:Name>DefaultHeader</a:Name>
+<a:TemplateTargetItem.Value>/***********************************************************************
+ * Module:  %sourceFilename%
+ * Author:  %Modifier%
+ * Purpose: Defines the %ObjectType% %Code%
+ ***********************************************************************/</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o916">
+<a:ObjectID>0042FE5C-04E4-4C22-BDBA-EDA2553CAF5C</a:ObjectID>
+<a:Name>DefaultImports</a:Name>
+<a:TemplateTargetItem.Value>import java.util.*;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o917">
+<a:ObjectID>B88E9CCA-68AB-4E55-A2E0-798E3A6A2B37</a:ObjectID>
+<a:Name>initializers</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Operations)
+   .if (%isInitializer%) or (%isStaticInitializer%)
+[%definition%\n\n]
+   .endif
+.next</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o918">
+<a:ObjectID>27F32EAE-DA52-495B-9C9E-48242F59F9B6</a:ObjectID>
+<a:Name>extends</a:Name>
+<a:TemplateTargetItem.Value>.if (%ObjectType% == Class)
+   .ifnot (%ChildGeneralizations.IsEmpty%)
+      .if (%ChildGeneralizations.First.ParentObject.Package.ObjectID% == %Package.ObjectID%)
+extends %ChildGeneralizations.First.ParentObject.qualifiedCode%
+      .else
+extends %ChildGeneralizations.First.ParentObject.fullyQualifiedCode%
+      .endif
+   .endif
+.else
+   .foreach_item(ChildGeneralizations, &quot;extends &quot;)
+      .if (%ParentObject.Package.ObjectID% == %Package.ObjectID%)
+%ParentObject.qualifiedCode%
+      .else
+%ParentObject.fullyQualifiedCode%
+      .endif
+   .next(&quot;, &quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o919">
+<a:ObjectID>0651A265-683A-479D-8ABA-BF8F0DDA69A0</a:ObjectID>
+<a:Name>package</a:Name>
+<a:TemplateTargetItem.Value>%Package.package%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o920">
+<a:ObjectID>1A95FD06-448F-40DF-8D55-80B61D31B454</a:ObjectID>
+<a:Name>innerEnums</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(InnerClasses,,,%IsShortcut% == false)
+ .if (%Stereotype% == Enum)
+%definition%
+ .endif
+.next(\n\n)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o921">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>203A7CC2-6340-47E0-9860-D7B990D787BC</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o922">
+<a:ObjectID>D3E4695C-390C-4BA0-865F-1EDE4485CAA4</a:ObjectID>
+<a:Name>Java Source</a:Name>
+<a:TemplateTargetItem.Value>%source%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>%sourceFilename%</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o923">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>F6F1F96C-6C3C-476E-834C-B5BC7DE5E4FC</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o924">
+<a:ObjectID>C0A7C036-A198-4341-AC37-1C58FC0BBD22</a:ObjectID>
+<a:Name>Inner Classifier</a:Name>
+<a:CriterionTargetItem.Value>(%isInner%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o925">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>FEA4553B-0524-4AD0-B56A-87254E95B6A0</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o926">
+<a:ObjectID>24486CC8-780B-4B82-B172-638E638F2C06</a:ObjectID>
+<a:Name>Static</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Modificateur statique si la classe est interne</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+<o:CriterionTargetItem Id="o927">
+<a:ObjectID>9F31386E-0482-4545-8291-EB9224B92AFF</a:ObjectID>
+<a:Name>BoundClassifier</a:Name>
+<a:CriterionTargetItem.Value>(%isBoundClassifier%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o928">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>FC4A2726-34DD-4F51-8D4C-C3F969A6FD0F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o929">
+<a:ObjectID>BC39D190-3877-4DC8-B4EC-14FC7248D4B9</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>.// Bound classifiers should not be generated for java !</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o930">
+<a:ObjectID>8D03CEF6-97E4-4C19-9FC0-44E493BE8AAA</a:ObjectID>
+<a:Name>source</a:Name>
+<a:TemplateTargetItem.Value>.// Bound classifiers should not be generated for java !</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o931">
+<a:ObjectID>B47AE05F-49B5-463D-88A0-088FFC8B9A86</a:ObjectID>
+<a:Name>actualPackage</a:Name>
+<a:TemplateTargetItem.Value>%GenericClassifier.actualPackage%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o932">
+<a:ObjectID>D6CC027F-A902-4FF0-AFA7-B1E120C79B27</a:ObjectID>
+<a:Name>importCode</a:Name>
+<a:TemplateTargetItem.Value>%GenericClassifier.importCode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o933">
+<a:ObjectID>6CDDECB6-EF28-4F5B-A7AA-87EEB40061A3</a:ObjectID>
+<a:Name>importQualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>%GenericClassifier.importQualifiedCode%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o934">
+<a:ObjectID>8BFB293C-23F8-4FDA-8903-66BE445C47F7</a:ObjectID>
+<a:Name>qualifiedCode</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenericClassifier% != null) and (%GenericClassifier.ContainerClassifier% != null) and (%GenericClassifier.ContainerClassifier.Type% == &quot;G&quot;)
+%GenericClassifier.ContainerClassifier.importCode%.%CodeGeneric%
+.else
+%QualifiedCode%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o935">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>E9E63947-AA45-450B-9F11-44248C7A9B63</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o936">
+<a:ObjectID>9323E5DA-CB78-42F0-986A-A6626510A800</a:ObjectID>
+<a:Name>Javadoc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Javadoc attributes are used for the round-trip engineering of Javadoc comment tags. Their value is multiline and contains all occurrences of the corresponding tag in the actual comment.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o937">
+<a:ObjectID>BCE16AEA-6699-4EBE-A32C-82226C6E17D0</a:ObjectID>
+<a:Name>Javadoc@author</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @author. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o938">
+<a:ObjectID>4454CC1A-F991-44CD-8A1F-0987C73A1E09</a:ObjectID>
+<a:Name>Javadoc@deprecated</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @deprecated. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o939">
+<a:ObjectID>61049F1E-F465-49E7-8B5F-751C248596D1</a:ObjectID>
+<a:Name>Javadoc@see</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @see. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o940">
+<a:ObjectID>B511FB91-964D-4A1E-98D2-2BD0FE0B63EA</a:ObjectID>
+<a:Name>Javadoc@since</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @since. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o941">
+<a:ObjectID>F33BF047-BD1C-44CD-A853-1089AA1FE408</a:ObjectID>
+<a:Name>Javadoc@version</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut contenant les balises @version. Reportez-vous au commentaire dans la catégorie Javadoc pour obtenir une description générale des attributs Javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+<o:ExtendedAttributeTargetItem Id="o942">
+<a:ObjectID>1C02BB16-95D8-462A-A7D5-A82FD60511FC</a:ObjectID>
+<a:Name>Javadoc@misc</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>diverses balises javadoc</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>14</a:ExtendedAttributeTargetItem.DataType>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:ExtendedAttributeTargetItem Id="o943">
+<a:ObjectID>87476C5B-36D9-4442-8949-CFCE40EDA02C</a:ObjectID>
+<a:Name>strictfp</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Attribut orienté génération utilisé pour spécifier le modificateur strictfp.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.Value>false</a:ExtendedAttributeTargetItem.Value>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o944">
+<a:TypePublicName>FormTargetItem</a:TypePublicName>
+<a:ObjectID>FF3F5958-CCDB-40A2-938B-3A74E4900582</a:ObjectID>
+<a:Name>Forms</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:FormTargetItem Id="o945">
+<a:ObjectID>1D484B71-138F-45E4-A117-1816227B7E66</a:ObjectID>
+<a:Name>HiddenForm</a:Name>
+<a:FormTargetItem.Value>&lt;Form  &gt;
+   &lt;ExtendedAttribute Name=&quot;Static&quot;  Attribute=&quot;Static&quot; AttributeID=&quot;{24486CC8-780B-4B82-B172-638E638F2C06}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@author&quot;  Attribute=&quot;Javadoc@author&quot; AttributeID=&quot;{BCE16AEA-6699-4EBE-A32C-82226C6E17D0}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@deprecated&quot;  Attribute=&quot;Javadoc@deprecated&quot; AttributeID=&quot;{4454CC1A-F991-44CD-8A1F-0987C73A1E09}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@see&quot;  Attribute=&quot;Javadoc@see&quot; AttributeID=&quot;{61049F1E-F465-49E7-8B5F-751C248596D1}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@since&quot;  Attribute=&quot;Javadoc@since&quot; AttributeID=&quot;{B511FB91-964D-4A1E-98D2-2BD0FE0B63EA}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@version&quot;  Attribute=&quot;Javadoc@version&quot; AttributeID=&quot;{F33BF047-BD1C-44CD-A853-1089AA1FE408}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;Javadoc@misc&quot;  Attribute=&quot;Javadoc@misc&quot; AttributeID=&quot;{1C02BB16-95D8-462A-A7D5-A82FD60511FC}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+   &lt;ExtendedAttribute Name=&quot;strictfp&quot;  Attribute=&quot;strictfp&quot; AttributeID=&quot;{87476C5B-36D9-4442-8949-CFCE40EDA02C}&quot; GrayHiddenAttributes=&quot;Yes&quot; /&gt;
+&lt;/Form&gt;
+</a:FormTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:FormType>Dialog</a:FormType>
+</o:FormTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o946">
+<a:ObjectID>49BDE3E6-405C-4CD0-8A3A-3954B3BF40E4</a:ObjectID>
+<a:Name>Parameter</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o947">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>4517A12A-D878-44D4-B994-42627D989BA1</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o948">
+<a:ObjectID>C795336D-F2B1-47DA-B901-F2394B3D63E0</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o949">
+<a:ObjectID>F3691BF2-6C92-47FF-8561-541BE29DA0BA</a:ObjectID>
+<a:Name>dataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataTypeObject%)
+[%.T:DataTypeModifierPrefix% ]%DataTypeObject.qualifiedCode%%DataTypeModifierSuffix%
+.else
+%DataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o950">
+<a:ObjectID>09C40162-B328-4821-BD83-EC212D09527E</a:ObjectID>
+<a:Name>fullyQualifiedDataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataTypeObject%)
+[%.T:DataTypeModifierPrefix% ]%DataTypeObject.fullyQualifiedCode%%DataTypeModifierSuffix%
+.else
+%qualifiedDataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o951">
+<a:ObjectID>EF443872-7B6F-4C1C-AEEB-7FC760BAAE3D</a:ObjectID>
+<a:Name>qualifiedDataType</a:Name>
+<a:TemplateTargetItem.Value>.if (%DataType% == Boolean)
+java.lang.Boolean
+.elsif (%DataType% == Byte)
+java.lang.Byte
+.elsif (%DataType% == Character)
+java.lang.Character
+.elsif (%DataType% == Double)
+java.lang.Double
+.elsif (%DataType% == Float)
+java.lang.Float
+.elsif (%DataType% == Integer)
+java.lang.Integer
+.elsif (%DataType% == Long)
+java.lang.Long
+.elsif (%DataType% == Number)
+java.lang.Number
+.elsif (%DataType% == Object)
+java.lang.Object
+.elsif (%DataType% == Short)
+java.lang.Short
+.elsif (%DataType% == String)
+java.lang.String
+.elsif (%DataType% == Date)
+java.util.Date
+.elsif (%DataType% == Collection)
+java.util.Collection
+.elsif (%DataType% == Enumeration)
+java.util.Enumeration
+.elsif (%DataType% == List)
+java.util.List
+.elsif (%DataType% == Map)
+java.util.Map
+.elsif (%DataType% == Set)
+java.util.Set
+.elsif (%DataType% == SortedMap)
+java.util.SortedMap
+.elsif (%DataType% == SortedSet)
+java.util.SortedSet
+.else
+%DataType%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o952">
+<a:ObjectID>03854A6F-AEF7-4EDF-B72E-0CA3D0D6621F</a:ObjectID>
+<a:Name>definition</a:Name>
+<a:TemplateTargetItem.Value>[%annotations% ]%dataType%[%Array%?\[\]][%VariableArgument%?...] %Code%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o953">
+<a:ObjectID>35EEE300-6548-4EDD-A5E6-78AFDC698305</a:ObjectID>
+<a:Name>EJB</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o954">
+<a:ObjectID>847BCF35-7DB4-4CA0-B4A0-57E68074DABC</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o955">
+<a:ObjectID>4893685E-8CB5-4D54-B5AB-1D390C833A30</a:ObjectID>
+<a:Name>method-param</a:Name>
+<a:TemplateTargetItem.Value>&lt;method-param&gt;%fullyQualifiedDataType%[%Array%?\[\]]&lt;/method-param&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o956">
+<a:ObjectID>FC617B1F-E3B9-40F9-9C41-A5B07542E10E</a:ObjectID>
+<a:Name>Dependency</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o957">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>766BD776-0BFB-42A0-A1AA-94D8C3E3F9CC</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o958">
+<a:ObjectID>DA0499C8-600D-4149-8F2F-A6873F2ABBD7</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o959">
+<a:ObjectID>F2162FF1-73A3-4388-B034-1C012BB3BC20</a:ObjectID>
+<a:Name>samePackage</a:Name>
+<a:TemplateTargetItem.Value>.bool (%InfluentObject.Parent.ObjectID% == %DependentObject.Parent.ObjectID%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o960">
+<a:ObjectID>70696E12-9971-41F3-B2E8-294B80AFD42F</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o961">
+<a:ObjectID>479E709A-8517-413F-AFE6-99C7F35DB245</a:ObjectID>
+<a:Name>isSameFile</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == sameFile) and ((%InfluentObject.Visibility% == #) or (%InfluentObject.Visibility% == -) or (%InfluentObject.Visibility% == *))</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>see Classifier::Source</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o962">
+<a:ObjectID>20074AD6-CCF9-4B49-A88D-3A944DA812A7</a:ObjectID>
+<a:Name>isEjbRef</a:Name>
+<a:TemplateTargetItem.Value>false</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o963">
+<a:ObjectID>A5BB7B15-1944-417D-AE67-7585174DCBEA</a:ObjectID>
+<a:Name>isServiceRef</a:Name>
+<a:TemplateTargetItem.Value>false</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o964">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>C40872D5-52C1-4ACC-A70C-B8614F9DC00C</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o965">
+<a:ObjectID>F7763B43-3D70-4A8F-AD55-906312CDE66D</a:ObjectID>
+<a:Name>ejb-ref</a:Name>
+<a:Code>ejb-ref</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Les dépendances &lt;&lt;ejb-ref&gt;&gt; entre composants sont utilisées pour spécifier les références ejb-ref dans le descripteur de déploiement qui définit ces composants.</a:Comment>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o966">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>3ABCEB7D-FAE6-478B-AEE8-6EC17A23CE15</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o967">
+<a:ObjectID>69C0A90F-225E-4DA4-A723-801BC46739DD</a:ObjectID>
+<a:Name>ejb-ref</a:Name>
+<a:TemplateTargetItem.Value>.if (%InfluentObject.isEntityBean%) or (%InfluentObject.isSessionBean%)
+   .set_object(ejb, InfluentObject, new)
+   .if (%samePackage%)
+      .if (%ejb.LocalHomeInterface%) and (%ejb.LocalInterface%)
+&lt;ejb-local-ref&gt;
+ .// description?
+ &lt;ejb-ref-name&gt;ejb/%ejb.ejbName%&lt;/ejb-ref-name&gt;
+ &lt;ejb-ref-type&gt;[%ejb.isEntityBean%?Entity:Session]&lt;/ejb-ref-type&gt;
+ &lt;home&gt;%ejb.LocalHomeInterface.fullyQualifiedCode%&lt;/home&gt;
+ &lt;remote&gt;%ejb.LocalInterface.fullyQualifiedCode%&lt;/remote&gt;
+ &lt;ejb-link&gt;%ejb.ejbName%&lt;/ejb-link&gt;
+&lt;/ejb-local-ref&gt;
+      .endif
+   .elsif (%ejb.RemoteHomeInterface%) and (%ejb.RemoteInterface%)
+&lt;ejb-ref&gt;
+ .// description?
+ &lt;ejb-ref-name&gt;ejb/%ejb.ejbName%&lt;/ejb-ref-name&gt;
+ &lt;ejb-ref-type&gt;[%ejb.isEntityBean%?Entity:Session]&lt;/ejb-ref-type&gt;
+ &lt;home&gt;%ejb.RemoteHomeInterface.fullyQualifiedCode%&lt;/home&gt;
+ &lt;remote&gt;%ejb.RemoteInterface.fullyQualifiedCode%&lt;/remote&gt;
+ &lt;ejb-link&gt;[%DependentObject.Parent.rootRelativePath%\\]%ejb.Parent.jarFilepath%#%ejb.ejbName%&lt;/ejb-link&gt;
+&lt;/ejb-ref&gt;
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o968">
+<a:ObjectID>3395B898-C5BB-4BFF-9304-5BC7C7768969</a:ObjectID>
+<a:Name>isEjbRef</a:Name>
+<a:TemplateTargetItem.Value>true</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o969">
+<a:ObjectID>ED382086-3318-4C97-9049-6EC7F8A0DC86</a:ObjectID>
+<a:Name>sameFile</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Les classificateurs ayant une visibilité protected ou private référencés par un classificateur public via une dépendance &lt;&lt;sameFile&gt;&gt; sont générés avec le classificateur référant.
+</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o970">
+<a:ObjectID>0884E3BC-457B-41F0-A85B-2D39FD88B934</a:ObjectID>
+<a:Name>access</a:Name>
+<a:Code>access</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Accès</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o971">
+<a:ObjectID>58576881-CF0C-4873-8DD9-2C586233E8C1</a:ObjectID>
+<a:Name>bind</a:Name>
+<a:Code>bind</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Lien</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o972">
+<a:ObjectID>4F93EC72-C7B0-4DDB-937D-92BB295F4860</a:ObjectID>
+<a:Name>call</a:Name>
+<a:Code>call</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Appel</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o973">
+<a:ObjectID>3A010A26-74C5-44E9-83A9-D04E769B6561</a:ObjectID>
+<a:Name>derive</a:Name>
+<a:Code>derive</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Dérivation</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o974">
+<a:ObjectID>F3482897-448F-489A-A783-9245C0DFE095</a:ObjectID>
+<a:Name>extend</a:Name>
+<a:Code>extend</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Extension</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o975">
+<a:ObjectID>62E0C1FB-2B13-462C-B707-D57ABE894971</a:ObjectID>
+<a:Name>friend</a:Name>
+<a:Code>friend</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Ami</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o976">
+<a:ObjectID>DB4E09EB-4934-4CAC-BDF4-AA13DDE37203</a:ObjectID>
+<a:Name>import</a:Name>
+<a:Code>import</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Importation</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o977">
+<a:ObjectID>9ABD18D1-EEEC-430E-A282-70CC8BAA6B65</a:ObjectID>
+<a:Name>include</a:Name>
+<a:Code>include</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Inclusion</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o978">
+<a:ObjectID>5EF1C848-B4DB-402A-A985-235AE1BDFD74</a:ObjectID>
+<a:Name>instantiate</a:Name>
+<a:Code>instantiate</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Instanciation</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o979">
+<a:ObjectID>B4E45393-7781-477B-949D-B08010F5AEBA</a:ObjectID>
+<a:Name>refine</a:Name>
+<a:Code>refine</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Affinage</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o980">
+<a:ObjectID>C2BABFC3-FD14-40FB-AC6B-E8C195B5D14E</a:ObjectID>
+<a:Name>trace</a:Name>
+<a:Code>trace</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Suivi</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o981">
+<a:ObjectID>400D1EEE-60F9-4C39-A60B-41B2211AD5C3</a:ObjectID>
+<a:Name>use</a:Name>
+<a:Code>use</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Utilisation</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o982">
+<a:ObjectID>CEF933F5-FB07-45D3-9B38-FC9E3429FC9E</a:ObjectID>
+<a:Name>service-ref</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o983">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>CDEC3ADA-4435-4FC2-A788-E21723F428E3</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o984">
+<a:ObjectID>2F51642F-87A8-4791-B79B-375F419D41C7</a:ObjectID>
+<a:Name>service-ref</a:Name>
+<a:TemplateTargetItem.Value>.// virtual template</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o985">
+<a:ObjectID>C4C1EC58-A4D9-4D76-9EDF-02CE1B12DBE3</a:ObjectID>
+<a:Name>isServiceRef</a:Name>
+<a:TemplateTargetItem.Value>true</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o986">
+<a:ObjectID>E89476EE-E4CF-43D9-8AC4-8B4203C09D6A</a:ObjectID>
+<a:Name>merge</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Merge</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o987">
+<a:ObjectID>FECA1454-8AC0-4129-93C9-161323A8B483</a:ObjectID>
+<a:Name>BaseObject</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o988">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>8AB047FA-7ED1-4061-BF80-109EE974B690</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o989">
+<a:ObjectID>B8CF1250-4518-4B94-89DF-AB9F2FA103B3</a:ObjectID>
+<a:Name>javaDocComment</a:Name>
+<a:TemplateTargetItem.Value>.foreach_line(%javaDoc%,&quot;/*&quot;,&quot; */&quot;)
+* %CurrentLine%
+.next(&quot;\n &quot;)
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o990">
+<a:ObjectID>A9159EB6-292D-4C50-B087-6DAE1B174CE5</a:ObjectID>
+<a:Name>uniqueID</a:Name>
+<a:TemplateTargetItem.Value>.replace(&quot;-&quot;, &quot;&quot;)
+%ObjectID%
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o991">
+<a:ObjectID>8BE19692-BC7B-44A8-9446-CBA2ABE92FE0</a:ObjectID>
+<a:Name>isGenAssocDefaultAccessors</a:Name>
+<a:TemplateTargetItem.Value>.// Allow other profiles to override this option
+%GenOptions.GenAssocDefaultAccessors%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o992">
+<a:ObjectID>D8492209-1AD9-4698-BF99-18F4D11B21EA</a:ObjectID>
+<a:Name>Generalization</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o993">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>B90D52E4-F9BC-4A9F-A05E-CE59E380A25E</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o994">
+<a:ObjectID>7C16DC03-EB32-4F4B-8139-2624F90AD7A7</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o995">
+<a:ObjectID>83FA1D28-FC23-4459-BAD9-E5DAF42BCF9D</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>.if (%ParentObject.Package.isTopPackage% == false) and (%ChildObject.Package.ObjectID% != %ParentObject.Package.ObjectID%)
+%ParentObject.import%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o996">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>C7463301-0679-4C55-8126-0DB2C1DFE2CD</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o997">
+<a:ObjectID>542BF396-C683-48E2-9B78-E0EDD168FA81</a:ObjectID>
+<a:Name>implementation</a:Name>
+<a:Code>implementation</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Mise en oeuvre</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o998">
+<a:ObjectID>A9220DA5-F14A-4F87-ADCF-694885974215</a:ObjectID>
+<a:Name>merge</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Merge</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o999">
+<a:ObjectID>FDB2583E-D103-4114-9A57-6B09EB753C6A</a:ObjectID>
+<a:Name>access</a:Name>
+<a:Code>access</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Accès</a:Comment>
+</o:StereotypeTargetItem>
+<o:StereotypeTargetItem Id="o1000">
+<a:ObjectID>5ADB3FEC-5F8C-461E-9189-9FEC1BE41695</a:ObjectID>
+<a:Name>import</a:Name>
+<a:Code>import</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Importation</a:Comment>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1001">
+<a:ObjectID>49391169-778F-4574-9281-C6A2D54F6D9B</a:ObjectID>
+<a:Name>Realization</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1002">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>87147E9D-BAA3-4949-B2B8-9D58C8661A54</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1003">
+<a:ObjectID>8A96C60A-027C-4BEF-B5B2-309DA0EA61D3</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1004">
+<a:ObjectID>D97EC843-35D4-4C1E-B4F6-75E554A66FCE</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>.if (%Interface.Package.isTopPackage% == false) and (%Class.Package.ObjectID% != %Interface.Package.ObjectID%)
+%Interface.import%
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:TargetCategory Id="o1005">
+<a:ObjectID>1C85E4C8-34F7-448E-A097-CE19F7F2B287</a:ObjectID>
+<a:Name>Shared</a:Name>
+<a:Code>Shared</a:Code>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1006">
+<a:TypePublicName>ExtendedAttributeTypeTargetItem</a:TypePublicName>
+<a:ObjectID>3C4F6647-8F55-4C9A-A112-8BED2BEF0AAE</a:ObjectID>
+<a:Name>Extended Attribute Types</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTypeTargetItem Id="o343">
+<a:ObjectID>D6DF58E9-34D0-47DB-A2A1-85945CAD91B3</a:ObjectID>
+<a:Name>ObjectContainer</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Liste des conteneurs pour les associations qui mettent en oeuvre.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>java.util.Collection</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>&lt;None&gt;
+java.util.Collection
+java.util.List
+java.util.Set
+java.util.SortedSet</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o522">
+<a:ObjectID>F6DC9C76-67B9-45C0-9A70-E9730E395489</a:ObjectID>
+<a:Name>SelectMapping</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Correspondance de schema abstrait pour la méthode EJB Select</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>EJBLocalObject</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>EJBObject
+EJBLocalObject</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o231">
+<a:ObjectID>5F5BC7AF-4213-4303-84DF-B97DBAED0D54</a:ObjectID>
+<a:Name>EJBMethodTransactionType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de transaction  de méthodes EJB</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>&lt;Default&gt;</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>&lt;Default&gt;
+Not Supported
+Supports
+Required
+Requires New
+Mandatory
+Never</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o229">
+<a:ObjectID>10743144-8F93-4171-9CEC-9E86D27F9F30</a:ObjectID>
+<a:Name>EJBTransactionType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de transaction du composant (pour les beans de session et les beans commandés par message)</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>Container</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>Bean
+Container
+&lt;Default&gt;</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o685">
+<a:ObjectID>83198F68-9308-4317-9213-89DFEF2A5DAE</a:ObjectID>
+<a:Name>JSPTemplate</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Liste des templates pour le contenu par défaut des fichiers JSP.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>DefaultTemplate</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>DefaultTemplate
+HelloWorldTemplate</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o691">
+<a:ObjectID>33B308FD-FA7F-4F9E-BDA1-031884084FA3</a:ObjectID>
+<a:Name>ComponentServletType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de Servlet : HttpServlet ou GenericServlet.
+User-Defined doit être utilisé uniquement si la classe servlet hérite d&#39;une classe qui n&#39;a pas HttpServlet ou GenericServlet comme ancêtre.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>HttpServlet</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>GenericServlet
+HttpServlet
+JAXMServlet
+User-Defined</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o652">
+<a:ObjectID>79E640C3-D4F9-4278-B83C-991B428F657E</a:ObjectID>
+<a:Name>JMSAcknowledgeModeType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Mode de notification d&#39;un message JMS</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>Auto-acknowledge
+Dups-ok-acknowledge</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o654">
+<a:ObjectID>6DB10661-0884-48CF-A477-9983563FE172</a:ObjectID>
+<a:Name>MessageDestinationType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de destination de message</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>javax.jms.Queue
+javax.jms.Topic</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o650">
+<a:ObjectID>B37D7EE5-6C79-4FE6-847F-D5D1DB78360D</a:ObjectID>
+<a:Name>MessagingType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Liste d&#39;interfaces d&#39;écoute de message disponibles pour les beans commandés par message.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>javax.jms.MessageListener</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o656">
+<a:ObjectID>84E55BFD-A3FA-4C4E-8C55-553C48BC68D3</a:ObjectID>
+<a:Name>JMSSubscriptionDurabilityType</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Type de durabilité de souscription JMS</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>Durable
+NonDurable</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+<o:ExtendedAttributeTypeTargetItem Id="o346">
+<a:ObjectID>7BE69266-22F8-4168-99D2-D3B3415A77D8</a:ObjectID>
+<a:Name>ContainerImplementation</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Liste des conteneurs de classe pour l&#39;implémentation des associations.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTypeTargetItem.Value>java.util.HashSet</a:ExtendedAttributeTypeTargetItem.Value>
+<a:ExtendedAttributeTypeTargetItem.ListOfValues>&lt;None&gt;
+java.util.ArrayList
+java.util.HashSet
+java.util.LinkedHashSet
+java.util.LinkedList
+java.util.TreeSet
+java.util.Vector
+java.util.Stack</a:ExtendedAttributeTypeTargetItem.ListOfValues>
+</o:ExtendedAttributeTypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1007">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>1C860652-7288-45F6-8EC0-2E0925523790</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1008">
+<a:ObjectID>3A71808E-41B6-4493-869B-2CE913DA9A20</a:ObjectID>
+<a:Name>++</a:Name>
+<a:TemplateTargetItem.Value>.set_value(v, %*@1%, new)
+.set_value(%@1%, %+(v, 1)%)
+.if (%@2% != false)
+%*@1%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Increments the specified local variable and returns the incremented value.
+
+@1 [string] : local variable to be incremented
+@2 [boolean] : return incremented value (default = true)</a:Comment>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1009">
+<a:ObjectID>99EA0254-B1AF-4210-8EF5-E95F6C0F1AED</a:ObjectID>
+<a:Name>+</a:Name>
+<a:TemplateTargetItem.Value>.vbscript(%*@1%, %*@2%)
+ScriptResult = CInt(ScriptInputArray(0)) + CInt(ScriptInputArray(1))
+.endvbscript</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Returns the sum of the input parameters.
+
+@1 [string, int] : local variable or integer value
+@2 [string, int] : local variable or integer value</a:Comment>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1010">
+<a:ObjectID>62510B35-87D6-4656-82A8-1A92D6B43D0A</a:ObjectID>
+<a:Name>--</a:Name>
+<a:TemplateTargetItem.Value>.set_value(v, %*@1%)
+.set_value(%@1%, %+(v, -1)%)
+.if (%@2% != false)
+%*@1%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Decrements the specified local variable and returns the decremented value.
+
+@1 [string] : local variable to be decremented
+@2 [boolean] : return decremented value (default = true)</a:Comment>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TargetCategory>
+<o:MetaClassTargetItem Id="o1011">
+<a:ObjectID>8CCF5E49-FCC5-4700-9D68-5DF200B8CC5F</a:ObjectID>
+<a:Name>FileObject</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1012">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>2F1C890F-1C40-4326-A48B-B68C29AD8B45</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o1013">
+<a:ObjectID>1172508D-391D-4766-AED6-82919D243B50</a:ObjectID>
+<a:Name>EmbeddedArtifact</a:Name>
+<a:TemplateTargetItem.Value>%EmbeddedArtifact%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Default generation for embedded files of type artifact</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>%fileName(true)%</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1014">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>08386325-E1FD-4D1E-A205-390A4F9DF23B</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o1015">
+<a:ObjectID>CBF71694-DBEA-490C-B492-7D03DFF1F0CD</a:ObjectID>
+<a:Name>JSP</a:Name>
+<a:CriterionTargetItem.Value>(%isJSPFile%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1016">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>9641113C-01E4-41BC-88D0-47A8C893E1E7</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1017">
+<a:ObjectID>78BD76C5-12D6-41BD-8CF0-BAADC4931ED3</a:ObjectID>
+<a:Name>DefaultContent&lt;%is(DefaultTemplate)%&gt;</a:Name>
+<a:TemplateTargetItem.Value>&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Add the title here&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;%%@ page language=&quot;java&quot; %%&gt;
+&lt;!-- Variables declaration --&gt;
+&lt;%%!
+
+%%&gt;
+&lt;!-- JSP code --&gt;
+&lt;%%
+
+%%&gt;
+&lt;!-- Page content --&gt;
+Add the page content here.
+&lt;/BODY&gt;
+&lt;/HTML&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o1018">
+<a:ObjectID>BA021340-56BB-47F8-AB3F-4F77E56827EA</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1019">
+<a:ObjectID>12556AE8-3B05-48DB-8714-0155FB7021BF</a:ObjectID>
+<a:Name>is</a:Name>
+<a:TemplateTargetItem.Value>.bool (%ReferencingObjects.First.TemplateContent% == %@1%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Tests the JSPTemplate extended attribute value on the associated component
+
+@1 [string] : extended attribute value</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o1020">
+<a:ObjectID>5E71E409-F98C-475A-968D-D1BEBF6DF6A4</a:ObjectID>
+<a:Name>DefaultContent&lt;%is(HelloWorldTemplate)%&gt;</a:Name>
+<a:TemplateTargetItem.Value>&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Hellow World&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+&lt;%%@ page language=&quot;java&quot; import = &quot;java.lang.*&quot; %%&gt;
+&lt;!-- Variables declaration --&gt;
+&lt;%%!
+   String sTitle;
+%%&gt;
+&lt;!-- JSP code --&gt;
+&lt;%%
+   sTitle = &quot;Hello World!&quot;;
+%%&gt;
+&lt;!-- Page content --&gt;
+&lt;H1&gt;&lt;%%= sTitle %%&gt;&lt;/H1&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1021">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>A48AD2B1-A306-4D4F-BCB6-8D74C8E726CC</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1022">
+<a:ObjectID>9FEBB784-6026-451B-B0E6-8578A25C9D7D</a:ObjectID>
+<a:Name>Kind</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1023">
+<a:ObjectID>865E6A25-7B1C-4D57-A8A8-A705BB306273</a:ObjectID>
+<a:Name>isJSPFile</a:Name>
+<a:TemplateTargetItem.Value>.bool (%Stereotype% == JSPFile) and (%ReferencingObjects.IsEmpty% == false) and (%ReferencingObjects.First.isJSP%)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1024">
+<a:ObjectID>C5A072F4-122D-4584-9332-7510EB227162</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1025">
+<a:ObjectID>96BC76B4-23DC-444B-ABC9-DA8D1AF2448B</a:ObjectID>
+<a:Name>isEmbedded</a:Name>
+<a:TemplateTargetItem.Value>.bool (%LocationType% == 0)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1026">
+<a:ObjectID>98113641-AFAD-4DCD-AF91-4C7C33C116C7</a:ObjectID>
+<a:Name>isExternal</a:Name>
+<a:TemplateTargetItem.Value>.bool (%LocationType% == 1)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1027">
+<a:ObjectID>DE9DD9D2-DAC8-490A-9BDF-E588766878AF</a:ObjectID>
+<a:Name>filePath</a:Name>
+<a:TemplateTargetItem.Value>[%parentFilePath%]%fileName%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1028">
+<a:ObjectID>1DBEE4C4-50E0-47DF-A2DE-D480BD838F95</a:ObjectID>
+<a:Name>fileName</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%@1?%) and (%@1%) and (%isEmbeddedArtifact% == false)
+%Code%.%Extension%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1029">
+<a:ObjectID>072FAA3D-798F-4704-86D3-CDC3D1A2D3D3</a:ObjectID>
+<a:Name>parentFilePath</a:Name>
+<a:TemplateTargetItem.Value>[%Parent.path%\\]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1030">
+<a:ObjectID>670C46A7-6032-4762-B8AF-82E2DE36B703</a:ObjectID>
+<a:Name>isEmbeddedArtifact</a:Name>
+<a:TemplateTargetItem.Value>.bool (%LocationType% == 0) and (%Artifact% == true)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o1031">
+<a:ObjectID>2B81B521-E76B-4DE5-808A-F019876A6EC6</a:ObjectID>
+<a:Name>saveArtifact</a:Name>
+<a:TemplateTargetItem.Value>.vbscript([%GenOptions.GenerationPath%]%Parent.path%)
+   Dim objFile
+   Set objFile = ActiveSelection.Item(0)
+   objFile.SaveFile ScriptInputParameters
+.endvbscript</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1032">
+<a:ObjectID>6674876B-25C5-445F-BE5D-1AA6E03661C3</a:ObjectID>
+<a:Name>EmbeddedArtifact</a:Name>
+<a:TemplateTargetItem.Value>.if (%PreviewMode% == false) and (%isEmbeddedArtifact%)
+   .if (%GeneratedContent%)
+%GeneratedContent%
+   .else
+      .vbscript(%GenOptions.GenerationPath%%parentFilePath%)
+Dim objFile
+Set objFile = ActiveSelection.Item(0)
+objFile.SaveFile ScriptInputArray(0)
+      .endvbscript
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1033">
+<a:ObjectID>613D3569-2C12-49EA-8B78-9F994762F852</a:ObjectID>
+<a:Name>Model</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:EnableSelectionGeneration>1</a:EnableSelectionGeneration>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1034">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>89AD9EC7-A302-4F97-933B-FF0673A1AC6E</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o1035">
+<a:ObjectID>2D955AF2-BCA8-44FC-B080-0BA7D2B6E343</a:ObjectID>
+<a:Name>J2EE Application</a:Name>
+<a:CriterionTargetItem.Value>(%isJ2EEApplication%)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1036">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>F70FE643-AF38-4960-88A5-4A247CF84D81</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o1037">
+<a:ObjectID>05AB42C6-D62B-44EC-861A-E7820A51B658</a:ObjectID>
+<a:Name>J2EE Application Deployment Descriptor</a:Name>
+<a:TemplateTargetItem.Value>%J2EEApplicationDeploymentDescriptor%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>META-INF\application.xml</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1038">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>FE68EDD9-F9BA-4407-89C3-CFC03ADC157F</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1039">
+<a:ObjectID>0489590F-D1C0-4266-9D7C-26E5639EC571</a:ObjectID>
+<a:Name>DeploymentDescriptor</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1040">
+<a:ObjectID>5CCE7384-FEAE-48C2-A0AC-217AF8CA71CB</a:ObjectID>
+<a:Name>modules</a:Name>
+<a:TemplateTargetItem.Value>.replace(\\, /)
+.if (%hasEJBs%)
+.// model-level ejb module
+&lt;module[ id=&quot;%ejbModuleID%&quot;]&gt;
+ &lt;ejb&gt;%jarFilepath%&lt;/ejb&gt;
+ .// alt-dd?
+&lt;/module&gt;
+.endif(\n) 
+.if (%hasServletsOrJSPs%)
+.// model-level web module
+&lt;module[ id=&quot;%webModuleID%&quot;]&gt;
+ &lt;web&gt;
+  &lt;web-uri&gt;%warFilepath%&lt;/web-uri&gt;
+  &lt;context-root&gt;%serverContext%&lt;/context-root&gt;
+ &lt;/web&gt;
+ .// alt-dd?
+&lt;/module&gt;
+.endif(\n)
+.foreach_item(ActiveModel.GeneratedPackageList,,,%isArchive%)
+   .if (%hasEJBs%)
+.// package-level ejb module
+&lt;module[ id=&quot;%ejbModuleID%&quot;]&gt;
+ &lt;ejb&gt;%jarFilepath%&lt;/ejb&gt;
+ .// alt-dd?
+&lt;/module&gt;
+   .endif(\n)  
+   .if (%hasServletsOrJSPs%)
+.// package-level web module
+&lt;module[ id=&quot;%webModuleID%&quot;]&gt;
+ &lt;web&gt;
+  &lt;web-uri&gt;%warFilepath%&lt;/web-uri&gt;
+  &lt;context-root&gt;%serverContext%&lt;/context-root&gt;
+ &lt;/web&gt;
+ .// alt-dd?
+&lt;/module&gt;
+   .endif(\n)   
+.next
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1041">
+<a:ObjectID>3CCA3182-7E49-4B62-AE33-1430E557DC08</a:ObjectID>
+<a:Name>J2EEApplicationDeploymentDescriptor</a:Name>
+<a:TemplateTargetItem.Value>.replace(\\, /)
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!-- J2EE 1.4 application deployment descriptor --&gt;
+&lt;!-- Author: %Modifier% --&gt;
+&lt;!-- Modified: %ModificationDate% --&gt;
+&lt;application xmlns=&quot;http://java.sun.com/xml/ns/j2ee&quot; version=&quot;1.4&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd&quot;&gt;
+ .// icon?
+ &lt;display-name&gt;%Name%&lt;/display-name&gt;
+[\
+ &lt;description&gt;%.X:Comment%&lt;/description&gt;
+]\
+ %modules%
+ .// security-role*
+&lt;/application&gt;
+.endreplace</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1042">
+<a:ObjectID>7D9D8DF3-565F-4975-8564-0565DC0E3562</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1043">
+<a:ObjectID>E2BCDD46-2206-4215-A3DB-057DB7784C69</a:ObjectID>
+<a:Name>earFilename</a:Name>
+<a:TemplateTargetItem.Value>%EarFileName%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1044">
+<a:TypePublicName>ExtendedAttributeTargetItem</a:TypePublicName>
+<a:ObjectID>73762F82-5884-4AAB-973C-6FB467E9861A</a:ObjectID>
+<a:Name>Extended Attributes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:ExtendedAttributeTargetItem Id="o1045">
+<a:ObjectID>1E34CD05-6679-4D5B-9B7E-532B89C16E51</a:ObjectID>
+<a:Name>EarFileName</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Nom de fichier .EAR d&#39;application J2EE</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:ExtendedAttributeTargetItem.DataType>12</a:ExtendedAttributeTargetItem.DataType>
+<a:ExtendedAttributeTargetItem.Value>%Code%.ear</a:ExtendedAttributeTargetItem.Value>
+<a:Template>1</a:Template>
+</o:ExtendedAttributeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1046">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>EBF647E5-CD07-43A1-A9C3-95AB8282E41B</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1047">
+<a:ObjectID>3FD015A2-C1E2-4803-B055-30197E515B86</a:ObjectID>
+<a:Name>SaveArtifacts</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%PreviewMode%)
+   .if (%hasWebComponents%)
+      .change_dir(%GenOptions.GenerationPath%)
+      .// save artifacts that are not referenced by any components
+      .foreach_item(Files)
+         .if (%IsSelected%) and (%Artifact%) and (%ReferencingObjects.IsEmpty%)
+            .if (%GeneratedContent% == &quot;&quot;)
+               %saveArtifact%
+            .endif
+         .endif
+      .next
+   .endif
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%hasWebComponents%)
+         .// cd &lt;package-directory&gt;
+         .change_dir([%GenOptions.GenerationPath%]%path%)
+         .// save artifacts that are not referenced by any components
+         .foreach_item(Files)
+            .if (%IsSelected%) and (%Artifact%) and (%ReferencingObjects.IsEmpty%)
+               .if (%GeneratedContent% == &quot;&quot;)
+                  %saveArtifact%
+               .endif
+            .endif
+         .next
+      .endif
+   .next
+   .change_dir(%GenOptions.GenerationPath%)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1048">
+<a:ObjectID>D7CC9DCF-A858-4DB9-9317-E3E193ECF145</a:ObjectID>
+<a:Name>generatedPackages</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(ActiveModel.GeneratedPackageList)
+%qualifiedCode%
+.next(&quot; &quot;)
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o1049">
+<a:ObjectID>42A3922F-7EC0-4AD1-AC15-56193117A00A</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1050">
+<a:ObjectID>A27AF57F-0787-4834-8087-0B275499D490</a:ObjectID>
+<a:Name>hasEarFile</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasEARFile, false, new)
+.if (%hasEJBs%) or (%hasWebComponents%)
+.set_value(_hasEARFile, true)
+.endif
+.if (%_hasEARFile% == false)
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%hasEJBs%) or (%hasWebComponents%)
+         .set_value(_hasEARFile, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasEARFile%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1051">
+<a:ObjectID>DF52D29C-8714-4D3A-86D7-8358D73BBB4D</a:ObjectID>
+<a:Name>hasJarFile</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasJARFile, false, new)
+.if (%hasEJBs%)
+   .set_value(_hasJARFile, true)
+.endif
+.if (%_hasJARFile% == false)
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%hasEJBs%)
+         .set_value(_hasJARFile, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasJARFile%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1052">
+<a:ObjectID>FB546A41-CDE3-4C2C-B769-EA211FF88AE0</a:ObjectID>
+<a:Name>hasWarFile</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_hasWARFile, false, new)
+.if (%hasWebComponents%)
+   .set_value(_hasWARFile, true)
+.endif
+.if (%_hasWARFile% == false)
+   .foreach_item(ActiveModel.GeneratedPackageList)
+      .if (%hasWebComponents%)
+         .set_value(_hasWARFile, true)
+         .break
+      .endif
+   .next
+.endif
+%_hasWARFile%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1053">
+<a:ObjectID>24A901BA-1516-4590-840D-4FDF1DDC0079</a:ObjectID>
+<a:Name>isDataSourceOpened</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_isDataSourceOpened, false, new)
+.foreach_item(DataSources)
+   .foreach_item(SourceModels)
+.set_value(_isDataSourceOpened, true)
+   .next
+.next
+%_isDataSourceOpened%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1054">
+<a:ObjectID>98502A4E-9C6A-4E2E-9952-D6F72128636F</a:ObjectID>
+<a:Name>useEclipse</a:Name>
+<a:TemplateTargetItem.Value>.set_value(_useEclipse, false, new)
+.foreach_item(ExtendedModelDefinitions)
+   .if (%Code% == &quot;Eclipse&quot;)
+      .set_value(_useEclipse, true)
+   .endif
+.next
+%_useEclipse%
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1055">
+<a:ObjectID>B6F5C404-040B-4755-AF5C-04C002CE276A</a:ObjectID>
+<a:Name>Ant</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1056">
+<a:ObjectID>7FEFBB2F-6949-45E4-8685-32C4BEF0789A</a:ObjectID>
+<a:Name>antHeader</a:Name>
+<a:TemplateTargetItem.Value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!-- Ant build script for building a Java application --&gt;
+&lt;!-- Author: %Modifier% --&gt;
+&lt;!-- Modified: %ModificationDate% --&gt;
+[%standardTargetDescription%\n]\
+[%customTargetDescription%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1057">
+<a:ObjectID>14439917-A5D2-45A9-84C4-44288C457831</a:ObjectID>
+<a:Name>antBuildScript</a:Name>
+<a:TemplateTargetItem.Value>.if (%GenOptions.GenerateANT%) or (%useEclipse%)
+%antTemplate%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Ant build script.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1058">
+<a:ObjectID>1ED576BF-4480-492D-8ACE-9213A2DB8C70</a:ObjectID>
+<a:Name>standardProperties</a:Name>
+<a:TemplateTargetItem.Value>&lt;!-- Standard build properties --&gt;
+&lt;property name=&quot;srcdir&quot;   value=&quot;${basedir}[%sourcePath%?/%sourcePath%]&quot;/&gt;
+&lt;property name=&quot;builddir&quot; value=&quot;${basedir}[%classesPath%?/%classesPath%]&quot;/&gt;
+&lt;property name=&quot;docdir&quot;   value=&quot;${basedir}[%javadocPath%?/%javadocPath%]&quot;/&gt;
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Standard properties list.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1059">
+<a:ObjectID>206487E6-B4E0-4F30-92EB-790E1D9FC4EA</a:ObjectID>
+<a:Name>standardTaskDefs</a:Name>
+<a:TemplateTargetItem.Value>&lt;!-- Standard build tasks definition --&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Standard tasks definition list.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1060">
+<a:ObjectID>EE40601A-AA81-404F-82D3-F02FB0DC2AC9</a:ObjectID>
+<a:Name>standardExecuteTargets</a:Name>
+<a:TemplateTargetItem.Value>&lt;!-- Standard build targets --&gt;
+[%helpTarget%\n]\
+[%buildAllTarget%\n]\
+[%compileTarget%\n]\
+[%javadocTarget%\n]\
+[%cleanTarget%\n]\
+[%packTarget%\n]\
+[%verifyTarget%\n]\
+[%rebuildTarget%\n]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Standard executable targets list.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1061">
+<a:ObjectID>7E39BB90-3212-4015-91F1-4B1A965E4CC0</a:ObjectID>
+<a:Name>standardTargetDescription</a:Name>
+<a:TemplateTargetItem.Value>
+&lt;!-- Targets description:                                               --&gt;
+&lt;!--    help:          Display help                                     --&gt;
+&lt;!--    all:           Build the entire application                     --&gt;\n
+.ifnot (%useEclipse%)
+&lt;!--    compile:       Compile Java classes                             --&gt;\n
+.endif
+&lt;!--    javadoc:       Generate Javadoc                                 --&gt;
+&lt;!--    clean:         Clean the generated files                        --&gt;\n
+.if (%hasEarFile%)
+&lt;!--    pack:          Package the application                          --&gt;
+&lt;!--    verify:        Run the J2EE verifier                            --&gt;\n
+.endif
+&lt;!--    rebuild:       Rebuild the entire application                   --&gt;
+
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Standard targets description.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TypedCategoryTargetItem Id="o1062">
+<a:ObjectID>E2540D11-AD47-46BB-9166-5E36300064A7</a:ObjectID>
+<a:Name>Targets</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1063">
+<a:ObjectID>E4B44840-B413-45BC-856C-DCAA9431A4E7</a:ObjectID>
+<a:Name>buildAllTarget</a:Name>
+<a:TemplateTargetItem.Value>&lt;target name=&quot;all&quot; description=&quot;Build the entire application&quot; depends=&quot;[%dependentTarget%, ]javadoc&quot;&gt;
+   &lt;echo message=&quot;Building the entire application...&quot;/&gt;
+&lt;/target&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The build all target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1064">
+<a:ObjectID>A9B0CB22-81AE-483B-AB72-1425DF7DBD26</a:ObjectID>
+<a:Name>compileTarget</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%useEclipse%)
+&lt;target name=&quot;compile&quot; description=&quot;Compile Java classes&quot;&gt;
+   &lt;echo message=&quot;Compiling Java classes...&quot;/&gt;
+   &lt;mkdir dir=&quot;${builddir}&quot;/&gt; 
+   &lt;javac srcdir=&quot;${srcdir}&quot;
+          destdir=&quot;${builddir}&quot;
+          classpath=&quot;%$JAVACLASSPATH%&quot;
+   /&gt;
+&lt;/target&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The compile target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1065">
+<a:ObjectID>6E93E084-8449-43AA-AF79-EF2ED296B05A</a:ObjectID>
+<a:Name>javadocTarget</a:Name>
+<a:TemplateTargetItem.Value>&lt;target name=&quot;javadoc&quot; description=&quot;Generate Javadoc&quot;&gt;\n
+.if (%antHasJavadoc%)
+   &lt;mkdir dir=&quot;${docdir}&quot;/&gt; 
+   &lt;javadoc packagenames=&quot;%javadocPackages%&quot;
+            sourcepath=&quot;${srcdir}&quot;
+            destdir=&quot;${docdir}&quot;
+            classpath=&quot;%$JAVACLASSPATH%&quot;
+            defaultexcludes=&quot;yes&quot;
+            author=&quot;true&quot;
+            version=&quot;true&quot;
+            use=&quot;true&quot;
+            windowtitle=&quot;%Code% API&quot;&gt;
+      &lt;doctitle&gt;&lt;!\[CDATA\[&lt;h1&gt;%Code%&lt;/h1&gt;\]\]&gt;&lt;/doctitle&gt;
+   &lt;/javadoc&gt;\n
+.else
+   &lt;echo message=&quot;There is no Package defined.  Cannot generate Javadoc&quot;/&gt;\n
+.endif
+&lt;/target&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The javadoc target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1066">
+<a:ObjectID>DE1A00EB-0B6B-496B-A817-65DF5E9157EE</a:ObjectID>
+<a:Name>cleanTarget</a:Name>
+<a:TemplateTargetItem.Value>&lt;target name=&quot;clean&quot; description=&quot;Clean the generated files&quot;&gt;
+   &lt;echo message=&quot;Cleaning the generated files...&quot;/&gt;
+   &lt;delete failonerror=&quot;no&quot;&gt;
+      &lt;fileset dir=&quot;${builddir}&quot; includes=&quot;**/*.class&quot;/&gt;
+      &lt;fileset dir=&quot;${docdir}&quot;/&gt;
+   &lt;/delete&gt;
+&lt;/target&gt;
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The clean target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1067">
+<a:ObjectID>53239372-D1E8-4060-91DB-E1EC824AF911</a:ObjectID>
+<a:Name>rebuildTarget</a:Name>
+<a:TemplateTargetItem.Value>&lt;target name=&quot;rebuild&quot; description=&quot;Rebuild the entire application&quot; depends=&quot;clean, all&quot;&gt;
+   &lt;echo message=&quot;Rebuilding the entire application...&quot;/&gt;
+&lt;/target&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The rebuild target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1068">
+<a:ObjectID>01E7F14F-C396-404F-8E19-023B08D1EBC9</a:ObjectID>
+<a:Name>packTarget</a:Name>
+<a:TemplateTargetItem.Value>.if (%hasEarFile%)
+&lt;target name=&quot;pack&quot; description=&quot;Package the application&quot;[ depends=&quot;%dependCompile%&quot;]&gt;
+   &lt;echo message=&quot;Packaging the application...&quot;/&gt;
+   .// Create WAR files
+[   %antCreateWarFiles%\n]\
+   .// Create JAR files
+[   %antCreateJarFiles%\n]\
+   .// Create EAR files
+[   %antCreateEarFile%\n]\
+&lt;/target&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The pack target.
+This target can be overridden.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1069">
+<a:ObjectID>594F4159-B7E7-480F-8304-3DCAEB40909D</a:ObjectID>
+<a:Name>helpTarget</a:Name>
+<a:TemplateTargetItem.Value>&lt;target name=&quot;help&quot; description=&quot;Display help&quot;&gt;
+   &lt;echo message=&quot;Targets description:&quot;/&gt;
+   &lt;echo message=&quot;   help:          Display help&quot;/&gt;
+   &lt;echo message=&quot;   all:           Build the entire application&quot;/&gt;\n
+.ifnot (%useEclipse%)
+   &lt;echo message=&quot;   compile:       Compile Java classes&quot;/&gt;\n
+.endif
+   &lt;echo message=&quot;   javadoc:       Generate Javadoc&quot;/&gt;
+   &lt;echo message=&quot;   clean:         Clean the generated files&quot;/&gt;\n
+.if (%hasEarFile%)
+   &lt;echo message=&quot;   pack:          Package the application&quot;/&gt;
+   &lt;echo message=&quot;   verify:        Run the J2EE verifier&quot;/&gt;\n
+.endif   
+   &lt;echo message=&quot;   rebuild:       Rebuild the entire application&quot;/&gt;
+[   %customHelpTarget%\n]\
+&lt;/target&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Show help target</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1070">
+<a:ObjectID>557268EC-57D1-4769-BEEF-3AD1208302A6</a:ObjectID>
+<a:Name>verifyTarget</a:Name>
+<a:TemplateTargetItem.Value>.if (%hasEarFile%)
+&lt;target name=&quot;verify&quot; description=&quot;Run the J2EE verifier&quot; depends=&quot;%dependentTarget%&quot;&gt;
+   &lt;echo message=&quot;Running the J2EE verifier to check the application...&quot;/&gt;
+   &lt;exec dir=&quot;%antHomePath%&quot; executable=&quot;verifier.bat&quot;&gt;
+      &lt;arg line=&quot;-oj2ee_verifier.log %earFilename%&quot;/&gt;
+   &lt;/exec&gt;
+&lt;/target&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>The J2EE verifier target.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1071">
+<a:ObjectID>31040AD1-1C55-4859-80D5-E4D48BAD774A</a:ObjectID>
+<a:Name>Helpers</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1072">
+<a:ObjectID>891CFC9A-1A34-4690-AAC0-535FE0818E70</a:ObjectID>
+<a:Name>defaultTarget</a:Name>
+<a:TemplateTargetItem.Value>[%hasEarFile%?pack:%dependCompile%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Defines the default target.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1073">
+<a:ObjectID>EAF1D111-EEB0-4E88-A028-12BB6656C17A</a:ObjectID>
+<a:Name>javadocPackages</a:Name>
+<a:TemplateTargetItem.Value>.if (%Packages.IsEmpty%)
+\.
+.else
+   .foreach_item(Packages)
+%Code%.*
+   .next(&quot;,&quot;)
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1074">
+<a:ObjectID>E03A2C7D-8325-4DAB-894F-89DC315C4546</a:ObjectID>
+<a:Name>antCreateWarFiles</a:Name>
+<a:TemplateTargetItem.Value>.if (%hasWarFile%)
+.// save artifact files
+%SaveArtifacts%
+   .// create WAR for the model
+   .if (%isWebAppArchive%)
+.// create WAR file, add deployment descriptor
+&lt;war warfile=&quot;%warFilename%&quot; webxml=&quot;WEB-INF/web.xml&quot;&gt;\n
+      .if (%hasServletsOrWebServices%)
+         .if (%genWebSourceFiles%)
+   .// Add .class files
+   &lt;zipfileset dir=&quot;[%classesPath%?%classesPath%:.]&quot; prefix=&quot;WEB-INF/classes&quot; includes=&quot;%antWarClassFiles%&quot;/&gt;\n
+         .endif
+   .// Add additional resources
+   &lt;zipfileset dir=&quot;WEB-INF&quot; prefix=&quot;WEB-INF&quot; excludes=&quot;web.xml,classes/**/*.class&quot;/&gt;
+   .// Add WSDL files
+[   %antWarWSDLFiles%\n]
+      .endif
+   .// Add artifacts
+[   %antWarArtifacts%\n]\
+&lt;/war&gt;\n
+   .endif
+   .// create WAR for subpackages
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isWebAppArchive%)
+.// create WAR file, add deployment descriptor
+&lt;war warfile=&quot;%antPath%/%warFilename%&quot; webxml=&quot;%antPath%/WEB-INF/web.xml&quot;&gt;\n
+      .if (%hasServletsOrWebServices%)
+         .if (%genWebSourceFiles%)
+   .// Add .class files
+   &lt;zipfileset dir=&quot;%antHomePath%%classesPath%&quot; prefix=&quot;WEB-INF/classes&quot; includes=&quot;%antWarClassFiles%&quot;/&gt;\n
+         .endif
+   .// Add additional resources
+   &lt;zipfileset dir=&quot;%antPath%/WEB-INF&quot; prefix=&quot;WEB-INF&quot; excludes=&quot;web.xml,classes/**/*.class&quot;/&gt;
+   .// add WSDL files
+[   %antWarWSDLFiles%\n]
+      .endif
+   .// Add artifacts
+[   %antWarArtifacts%\n]\
+&lt;/war&gt;
+   .next
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1075">
+<a:ObjectID>9DB55D93-2D21-4604-A497-D8372D724F4B</a:ObjectID>
+<a:Name>antCreateJarFiles</a:Name>
+<a:TemplateTargetItem.Value>.if (%hasJarFile%)
+   .// create JAR for the model
+   .if (%isEJBArchive%)
+.// create JAR file, add deployment descriptor
+&lt;jar jarfile=&quot;%jarFilename%&quot;&gt;\n
+      .if (%hasEJBs%)
+         .if (%genEJBSourceFiles%)
+   .// Add .class files
+   &lt;zipfileset dir=&quot;[%classesPath%?%classesPath%:.]&quot; includes=&quot;%antJarClassFiles%&quot;/&gt;\n
+         .endif
+   .// Add additional resources
+   &lt;zipfileset dir=&quot;META-INF&quot; prefix=&quot;META-INF&quot; excludes=&quot;application.xml,classes/**/*.class&quot;/&gt;\n
+         .if (%GenOptions.AddSourceCodeInJAR%)
+   &lt;zipfileset dir=&quot;%antHomePath%&quot; includes=&quot;%antJarClassSourceFiles%&quot;/&gt;\n
+         .endif
+   .// Add WSDL files
+[   %antJarWSDLFiles%\n]
+      .endif
+&lt;/jar&gt;\n
+   .endif
+   .// create JAR for subpackages
+   .foreach_item(ActiveModel.GeneratedPackageList,,,%isEJBArchive%)
+.// create JAR file, add deployment descriptor
+&lt;jar jarfile=&quot;%antPath%/%jarFilename%&quot;&gt;\n
+      .if (%hasEJBs%)
+         .if (%genEJBSourceFiles%)
+   .// Add .class files
+   &lt;zipfileset dir=&quot;%antHomePath%%classesPath%&quot; includes=&quot;%antJarClassFiles%&quot;/&gt;\n
+         .endif
+   .// Add additional resources
+   &lt;zipfileset dir=&quot;%antPath%/META-INF&quot; prefix=&quot;META-INF&quot; excludes=&quot;classes/**/*.class&quot;/&gt;\n
+   .// Add source files
+         .if (%GenOptions.AddSourceCodeInJAR%)
+   &lt;zipfileset dir=&quot;%antHomePath%&quot; includes=&quot;%antJarClassSourceFiles%&quot;/&gt;\n
+         .endif
+   .// add WSDL files
+[   %antWarWSDLFiles%\n]
+      .endif
+&lt;/jar&gt;
+   .next
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1076">
+<a:ObjectID>EE4F7E28-EB7E-470B-9EE4-32E2B6F75FD0</a:ObjectID>
+<a:Name>antCreateEarFile</a:Name>
+<a:TemplateTargetItem.Value>.if (%hasEarFile%)
+&lt;ear earfile=&quot;%earFilename%&quot; appxml=&quot;META-INF/application.xml&quot;&gt;\n
+   .// Add JAR files
+   .if (%hasJarFile%)
+      .// Add JAR for the model
+      .if (%isEJBArchive%)
+         .if (%hasEJBs%)
+   &lt;zipfileset dir=&quot;%antHomePath%&quot; includes=&quot;%jarFilename%&quot;/&gt;\n
+         .endif
+      .endif
+      .// Add JAR for subpackages
+      .foreach_item(ActiveModel.GeneratedPackageList,,,%isEJBArchive%)
+         .if (%hasEJBs%)
+   &lt;zipfileset dir=&quot;%antFullPath%&quot; prefix=&quot;%antPath%&quot; includes=&quot;%jarFilename%&quot;/&gt;\n
+         .endif
+      .next
+   .endif
+   .// Add WAR files
+   .if (%hasWarFile%)
+      .// Add WAR for the model
+      .if (%isWebAppArchive%)
+         .if (%hasServletsOrWebServices%)
+   &lt;zipfileset dir=&quot;%antHomePath%&quot; includes=&quot;%warFilename%&quot;/&gt;\n
+         .endif
+      .endif
+      .// Add WAR for subpackages
+      .foreach_item(ActiveModel.GeneratedPackageList,,,%isWebAppArchive%)
+         .if (%hasServletsOrWebServices%)
+   &lt;zipfileset dir=&quot;%antFullPath%&quot; prefix=&quot;%antPath%&quot; includes=&quot;%warFilename%&quot;/&gt;\n
+         .endif
+      .next
+   .endif
+&lt;/ear&gt;
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1077">
+<a:ObjectID>E8EA90C6-7512-41F0-8337-6FD73FE112B8</a:ObjectID>
+<a:Name>dependentTarget</a:Name>
+<a:TemplateTargetItem.Value>[%hasEarFile%?pack:%dependCompile%]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1078">
+<a:ObjectID>4E69DFBB-B065-4C02-8C6F-614233B64E56</a:ObjectID>
+<a:Name>antHasJavadoc</a:Name>
+<a:TemplateTargetItem.Value>[%Packages.IsEmpty%?false:true]</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1079">
+<a:ObjectID>FF44C1EB-1B72-4D1A-96A9-AD24A675BCA3</a:ObjectID>
+<a:Name>javadocPath</a:Name>
+<a:TemplateTargetItem.Value>docs/api</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1080">
+<a:ObjectID>3C2CCC96-6FF7-479C-9F45-93B686E531B7</a:ObjectID>
+<a:Name>dependCompile</a:Name>
+<a:TemplateTargetItem.Value>.ifnot (%useEclipse%)
+compile
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1081">
+<a:ObjectID>5AEA3B13-F14A-48E8-8EF2-013017CCA286</a:ObjectID>
+<a:Name>Custom</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1082">
+<a:ObjectID>4256B4F1-ED24-4B0B-8CB8-DFFDB352F2B2</a:ObjectID>
+<a:Name>customExecuteTargets</a:Name>
+<a:TemplateTargetItem.Value>.// This template can be overridden by a XEM.</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Custom executable targets list.
+This list can be overridden in an Extended Model Definition.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1083">
+<a:ObjectID>CE0A02EA-EB5D-4EFD-B547-69709D69A363</a:ObjectID>
+<a:Name>customTargetDescription</a:Name>
+<a:TemplateTargetItem.Value>.// This template can be overridden by a XEM.</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Custom targets description.
+This template can be overridden by a XEM.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1084">
+<a:ObjectID>56C146EB-7019-4294-868F-1351D5810351</a:ObjectID>
+<a:Name>customProperties</a:Name>
+<a:TemplateTargetItem.Value>.// This template can be overridden by a XEM.</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Custom properties list.
+This list can be overridden in an Extended Model Definition.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1085">
+<a:ObjectID>8B32C60D-AE04-4EF2-B978-015B9CF07759</a:ObjectID>
+<a:Name>customTaskDefs</a:Name>
+<a:TemplateTargetItem.Value>.// This template can be overridden by a XEM.</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Custom task definition list.
+This list can be overridden in an Extended Model Definition.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1086">
+<a:ObjectID>2F6C0BF1-4885-412D-9372-7E7BD9299DD3</a:ObjectID>
+<a:Name>customHelpTarget</a:Name>
+<a:TemplateTargetItem.Value>.// This template can be overridden by a XEM.</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Custom help target.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TemplateTargetItem Id="o1087">
+<a:ObjectID>970444B8-1F3A-424A-9077-ED0A443030D3</a:ObjectID>
+<a:Name>antTemplate</a:Name>
+<a:TemplateTargetItem.Value>%antHeader%
+
+&lt;project name=&quot;%Name%&quot; default=&quot;%defaultTarget%&quot; basedir=&quot;.&quot;&gt;
+
+.// Define properties
+[   %standardProperties%\n]\
+[   %customProperties%\n]\
+
+.// Define tasks
+[   %standardTaskDefs%\n]\
+[   %customTaskDefs%\n]\
+
+.// Define targets
+[   %standardExecuteTargets%\n]\
+[   %customExecuteTargets%\n]\
+
+&lt;/project&gt;</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1088">
+<a:TypePublicName>GeneratedFileTargetItem</a:TypePublicName>
+<a:ObjectID>B35D570E-7E4A-4656-9028-1124877DB1F2</a:ObjectID>
+<a:Name>Generated Files</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:GeneratedFileTargetItem Id="o1089">
+<a:ObjectID>244A9E9F-81E3-4E54-9CF8-8E19F6E855FF</a:ObjectID>
+<a:Name>Ant build.xml</a:Name>
+<a:TemplateTargetItem.Value>%antBuildScript%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Ant build script</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:Filename>build.xml</a:Filename>
+<a:Encoding>UTF-8</a:Encoding>
+</o:GeneratedFileTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1090">
+<a:TypePublicName>MethodTargetItem</a:TypePublicName>
+<a:ObjectID>A40E2B0A-56D8-4912-ABBB-364E59547E32</a:ObjectID>
+<a:Name>Methods</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MethodTargetItem Id="o1091">
+<a:ObjectID>EFAAF98B-1100-4113-AF70-81EA14FC2E09</a:ObjectID>
+<a:Name>AddPackageHierarchy</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MethodScript>Sub %Method%(obj)
+   Dim Input
+   Input = InputBox(&quot;Spécifiez la hiérarchie de packages :&quot; + VbCrLf + VbCrLf + &quot;La hiérarchie de packages doit être spécifiée à l&#39;aide d&#39;un séparateur &#39;.&#39; ou &#39;/&#39;. Par exemple &quot;&quot;niveau1.niveau2&quot;&quot;&quot;) 
+   if (Len(Input) &gt; 0) then
+      obj.AddPackageHierarchy(Input)
+   End if
+   
+End Sub</a:MethodScript>
+</o:MethodTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1092">
+<a:TypePublicName>MenuTargetItem</a:TypePublicName>
+<a:ObjectID>3CD399B4-B79A-4626-976A-A12A405A0383</a:ObjectID>
+<a:Name>Menus</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MenuTargetItem Id="o1093">
+<a:ObjectID>214775D4-67DF-48B3-A5AE-074204AED857</a:ObjectID>
+<a:Name>Add Package Hierarchy</a:Name>
+<a:MenuTargetItem.Value>&lt;Menu&gt;
+   &lt;Command Name=&quot;AddPackageHierarchy&quot; Caption=&quot;Ajouter une hiérarchie de packages&quot; /&gt;
+&lt;/Menu&gt;
+</a:MenuTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:MenuTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1094">
+<a:ObjectID>2633B93C-2DD3-466C-A624-5CF3385B9188</a:ObjectID>
+<a:Name>ClassMapping</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1095">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>E34813FE-7A0F-47C9-940F-929A941ADC7B</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1096">
+<a:ObjectID>0B99362A-3F2D-4204-B373-A09874FE0EC0</a:ObjectID>
+<a:Name>Queries</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1097">
+<a:ObjectID>A1EE9CF9-CFF1-4711-B6B2-BC6C85A92231</a:ObjectID>
+<a:Name>_DeleteStatement</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent.Parent.isDataSourceOpened%)
+delete from %SourceClassifiers.First.Code%
+   .foreach_item(SourceLinks, &quot;\nwhere &quot;)
+      .foreach_item(Joins)
+%Object1.Parent.Code%.%Object1.Code% = %Object2.Parent.Code%.%Object2.Code%
+      .next(&quot; and \n      &quot;)
+   .next
+   .if %SourceLinks.IsEmpty%
+      .foreach_item(StructuralFeatureMaps, &quot;\nwhere &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n      &quot;)
+   .else
+      .foreach_item(StructuralFeatureMaps, &quot; and \n      &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n      &quot;)
+   .endif
+   .if %Criteria%
+      .if (%SourceLinks.IsEmpty%) and (%Classifier.PrimaryIdentifier.IsEmpty%)
+\nwhere %Criteria%
+      .else
+ and \n      %Criteria%
+      .endif
+   .endif
+.else
+   .if (%PreviewMode%)
+Warning: &quot;The PDM of the data source is not opened.&quot;
+         &quot;To display the O/R mapping, please open the PDM.&quot;
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1098">
+<a:ObjectID>A14837E6-547B-4A97-828B-301458B07DEB</a:ObjectID>
+<a:Name>_InsertStatement</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent.Parent.isDataSourceOpened%)
+insert into %SourceClassifiers.First.GeneratedName%
+   .foreach_item(StructuralFeatureMaps, &quot;(\n        &quot;, &quot;)&quot;)
+      .if %SourceFeature%
+%SourceFeature.Code%
+      .elsif %MappedTo%
+%MappedTo%
+      .endif
+   .next(&quot;,\n        &quot;)
+   .foreach_item(StructuralFeatureMaps, &quot;\nvalues (&quot;, &quot;)&quot;)
+      .if %MappedTo%
+%%[%Feature.Code%]%%
+      .endif
+   .next(&quot;,\n        &quot;)
+.else
+   .if (%PreviewMode%)
+Warning: &quot;The PDM of the data source is not opened.&quot;
+         &quot;To display the O/R mapping, please open the PDM.&quot;
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1099">
+<a:ObjectID>B14414C1-B84A-4CF5-BDC9-98F007F5FA1D</a:ObjectID>
+<a:Name>_NotifyStatement</a:Name>
+<a:TemplateTargetItem.Value>.if (%Class.Components.First.NotificationTopic%)
+%Class.Components.First.NotificationTopic%
+.else
+%SourceClassifiers.First.Code%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Use user-defined notification topic or the first table name.</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1100">
+<a:ObjectID>5198E1D3-076E-4E9C-9340-B43C5CC94168</a:ObjectID>
+<a:Name>_SelectStatement</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent.Parent.isDataSourceOpened%)
+select 
+   .foreach_item(StructuralFeatureMaps)
+      .if %SourceFeature%
+%SourceFeature.GeneratedName% &quot;%Feature.Code%&quot;
+      .elsif %MappedTo%
+%MappedTo% = &quot;%Feature.Code%&quot;
+      .endif
+   .next(&quot;,\n       &quot;)
+   .foreach_item(SourceClassifiers, &quot;\nfrom   &quot;)
+      .if %GeneratedName%
+%GeneratedName%
+      .elsif %Code%
+%Code%
+      .endif
+   .next(&quot;,\n       &quot;)
+   .foreach_item(SourceLinks, &quot;\nwhere  &quot;)
+      .foreach_item(Joins)
+%Object1.Parent.Code%.%Object1.Code% = %Object2.Parent.Code%.%Object2.Code%
+      .next(&quot; and \n       &quot;)
+   .next
+   .if %SourceLinks.IsEmpty%
+      .foreach_item(StructuralFeatureMaps, &quot;\nwhere  &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n       &quot;)
+   .else
+      .foreach_item(StructuralFeatureMaps, &quot; and \n      &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n       &quot;)
+   .endif
+   .if %Criteria%
+      .if (%SourceLinks.IsEmpty%) and (%Classifier.PrimaryIdentifier.IsEmpty%)
+\nwhere  %Criteria%
+      .else
+ and 
+       %Criteria%
+       .endif
+   .endif
+.else
+   .if (%PreviewMode%)
+Warning: &quot;The PDM of the data source is not opened.&quot;
+         &quot;To display the O/R mapping, please open the PDM.&quot;
+   .endif
+.endif
+</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1101">
+<a:ObjectID>943C9E71-5670-411E-A5C6-26720D546EA6</a:ObjectID>
+<a:Name>_UpdateStatement</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent.Parent.isDataSourceOpened%)
+update %SourceClassifiers.First.Code%
+   .foreach_item(StructuralFeatureMaps, &quot;\n set   &quot;)
+      .ifnot  %Feature.PrimaryIdentifier%
+         .if %SourceFeature%
+%SourceFeature.Code% = %%[%Feature.Code%]%%
+         .endif
+      .endif
+   .next(&quot;,\n       &quot;)
+   .foreach_item(SourceLinks, &quot;\nwhere  &quot;)
+      .foreach_item(Joins)
+%Object1.Parent.Code%.%Object1.Code% = %Object2.Parent.Code%.%Object2.Code%
+      .next(&quot; and \n       &quot;)
+   .next
+   .if %SourceLinks.IsEmpty%
+      .foreach_item(StructuralFeatureMaps, &quot;\nwhere  &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n       &quot;)
+   .else
+      .foreach_item(StructuralFeatureMaps, &quot; and \n       &quot;)
+         .if %Feature.PrimaryIdentifier%
+%SourceFeature.GeneratedName% = %%[%Feature.Code%]%%
+         .endif
+      .next(&quot; and \n       &quot;)
+   .endif
+   .if %Criteria%
+      .if (%SourceLinks.IsEmpty%) and (%Classifier.PrimaryIdentifier.IsEmpty%)
+\nwhere  %Criteria%
+      .else
+ and
+       %Criteria%
+      .endif
+   .endif 
+.else
+   .if (%PreviewMode%)
+Warning: &quot;The PDM of the data source is not opened.&quot;
+         &quot;To display the O/R mapping, please open the PDM.&quot;
+   .endif
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1102">
+<a:ObjectID>271DC8D9-CC45-476F-A137-13CDA93914A3</a:ObjectID>
+<a:Name>Package</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:CodeConvention>firstLowerWord</a:CodeConvention>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1103">
+<a:TypePublicName>StereotypeTargetItem</a:TypePublicName>
+<a:ObjectID>3C7AD5AB-F00A-4653-9F1B-446CE509E572</a:ObjectID>
+<a:Name>Stereotypes</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:StereotypeTargetItem Id="o1104">
+<a:ObjectID>44723779-5429-4703-9202-B084B124761A</a:ObjectID>
+<a:Name>Archive</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:Comment>Ce stéréotype identifie un package comme archive JAR/WAR</a:Comment>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:StereotypeTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1105">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>810228F1-5668-4B31-BBDA-3AD6A1A80C77</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1106">
+<a:ObjectID>336FA760-948F-49F6-88DA-336855855A23</a:ObjectID>
+<a:Name>isDataSourceOpened</a:Name>
+<a:TemplateTargetItem.Value>.if (%Parent%)
+%Parent.isDataSourceOpened%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1107">
+<a:TypePublicName>MethodTargetItem</a:TypePublicName>
+<a:ObjectID>05A4E82E-8B16-4619-8FCA-139A60664012</a:ObjectID>
+<a:Name>Methods</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MethodTargetItem Id="o1108">
+<a:ObjectID>2A7C45E0-7C7E-4FDA-BA00-1EEB72BFDA10</a:ObjectID>
+<a:Name>RemovePackageLevel</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<a:MethodScript>Sub %Method%(obj)
+   obj.RemovePackageLevel()
+End Sub</a:MethodScript>
+</o:MethodTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1109">
+<a:TypePublicName>MenuTargetItem</a:TypePublicName>
+<a:ObjectID>03638903-02A1-44EB-AB2D-5F47F6514C4D</a:ObjectID>
+<a:Name>Menus</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:MenuTargetItem Id="o1110">
+<a:ObjectID>7835627E-EB50-4CA6-A556-60492D4BCB01</a:ObjectID>
+<a:Name>Remove Package Level</a:Name>
+<a:MenuTargetItem.Value>&lt;Menu&gt;
+   &lt;Command Name=&quot;RemovePackageLevel&quot; Caption=&quot;Supprimer ce niveau de package&quot; /&gt;
+&lt;/Menu&gt;
+</a:MenuTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:MenuTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1111">
+<a:ObjectID>AC738109-428F-480A-A7C7-E250D61B0720</a:ObjectID>
+<a:Name>NamedObject</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1112">
+<a:TypePublicName>CriterionTargetItem</a:TypePublicName>
+<a:ObjectID>65CC5390-A59A-4D3E-8936-25D6D9F1CD55</a:ObjectID>
+<a:Name>Criteria</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:CriterionTargetItem Id="o1113">
+<a:ObjectID>0CD2D562-9432-4A41-A33A-B278BEF0E7AE</a:ObjectID>
+<a:Name>AnnotableElement</a:Name>
+<a:CriterionTargetItem.Value>(%ObjectType% == Class) or (%ObjectType% == Interface) or (%ObjectType% == Operation) or (%ObjectType% == Attribute) or (%ObjectType% == Parameter) or (%ObjectType% == Package)</a:CriterionTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1114">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>409E4D19-18A2-402D-816A-E6574D2688DC</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1115">
+<a:ObjectID>D8C71AD6-9515-4C2C-9886-DEFAF3BE6C6E</a:ObjectID>
+<a:Name>javaDocComment</a:Name>
+<a:TemplateTargetItem.Value>[%BaseObject::javaDocComment%\n]\
+%annotations%</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1116">
+<a:ObjectID>2757FBC2-AB07-4F2A-886A-B391A37F6AE6</a:ObjectID>
+<a:Name>annotations</a:Name>
+<a:TemplateTargetItem.Value>.foreach_item(Annotations)
+ .if (%Text%)
+@%Name%(%Text%)
+ .else
+@%Name% 
+ .endif
+.next(&quot;\n&quot;)</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+<o:TemplateTargetItem Id="o1117">
+<a:ObjectID>431D03ED-0206-416F-97A7-89A10A278A9F</a:ObjectID>
+<a:Name>annotationImports</a:Name>
+<a:TemplateTargetItem.Value>.unique
+.foreach_item(Annotations)
+[%import%\n]
+.next
+.endunique</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:CriterionTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+<o:TypedCategoryTargetItem Id="o1118">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>5000957E-0140-429E-9943-47F56477E6DE</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1119">
+<a:ObjectID>A7024447-9EB3-4C9C-ACEF-C00F2A406B4F</a:ObjectID>
+<a:Name>annotationImports</a:Name>
+<a:TemplateTargetItem.Value>.// Defined in AnnotableElement</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+<o:MetaClassTargetItem Id="o1120">
+<a:ObjectID>A3DB586C-FBD7-4693-B7AD-BA9CD037ACC3</a:ObjectID>
+<a:Name>Annotation</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TypedCategoryTargetItem Id="o1121">
+<a:TypePublicName>TemplateTargetItem</a:TypePublicName>
+<a:ObjectID>BBCB1E86-6280-4861-84B6-CA03D8ED5546</a:ObjectID>
+<a:Name>Templates</a:Name>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+<c:Categories>
+<o:TemplateTargetItem Id="o1122">
+<a:ObjectID>7D8CD229-980F-43CB-BE5D-BA153CEDE223</a:ObjectID>
+<a:Name>import</a:Name>
+<a:TemplateTargetItem.Value>.if (%Name% == Target)
+import java.lang.annotation.*;
+import static java.lang.annotation.ElementType.*;
+.elsif (%Name% == Retention)
+import java.lang.annotation.*;
+import static java.lang.annotation.RetentionPolicy.*;
+.elsif (%Name% == Deprecated) or (%Name% == SuppressWarnings) or (%Name% == Override) or (%Name% == Documented) or (%Name% == Inherited)
+import java.lang.annotation.*;
+.elsif (%AnnotationType%) and (%AnnotationType.Package.isTopPackage% == false) and (%AnnotationType.Package.ObjectID% != %Owner.Package.ObjectID%)
+%AnnotationType.import%
+.endif</a:TemplateTargetItem.Value>
+<a:CreationDate>0</a:CreationDate>
+<a:Creator/>
+<a:ModificationDate>0</a:ModificationDate>
+<a:Modifier/>
+<a:TargetCategory.Type>1</a:TargetCategory.Type>
+</o:TemplateTargetItem>
+</c:Categories>
+</o:TypedCategoryTargetItem>
+</c:Categories>
+</o:MetaClassTargetItem>
+</c:Categories>
+</o:ProfileTargetItem>
+</c:Categories>
+</o:ObjectLanguage>
+</c:ObjectLanguage>
+<c:ExtendedModelDefinitions>
+<o:Shortcut Id="o1123">
+<a:ObjectID>96302CE6-82F1-4B29-B78A-D56FC97550A6</a:ObjectID>
+<a:Name>WSDL for Java</a:Name>
+<a:Code>WSDLJava</a:Code>
+<a:CreationDate>1641496321</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496321</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
+<a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
+</o:Shortcut>
+</c:ExtendedModelDefinitions>
+<c:DefaultDiagram>
+<o:SequenceDiagram Ref="o1124"/>
+</c:DefaultDiagram>
+<c:SequenceDiagrams>
+<o:SequenceDiagram Id="o1124">
+<a:ObjectID>2D809C03-990B-48C6-8C04-A5107007C1B2</a:ObjectID>
+<a:Name>Demmande de rendez-vous en ligne</a:Name>
+<a:Code>Demmande_de_rendez_vous_en_ligne</a:Code>
+<a:CreationDate>1641496321</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642092041</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\SQD]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgShowStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+InteractionSymbol.IconPicture=No
+InteractionSymbol_SymbolLayout=
+UMLObject.IconPicture=No
+UMLObject_SymbolLayout=
+ActivationSymbol.IconPicture=No
+ActivationSymbol_SymbolLayout=
+Actor.IconPicture=No
+Actor_SymbolLayout=
+InteractionReference.IconPicture=No
+InteractionReference_SymbolLayout=
+InteractionFragment.IconPicture=No
+InteractionFragment_SymbolLayout=
+ActrShowStrn=Yes
+ObjtShowStrn=Yes
+ObjtShowHead=Yes
+MssgShowName=Yes
+MssgShowStrn=Yes
+MssgShowTime=Yes
+MssgShowCond=Yes
+MssgShowMthd=Yes
+MssgShowSign=Yes
+MssgShowActv=No
+IRefShowStrn=Yes
+FragShowLife=Yes
+ShowIntrSym=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CLDPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SINT]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=22000
+Height=28800
+Brush color=255 255 255
+Fill Color=No
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDOBJT]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,U
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=236 249 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ACTVSYM]
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=900
+Height=2400
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\UCDACTR]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IREF]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\IFRG]
+KWRDFont=Arial,8,N
+KWRDFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=4
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=208 208 232
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 150 208 208 232
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\SQDMSSG]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+BTIMFont=Arial,8,N
+BTIMFont color=0, 0, 0
+ETIMFont=Arial,8,N
+ETIMFont color=0, 0, 0
+Line style=0
+Pen=1 0 128 128 192
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8268, 11693)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:InteractionSymbol Id="o1125">
+<a:ModificationDate>1642093215</a:ModificationDate>
+<a:Rect>((-33448,-34651), (22988,38701))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:BaseSymbol.Flags>4</a:BaseSymbol.Flags>
+<a:LineColor>15257808</a:LineColor>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>4</a:BrushStyle>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:SequenceDiagram Ref="o1124"/>
+</c:Object>
+</o:InteractionSymbol>
+<o:MessageSymbol Id="o1126">
+<a:CreationDate>1642092041</a:CreationDate>
+<a:ModificationDate>1642092059</a:ModificationDate>
+<a:Rect>((-27022,-20400), (14538,-18854))</a:Rect>
+<a:ListOfPoints>((14538,-20100),(-27022,-20100))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o1127"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1129"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1130">
+<a:CreationDate>1642091915</a:CreationDate>
+<a:ModificationDate>1642092069</a:ModificationDate>
+<a:Rect>((14887,-19050), (21937,-17150))</a:Rect>
+<a:ListOfPoints>((14887,-17150),(18487,-17150),(18487,-19050),(14887,-19050))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActivationSymbol Ref="o1127"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o1127"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1131"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1132">
+<a:CreationDate>1642091889</a:CreationDate>
+<a:ModificationDate>1642092053</a:ModificationDate>
+<a:Rect>((2527,-16425), (14887,-14878))</a:Rect>
+<a:ListOfPoints>((2527,-16125),(14887,-16125))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActivationSymbol Ref="o1127"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1134"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1135">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091778</a:ModificationDate>
+<a:Rect>((-27022,19504), (-12397,21050))</a:Rect>
+<a:ListOfPoints>((-27022,19804),(-12397,19804))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1137"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1138">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091778</a:ModificationDate>
+<a:Rect>((-27022,15408), (-12397,16954))</a:Rect>
+<a:ListOfPoints>((-12397,15708),(-27022,15708))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1139"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1140">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091778</a:ModificationDate>
+<a:CenterTextOffset>(150, 150)</a:CenterTextOffset>
+<a:Rect>((-27171,11129), (-11947,13800))</a:Rect>
+<a:ListOfPoints>((-27022,11429),(-12397,11429))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1141"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1142">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642093194</a:ModificationDate>
+<a:CenterTextOffset>(-300, 150)</a:CenterTextOffset>
+<a:Rect>((-27022,-28170), (-12397,-27170))</a:Rect>
+<a:ListOfPoints>((-12397,-27670),(-27022,-27670))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1143"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1144">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091782</a:ModificationDate>
+<a:CenterTextOffset>(375, 250)</a:CenterTextOffset>
+<a:Rect>((-12397,3377), (2527,5173))</a:Rect>
+<a:ListOfPoints>((-12397,3677),(2527,3677))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1145"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1146">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091782</a:ModificationDate>
+<a:CenterTextOffset>(-4751, 0)</a:CenterTextOffset>
+<a:Rect>((-5689,-89), (8785,2499))</a:Rect>
+<a:ListOfPoints>((2527,2499),(6299,2499),(6299,-89),(2527,-89))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1147"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1148">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091782</a:ModificationDate>
+<a:CenterTextOffset>(1200, 400)</a:CenterTextOffset>
+<a:Rect>((-27022,-7341), (2527,-5395))</a:Rect>
+<a:ListOfPoints>((2527,-7041),(-27022,-7041))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:DashStyle>2</a:DashStyle>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1149"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1150">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091782</a:ModificationDate>
+<a:Rect>((-27022,-11456), (2527,-9985))</a:Rect>
+<a:ListOfPoints>((-27022,-11231),(2527,-11231))</a:ListOfPoints>
+<a:ArrowStyle>1</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1128"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:UMLObjectSequenceSymbol Ref="o1133"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1151"/>
+</c:Object>
+</o:MessageSymbol>
+<o:MessageSymbol Id="o1152">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091778</a:ModificationDate>
+<a:CenterTextOffset>(-1200, 0)</a:CenterTextOffset>
+<a:Rect>((-18022,7700), (-1972,10050))</a:Rect>
+<a:ListOfPoints>((-12397,10050),(-8797,10050),(-8797,7700),(-12397,7700))</a:ListOfPoints>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>12615808</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Arial,8,N
+BTIM 0 Arial,8,N
+ETIM 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ActorSequenceSymbol Ref="o1136"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Message Ref="o1153"/>
+</c:Object>
+</o:MessageSymbol>
+<o:ActorSequenceSymbol Id="o1128">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1641511193</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-29422,31018), (-24623,35817))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:CustomPictureID>EE61282E-F13A-4757-8352-FBAD85C62A8C</a:CustomPictureID>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o1154">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642093205</a:ModificationDate>
+<a:Rect>((-27022,-30300), (-26922,31018))</a:Rect>
+<a:ListOfPoints>((-27022,31018),(-27022,-30300))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:Actor Ref="o1155"/>
+</c:Object>
+</o:ActorSequenceSymbol>
+<o:ActorSequenceSymbol Id="o1136">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091778</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-14797,31018), (-9998,35817))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>12648447</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:CustomPictureID>BB432C4E-CDB2-4E54-A46E-B0227927A771</a:CustomPictureID>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o1156">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642093205</a:ModificationDate>
+<a:Rect>((-12397,-30300), (-12297,31018))</a:Rect>
+<a:ListOfPoints>((-12397,31018),(-12397,-30300))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:Actor Ref="o1157"/>
+</c:Object>
+</o:ActorSequenceSymbol>
+<o:UMLObjectSequenceSymbol Id="o1133">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642091782</a:ModificationDate>
+<a:Rect>((128,31018), (4927,35817))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16775660</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:CustomPictureType>3</a:CustomPictureType>
+<a:CustomTextMode>1</a:CustomTextMode>
+<a:CustomPictureID>70E3A1E4-FC2F-4D0E-AB02-4F57AAE2CFD4</a:CustomPictureID>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:KeepAspect>1</a:KeepAspect>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o1158">
+<a:CreationDate>1641496510</a:CreationDate>
+<a:ModificationDate>1642093205</a:ModificationDate>
+<a:Rect>((2527,-30300), (2627,31018))</a:Rect>
+<a:ListOfPoints>((2527,31018),(2527,-30300))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:UMLObject Ref="o1159"/>
+</c:Object>
+</o:UMLObjectSequenceSymbol>
+<o:UMLObjectSequenceSymbol Id="o1160">
+<a:CreationDate>1642091824</a:CreationDate>
+<a:ModificationDate>1642092132</a:ModificationDate>
+<a:Rect>((12115,31018), (17663,34617))</a:Rect>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16775660</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>OBJSTRN 0 Arial,8,N
+DISPNAME 0 Arial,8,U</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:SlaveSubSymbols>
+<o:LifelineSymbol Id="o1161">
+<a:ModificationDate>1642093205</a:ModificationDate>
+<a:Rect>((14889,-30300), (14989,31018))</a:Rect>
+<a:ListOfPoints>((14889,31018),(14889,-30300))</a:ListOfPoints>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:DashStyle>3</a:DashStyle>
+<a:ShadowColor>8421504</a:ShadowColor>
+</o:LifelineSymbol>
+<o:ActivationSymbol Id="o1127">
+<a:CreationDate>1642091907</a:CreationDate>
+<a:ModificationDate>1642092059</a:ModificationDate>
+<a:Rect>((14437,-20100), (15337,-15900))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>8388608</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+</o:ActivationSymbol>
+</c:SlaveSubSymbols>
+<c:Object>
+<o:UMLObject Ref="o1162"/>
+</c:Object>
+</o:UMLObjectSequenceSymbol>
+<o:InteractionReferenceSymbol Id="o1163">
+<a:CreationDate>1641496568</a:CreationDate>
+<a:ModificationDate>1642092142</a:ModificationDate>
+<a:Rect>((-30036,24429), (20764,28028))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>15257808</a:LineColor>
+<a:FillColor>33023</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>15257808</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:AttachedLifelines>
+<o:UMLObjectSequenceSymbol Ref="o1160"/>
+</c:AttachedLifelines>
+<c:Object>
+<o:InteractionReference Ref="o1164"/>
+</c:Object>
+</o:InteractionReferenceSymbol>
+<o:InteractionFragmentSymbol Id="o1165">
+<a:CreationDate>1641496625</a:CreationDate>
+<a:ModificationDate>1642093190</a:ModificationDate>
+<a:RegionConditionPositionList>((2500,300),(300,300))</a:RegionConditionPositionList>
+<a:Rect>((-31614,-31249), (20438,5775))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>15257808</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>KWRD 0 Arial,8,N</a:FontList>
+<a:BrushStyle>4</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>15257808</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:InteractionFragment Ref="o1166"/>
+</c:Object>
+</o:InteractionFragmentSymbol>
+<o:InteractionFragmentSymbol Id="o1167">
+<a:CreationDate>1641496658</a:CreationDate>
+<a:ModificationDate>1642091852</a:ModificationDate>
+<a:RegionConditionPositionList>((2500,300),(300,300))</a:RegionConditionPositionList>
+<a:Rect>((-29512,-21675), (18788,-1945))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>15257808</a:LineColor>
+<a:LineWidth>1</a:LineWidth>
+<a:FillColor>16777215</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>KWRD 0 Arial,8,N</a:FontList>
+<a:BrushStyle>4</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>15257808</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:InteractionFragment Ref="o1168"/>
+</c:Object>
+</o:InteractionFragmentSymbol>
+</c:Symbols>
+</o:SequenceDiagram>
+<o:Shortcut Id="o1169">
+<a:ObjectID>16EF6D08-F850-4B7C-9D1C-3EC459FA31C3</a:ObjectID>
+<a:Name>Authentification</a:Name>
+<a:Code>Authentification</a:Code>
+<a:CreationDate>1641496568</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496568</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>60683263-B77B-4859-AF4D-70D53DB915A0</a:TargetID>
+<a:TargetClassID>18112200-1A4B-11D1-83D9-444553540000</a:TargetClassID>
+<a:TargetPackagePath>&lt;Modèle&gt;</a:TargetPackagePath>
+</o:Shortcut>
+</c:SequenceDiagrams>
+<c:InteractionReferences>
+<o:InteractionReference Id="o1164">
+<a:ObjectID>859D97A3-9A20-4798-8A8D-0553C20B9D56</a:ObjectID>
+<a:CreationDate>1641496568</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496568</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:ReferencedDiagram>
+<o:Shortcut Ref="o1169"/>
+</c:ReferencedDiagram>
+</o:InteractionReference>
+</c:InteractionReferences>
+<c:InteractionFragments>
+<o:InteractionFragment Id="o1166">
+<a:ObjectID>CB1E5374-16B1-4666-87BC-4C4B4C80E1A8</a:ObjectID>
+<a:CreationDate>1641496625</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496625</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>1000</a:Size>
+<a:FragmentType>alt</a:FragmentType>
+<c:Regions>
+<o:InteractionFragment Id="o1170">
+<a:ObjectID>6161263E-D82A-4658-A2E8-80A5D0DA219B</a:ObjectID>
+<a:CreationDate>1641496625</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642093190</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>29704</a:Size>
+<a:FragmentType>opt</a:FragmentType>
+<a:Condition>si verifieChamps = true</a:Condition>
+</o:InteractionFragment>
+<o:InteractionFragment Id="o1171">
+<a:ObjectID>82AC4ACB-A5D0-4446-8302-04DB47DE8B1E</a:ObjectID>
+<a:CreationDate>1641496625</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091303</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>7320</a:Size>
+<a:FragmentType>opt</a:FragmentType>
+<a:Condition>Sinon</a:Condition>
+</o:InteractionFragment>
+</c:Regions>
+</o:InteractionFragment>
+<o:InteractionFragment Id="o1168">
+<a:ObjectID>47B7DC50-1BCB-4F92-91F4-56044E87382A</a:ObjectID>
+<a:CreationDate>1641496658</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496658</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>20392</a:Size>
+<a:FragmentType>alt</a:FragmentType>
+<c:Regions>
+<o:InteractionFragment Id="o1172">
+<a:ObjectID>3B81DF81-2867-40B5-813B-029BFC2B4A26</a:ObjectID>
+<a:CreationDate>1641496658</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091570</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>12004</a:Size>
+<a:FragmentType>opt</a:FragmentType>
+<a:Condition>verifDispo = false</a:Condition>
+</o:InteractionFragment>
+<o:InteractionFragment Id="o1173">
+<a:ObjectID>03537CEB-CDFD-4112-8502-33091CF6019B</a:ObjectID>
+<a:CreationDate>1641496658</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641511745</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Size>7726</a:Size>
+<a:FragmentType>opt</a:FragmentType>
+<a:Condition>Sinon</a:Condition>
+</o:InteractionFragment>
+</c:Regions>
+</o:InteractionFragment>
+</c:InteractionFragments>
+<c:Actors>
+<o:Actor Id="o1155">
+<a:ObjectID>272DC18B-6BD3-4FC0-BB60-6E2A031A5A05</a:ObjectID>
+<a:Name>Patient</a:Name>
+<a:Code>Patient</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496511</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+</o:Actor>
+<o:Actor Id="o1157">
+<a:ObjectID>C28993B9-FBCB-4C4F-9849-5C98F9B542DA</a:ObjectID>
+<a:Name>Systéme</a:Name>
+<a:Code>Systeme</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496511</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+</o:Actor>
+</c:Actors>
+<c:Model.Objects>
+<o:UMLObject Id="o1159">
+<a:ObjectID>683534E5-623F-4349-B526-0352D8C3B21C</a:ObjectID>
+<a:Name>Secrétaire</a:Name>
+<a:Code>Secretaire</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496511</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+</o:UMLObject>
+<o:UMLObject Id="o1162">
+<a:ObjectID>D1444FD4-AE0F-4F22-9D28-CC4394A29DFA</a:ObjectID>
+<a:Name>: Rendez-vous</a:Name>
+<a:Code>:_Rendez_vous</a:Code>
+<a:CreationDate>1642091824</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642249314</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+</o:UMLObject>
+</c:Model.Objects>
+<c:Messages>
+<o:Message Id="o1153">
+<a:ObjectID>C61E52DA-758C-4301-B5D2-BBED59FF3C5B</a:ObjectID>
+<a:Name>verifieChamps = verifieRemplissageChamp ( )</a:Name>
+<a:Code>verifieChamps___verifieRemplissageChamp____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091268</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Delay>1</a:Delay>
+<c:Object1>
+<o:Actor Ref="o1157"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1157"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1151">
+<a:ObjectID>3F645C0F-E767-4F90-9E74-70F5D98BC780</a:ObjectID>
+<a:Name>confirmation suggestion ( )</a:Name>
+<a:Code>confirmation_suggestion____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091608</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:ControlFlow>C</a:ControlFlow>
+<c:Object1>
+<o:UMLObject Ref="o1159"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1155"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1149">
+<a:ObjectID>05DA210B-BB61-4925-AA2F-A90BD62A9974</a:ObjectID>
+<a:Name>suggestion nouveau rendez-vous ( )</a:Name>
+<a:Code>suggestion_nouveau_rendez_vous____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091578</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:ControlFlow>R</a:ControlFlow>
+<c:Object1>
+<o:Actor Ref="o1155"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o1159"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1147">
+<a:ObjectID>E50B84B2-F2EB-4220-9E0F-164680995477</a:ObjectID>
+<a:Name>verifDispo = verifDisponibilitéMédecin ( )</a:Name>
+<a:Code>verifDispo___verifDisponibiliteMedecin____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091477</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Delay>1</a:Delay>
+<c:Object1>
+<o:UMLObject Ref="o1159"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o1159"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1145">
+<a:ObjectID>B33F1151-FE6A-4616-8264-A24345B82289</a:ObjectID>
+<a:Name>demande envoyer ( )</a:Name>
+<a:Code>demande_envoyer____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091340</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:Object1>
+<o:UMLObject Ref="o1159"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1157"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1143">
+<a:ObjectID>F42CC83A-52A4-41DB-A269-9BA962C02227</a:ObjectID>
+<a:Name>Remplissage des champs est obligatoire (  )</a:Name>
+<a:Code>Remplissage_des_champs_est_obligatoire_____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496511</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:Object1>
+<o:Actor Ref="o1155"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1157"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1141">
+<a:ObjectID>942CA0ED-FB38-4BE6-A878-2F4F967887C0</a:ObjectID>
+<a:Name>remplie le formulaire et envoie la demande ( )</a:Name>
+<a:Code>remplie_le_formulaire_et_envoie_la_demande____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091167</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:Object1>
+<o:Actor Ref="o1157"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1155"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1139">
+<a:ObjectID>A8054A8D-1EA3-4298-8D54-B88A2C7D2073</a:ObjectID>
+<a:Name>affiche formulaire de rendez vous ( )</a:Name>
+<a:Code>affiche_formulaire_de_rendez_vous____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091140</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:ControlFlow>R</a:ControlFlow>
+<c:Object1>
+<o:Actor Ref="o1155"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1157"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1137">
+<a:ObjectID>B5A39C43-A1D3-4A79-B36B-AD607F92B66C</a:ObjectID>
+<a:Name>demande rendez vous ( )</a:Name>
+<a:Code>demande_rendez_vous____</a:Code>
+<a:CreationDate>1641496510</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091109</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:Object1>
+<o:Actor Ref="o1157"/>
+</c:Object1>
+<c:Object2>
+<o:Actor Ref="o1155"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1134">
+<a:ObjectID>1EBFC3CC-0731-4B0C-A41A-460CBBC846A2</a:ObjectID>
+<a:Name>Enregistrer rendez vous ( )</a:Name>
+<a:Code>Enregistrer_rendez_vous____</a:Code>
+<a:CreationDate>1642091889</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091898</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<c:Object1>
+<o:UMLObject Ref="o1162"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o1159"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1131">
+<a:ObjectID>31B98FD7-DF38-4E2E-8211-8D7F7E25373D</a:ObjectID>
+<a:Name>AjoutRendezVous</a:Name>
+<a:Code>AjoutRendezVous</a:Code>
+<a:CreationDate>1642091915</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642091959</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:Delay>1</a:Delay>
+<c:Object1>
+<o:UMLObject Ref="o1162"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o1162"/>
+</c:Object2>
+</o:Message>
+<o:Message Id="o1129">
+<a:ObjectID>ACA7C056-B51C-433B-BA16-341650A38060</a:ObjectID>
+<a:Name>rendez vous confirmer ( )</a:Name>
+<a:Code>rendez_vous_confirmer____</a:Code>
+<a:CreationDate>1642092041</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1642092075</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:ControlFlow>R</a:ControlFlow>
+<c:Object1>
+<o:Actor Ref="o1155"/>
+</c:Object1>
+<c:Object2>
+<o:UMLObject Ref="o1162"/>
+</c:Object2>
+</o:Message>
+</c:Messages>
+<c:TargetModels>
+<o:TargetModel Id="o1174">
+<a:ObjectID>953A08E3-7A5C-4DF5-89D5-A7E4BCD67837</a:ObjectID>
+<a:Name>WSDL for Java</a:Name>
+<a:Code>WSDLJava</a:Code>
+<a:CreationDate>1641496321</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496321</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:TargetModelURL>file:///%_XEM%/WSDLJ2EE.xem</a:TargetModelURL>
+<a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
+<a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o1123"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o1175">
+<a:ObjectID>EDA0A597-3166-465D-815F-43A87401BBD8</a:ObjectID>
+<a:Name>ModeleOrienteObjet_2</a:Name>
+<a:Code>ModeleOrienteObjet_2</a:Code>
+<a:ExtractionID>3604547</a:ExtractionID>
+<a:CreationDate>1641496568</a:CreationDate>
+<a:Creator>Jahlo_Jerry</a:Creator>
+<a:ModificationDate>1641496568</a:ModificationDate>
+<a:Modifier>Jahlo_Jerry</a:Modifier>
+<a:TargetModelURL>file:///D|/cours 2021/memoire/model/ModeleOrienteObjet_2.moo</a:TargetModelURL>
+<a:TargetModelID>0D115255-E52F-42D8-830F-50C782D9EF19</a:TargetModelID>
+<a:TargetModelClassID>18112060-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o1169"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+</c:TargetModels>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>

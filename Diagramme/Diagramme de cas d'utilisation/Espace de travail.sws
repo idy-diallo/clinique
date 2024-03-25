@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{93E5C965-50E7-47FB-8FF9-35FD79A7AEC2}" Loaded="No" Name="Diagrame de cas d&#39;utilisation de la gestion medical" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de cas d&#39;utilisation de la gestion medical.moo"/>
+		<Model Expanded="Yes" ID="{93E5C965-50E7-47FB-8FF9-35FD79A7AEC2}" Loaded="No" Name="Diagrame de cas d&#39;utilisation de la gestion medical" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de cas d&#39;utilisation de la gestion medical.moo"/>
+		<Model ID="{93E5C965-50E7-47FB-8FF9-35FD79A7AEC2}" Loaded="No" Name="Diagrame de cas d&#39;utilisation de la gestion medical" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de cas d&#39;utilisation de la gestion medical.moo"/>
+		<Model Expanded="Yes" ID="{C4F04305-9105-47D1-B8E7-DA5688289C6A}" Loaded="No" Name="Diagramme de classesGCM" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Diagramme/Diagramme de classesGCM.moo"/>
+		<Model ID="{841B6A42-4DAB-436C-A19C-1B35C8D30F65}" Loaded="No" Name="Définition de cas d&#39;utilisation_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de cas d&#39;utilisation de Secretaire_patient.moo"/>
+		<Model ID="{0D115255-E52F-42D8-830F-50C782D9EF19}" Name="Diagramme de scequense d&#39;authentification" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ModeleOrienteObjet_2.moo"/>
+		<Model Expanded="Yes" ID="{96D689B2-03ED-46C1-AA38-31D9A853C8AE}" Loaded="No" Name="Diagramme de sequence pour le demende de rendez vous enligne" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de sequence pour le demende de rendez vous enligne.moo"/>
+		<Model Expanded="Yes" ID="{C4F04305-9105-47D1-B8E7-DA5688289C6A}" Loaded="No" Name="Diagramme de classesGCM" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="../Diagramme/Diagramme de classesGCM.moo"/>
+		<Model Expanded="Yes" ID="{841B6A42-4DAB-436C-A19C-1B35C8D30F65}" Loaded="No" Name="Définition de cas d&#39;utilisation_1" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de cas d&#39;utilisation de Secretaire_patient.moo"/>
+		<Model Expanded="Yes" ID="{440FCF64-5EB9-4C0F-B13B-C3A411727BD0}" Name="Diagrame de sequence de consultation" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagrame de sequence de consultation.moo"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

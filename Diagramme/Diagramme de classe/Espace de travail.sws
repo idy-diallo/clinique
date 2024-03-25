@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{236FF67D-1B5A-4184-9CE5-205317301D3C}" Name="Diagramme de classesGCM" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classesGCM2.moo"/>
+		<Model Expanded="Yes" ID="{B478AAF2-5EF2-46F6-A1AD-B7D55DF0CF61}" Name="Diagramme de classesProf" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="Diagramme de classesProf.moo"/>
+		<Model Expanded="Yes" ID="{420E6C55-341C-4DBD-8884-317275AC81EC}" Name="Diagramme de classesProf" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="Diagramme de Physique Prof.mpd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
